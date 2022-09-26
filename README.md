@@ -1,4 +1,9 @@
+<center>
+
 [![Titus's GitHub stats](https://github-readme-stats.vercel.app/api?username=ChrisTitusTech&show_icons=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats) [![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ChrisTitusTech&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
+
+</center>
+
 ### 👷 Check out what I'm currently working on
 
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
