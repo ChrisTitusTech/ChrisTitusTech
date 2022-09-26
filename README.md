@@ -1,7 +1,7 @@
 <center>
 
-[![Titus's GitHub stats](https://github-readme-stats.vercel.app/api?username=ChrisTitusTech&show_icons=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)./ 
-[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ChrisTitusTech&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
+[![Titus's GitHub stats](https://github-readme-stats.vercel.app/api?username=ChrisTitusTech&show_icons=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)  
+[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ChrisTitusTech&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)  
 
 </center>
 
