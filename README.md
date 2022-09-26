@@ -13,7 +13,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-[![Titus's GitHub stats](https://github-readme-stats.vercel.app/api?username=ChrisTitusTech&show_icons=true&theme=onedark)](https://github.com/anuraghazra/github-readme-stats)
+[![Titus's GitHub stats](https://github-readme-stats.vercel.app/api?username=ChrisTitusTech&show_icons=true&theme=onedark)](https://github.com/anuraghazra/github-readme-stats) [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ChrisTitusTech&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
 - 📫 How to reach me: 
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
