@@ -3,9 +3,10 @@
 | [![Titus's GitHub stats](https://github-readme-stats.vercel.app/api?username=ChrisTitusTech&show_icons=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)  |
 
 | | |
-| :-----------: | :-----------: |
-| ![activity](https://wakatime.com/share/@christitustech/4c17a227-eb23-48c5-a2f1-492e5538842c.svg)  | ![lang](https://wakatime.com/share/@christitustech/57160975-2111-472e-bc92-f390b42053b3.svg)  |
-| ![editors](https://wakatime.com/share/@christitustech/b7d6c245-11dd-4802-a2dd-8ff0fd915324.svg)   | ![os](https://wakatime.com/share/@christitustech/29475f0b-8d50-47b4-aaf5-f96bdcab9d0d.svg) |
+|:-----------:|:-----------:|
+| ![activity](https://wakatime.com/share/@christitustech/4c17a227-eb23-48c5-a2f1-492e5538842c.svg) | ![lang](https://wakatime.com/share/@christitustech/57160975-2111-472e-bc92-f390b42053b3.svg) |
+| ![editors](https://wakatime.com/share/@christitustech/b7d6c245-11dd-4802-a2dd-8ff0fd915324.svg) | ![os](https://wakatime.com/share/@christitustech/29475f0b-8d50-47b4-aaf5-f96bdcab9d0d.svg) |
+
 ### 👷 Check out what I'm currently working on
 
 - [ChrisTitusTech/myvim](https://github.com/ChrisTitusTech/myvim) - My VIM config - WARNING! I&#39;m a beginner in the vim world...
