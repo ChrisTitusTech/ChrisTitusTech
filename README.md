@@ -1,23 +1,33 @@
+[![Titus's GitHub stats](https://github-readme-stats.vercel.app/api?username=ChrisTitusTech&show_icons=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats) [![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ChrisTitusTech&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
 <!--
-**ChrisTitusTech/ChrisTitusTech** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 👷 Check out what I'm currently working on
+{{ range recentContributions 5 }}
+- [{{ .Repo.Name }}]({{ .Repo.URL }}) - {{ .Repo.Description }}
+{{- end }}
+### 🌱 My latest projects
+{{ range recentRepos 5 }}
+- [{{ .Name }}]({{ .URL }}) - {{ .Description }}
+{{- end }}
+### 🔨 My recent Pull Requests
+{{ range recentPullRequests 5 }}
+- [{{ .Title }}]({{ .URL }}) on [{{ .Repo.Name }}]({{ .Repo.URL }})
+{{- end }}
+### 🔭 Latest releases I've contributed to
+{{ range recentReleases 5 }}
+- [{{ .Name }}]({{ .URL }}) [`{{ .LastRelease.TagName }}`]({{ .LastRelease.URL }}) - {{.Description}}
+{{- end }}
 
-Here are some ideas to get you started:
+### ⭐ Recent Stars
+{{ range recentStars 5 }}
+- [{{ .Repo.Name }}]({{ .Repo.URL }}) - {{ .Repo.Description }}
+{{- end }}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+### 📰 Recent Blog Posts
+{{ range rss "https://maximousblk.me/feed" 5 }}
+- [{{ .Title }}]({{ .URL }})
+{{- end }}
 -->
-
-[![Titus's GitHub stats](https://github-readme-stats.vercel.app/api?username=ChrisTitusTech&show_icons=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats) 
-
-[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ChrisTitusTech&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
-
-- 📫 How to reach me: 
+### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
   - Twitter   : <https://twitter.com/christitustech>
