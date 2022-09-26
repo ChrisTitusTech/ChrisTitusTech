@@ -1,0 +1,30 @@
+name: markscribe
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  markscribe:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Generate README
+        uses: muesli/readme-scribe@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        with:
+          template: 'README.gtpl'
+          writeTo: 'README.md'
+
+      - name: Commit README
+        uses: stefanzweifel/git-auto-commit-action@v4
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        with:
+          commit_message: 'markscribe: update README.md'
