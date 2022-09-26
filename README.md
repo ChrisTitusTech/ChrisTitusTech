@@ -1,6 +1,7 @@
-||
+| |
 |:--:|
 | [![Titus's GitHub stats](https://github-readme-stats.vercel.app/api?username=ChrisTitusTech&show_icons=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)  |
+
 | | |
 | :-----------: | :-----------: |
 | ![activity](https://wakatime.com/share/@christitustech/4c17a227-eb23-48c5-a2f1-492e5538842c.svg)  | ![lang](https://wakatime.com/share/@christitustech/57160975-2111-472e-bc92-f390b42053b3.svg)  |
