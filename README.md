@@ -14,7 +14,8 @@ Here are some ideas to get you started:
 -->
 
 [![Titus's GitHub stats](https://github-readme-stats.vercel.app/api?username=ChrisTitusTech&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats) 
-[![Titus's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ChrisTitusTech)](https://github.com/anuraghazra/github-readme-stats)
+
+[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ChrisTitusTech)](https://github.com/anuraghazra/github-readme-stats)
 
 - 📫 How to reach me: 
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
