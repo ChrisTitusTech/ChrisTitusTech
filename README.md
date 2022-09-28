@@ -18,18 +18,18 @@
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/myvim](https://github.com/ChrisTitusTech/myvim) - My VIM config - WARNING! I&#39;m a beginner in the vim world...
+- [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
+- [ChrisTitusTech/ntlite-configs](https://github.com/ChrisTitusTech/ntlite-configs) - NTLite XML Configuration Files
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
+- [ChrisTitusTech/myvim](https://github.com/ChrisTitusTech/myvim) - My VIM config - WARNING! I&#39;m a beginner in the vim world...
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [ChrisTitusTech/Debian-titus](https://github.com/ChrisTitusTech/Debian-titus) - Debian customizations from Chris Titus Tech
-- [ChrisTitusTech/ArchTitus](https://github.com/ChrisTitusTech/ArchTitus) - Automated Arch Linux Install
 ### 🌱 My latest projects
 
+- [ChrisTitusTech/ntlite-configs](https://github.com/ChrisTitusTech/ntlite-configs) - NTLite XML Configuration Files
+- [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
 - [ChrisTitusTech/star-trek-os](https://github.com/ChrisTitusTech/star-trek-os) - Quick script to setup LCARS Window Manager in Debian
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/dotfiles](https://github.com/ChrisTitusTech/dotfiles) - my standard config files
-- [ChrisTitusTech/Fedora-Titus](https://github.com/ChrisTitusTech/Fedora-Titus) - WIP - My dotfiles for Fedora - Not ready for the masses
-- [ChrisTitusTech/archtitus-iso](https://github.com/ChrisTitusTech/archtitus-iso) - ISO is based on the EZARCH Project from EZNIX
 ### 🔨 My recent Pull Requests
 
 - [Merge Gaming Tweaks and Temp Files Addition](https://github.com/ChrisTitusTech/winutil/pull/193) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
