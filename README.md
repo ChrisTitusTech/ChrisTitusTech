@@ -18,10 +18,10 @@
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
-- [ChrisTitusTech/ntlite-configs](https://github.com/ChrisTitusTech/ntlite-configs) - NTLite XML Configuration Files
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
+- [ChrisTitusTech/ntlite-configs](https://github.com/ChrisTitusTech/ntlite-configs) - NTLite XML Configuration Files
 - [ChrisTitusTech/myvim](https://github.com/ChrisTitusTech/myvim) - My VIM config - WARNING! I&#39;m a beginner in the vim world...
+- [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 ### 🌱 My latest projects
 
@@ -46,11 +46,11 @@
 - [jbara2002/windows-defender-remover](https://github.com/jbara2002/windows-defender-remover) - A tool which is uses to remove Windows Defender in Windows 8.x, Windows 10 (every version) and Windows 11.
 ### 📰 Recent Blog Posts
 
+- [ClickPaste the Best Program You Never Heard Of](https://christitus.com/clickpaste/)
 - [Setting up Windows inside Linux](https://christitus.com/windows-inside-linux/)
 - [You are using GitHub WRONG!](https://christitus.com/using-github-correctly/)
 - [Auto Mount with SystemD](https://christitus.com/auto-mount-systemd/)
 - [Should you switch from Windows 10 to Windows 11](https://christitus.com/win10-to-win11/)
-- [Linux for Beginners](https://christitus.com/linux-for-beginners/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
