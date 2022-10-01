@@ -46,11 +46,11 @@
 - [W4RH4WK/Debloat-Windows-10](https://github.com/W4RH4WK/Debloat-Windows-10) - A Collection of Scripts Which Disable / Remove Windows 10 Features and Apps
 ### 📰 Recent Blog Posts
 
+- [Be a Better Programmer](https://christitus.com/be-a-better-programmer/)
 - [ClickPaste the Best Program You Never Heard Of](https://christitus.com/clickpaste/)
 - [Setting up Windows inside Linux](https://christitus.com/windows-inside-linux/)
 - [You are using GitHub WRONG!](https://christitus.com/using-github-correctly/)
 - [Auto Mount with SystemD](https://christitus.com/auto-mount-systemd/)
-- [Should you switch from Windows 10 to Windows 11](https://christitus.com/win10-to-win11/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
