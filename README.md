@@ -46,11 +46,11 @@
 - [virtio-win/virtio-win-pkg-scripts](https://github.com/virtio-win/virtio-win-pkg-scripts) - Scripts for packaging virtio-win drivers
 ### 📰 Recent Blog Posts
 
+- [How I Setup My Website](https://christitus.com/how-i-setup-my-website/)
 - [NTLite Guide](https://christitus.com/ntlite-guide/)
 - [Macos on Linux](https://christitus.com/macos-on-linux/)
 - [Be a Better Programmer](https://christitus.com/be-a-better-programmer/)
 - [ClickPaste the Best Program You Never Heard Of](https://christitus.com/clickpaste/)
-- [Setting up Windows inside Linux](https://christitus.com/windows-inside-linux/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
