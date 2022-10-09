@@ -19,10 +19,10 @@
 ### 👷 Check out what I'm currently working on
 
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/myvim](https://github.com/ChrisTitusTech/myvim) - My VIM config - WARNING! I&#39;m a beginner in the vim world...
 - [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
 - [ChrisTitusTech/ArchTitus](https://github.com/ChrisTitusTech/ArchTitus) - Automated Arch Linux Install
-- [ChrisTitusTech/Debian-titus](https://github.com/ChrisTitusTech/Debian-titus) - Debian customizations from Chris Titus Tech
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/ntlite-configs](https://github.com/ChrisTitusTech/ntlite-configs) - NTLite XML Configuration Files
@@ -32,18 +32,18 @@
 - [ChrisTitusTech/Fedora-Titus](https://github.com/ChrisTitusTech/Fedora-Titus) - WIP - My dotfiles for Fedora - Not ready for the masses
 ### 🔨 My recent Pull Requests
 
+- [Test 2022](https://github.com/ChrisTitusTech/winutil/pull/240) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Merge Gaming Tweaks and Temp Files Addition](https://github.com/ChrisTitusTech/winutil/pull/193) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Update Test Branch](https://github.com/ChrisTitusTech/winutil/pull/152) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Update Test Branch](https://github.com/ChrisTitusTech/winutil/pull/151) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Revert &#34;Add nitter as a better alternative to Twitter&#34;](https://github.com/ChrisTitusTech/website/pull/31) on [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website)
-- [Revert &#34;Added Uncheck all button in the Install tab&#34;](https://github.com/ChrisTitusTech/winutil/pull/72) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [padsalatushal/Edge-Removal](https://github.com/padsalatushal/Edge-Removal) - Edge Removal
+- [ThebestkillerTBK/Windows-Store-Downloader](https://github.com/ThebestkillerTBK/Windows-Store-Downloader) - Download Microsoft Store items using store.rg-adguard.net API
 - [wting/autojump](https://github.com/wting/autojump) - A cd command that learns - easily navigate directories from the command line
 - [mattcanty/lichess-cli](https://github.com/mattcanty/lichess-cli) - Play Lichess from the command line
 - [utterance/utterances](https://github.com/utterance/utterances) - :crystal_ball: A lightweight comments widget built on GitHub issues
-- [0x192/universal-android-debloater](https://github.com/0x192/universal-android-debloater) - Cross-platform GUI written in Rust using ADB to debloat non-rooted android devices. Improve your privacy, the security and battery life of your device.
-- [virtio-win/virtio-win-pkg-scripts](https://github.com/virtio-win/virtio-win-pkg-scripts) - Scripts for packaging virtio-win drivers
 ### 📰 Recent Blog Posts
 
 - [How I Setup My Website](https://christitus.com/how-i-setup-my-website/)
