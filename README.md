@@ -32,11 +32,11 @@
 - [ChrisTitusTech/Fedora-Titus](https://github.com/ChrisTitusTech/Fedora-Titus) - WIP - My dotfiles for Fedora - Not ready for the masses
 ### 🔨 My recent Pull Requests
 
+- [Update README.md](https://github.com/ChrisTitusTech/winutil/pull/251) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [Update Bug Fixes from main](https://github.com/ChrisTitusTech/winutil/pull/247) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [cleanup and rebase test (#244)](https://github.com/ChrisTitusTech/winutil/pull/245) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [cleanup and rebase test](https://github.com/ChrisTitusTech/winutil/pull/244) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test 2022](https://github.com/ChrisTitusTech/winutil/pull/240) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Merge Gaming Tweaks and Temp Files Addition](https://github.com/ChrisTitusTech/winutil/pull/193) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Update Test Branch](https://github.com/ChrisTitusTech/winutil/pull/152) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Update Test Branch](https://github.com/ChrisTitusTech/winutil/pull/151) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Revert &#34;Add nitter as a better alternative to Twitter&#34;](https://github.com/ChrisTitusTech/website/pull/31) on [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website)
 ### ⭐ Recent Stars
 
 - [padsalatushal/Edge-Removal](https://github.com/padsalatushal/Edge-Removal) - Edge Removal
