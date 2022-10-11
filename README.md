@@ -39,18 +39,18 @@
 - [Test 2022](https://github.com/ChrisTitusTech/winutil/pull/240) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [HikariKnight/quickpassthrough](https://github.com/HikariKnight/quickpassthrough) - A project to remove the complexity of setting up GPU passthrough for qemu
 - [padsalatushal/Edge-Removal](https://github.com/padsalatushal/Edge-Removal) - Edge Removal
 - [ThebestkillerTBK/Windows-Store-Downloader](https://github.com/ThebestkillerTBK/Windows-Store-Downloader) - Download Microsoft Store items using store.rg-adguard.net API
 - [wting/autojump](https://github.com/wting/autojump) - A cd command that learns - easily navigate directories from the command line
 - [mattcanty/lichess-cli](https://github.com/mattcanty/lichess-cli) - Play Lichess from the command line
-- [utterance/utterances](https://github.com/utterance/utterances) - :crystal_ball: A lightweight comments widget built on GitHub issues
 ### 📰 Recent Blog Posts
 
+- [Making the Perfect Phone](https://christitus.com/making-the-perfect-phone/)
 - [How I Setup My Website](https://christitus.com/how-i-setup-my-website/)
 - [NTLite Guide](https://christitus.com/ntlite-guide/)
 - [Macos on Linux](https://christitus.com/macos-on-linux/)
 - [Be a Better Programmer](https://christitus.com/be-a-better-programmer/)
-- [ClickPaste the Best Program You Never Heard Of](https://christitus.com/clickpaste/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
