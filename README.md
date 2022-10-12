@@ -39,11 +39,11 @@
 - [Test 2022](https://github.com/ChrisTitusTech/winutil/pull/240) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [gnif/vendor-reset](https://github.com/gnif/vendor-reset) - Linux kernel vendor specific hardware reset module for sequences that are too complex/complicated to land in pci_quirks.c
+- [bryansteiner/gpu-passthrough-tutorial](https://github.com/bryansteiner/gpu-passthrough-tutorial) - 
 - [HikariKnight/quickpassthrough](https://github.com/HikariKnight/quickpassthrough) - A project to remove the complexity of setting up GPU passthrough for qemu
 - [padsalatushal/Edge-Removal](https://github.com/padsalatushal/Edge-Removal) - Edge Removal
 - [ThebestkillerTBK/Windows-Store-Downloader](https://github.com/ThebestkillerTBK/Windows-Store-Downloader) - Download Microsoft Store items using store.rg-adguard.net API
-- [wting/autojump](https://github.com/wting/autojump) - A cd command that learns - easily navigate directories from the command line
-- [mattcanty/lichess-cli](https://github.com/mattcanty/lichess-cli) - Play Lichess from the command line
 ### 📰 Recent Blog Posts
 
 - [Making the Perfect Phone](https://christitus.com/making-the-perfect-phone/)
