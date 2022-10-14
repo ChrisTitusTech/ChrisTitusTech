@@ -18,39 +18,39 @@
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [ChrisTitusTech/myvim](https://github.com/ChrisTitusTech/myvim) - My VIM config - WARNING! I&#39;m a beginner in the vim world...
 - [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
-- [ChrisTitusTech/ArchTitus](https://github.com/ChrisTitusTech/ArchTitus) - Automated Arch Linux Install
+- [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - 
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
+- [ChrisTitusTech/Debian-titus](https://github.com/ChrisTitusTech/Debian-titus) - Debian customizations from Chris Titus Tech
+- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 ### 🌱 My latest projects
 
+- [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - 
 - [ChrisTitusTech/ntlite-configs](https://github.com/ChrisTitusTech/ntlite-configs) - NTLite XML Configuration Files
 - [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
 - [ChrisTitusTech/star-trek-os](https://github.com/ChrisTitusTech/star-trek-os) - Quick script to setup LCARS Window Manager in Debian
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [ChrisTitusTech/Fedora-Titus](https://github.com/ChrisTitusTech/Fedora-Titus) - WIP - My dotfiles for Fedora - Not ready for the masses
 ### 🔨 My recent Pull Requests
 
+- [Test 10 2022 - The GUI Overhaul](https://github.com/ChrisTitusTech/winutil/pull/266) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Update README.md](https://github.com/ChrisTitusTech/winutil/pull/251) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Update Bug Fixes from main](https://github.com/ChrisTitusTech/winutil/pull/247) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [cleanup and rebase test (#244)](https://github.com/ChrisTitusTech/winutil/pull/245) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [cleanup and rebase test](https://github.com/ChrisTitusTech/winutil/pull/244) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Test 2022](https://github.com/ChrisTitusTech/winutil/pull/240) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [RanyAlbegWein/Tinypng](https://github.com/RanyAlbegWein/Tinypng) - A Bash script for shrinking PNG files, using tinypng.com
 - [gnif/vendor-reset](https://github.com/gnif/vendor-reset) - Linux kernel vendor specific hardware reset module for sequences that are too complex/complicated to land in pci_quirks.c
 - [bryansteiner/gpu-passthrough-tutorial](https://github.com/bryansteiner/gpu-passthrough-tutorial) - 
 - [HikariKnight/quickpassthrough](https://github.com/HikariKnight/quickpassthrough) - A project to remove the complexity of setting up GPU passthrough for qemu
 - [padsalatushal/Edge-Removal](https://github.com/padsalatushal/Edge-Removal) - Edge Removal
-- [ThebestkillerTBK/Windows-Store-Downloader](https://github.com/ThebestkillerTBK/Windows-Store-Downloader) - Download Microsoft Store items using store.rg-adguard.net API
 ### 📰 Recent Blog Posts
 
+- [Vim the Ultimate Editor](https://christitus.com/vim-the-ultimate-editor/)
 - [Pros Use Bleachbit](https://christitus.com/pros-use-bleachbit/)
 - [Making the Perfect Phone](https://christitus.com/making-the-perfect-phone/)
 - [How I Setup My Website](https://christitus.com/how-i-setup-my-website/)
 - [NTLite Guide](https://christitus.com/ntlite-guide/)
-- [Macos on Linux](https://christitus.com/macos-on-linux/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
