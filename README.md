@@ -18,11 +18,11 @@
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - 
 - [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - 
-- [ChrisTitusTech/Debian-titus](https://github.com/ChrisTitusTech/Debian-titus) - Debian customizations from Chris Titus Tech
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
+- [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - 
+- [ChrisTitusTech/Debian-titus](https://github.com/ChrisTitusTech/Debian-titus) - Debian customizations from Chris Titus Tech
+- [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - 
@@ -39,18 +39,18 @@
 - [cleanup and rebase test](https://github.com/ChrisTitusTech/winutil/pull/244) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [asheroto/winget-installer](https://github.com/asheroto/winget-installer) - Install winget tool using PowerShell! Prerequisites automatically installed. Works on Windows 10/11 and Server 2019/2022.
 - [LGUG2Z/komorebi](https://github.com/LGUG2Z/komorebi) - A tiling window manager for Windows
 - [denBot/yasb](https://github.com/denBot/yasb) - A highly configurable cross-platform (Windows) status bar written in Python.
 - [sorayuki/obs-multi-rtmp](https://github.com/sorayuki/obs-multi-rtmp) - OBS ≧ 26.1用複数サイト同時配信プラグイン
 - [RanyAlbegWein/Tinypng](https://github.com/RanyAlbegWein/Tinypng) - A Bash script for shrinking PNG files, using tinypng.com
-- [gnif/vendor-reset](https://github.com/gnif/vendor-reset) - Linux kernel vendor specific hardware reset module for sequences that are too complex/complicated to land in pci_quirks.c
 ### 📰 Recent Blog Posts
 
+- [Why the Command Line is Overpowered](https://christitus.com/why-the-cli-is-op/)
 - [Vim the Ultimate Editor](https://christitus.com/vim-the-ultimate-editor/)
 - [Pros Use Bleachbit](https://christitus.com/pros-use-bleachbit/)
 - [Making the Perfect Phone](https://christitus.com/making-the-perfect-phone/)
 - [How I Setup My Website](https://christitus.com/how-i-setup-my-website/)
-- [NTLite Guide](https://christitus.com/ntlite-guide/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
