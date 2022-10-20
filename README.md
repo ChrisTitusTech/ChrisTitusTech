@@ -18,9 +18,9 @@
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - 
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
+- [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - 
 - [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - 
 - [ChrisTitusTech/Debian-titus](https://github.com/ChrisTitusTech/Debian-titus) - Debian customizations from Chris Titus Tech
 ### 🌱 My latest projects
@@ -32,11 +32,11 @@
 - [ChrisTitusTech/star-trek-os](https://github.com/ChrisTitusTech/star-trek-os) - Quick script to setup LCARS Window Manager in Debian
 ### 🔨 My recent Pull Requests
 
+- [bring test up to date](https://github.com/ChrisTitusTech/winutil/pull/295) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [clean up](https://github.com/ChrisTitusTech/winutil/pull/290) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [runspace fixes](https://github.com/ChrisTitusTech/winutil/pull/288) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [fixup test](https://github.com/ChrisTitusTech/winutil/pull/284) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test 2022](https://github.com/ChrisTitusTech/winutil/pull/282) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Create winget.ps1](https://github.com/ChrisTitusTech/winutil/pull/281) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [ventoy/Ventoy](https://github.com/ventoy/Ventoy) - A new bootable USB solution.
@@ -46,11 +46,11 @@
 - [sorayuki/obs-multi-rtmp](https://github.com/sorayuki/obs-multi-rtmp) - OBS ≧ 26.1用複数サイト同時配信プラグイン
 ### 📰 Recent Blog Posts
 
+- [Setting Up the Ultimate Windows 11](https://christitus.com/setting-up-the-ultimate-windows-11/)
 - [Why the Command Line is Overpowered](https://christitus.com/why-the-cli-is-op/)
 - [Vim the Ultimate Editor](https://christitus.com/vim-the-ultimate-editor/)
 - [Pros Use Bleachbit](https://christitus.com/pros-use-bleachbit/)
 - [Making the Perfect Phone](https://christitus.com/making-the-perfect-phone/)
-- [How I Setup My Website](https://christitus.com/how-i-setup-my-website/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
