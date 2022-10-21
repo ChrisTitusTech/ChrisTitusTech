@@ -32,11 +32,11 @@
 - [ChrisTitusTech/star-trek-os](https://github.com/ChrisTitusTech/star-trek-os) - Quick script to setup LCARS Window Manager in Debian
 ### 🔨 My recent Pull Requests
 
+- [bring winget install script](https://github.com/ChrisTitusTech/winutil/pull/302) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [bring test up to date](https://github.com/ChrisTitusTech/winutil/pull/295) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [clean up](https://github.com/ChrisTitusTech/winutil/pull/290) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [runspace fixes](https://github.com/ChrisTitusTech/winutil/pull/288) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [fixup test](https://github.com/ChrisTitusTech/winutil/pull/284) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Test 2022](https://github.com/ChrisTitusTech/winutil/pull/282) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [ventoy/Ventoy](https://github.com/ventoy/Ventoy) - A new bootable USB solution.
