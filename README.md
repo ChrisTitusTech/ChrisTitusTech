@@ -18,9 +18,9 @@
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - 
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - 
 - [ChrisTitusTech/Debian-titus](https://github.com/ChrisTitusTech/Debian-titus) - Debian customizations from Chris Titus Tech
 ### 🌱 My latest projects
@@ -46,11 +46,11 @@
 - [sorayuki/obs-multi-rtmp](https://github.com/sorayuki/obs-multi-rtmp) - OBS ≧ 26.1用複数サイト同時配信プラグイン
 ### 📰 Recent Blog Posts
 
+- [Buying Cheap Ebay Graphics Cards](https://christitus.com/buying-cheap-ebay-graphics-card/)
 - [Setting Up the Ultimate Windows 11](https://christitus.com/setting-up-the-ultimate-windows-11/)
 - [Why the Command Line is Overpowered](https://christitus.com/why-the-cli-is-op/)
 - [Vim the Ultimate Editor](https://christitus.com/vim-the-ultimate-editor/)
 - [Pros Use Bleachbit](https://christitus.com/pros-use-bleachbit/)
-- [Making the Perfect Phone](https://christitus.com/making-the-perfect-phone/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
