@@ -18,9 +18,9 @@
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - 
 - [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
+- [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - 
 - [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
 - [ChrisTitusTech/ntlite-configs](https://github.com/ChrisTitusTech/ntlite-configs) - NTLite XML Configuration Files
 ### 🌱 My latest projects
@@ -46,11 +46,11 @@
 - [denBot/yasb](https://github.com/denBot/yasb) - A highly configurable cross-platform (Windows) status bar written in Python.
 ### 📰 Recent Blog Posts
 
+- [Installing Appx Without Microsoft Store](https://christitus.com/installing-appx-without-msstore/)
 - [Beautiful Bash](https://christitus.com/beautiful-bash/)
 - [Buying Cheap Ebay Graphics Cards](https://christitus.com/buying-cheap-ebay-graphics-card/)
 - [Setting Up the Ultimate Windows 11](https://christitus.com/setting-up-the-ultimate-windows-11/)
 - [Why the Command Line is Overpowered](https://christitus.com/why-the-cli-is-op/)
-- [Vim the Ultimate Editor](https://christitus.com/vim-the-ultimate-editor/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
