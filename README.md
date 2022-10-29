@@ -39,18 +39,18 @@
 - [bring test up to date](https://github.com/ChrisTitusTech/winutil/pull/295) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [glouw/paperview](https://github.com/glouw/paperview) - A high performance X11 animated wallpaper setter
+- [Komorebi-Fork/komorebi](https://github.com/Komorebi-Fork/komorebi) - A beautiful and customizable wallpaper manager for Linux
+- [cheesecakeufo/komorebi](https://github.com/cheesecakeufo/komorebi) - A beautiful and customizable wallpapers manager for Linux
 - [martinet101/WingetUI](https://github.com/martinet101/WingetUI) - WingetUI: a package manager for Winget and Scoop
 - [ventoy/Ventoy](https://github.com/ventoy/Ventoy) - A new bootable USB solution.
-- [asheroto/winget-installer](https://github.com/asheroto/winget-installer) - Install winget tool using PowerShell! Prerequisites automatically installed. Works on Windows 10/11 and Server 2019/2022.
-- [LGUG2Z/komorebi](https://github.com/LGUG2Z/komorebi) - A tiling window manager for Windows
-- [denBot/yasb](https://github.com/denBot/yasb) - A highly configurable cross-platform (Windows) status bar written in Python.
 ### 📰 Recent Blog Posts
 
+- [Why I Hate Most Linux Distributions](https://christitus.com/hate-linux-distributions/)
 - [Installing Appx Without Microsoft Store](https://christitus.com/installing-appx-without-msstore/)
 - [Beautiful Bash](https://christitus.com/beautiful-bash/)
 - [Buying Cheap Ebay Graphics Cards](https://christitus.com/buying-cheap-ebay-graphics-card/)
 - [Setting Up the Ultimate Windows 11](https://christitus.com/setting-up-the-ultimate-windows-11/)
-- [Why the Command Line is Overpowered](https://christitus.com/why-the-cli-is-op/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
