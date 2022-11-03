@@ -19,9 +19,9 @@
 ### 👷 Check out what I'm currently working on
 
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
+- [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - 
 - [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
 - [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
-- [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - 
 - [ChrisTitusTech/Debian-titus](https://github.com/ChrisTitusTech/Debian-titus) - Debian customizations from Chris Titus Tech
 ### 🌱 My latest projects
 
@@ -46,11 +46,11 @@
 - [ventoy/Ventoy](https://github.com/ventoy/Ventoy) - A new bootable USB solution.
 ### 📰 Recent Blog Posts
 
+- [Reagentc Windows Recovery Partition](https://christitus.com/reagentc-windows-recovery-partition/)
 - [Pretty Powershell](https://christitus.com/pretty-powershell/)
 - [Why I Hate Most Linux Distributions](https://christitus.com/hate-linux-distributions/)
 - [Installing Appx Without Microsoft Store](https://christitus.com/installing-appx-without-msstore/)
 - [Beautiful Bash](https://christitus.com/beautiful-bash/)
-- [Buying Cheap Ebay Graphics Cards](https://christitus.com/buying-cheap-ebay-graphics-card/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
