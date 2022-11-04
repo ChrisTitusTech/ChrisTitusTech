@@ -19,10 +19,10 @@
 ### 👷 Check out what I'm currently working on
 
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - 
 - [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
 - [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
-- [ChrisTitusTech/Debian-titus](https://github.com/ChrisTitusTech/Debian-titus) - Debian customizations from Chris Titus Tech
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
@@ -32,18 +32,18 @@
 - [ChrisTitusTech/star-trek-os](https://github.com/ChrisTitusTech/star-trek-os) - Quick script to setup LCARS Window Manager in Debian
 ### 🔨 My recent Pull Requests
 
+- [Update test from hotfixes](https://github.com/ChrisTitusTech/winutil/pull/349) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test](https://github.com/ChrisTitusTech/winutil/pull/318) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test Merge - Multiple Fixes](https://github.com/ChrisTitusTech/winutil/pull/317) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Revert &#34;Add missing program in applications.json file&#34;](https://github.com/ChrisTitusTech/winutil/pull/316) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [bring winget install script](https://github.com/ChrisTitusTech/winutil/pull/302) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [bring test up to date](https://github.com/ChrisTitusTech/winutil/pull/295) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [Taiga74164/Akebi-GC](https://github.com/Taiga74164/Akebi-GC) - Akebi Genshin Cheat source for OS/CN 3.0
 - [glouw/paperview](https://github.com/glouw/paperview) - A high performance X11 animated wallpaper setter
 - [Komorebi-Fork/komorebi](https://github.com/Komorebi-Fork/komorebi) - A beautiful and customizable wallpaper manager for Linux
 - [cheesecakeufo/komorebi](https://github.com/cheesecakeufo/komorebi) - A beautiful and customizable wallpapers manager for Linux
 - [martinet101/WingetUI](https://github.com/martinet101/WingetUI) - WingetUI: a package manager for Winget and Scoop
-- [ventoy/Ventoy](https://github.com/ventoy/Ventoy) - A new bootable USB solution.
 ### 📰 Recent Blog Posts
 
 - [Reagentc Windows Recovery Partition](https://christitus.com/reagentc-windows-recovery-partition/)
