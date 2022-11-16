@@ -18,10 +18,10 @@
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/40yearoldfitness](https://github.com/ChrisTitusTech/40yearoldfitness) - 
 - [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - 
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/ubuntu-titus](https://github.com/ChrisTitusTech/ubuntu-titus) - 
-- [ChrisTitusTech/40yearoldfitness](https://github.com/ChrisTitusTech/40yearoldfitness) - 
 - [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
 ### 🌱 My latest projects
 
@@ -41,9 +41,9 @@
 
 - [sickcodes/Docker-OSX](https://github.com/sickcodes/Docker-OSX) - Run macOS VM in a Docker! Run near native OSX-KVM in Docker! X11 Forwarding! CI/CD for OS X Security Research! Docker mac Containers.
 - [rockerBOO/awesome-neovim](https://github.com/rockerBOO/awesome-neovim) - Collections of awesome neovim plugins.
-- [Taiga74164/Akebi-GC](https://github.com/Taiga74164/Akebi-GC) - Akebi Genshin Cheat source for OS/CN 3.0
 - [glouw/paperview](https://github.com/glouw/paperview) - A high performance X11 animated wallpaper setter
 - [Komorebi-Fork/komorebi](https://github.com/Komorebi-Fork/komorebi) - A beautiful and customizable wallpaper manager for Linux
+- [cheesecakeufo/komorebi](https://github.com/cheesecakeufo/komorebi) - A beautiful and customizable wallpapers manager for Linux
 ### 📰 Recent Blog Posts
 
 - [Shell The Essential App](https://christitus.com/shell-the-essential-app/)
