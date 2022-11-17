@@ -18,11 +18,11 @@
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/40yearoldfitness](https://github.com/ChrisTitusTech/40yearoldfitness) - 
-- [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - 
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [ChrisTitusTech/ubuntu-titus](https://github.com/ChrisTitusTech/ubuntu-titus) - 
 - [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
+- [ChrisTitusTech/ubuntu-titus](https://github.com/ChrisTitusTech/ubuntu-titus) - 
+- [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - 
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/ubuntu-titus](https://github.com/ChrisTitusTech/ubuntu-titus) - 
@@ -46,11 +46,11 @@
 - [cheesecakeufo/komorebi](https://github.com/cheesecakeufo/komorebi) - A beautiful and customizable wallpapers manager for Linux
 ### 📰 Recent Blog Posts
 
+- [Fix Corrupted Windows Install](https://christitus.com/fix-corrupt-windows-install/)
 - [Shell The Essential App](https://christitus.com/shell-the-essential-app/)
 - [Ubuntus ARM Is Good](https://christitus.com/ubuntus-arm-is-good/)
 - [Windows 22H2 has Problems](https://christitus.com/Windows-22H2-problems/)
 - [Neovim Is Better](https://christitus.com/neovim-is-better/)
-- [Urbackup](https://christitus.com/urbackup/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
