@@ -46,11 +46,11 @@
 - [cheesecakeufo/komorebi](https://github.com/cheesecakeufo/komorebi) - A beautiful and customizable wallpapers manager for Linux
 ### 📰 Recent Blog Posts
 
+- [5 Essential Terminal Utilities](https://christitus.com/5-terminal-commands/)
 - [Fix Corrupted Windows Install](https://christitus.com/fix-corrupt-windows-install/)
 - [Shell The Essential App](https://christitus.com/shell-the-essential-app/)
 - [Ubuntus ARM Is Good](https://christitus.com/ubuntus-arm-is-good/)
 - [Windows 22H2 has Problems](https://christitus.com/Windows-22H2-problems/)
-- [Neovim Is Better](https://christitus.com/neovim-is-better/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
