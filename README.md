@@ -46,11 +46,11 @@
 - [Komorebi-Fork/komorebi](https://github.com/Komorebi-Fork/komorebi) - A beautiful and customizable wallpaper manager for Linux
 ### 📰 Recent Blog Posts
 
+- [Best Browser Extensions](https://christitus.com/best-browser-extensions/)
 - [Why We Don&#39;t Browse the Internet Anymore](https://christitus.com/why-we-dont-browse-the-internet-anymore/)
 - [5 Essential Terminal Utilities](https://christitus.com/5-terminal-commands/)
 - [Fix Corrupted Windows Install](https://christitus.com/fix-corrupt-windows-install/)
 - [Shell The Essential App](https://christitus.com/shell-the-essential-app/)
-- [Ubuntus ARM Is Good](https://christitus.com/ubuntus-arm-is-good/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
