@@ -39,18 +39,18 @@
 - [Revert &#34;Add missing program in applications.json file&#34;](https://github.com/ChrisTitusTech/winutil/pull/316) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland) - Hyprland is a dynamic tiling Wayland compositor that doesn&#39;t sacrifice on its looks.
 - [timhutton/twitter-archive-parser](https://github.com/timhutton/twitter-archive-parser) - Python code to parse a Twitter archive and output in various ways
 - [sickcodes/Docker-OSX](https://github.com/sickcodes/Docker-OSX) - Run macOS VM in a Docker! Run near native OSX-KVM in Docker! X11 Forwarding! CI/CD for OS X Security Research! Docker mac Containers.
 - [rockerBOO/awesome-neovim](https://github.com/rockerBOO/awesome-neovim) - Collections of awesome neovim plugins.
 - [glouw/paperview](https://github.com/glouw/paperview) - A high performance X11 animated wallpaper setter
-- [Komorebi-Fork/komorebi](https://github.com/Komorebi-Fork/komorebi) - A beautiful and customizable wallpaper manager for Linux
 ### 📰 Recent Blog Posts
 
+- [Switching to Ubuntu](https://christitus.com/switching-to-ubuntu/)
 - [One Tool for Everything](https://christitus.com/one-tool-for-everything/)
 - [Best Browser Extensions](https://christitus.com/best-browser-extensions/)
 - [Why We Don&#39;t Browse the Internet Anymore](https://christitus.com/why-we-dont-browse-the-internet-anymore/)
 - [5 Essential Terminal Utilities](https://christitus.com/5-terminal-commands/)
-- [Fix Corrupted Windows Install](https://christitus.com/fix-corrupt-windows-install/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
