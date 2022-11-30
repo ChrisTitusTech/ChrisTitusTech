@@ -18,9 +18,9 @@
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/40yearoldfitness](https://github.com/ChrisTitusTech/40yearoldfitness) - 
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
 - [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - 
 ### 🌱 My latest projects
@@ -32,11 +32,11 @@
 - [ChrisTitusTech/ntlite-configs](https://github.com/ChrisTitusTech/ntlite-configs) - NTLite XML Configuration Files
 ### 🔨 My recent Pull Requests
 
+- [Bugfixes before December](https://github.com/ChrisTitusTech/winutil/pull/465) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Thanksgiving Update](https://github.com/ChrisTitusTech/winutil/pull/378) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Update test from hotfixes](https://github.com/ChrisTitusTech/winutil/pull/349) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test](https://github.com/ChrisTitusTech/winutil/pull/318) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test Merge - Multiple Fixes](https://github.com/ChrisTitusTech/winutil/pull/317) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Revert &#34;Add missing program in applications.json file&#34;](https://github.com/ChrisTitusTech/winutil/pull/316) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland) - Hyprland is a dynamic tiling Wayland compositor that doesn&#39;t sacrifice on its looks.
