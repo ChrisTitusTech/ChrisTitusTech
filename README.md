@@ -18,10 +18,10 @@
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/ubuntu-titus](https://github.com/ChrisTitusTech/ubuntu-titus) - 
 - [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
 - [ChrisTitusTech/Debian-titus](https://github.com/ChrisTitusTech/Debian-titus) - Debian customizations from Chris Titus Tech
-- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - 
 ### 🌱 My latest projects
 
@@ -46,11 +46,11 @@
 - [rockerBOO/awesome-neovim](https://github.com/rockerBOO/awesome-neovim) - Collections of awesome neovim plugins.
 ### 📰 Recent Blog Posts
 
+- [Twitter Archive Offline](https://christitus.com/twitter-archive/)
 - [Docker Macos](https://christitus.com/docker-macos/)
 - [Switching to Ubuntu](https://christitus.com/switching-to-ubuntu/)
 - [One Tool for Everything](https://christitus.com/one-tool-for-everything/)
 - [Best Browser Extensions](https://christitus.com/best-browser-extensions/)
-- [Why We Don&#39;t Browse the Internet Anymore](https://christitus.com/why-we-dont-browse-the-internet-anymore/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
