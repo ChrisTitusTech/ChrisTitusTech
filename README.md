@@ -18,9 +18,9 @@
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/ubuntu-titus](https://github.com/ChrisTitusTech/ubuntu-titus) - 
 - [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
-- [ChrisTitusTech/ubuntu-titus](https://github.com/ChrisTitusTech/ubuntu-titus) - 
 - [ChrisTitusTech/Debian-titus](https://github.com/ChrisTitusTech/Debian-titus) - Debian customizations from Chris Titus Tech
 - [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - 
 ### 🌱 My latest projects
