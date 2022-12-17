@@ -39,18 +39,18 @@
 - [Test Merge - Multiple Fixes](https://github.com/ChrisTitusTech/winutil/pull/317) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [digitalsparky/twitterpurge](https://github.com/digitalsparky/twitterpurge) - 
 - [AveYo/MediaCreationTool.bat](https://github.com/AveYo/MediaCreationTool.bat) - Universal MCT wrapper script for all Windows 10/11 versions from 1507 to 21H2!
 - [mkubecek/vmware-host-modules](https://github.com/mkubecek/vmware-host-modules) - Patches needed to build VMware (Player and Workstation) host modules against recent kernels
 - [r-c-f/waynergy](https://github.com/r-c-f/waynergy) - A synergy client for Wayland compositors
 - [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland) - Hyprland is a dynamic tiling Wayland compositor that doesn&#39;t sacrifice on its looks.
-- [timhutton/twitter-archive-parser](https://github.com/timhutton/twitter-archive-parser) - Python code to parse a Twitter archive and output in various ways
 ### 📰 Recent Blog Posts
 
+- [Acronis Cyber Protect Home Office](https://christitus.com/acronis-true-image/)
 - [Install Windows Update Powershell](https://christitus.com/install-windows-update-powershell/)
 - [Screensavers](https://christitus.com/screensavers/)
 - [Docker Guide](https://christitus.com/docker-guide/)
 - [Windows Explorer Stealing CPU](https://christitus.com/windows-explorer-stealing-cpu/)
-- [Bypass Paywalls](https://christitus.com/bypass-paywalls/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
