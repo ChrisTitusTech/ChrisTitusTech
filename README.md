@@ -46,11 +46,11 @@
 - [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland) - Hyprland is a dynamic tiling Wayland compositor that doesn&#39;t sacrifice on its looks.
 ### 📰 Recent Blog Posts
 
+- [Virtual Machine Formats](https://christitus.com/virtual-machine-formats/)
 - [Acronis Cyber Protect Home Office](https://christitus.com/acronis-true-image/)
 - [Install Windows Update Powershell](https://christitus.com/install-windows-update-powershell/)
 - [Screensavers](https://christitus.com/screensavers/)
 - [Docker Guide](https://christitus.com/docker-guide/)
-- [Windows Explorer Stealing CPU](https://christitus.com/windows-explorer-stealing-cpu/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
