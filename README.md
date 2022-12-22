@@ -18,8 +18,8 @@
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/ubuntu-titus](https://github.com/ChrisTitusTech/ubuntu-titus) - 
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
+- [ChrisTitusTech/ubuntu-titus](https://github.com/ChrisTitusTech/ubuntu-titus) - 
 - [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
 - [ChrisTitusTech/Debian-titus](https://github.com/ChrisTitusTech/Debian-titus) - Debian customizations from Chris Titus Tech
 - [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - 
@@ -46,11 +46,11 @@
 - [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland) - Hyprland is a dynamic tiling Wayland compositor that doesn&#39;t sacrifice on its looks.
 ### 📰 Recent Blog Posts
 
+- [Quickemu](https://christitus.com/quickemu/)
 - [Virtual Machine Formats](https://christitus.com/virtual-machine-formats/)
 - [Acronis Cyber Protect Home Office](https://christitus.com/acronis-true-image/)
+- [Cleanup Docker](https://christitus.com/cleanup-docker/)
 - [Install Windows Update Powershell](https://christitus.com/install-windows-update-powershell/)
-- [Screensavers](https://christitus.com/screensavers/)
-- [Docker Guide](https://christitus.com/docker-guide/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
