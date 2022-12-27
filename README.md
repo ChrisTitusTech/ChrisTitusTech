@@ -22,7 +22,7 @@
 - [ChrisTitusTech/block-razer](https://github.com/ChrisTitusTech/block-razer) - This script blocks ALL razer software installs. Their hardware is OK, but I HATE their software. 
 - [ChrisTitusTech/ubuntu-titus](https://github.com/ChrisTitusTech/ubuntu-titus) - 
 - [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
-- [ChrisTitusTech/Debian-titus](https://github.com/ChrisTitusTech/Debian-titus) - Debian customizations from Chris Titus Tech
+- [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - 
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/block-razer](https://github.com/ChrisTitusTech/block-razer) - This script blocks ALL razer software installs. Their hardware is OK, but I HATE their software. 
