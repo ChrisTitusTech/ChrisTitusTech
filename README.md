@@ -39,18 +39,18 @@
 - [Test Merge - Multiple Fixes](https://github.com/ChrisTitusTech/winutil/pull/317) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
-- [bruhov/WinThumbsPreloader](https://github.com/bruhov/WinThumbsPreloader) - WinThumbsPreloader is a simple open source tool for preloading thumbnails in Windows Explorer.
 - [Matoking/protontricks](https://github.com/Matoking/protontricks) - A wrapper that does winetricks things for Proton enabled games, requires Winetricks.
 - [digitalsparky/twitterpurge](https://github.com/digitalsparky/twitterpurge) - 
 - [AveYo/MediaCreationTool.bat](https://github.com/AveYo/MediaCreationTool.bat) - Universal MCT wrapper script for all Windows 10/11 versions from 1507 to 21H2!
 - [mkubecek/vmware-host-modules](https://github.com/mkubecek/vmware-host-modules) - Patches needed to build VMware (Player and Workstation) host modules against recent kernels
+- [r-c-f/waynergy](https://github.com/r-c-f/waynergy) - A synergy client for Wayland compositors
 ### 📰 Recent Blog Posts
 
+- [Worst Tech of 2022](https://christitus.com/worst-tech-of-2022/)
 - [Customizing Steam Games in Linux](https://christitus.com/customizing-steam-games-in-linux/)
 - [2022 Recap](https://christitus.com/2022-recap/)
 - [Quickemu](https://christitus.com/quickemu/)
 - [Virtual Machine Formats](https://christitus.com/virtual-machine-formats/)
-- [Acronis Cyber Protect Home Office](https://christitus.com/acronis-true-image/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
