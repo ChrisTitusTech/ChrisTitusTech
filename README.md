@@ -39,11 +39,11 @@
 - [Test Merge - Multiple Fixes](https://github.com/ChrisTitusTech/winutil/pull/317) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [stnkl/EverythingToolbar](https://github.com/stnkl/EverythingToolbar) - Everything integration for the Windows taskbar.
 - [Matoking/protontricks](https://github.com/Matoking/protontricks) - A wrapper that does winetricks things for Proton enabled games, requires Winetricks.
 - [digitalsparky/twitterpurge](https://github.com/digitalsparky/twitterpurge) - 
 - [AveYo/MediaCreationTool.bat](https://github.com/AveYo/MediaCreationTool.bat) - Universal MCT wrapper script for all Windows 10/11 versions from 1507 to 21H2!
 - [mkubecek/vmware-host-modules](https://github.com/mkubecek/vmware-host-modules) - Patches needed to build VMware (Player and Workstation) host modules against recent kernels
-- [r-c-f/waynergy](https://github.com/r-c-f/waynergy) - A synergy client for Wayland compositors
 ### 📰 Recent Blog Posts
 
 - [Worst Tech of 2022](https://christitus.com/worst-tech-of-2022/)
