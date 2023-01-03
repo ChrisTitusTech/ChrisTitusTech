@@ -22,7 +22,7 @@
 - [ChrisTitusTech/block-razer](https://github.com/ChrisTitusTech/block-razer) - This script blocks ALL razer software installs. Their hardware is OK, but I HATE their software. 
 - [ChrisTitusTech/ubuntu-titus](https://github.com/ChrisTitusTech/ubuntu-titus) - 
 - [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
-- [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - 
+- [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/block-razer](https://github.com/ChrisTitusTech/block-razer) - This script blocks ALL razer software installs. Their hardware is OK, but I HATE their software. 
@@ -39,18 +39,18 @@
 - [Test Merge - Multiple Fixes](https://github.com/ChrisTitusTech/winutil/pull/317) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [SteamDeckHomebrew/decky-loader](https://github.com/SteamDeckHomebrew/decky-loader) - A plugin loader for the Steam Deck
 - [stnkl/EverythingToolbar](https://github.com/stnkl/EverythingToolbar) - Everything integration for the Windows taskbar.
 - [Matoking/protontricks](https://github.com/Matoking/protontricks) - A wrapper that does winetricks things for Proton enabled games, requires Winetricks.
 - [digitalsparky/twitterpurge](https://github.com/digitalsparky/twitterpurge) - 
 - [AveYo/MediaCreationTool.bat](https://github.com/AveYo/MediaCreationTool.bat) - Universal MCT wrapper script for all Windows 10/11 versions from 1507 to 21H2!
-- [mkubecek/vmware-host-modules](https://github.com/mkubecek/vmware-host-modules) - Patches needed to build VMware (Player and Workstation) host modules against recent kernels
 ### 📰 Recent Blog Posts
 
+- [Block Razer Bloatware](https://christitus.com/block-razer-bloatware/)
 - [Worst Tech of 2022](https://christitus.com/worst-tech-of-2022/)
 - [Customizing Steam Games in Linux](https://christitus.com/customizing-steam-games-in-linux/)
 - [2022 Recap](https://christitus.com/2022-recap/)
 - [Quickemu](https://christitus.com/quickemu/)
-- [Virtual Machine Formats](https://christitus.com/virtual-machine-formats/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
