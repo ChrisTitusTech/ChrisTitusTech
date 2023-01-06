@@ -39,18 +39,18 @@
 - [Test Merge - Multiple Fixes](https://github.com/ChrisTitusTech/winutil/pull/317) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [Plagman/gamescope](https://github.com/Plagman/gamescope) - SteamOS session compositing window manager
+- [CryoByte33/steam-deck-utilities](https://github.com/CryoByte33/steam-deck-utilities) - Scripts to help make the Steam Deck the best it can be.
 - [input-leap/input-leap](https://github.com/input-leap/input-leap) - Open-source KVM software
 - [Chuyu-Team/Dism-Multi-language](https://github.com/Chuyu-Team/Dism-Multi-language) - Dism&#43;&#43; Multi-language Support &amp; BUG Report
 - [valinet/ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) - This project aims to enhance the working environment on Windows
-- [SteamDeckHomebrew/decky-loader](https://github.com/SteamDeckHomebrew/decky-loader) - A plugin loader for the Steam Deck
-- [stnkl/EverythingToolbar](https://github.com/stnkl/EverythingToolbar) - Everything integration for the Windows taskbar.
 ### 📰 Recent Blog Posts
 
+- [Thumbnails in Windows](https://christitus.com/thumbnails-in-windows/)
 - [Fix Screen Tearing Linux](https://christitus.com/fix-screen-tearing-linux/)
 - [Block Razer Bloatware](https://christitus.com/block-razer-bloatware/)
 - [Worst Tech of 2022](https://christitus.com/worst-tech-of-2022/)
 - [Customizing Steam Games in Linux](https://christitus.com/customizing-steam-games-in-linux/)
-- [2022 Recap](https://christitus.com/2022-recap/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
