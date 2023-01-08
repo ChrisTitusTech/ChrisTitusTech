@@ -39,11 +39,11 @@
 - [Test Merge - Multiple Fixes](https://github.com/ChrisTitusTech/winutil/pull/317) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [Dwarf-Therapist/Dwarf-Therapist](https://github.com/Dwarf-Therapist/Dwarf-Therapist) - Dwarf management tool for Dwarf Fortress
+- [RosaryMala/armok-vision](https://github.com/RosaryMala/armok-vision) - A 3d realtime visualizer for Dwarf Fortress
 - [Plagman/gamescope](https://github.com/Plagman/gamescope) - SteamOS session compositing window manager
 - [CryoByte33/steam-deck-utilities](https://github.com/CryoByte33/steam-deck-utilities) - Scripts to help make the Steam Deck the best it can be.
 - [input-leap/input-leap](https://github.com/input-leap/input-leap) - Open-source KVM software
-- [Chuyu-Team/Dism-Multi-language](https://github.com/Chuyu-Team/Dism-Multi-language) - Dism&#43;&#43; Multi-language Support &amp; BUG Report
-- [valinet/ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) - This project aims to enhance the working environment on Windows
 ### 📰 Recent Blog Posts
 
 - [Thumbnails in Windows](https://christitus.com/thumbnails-in-windows/)
