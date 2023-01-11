@@ -19,17 +19,17 @@
 ### 👷 Check out what I'm currently working on
 
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
+- [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - 
 - [ChrisTitusTech/Debian-titus](https://github.com/ChrisTitusTech/Debian-titus) - Debian customizations from Chris Titus Tech
 - [ChrisTitusTech/block-razer](https://github.com/ChrisTitusTech/block-razer) - This script blocks ALL razer software installs. Their hardware is OK, but I HATE their software. 
 - [ChrisTitusTech/ubuntu-titus](https://github.com/ChrisTitusTech/ubuntu-titus) - 
-- [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
 ### 🌱 My latest projects
 
+- [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - 
 - [ChrisTitusTech/block-razer](https://github.com/ChrisTitusTech/block-razer) - This script blocks ALL razer software installs. Their hardware is OK, but I HATE their software. 
 - [ChrisTitusTech/ubuntu-titus](https://github.com/ChrisTitusTech/ubuntu-titus) - 
 - [ChrisTitusTech/40yearoldfitness](https://github.com/ChrisTitusTech/40yearoldfitness) - 
 - [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
-- [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - 
 ### 🔨 My recent Pull Requests
 
 - [Bugfixes before December](https://github.com/ChrisTitusTech/winutil/pull/465) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
