@@ -18,8 +18,8 @@
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - 
+- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/Debian-titus](https://github.com/ChrisTitusTech/Debian-titus) - Debian customizations from Chris Titus Tech
 - [ChrisTitusTech/block-razer](https://github.com/ChrisTitusTech/block-razer) - This script blocks ALL razer software installs. Their hardware is OK, but I HATE their software. 
 - [ChrisTitusTech/ubuntu-titus](https://github.com/ChrisTitusTech/ubuntu-titus) - 
@@ -39,18 +39,18 @@
 - [Test Merge - Multiple Fixes](https://github.com/ChrisTitusTech/winutil/pull/317) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [mortie/swaylock-effects](https://github.com/mortie/swaylock-effects) - Swaylock, with fancy effects
 - [ranger/ranger](https://github.com/ranger/ranger) - A VIM-inspired filemanager for the console
 - [linuxmobile/hyprland-dots](https://github.com/linuxmobile/hyprland-dots) - 
 - [Dwarf-Therapist/Dwarf-Therapist](https://github.com/Dwarf-Therapist/Dwarf-Therapist) - Dwarf management tool for Dwarf Fortress
 - [RosaryMala/armok-vision](https://github.com/RosaryMala/armok-vision) - A 3d realtime visualizer for Dwarf Fortress
-- [Plagman/gamescope](https://github.com/Plagman/gamescope) - SteamOS session compositing window manager
 ### 📰 Recent Blog Posts
 
+- [Ext4 in Windows](https://christitus.com/ext4-in-windows/)
 - [Why Open Source?](https://christitus.com/why-open-source/)
 - [Thumbnails in Windows](https://christitus.com/thumbnails-in-windows/)
 - [Fix Screen Tearing Linux](https://christitus.com/fix-screen-tearing-linux/)
 - [Block Razer Bloatware](https://christitus.com/block-razer-bloatware/)
-- [Worst Tech of 2022](https://christitus.com/worst-tech-of-2022/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
