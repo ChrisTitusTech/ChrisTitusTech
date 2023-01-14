@@ -18,11 +18,11 @@
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - My config files for Hyprland Wayland Window Manager
+- [ChrisTitusTech/ubuntu-titus](https://github.com/ChrisTitusTech/ubuntu-titus) - 
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
+- [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - My config files for Hyprland Wayland Window Manager
 - [ChrisTitusTech/Debian-titus](https://github.com/ChrisTitusTech/Debian-titus) - Debian customizations from Chris Titus Tech
 - [ChrisTitusTech/block-razer](https://github.com/ChrisTitusTech/block-razer) - This script blocks ALL razer software installs. Their hardware is OK, but I HATE their software. 
-- [ChrisTitusTech/ubuntu-titus](https://github.com/ChrisTitusTech/ubuntu-titus) - 
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - My config files for Hyprland Wayland Window Manager
@@ -46,11 +46,11 @@
 - [RosaryMala/armok-vision](https://github.com/RosaryMala/armok-vision) - A 3d realtime visualizer for Dwarf Fortress
 ### 📰 Recent Blog Posts
 
+- [Dism&#43;&#43;](https://christitus.com/dism-plus/)
 - [Ext4 in Windows](https://christitus.com/ext4-in-windows/)
 - [Why Open Source?](https://christitus.com/why-open-source/)
 - [Thumbnails in Windows](https://christitus.com/thumbnails-in-windows/)
 - [Fix Screen Tearing Linux](https://christitus.com/fix-screen-tearing-linux/)
-- [Block Razer Bloatware](https://christitus.com/block-razer-bloatware/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
