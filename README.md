@@ -46,11 +46,11 @@
 - [RosaryMala/armok-vision](https://github.com/RosaryMala/armok-vision) - A 3d realtime visualizer for Dwarf Fortress
 ### 📰 Recent Blog Posts
 
+- [Steamdeck as a Desktop](https://christitus.com/steamdeck-as-a-desktop/)
 - [Dism&#43;&#43;](https://christitus.com/dism-plus/)
 - [Ext4 in Windows](https://christitus.com/ext4-in-windows/)
 - [Why Open Source?](https://christitus.com/why-open-source/)
 - [Thumbnails in Windows](https://christitus.com/thumbnails-in-windows/)
-- [Fix Screen Tearing Linux](https://christitus.com/fix-screen-tearing-linux/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
