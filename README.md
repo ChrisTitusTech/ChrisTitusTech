@@ -46,11 +46,11 @@
 - [Dwarf-Therapist/Dwarf-Therapist](https://github.com/Dwarf-Therapist/Dwarf-Therapist) - Dwarf management tool for Dwarf Fortress
 ### 📰 Recent Blog Posts
 
+- [My New Desktop Hyprland](https://christitus.com/my-new-desktop-hyprland/)
 - [How to Sync Local Files](https://christitus.com/sync-local-files/)
 - [Replace Windows Search](https://christitus.com/everything-toolbar/)
 - [Steamdeck as a Desktop](https://christitus.com/steamdeck-as-a-desktop/)
 - [Dism&#43;&#43;](https://christitus.com/dism-plus/)
-- [Ext4 in Windows](https://christitus.com/ext4-in-windows/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
