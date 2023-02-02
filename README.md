@@ -39,18 +39,18 @@
 - [Test Merge - Multiple Fixes](https://github.com/ChrisTitusTech/winutil/pull/317) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [bangplaysgames/GlamourUI](https://github.com/bangplaysgames/GlamourUI) - A modular and customizable interface for FFXI
 - [e-im/FreedomChat](https://github.com/e-im/FreedomChat) - Liberate your server from the chat-reporting bourgeoisie! The best paper chat report disabler this side of the Mississippi
 - [digitalsparky/google-fonts-resource-override](https://github.com/digitalsparky/google-fonts-resource-override) - 
 - [m-jishnu/alt-app-installer](https://github.com/m-jishnu/alt-app-installer) - A Program To Download And Install Microsoft Store Apps Without Store
 - [VirtuBox/img-optimize](https://github.com/VirtuBox/img-optimize) - Image optimization bash script
-- [mortie/swaylock-effects](https://github.com/mortie/swaylock-effects) - Swaylock, with fancy effects
 ### 📰 Recent Blog Posts
 
+- [Fix Windows Network and Sharing](https://christitus.com/windows-network-and-sharing/)
 - [Script for Optimizing Images](https://christitus.com/script-for-optimizing-images/)
 - [Theming Windows With Rainmeter](https://christitus.com/theming-windows-with-rainmeter/)
 - [My New Desktop Hyprland](https://christitus.com/my-new-desktop-hyprland/)
 - [How to Sync Local Files](https://christitus.com/sync-local-files/)
-- [Replace Windows Search](https://christitus.com/everything-toolbar/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
