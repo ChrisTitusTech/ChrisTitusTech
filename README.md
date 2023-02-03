@@ -39,11 +39,11 @@
 - [Test Merge - Multiple Fixes](https://github.com/ChrisTitusTech/winutil/pull/317) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [Spike2D/SimpleLog](https://github.com/Spike2D/SimpleLog) - Combat and Message log parser for Ashita v4
 - [bangplaysgames/GlamourUI](https://github.com/bangplaysgames/GlamourUI) - A modular and customizable interface for FFXI
 - [e-im/FreedomChat](https://github.com/e-im/FreedomChat) - Liberate your server from the chat-reporting bourgeoisie! The best paper chat report disabler this side of the Mississippi
 - [digitalsparky/google-fonts-resource-override](https://github.com/digitalsparky/google-fonts-resource-override) - 
 - [m-jishnu/alt-app-installer](https://github.com/m-jishnu/alt-app-installer) - A Program To Download And Install Microsoft Store Apps Without Store
-- [VirtuBox/img-optimize](https://github.com/VirtuBox/img-optimize) - Image optimization bash script
 ### 📰 Recent Blog Posts
 
 - [Fix Windows Network and Sharing](https://christitus.com/windows-network-and-sharing/)
