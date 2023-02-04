@@ -46,11 +46,11 @@
 - [m-jishnu/alt-app-installer](https://github.com/m-jishnu/alt-app-installer) - A Program To Download And Install Microsoft Store Apps Without Store
 ### 📰 Recent Blog Posts
 
+- [Youtube Comment Scams](https://christitus.com/youtube-telegram-scams/)
 - [Fix Windows Network and Sharing](https://christitus.com/windows-network-and-sharing/)
 - [Script for Optimizing Images](https://christitus.com/script-for-optimizing-images/)
 - [Theming Windows With Rainmeter](https://christitus.com/theming-windows-with-rainmeter/)
 - [My New Desktop Hyprland](https://christitus.com/my-new-desktop-hyprland/)
-- [How to Sync Local Files](https://christitus.com/sync-local-files/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
