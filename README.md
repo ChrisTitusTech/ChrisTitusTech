@@ -39,11 +39,11 @@
 - [Test Merge - Multiple Fixes](https://github.com/ChrisTitusTech/winutil/pull/317) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [KenshiDRK/mappy--Kenshi-Version](https://github.com/KenshiDRK/mappy--Kenshi-Version) - Mappy is an advanced mini-map that includes all the expected amenities of a modern radar tool such as tracking spawns and displaying the player&#39;s location on a map of some sorts.
 - [Spike2D/SimpleLog](https://github.com/Spike2D/SimpleLog) - Combat and Message log parser for Ashita v4
 - [bangplaysgames/GlamourUI](https://github.com/bangplaysgames/GlamourUI) - A modular and customizable interface for FFXI
 - [e-im/FreedomChat](https://github.com/e-im/FreedomChat) - Liberate your server from the chat-reporting bourgeoisie! The best paper chat report disabler this side of the Mississippi
 - [digitalsparky/google-fonts-resource-override](https://github.com/digitalsparky/google-fonts-resource-override) - 
-- [m-jishnu/alt-app-installer](https://github.com/m-jishnu/alt-app-installer) - A Program To Download And Install Microsoft Store Apps Without Store
 ### 📰 Recent Blog Posts
 
 - [Youtube Comment Scams](https://christitus.com/youtube-telegram-scams/)
