@@ -39,18 +39,18 @@
 - [Test Merge - Multiple Fixes](https://github.com/ChrisTitusTech/winutil/pull/317) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [XIBrixy/Custom-Addons](https://github.com/XIBrixy/Custom-Addons) - 
 - [KenshiDRK/mappy--Kenshi-Version](https://github.com/KenshiDRK/mappy--Kenshi-Version) - Mappy is an advanced mini-map that includes all the expected amenities of a modern radar tool such as tracking spawns and displaying the player&#39;s location on a map of some sorts.
 - [Spike2D/SimpleLog](https://github.com/Spike2D/SimpleLog) - Combat and Message log parser for Ashita v4
 - [bangplaysgames/GlamourUI](https://github.com/bangplaysgames/GlamourUI) - A modular and customizable interface for FFXI
 - [e-im/FreedomChat](https://github.com/e-im/FreedomChat) - Liberate your server from the chat-reporting bourgeoisie! The best paper chat report disabler this side of the Mississippi
-- [digitalsparky/google-fonts-resource-override](https://github.com/digitalsparky/google-fonts-resource-override) - 
 ### 📰 Recent Blog Posts
 
+- [Hardest Game to Play on Steamdeck](https://christitus.com/hardest-game-to-play-on-steamdeck/)
 - [Youtube Comment Scams](https://christitus.com/youtube-telegram-scams/)
 - [Fix Windows Network and Sharing](https://christitus.com/windows-network-and-sharing/)
 - [Script for Optimizing Images](https://christitus.com/script-for-optimizing-images/)
 - [Theming Windows With Rainmeter](https://christitus.com/theming-windows-with-rainmeter/)
-- [My New Desktop Hyprland](https://christitus.com/my-new-desktop-hyprland/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
