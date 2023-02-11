@@ -18,10 +18,10 @@
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - My config files for Hyprland Wayland Window Manager
-- [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
-- [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - 
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
+- [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - My config files for Hyprland Wayland Window Manager
+- [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - 
+- [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
 - [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
 ### 🌱 My latest projects
 
@@ -46,11 +46,11 @@
 - [bangplaysgames/GlamourUI](https://github.com/bangplaysgames/GlamourUI) - A modular and customizable interface for FFXI
 ### 📰 Recent Blog Posts
 
+- [Flatseal: The Best Flatpak Addon](https://christitus.com/flatseal-required-flatpak-addon/)
 - [Im Sorry Netlify](https://christitus.com/im-sorry-netlify/)
 - [Hardest Game to Play on Steamdeck](https://christitus.com/hardest-game-to-play-on-steamdeck/)
 - [Youtube Comment Scams](https://christitus.com/youtube-telegram-scams/)
 - [Fix Windows Network and Sharing](https://christitus.com/windows-network-and-sharing/)
-- [Script for Optimizing Images](https://christitus.com/script-for-optimizing-images/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
