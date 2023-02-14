@@ -46,11 +46,11 @@
 - [bangplaysgames/GlamourUI](https://github.com/bangplaysgames/GlamourUI) - A modular and customizable interface for FFXI
 ### 📰 Recent Blog Posts
 
+- [The Teamviewer Scam](https://christitus.com/the-teamviewer-scam/)
 - [Flatseal: The Best Flatpak Addon](https://christitus.com/flatseal-required-flatpak-addon/)
 - [Im Sorry Netlify](https://christitus.com/im-sorry-netlify/)
 - [Hardest Game to Play on Steamdeck](https://christitus.com/hardest-game-to-play-on-steamdeck/)
 - [Youtube Comment Scams](https://christitus.com/youtube-telegram-scams/)
-- [Fix Windows Network and Sharing](https://christitus.com/windows-network-and-sharing/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
