@@ -46,11 +46,11 @@
 - [Spike2D/SimpleLog](https://github.com/Spike2D/SimpleLog) - Combat and Message log parser for Ashita v4
 ### 📰 Recent Blog Posts
 
-- [The Ultimate Minecraft Server](https://christitus.com/the-ultimate-minecraft-server/)
 - [Microsoft Is Driving Users Away](https://christitus.com/microsoft-is-driving-users-away/)
 - [Replace Google Fonts With Bunny Fonts](https://christitus.com/replace-google-fonts-with-bunny-fonts/)
 - [The Teamviewer Scam](https://christitus.com/the-teamviewer-scam/)
 - [Flatseal: The Best Flatpak Addon](https://christitus.com/flatseal-required-flatpak-addon/)
+- [Im Sorry Netlify](https://christitus.com/im-sorry-netlify/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
