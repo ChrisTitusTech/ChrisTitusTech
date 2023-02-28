@@ -39,11 +39,11 @@
 - [Test Merge - Multiple Fixes](https://github.com/ChrisTitusTech/winutil/pull/317) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [hellzerg/optimizer](https://github.com/hellzerg/optimizer) - The finest Windows Optimizer
 - [djpohly/dwl](https://github.com/djpohly/dwl) - dwm for Wayland
 - [tirem/HXUI](https://github.com/tirem/HXUI) - A set of UI elements for Ashita v4
 - [XIBrixy/Custom-Addons](https://github.com/XIBrixy/Custom-Addons) - 
 - [KenshiDRK/mappy--Kenshi-Version](https://github.com/KenshiDRK/mappy--Kenshi-Version) - Mappy is an advanced mini-map that includes all the expected amenities of a modern radar tool such as tracking spawns and displaying the player&#39;s location on a map of some sorts.
-- [Spike2D/SimpleLog](https://github.com/Spike2D/SimpleLog) - Combat and Message log parser for Ashita v4
 ### 📰 Recent Blog Posts
 
 - [Microsoft Is Driving Users Away](https://christitus.com/microsoft-is-driving-users-away/)
