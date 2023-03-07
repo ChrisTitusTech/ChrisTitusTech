@@ -18,11 +18,11 @@
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - My config files for Hyprland Wayland Window Manager
+- [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
 - [ChrisTitusTech/secure-linux](https://github.com/ChrisTitusTech/secure-linux) - 
 - [ChrisTitusTech/Debian-titus](https://github.com/ChrisTitusTech/Debian-titus) - Debian customizations from Chris Titus Tech
+- [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - My config files for Hyprland Wayland Window Manager
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
-- [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - 
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - My config files for Hyprland Wayland Window Manager
@@ -39,11 +39,11 @@
 - [Test Merge - Multiple Fixes](https://github.com/ChrisTitusTech/winutil/pull/317) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [labwc/labwc](https://github.com/labwc/labwc) - A Wayland window-stacking compositor
 - [hellzerg/optimizer](https://github.com/hellzerg/optimizer) - The finest Windows Optimizer
 - [djpohly/dwl](https://github.com/djpohly/dwl) - dwm for Wayland
 - [tirem/HXUI](https://github.com/tirem/HXUI) - A set of UI elements for Ashita v4
 - [XIBrixy/Custom-Addons](https://github.com/XIBrixy/Custom-Addons) - 
-- [KenshiDRK/mappy--Kenshi-Version](https://github.com/KenshiDRK/mappy--Kenshi-Version) - Mappy is an advanced mini-map that includes all the expected amenities of a modern radar tool such as tracking spawns and displaying the player&#39;s location on a map of some sorts.
 ### 📰 Recent Blog Posts
 
 - [Microsoft Is Driving Users Away](https://christitus.com/microsoft-is-driving-users-away/)
