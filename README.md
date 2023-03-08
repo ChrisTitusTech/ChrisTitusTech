@@ -18,11 +18,11 @@
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
-- [ChrisTitusTech/secure-linux](https://github.com/ChrisTitusTech/secure-linux) - 
-- [ChrisTitusTech/Debian-titus](https://github.com/ChrisTitusTech/Debian-titus) - Debian customizations from Chris Titus Tech
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - My config files for Hyprland Wayland Window Manager
-- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
+- [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
+- [ChrisTitusTech/Debian-titus](https://github.com/ChrisTitusTech/Debian-titus) - Debian customizations from Chris Titus Tech
+- [ChrisTitusTech/secure-linux](https://github.com/ChrisTitusTech/secure-linux) - 
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - My config files for Hyprland Wayland Window Manager
@@ -32,11 +32,11 @@
 - [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
 ### 🔨 My recent Pull Requests
 
+- [Test 12 2022 - Big Foundational Update](https://github.com/ChrisTitusTech/winutil/pull/637) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Bugfixes before December](https://github.com/ChrisTitusTech/winutil/pull/465) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Thanksgiving Update](https://github.com/ChrisTitusTech/winutil/pull/378) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Update test from hotfixes](https://github.com/ChrisTitusTech/winutil/pull/349) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test](https://github.com/ChrisTitusTech/winutil/pull/318) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Test Merge - Multiple Fixes](https://github.com/ChrisTitusTech/winutil/pull/317) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [labwc/labwc](https://github.com/labwc/labwc) - A Wayland window-stacking compositor
