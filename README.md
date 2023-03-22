@@ -19,10 +19,10 @@
 ### 👷 Check out what I'm currently working on
 
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
+- [ChrisTitusTech/Debian-titus](https://github.com/ChrisTitusTech/Debian-titus) - Debian customizations from Chris Titus Tech
 - [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - My config files for Hyprland Wayland Window Manager
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
-- [ChrisTitusTech/Debian-titus](https://github.com/ChrisTitusTech/Debian-titus) - Debian customizations from Chris Titus Tech
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - My config files for Hyprland Wayland Window Manager
@@ -39,18 +39,18 @@
 - [Test](https://github.com/ChrisTitusTech/winutil/pull/318) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [R-YaTian/LTSC-Add-MicrosoftStore-2021](https://github.com/R-YaTian/LTSC-Add-MicrosoftStore-2021) - Add Windows Store for LTSC2021
+- [Gaoyifei1011/GetStoreApp](https://github.com/Gaoyifei1011/GetStoreApp) - 离线下载 Microsoft Store 商店应用
+- [kkkgo/LTSC-Add-MicrosoftStore](https://github.com/kkkgo/LTSC-Add-MicrosoftStore) - Add Windows Store for LTSC
 - [labwc/labwc](https://github.com/labwc/labwc) - A Wayland window-stacking compositor
 - [hellzerg/optimizer](https://github.com/hellzerg/optimizer) - The finest Windows Optimizer
-- [djpohly/dwl](https://github.com/djpohly/dwl) - dwm for Wayland
-- [tirem/HXUI](https://github.com/tirem/HXUI) - A set of UI elements for Ashita v4
-- [XIBrixy/Custom-Addons](https://github.com/XIBrixy/Custom-Addons) - 
 ### 📰 Recent Blog Posts
 
+- [Changes](https://christitus.com/changes/)
 - [Microsoft Is Driving Users Away](https://christitus.com/microsoft-is-driving-users-away/)
 - [Replace Google Fonts With Bunny Fonts](https://christitus.com/replace-google-fonts-with-bunny-fonts/)
 - [The Teamviewer Scam](https://christitus.com/the-teamviewer-scam/)
 - [Flatseal: The Best Flatpak Addon](https://christitus.com/flatseal-required-flatpak-addon/)
-- [Im Sorry Netlify](https://christitus.com/im-sorry-netlify/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
