@@ -39,11 +39,11 @@
 - [Test](https://github.com/ChrisTitusTech/winutil/pull/318) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [unknownskl/xbox-xcloud-client](https://github.com/unknownskl/xbox-xcloud-client) - Xbox-xCloud-Client is an open-source client for Xbox home streaming made in Javascript and Typescript.
 - [R-YaTian/LTSC-Add-MicrosoftStore-2021](https://github.com/R-YaTian/LTSC-Add-MicrosoftStore-2021) - Add Windows Store for LTSC2021
 - [Gaoyifei1011/GetStoreApp](https://github.com/Gaoyifei1011/GetStoreApp) - 离线下载 Microsoft Store 商店应用
 - [kkkgo/LTSC-Add-MicrosoftStore](https://github.com/kkkgo/LTSC-Add-MicrosoftStore) - Add Windows Store for LTSC
 - [labwc/labwc](https://github.com/labwc/labwc) - A Wayland window-stacking compositor
-- [hellzerg/optimizer](https://github.com/hellzerg/optimizer) - The finest Windows Optimizer
 ### 📰 Recent Blog Posts
 
 - [Changes](https://christitus.com/changes/)
