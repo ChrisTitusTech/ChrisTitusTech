@@ -39,11 +39,11 @@
 - [Test](https://github.com/ChrisTitusTech/winutil/pull/318) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [Lailloken/Lailloken-UI](https://github.com/Lailloken/Lailloken-UI) - Path of Exile UI and QoL extension/addon. Emphasizes ease of use, minimalist design, and seamless integration.
 - [Alia5/GlosSI](https://github.com/Alia5/GlosSI) - Tool for using Steam-Input controller rebinding at a system level alongside a global overlay
 - [mtrojnar/osslsigncode](https://github.com/mtrojnar/osslsigncode) - OpenSSL based Authenticode signing for PE/MSI/Java CAB files
 - [dahall/TaskScheduler](https://github.com/dahall/TaskScheduler) - Provides a .NET wrapper for the Windows Task Scheduler. It aggregates the multiple versions, provides an editor and allows for localization.
 - [unknownskl/greenlight](https://github.com/unknownskl/greenlight) - Xbox-xCloud-Client is an open-source client for Xbox home streaming made in Javascript and Typescript.
-- [R-YaTian/LTSC-Add-MicrosoftStore-2021](https://github.com/R-YaTian/LTSC-Add-MicrosoftStore-2021) - Add Windows Store for LTSC2021
 ### 📰 Recent Blog Posts
 
 - [Tiny11 Has Problems](https://christitus.com/tiny11-has-problems/)
