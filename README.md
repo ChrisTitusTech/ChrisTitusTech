@@ -39,18 +39,18 @@
 - [Test](https://github.com/ChrisTitusTech/winutil/pull/318) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [fat-tire/resolve](https://github.com/fat-tire/resolve) - Container scripts to build and run DaVinci Resolve [Studio] for Linux using Docker or Podman
 - [nuttylmao/NOOBS-CMDR](https://github.com/nuttylmao/NOOBS-CMDR) - A tool to create macros for OBS
 - [durasj/webamp-desktop](https://github.com/durasj/webamp-desktop) - Cross-platform (Win, Mac, Linux) desktop version of Winamp 2.9 reimplementation
 - [Lailloken/Lailloken-UI](https://github.com/Lailloken/Lailloken-UI) - Path of Exile UI and QoL extension/addon. Emphasizes ease of use, minimalist design, and seamless integration.
 - [Alia5/GlosSI](https://github.com/Alia5/GlosSI) - Tool for using Steam-Input controller rebinding at a system level alongside a global overlay
-- [mtrojnar/osslsigncode](https://github.com/mtrojnar/osslsigncode) - OpenSSL based Authenticode signing for PE/MSI/Java CAB files
 ### 📰 Recent Blog Posts
 
+- [TitusPi 3.0](https://christitus.com/tituspi-2023/)
+- [Recovering Deleted Windows Boot Partition](https://christitus.com/recovering-deleted-windows-boot-partition/)
 - [Tiny11 Has Problems](https://christitus.com/tiny11-has-problems/)
 - [Changes](https://christitus.com/changes/)
 - [Microsoft Is Driving Users Away](https://christitus.com/microsoft-is-driving-users-away/)
-- [Replace Google Fonts With Bunny Fonts](https://christitus.com/replace-google-fonts-with-bunny-fonts/)
-- [The Teamviewer Scam](https://christitus.com/the-teamviewer-scam/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
