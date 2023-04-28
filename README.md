@@ -46,11 +46,11 @@
 - [Alia5/GlosSI](https://github.com/Alia5/GlosSI) - Tool for using Steam-Input controller rebinding at a system level alongside a global overlay
 ### 📰 Recent Blog Posts
 
+- [AtlasOS Review](https://christitus.com/atlasos-review/)
 - [TitusPi 3.0](https://christitus.com/tituspi-2023/)
 - [Recovering Deleted Windows Boot Partition](https://christitus.com/recovering-deleted-windows-boot-partition/)
 - [Tiny11 Has Problems](https://christitus.com/tiny11-has-problems/)
 - [Changes](https://christitus.com/changes/)
-- [Microsoft Is Driving Users Away](https://christitus.com/microsoft-is-driving-users-away/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
