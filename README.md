@@ -39,11 +39,11 @@
 - [Test](https://github.com/ChrisTitusTech/winutil/pull/318) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [qtkite/defender-control](https://github.com/qtkite/defender-control) - An open-source windows defender manager. Now you can disable windows defender permanently. 
 - [esjeon/krohnkite](https://github.com/esjeon/krohnkite) - A dynamic tiling extension for KWin
 - [fat-tire/resolve](https://github.com/fat-tire/resolve) - Container scripts to build and run DaVinci Resolve [Studio] for Linux using Docker or Podman
 - [nuttylmao/NOOBS-CMDR](https://github.com/nuttylmao/NOOBS-CMDR) - A tool to create macros for OBS
 - [durasj/webamp-desktop](https://github.com/durasj/webamp-desktop) - Cross-platform (Win, Mac, Linux) desktop version of Winamp 2.9 reimplementation
-- [Lailloken/Lailloken-UI](https://github.com/Lailloken/Lailloken-UI) - Path of Exile UI and QoL extension/addon. Emphasizes ease of use, minimalist design, and seamless integration.
 ### 📰 Recent Blog Posts
 
 - [AtlasOS Review](https://christitus.com/atlasos-review/)
