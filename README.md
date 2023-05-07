@@ -46,11 +46,11 @@
 - [durasj/webamp-desktop](https://github.com/durasj/webamp-desktop) - Cross-platform (Win, Mac, Linux) desktop version of Winamp 2.9 reimplementation
 ### 📰 Recent Blog Posts
 
+- [AME Wizard - The Future of Debloat?](https://christitus.com/ame-wizard-the-future-of-debloat/)
 - [AtlasOS Review](https://christitus.com/atlasos-review/)
 - [TitusPi 3.0](https://christitus.com/tituspi-2023/)
 - [Recovering Deleted Windows Boot Partition](https://christitus.com/recovering-deleted-windows-boot-partition/)
 - [Tiny11 Has Problems](https://christitus.com/tiny11-has-problems/)
-- [Changes](https://christitus.com/changes/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
