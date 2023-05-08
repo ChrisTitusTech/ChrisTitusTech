@@ -39,11 +39,11 @@
 - [Test](https://github.com/ChrisTitusTech/winutil/pull/318) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [an-anime-team/an-anime-game-launcher](https://github.com/an-anime-team/an-anime-game-launcher) - An Anime Game launcher for Linux with automatic patching and telemetry disabling. Our discord server: https://discord.gg/ck37X6UWBp
 - [qtkite/defender-control](https://github.com/qtkite/defender-control) - An open-source windows defender manager. Now you can disable windows defender permanently. 
 - [esjeon/krohnkite](https://github.com/esjeon/krohnkite) - A dynamic tiling extension for KWin
 - [fat-tire/resolve](https://github.com/fat-tire/resolve) - Container scripts to build and run DaVinci Resolve [Studio] for Linux using Docker or Podman
 - [nuttylmao/NOOBS-CMDR](https://github.com/nuttylmao/NOOBS-CMDR) - A tool to create macros for OBS
-- [durasj/webamp-desktop](https://github.com/durasj/webamp-desktop) - Cross-platform (Win, Mac, Linux) desktop version of Winamp 2.9 reimplementation
 ### 📰 Recent Blog Posts
 
 - [AME Wizard - The Future of Debloat?](https://christitus.com/ame-wizard-the-future-of-debloat/)
