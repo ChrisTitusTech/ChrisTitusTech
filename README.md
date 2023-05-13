@@ -32,11 +32,11 @@
 - [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
 ### 🔨 My recent Pull Requests
 
+- [bring main to test before next sprint](https://github.com/ChrisTitusTech/winutil/pull/747) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test 05 2023 - Typos and Minor Bug Fixes](https://github.com/ChrisTitusTech/winutil/pull/736) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test 03 2023](https://github.com/ChrisTitusTech/winutil/pull/726) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test 12 2022 - Big Foundational Update](https://github.com/ChrisTitusTech/winutil/pull/637) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Bugfixes before December](https://github.com/ChrisTitusTech/winutil/pull/465) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Thanksgiving Update](https://github.com/ChrisTitusTech/winutil/pull/378) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [snuffyDev/Beatbump](https://github.com/snuffyDev/Beatbump) - Alternative YouTube Music frontend built with Svelte/SvelteKit 🎧
@@ -46,11 +46,11 @@
 - [esjeon/krohnkite](https://github.com/esjeon/krohnkite) - A dynamic tiling extension for KWin
 ### 📰 Recent Blog Posts
 
+- [You Will Watch Ads](https://christitus.com/you-will-watch-ads/)
 - [AME Wizard - The Future of Debloat?](https://christitus.com/ame-wizard-the-future-of-debloat/)
 - [AtlasOS Review](https://christitus.com/atlasos-review/)
 - [TitusPi 3.0](https://christitus.com/tituspi-2023/)
 - [Recovering Deleted Windows Boot Partition](https://christitus.com/recovering-deleted-windows-boot-partition/)
-- [Tiny11 Has Problems](https://christitus.com/tiny11-has-problems/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
