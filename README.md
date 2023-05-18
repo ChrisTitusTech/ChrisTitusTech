@@ -18,10 +18,10 @@
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - My config files for Hyprland Wayland Window Manager
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/TitusPi](https://github.com/ChrisTitusTech/TitusPi) - Custom CTT Pi based linux distro
-- [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - My config files for Hyprland Wayland Window Manager
 - [ChrisTitusTech/Debian-titus](https://github.com/ChrisTitusTech/Debian-titus) - Debian customizations from Chris Titus Tech
 ### 🌱 My latest projects
 
@@ -46,11 +46,11 @@
 - [esjeon/krohnkite](https://github.com/esjeon/krohnkite) - A dynamic tiling extension for KWin
 ### 📰 Recent Blog Posts
 
+- [The TRUTH about Registry Cleaners](https://christitus.com/registry-cleaner/)
 - [You Will Watch Ads](https://christitus.com/you-will-watch-ads/)
 - [AME Wizard - The Future of Debloat?](https://christitus.com/ame-wizard-the-future-of-debloat/)
 - [AtlasOS Review](https://christitus.com/atlasos-review/)
 - [TitusPi 3.0](https://christitus.com/tituspi-2023/)
-- [Recovering Deleted Windows Boot Partition](https://christitus.com/recovering-deleted-windows-boot-partition/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
