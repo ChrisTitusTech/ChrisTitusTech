@@ -18,8 +18,8 @@
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/titusnvim](https://github.com/ChrisTitusTech/titusnvim) - 
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
+- [ChrisTitusTech/titusnvim](https://github.com/ChrisTitusTech/titusnvim) - 
 - [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - My config files for Hyprland Wayland Window Manager
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/TitusPi](https://github.com/ChrisTitusTech/TitusPi) - Custom CTT Pi based linux distro
@@ -46,11 +46,11 @@
 - [esjeon/krohnkite](https://github.com/esjeon/krohnkite) - A dynamic tiling extension for KWin
 ### 📰 Recent Blog Posts
 
+- [Fitness Transformation](https://christitus.com/fitness-transformation/)
 - [Windows Utility Update](https://christitus.com/winutil-may-23-update/)
 - [The TRUTH about Registry Cleaners](https://christitus.com/registry-cleaner/)
 - [You Will Watch Ads](https://christitus.com/you-will-watch-ads/)
 - [AME Wizard - The Future of Debloat?](https://christitus.com/ame-wizard-the-future-of-debloat/)
-- [AtlasOS Review](https://christitus.com/atlasos-review/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
