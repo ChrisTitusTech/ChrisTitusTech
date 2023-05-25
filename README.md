@@ -39,18 +39,18 @@
 - [bring main to test before next sprint](https://github.com/ChrisTitusTech/winutil/pull/747) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [atomicptr/hoyo-daily-logins-helper](https://github.com/atomicptr/hoyo-daily-logins-helper) - Get hoyo daily login rewards automatically!
 - [snuffyDev/Beatbump](https://github.com/snuffyDev/Beatbump) - Alternative YouTube Music frontend built with Svelte/SvelteKit 🎧
 - [sigma67/ytmusicapi](https://github.com/sigma67/ytmusicapi) - Unofficial API for YouTube Music
 - [an-anime-team/an-anime-game-launcher](https://github.com/an-anime-team/an-anime-game-launcher) - An Anime Game launcher for Linux with automatic patching and telemetry disabling
 - [qtkite/defender-control](https://github.com/qtkite/defender-control) - An open-source windows defender manager. Now you can disable windows defender permanently. 
-- [esjeon/krohnkite](https://github.com/esjeon/krohnkite) - A dynamic tiling extension for KWin
 ### 📰 Recent Blog Posts
 
+- [The Perfect System](https://christitus.com/the-perfect-system/)
 - [Fitness Transformation](https://christitus.com/fitness-transformation/)
 - [Windows Utility Update](https://christitus.com/winutil-may-23-update/)
 - [The TRUTH about Registry Cleaners](https://christitus.com/registry-cleaner/)
 - [You Will Watch Ads](https://christitus.com/you-will-watch-ads/)
-- [AME Wizard - The Future of Debloat?](https://christitus.com/ame-wizard-the-future-of-debloat/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
