@@ -18,18 +18,18 @@
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - 
+- [ChrisTitusTech/Debian-titus](https://github.com/ChrisTitusTech/Debian-titus) - Debian customizations from Chris Titus Tech
+- [ChrisTitusTech/nixos-titus](https://github.com/ChrisTitusTech/nixos-titus) - 
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - 
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
-- [ChrisTitusTech/ntlite-configs](https://github.com/ChrisTitusTech/ntlite-configs) - NTLite XML Configuration Files
-- [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - My config files for Hyprland Wayland Window Manager
+- [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - 
 ### 🌱 My latest projects
 
+- [ChrisTitusTech/nixos-titus](https://github.com/ChrisTitusTech/nixos-titus) - 
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - 
 - [ChrisTitusTech/titusnvim](https://github.com/ChrisTitusTech/titusnvim) - 
 - [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - My config files for Hyprland Wayland Window Manager
 - [ChrisTitusTech/block-razer](https://github.com/ChrisTitusTech/block-razer) - This script blocks ALL razer software installs. Their hardware is OK, but I HATE their software. 
-- [ChrisTitusTech/ubuntu-titus](https://github.com/ChrisTitusTech/ubuntu-titus) - 
 ### 🔨 My recent Pull Requests
 
 - [Fix power profile (#766)](https://github.com/ChrisTitusTech/winutil/pull/767) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
