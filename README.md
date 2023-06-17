@@ -18,8 +18,8 @@
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - 
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
+- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - 
 - [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
 - [ChrisTitusTech/Debian-titus](https://github.com/ChrisTitusTech/Debian-titus) - Debian customizations from Chris Titus Tech
 - [ChrisTitusTech/nixos-titus](https://github.com/ChrisTitusTech/nixos-titus) - 
@@ -46,11 +46,11 @@
 - [sigma67/ytmusicapi](https://github.com/sigma67/ytmusicapi) - Unofficial API for YouTube Music
 ### 📰 Recent Blog Posts
 
+- [NixOS Explained](https://christitus.com/nixos-explained/)
 - [The Perfect System](https://christitus.com/the-perfect-system/)
 - [Fitness Transformation](https://christitus.com/fitness-transformation/)
 - [Windows Utility Update](https://christitus.com/winutil-may-23-update/)
 - [The TRUTH about Registry Cleaners](https://christitus.com/registry-cleaner/)
-- [You Will Watch Ads](https://christitus.com/you-will-watch-ads/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
