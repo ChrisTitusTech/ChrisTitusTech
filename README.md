@@ -18,16 +18,16 @@
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 - [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
 - [ChrisTitusTech/titus-conky](https://github.com/ChrisTitusTech/titus-conky) - My conky setup in KDE
-- [ChrisTitusTech/myvim](https://github.com/ChrisTitusTech/myvim) - My VIM config - WARNING! I&#39;m a beginner in the vim world...
 - [ChrisTitusTech/Debian-titus](https://github.com/ChrisTitusTech/Debian-titus) - Debian customizations from Chris Titus Tech
-- [ChrisTitusTech/Linux-MacOS-GNOME](https://github.com/ChrisTitusTech/Linux-MacOS-GNOME) - 
+- [ChrisTitusTech/myvim](https://github.com/ChrisTitusTech/myvim) - My VIM config - WARNING! I&#39;m a beginner in the vim world...
 ### 🌱 My latest projects
 
-- [ChrisTitusTech/nixos-titus](https://github.com/ChrisTitusTech/nixos-titus) - 
-- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - 
-- [ChrisTitusTech/astro-nvim](https://github.com/ChrisTitusTech/astro-nvim) - 
+- [ChrisTitusTech/nixos-titus](https://github.com/ChrisTitusTech/nixos-titus) - Titus&#39;s personal NIX OS Configuration
+- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
+- [ChrisTitusTech/astro-nvim](https://github.com/ChrisTitusTech/astro-nvim) - My Custom AstraNvim files - https://github.com/AstroNvim/AstroNvim
 - [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - My config files for Hyprland Wayland Window Manager
 - [ChrisTitusTech/block-razer](https://github.com/ChrisTitusTech/block-razer) - This script blocks ALL razer software installs. Their hardware is OK, but I HATE their software. 
 ### 🔨 My recent Pull Requests
