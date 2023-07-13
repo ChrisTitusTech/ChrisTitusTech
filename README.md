@@ -39,11 +39,11 @@
 - [bring main to test before next sprint](https://github.com/ChrisTitusTech/winutil/pull/747) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [Rem0o/FanControl.Releases](https://github.com/Rem0o/FanControl.Releases) - This is the release repository for Fan Control, a highly customizable fan controlling software for Windows.
 - [lambdalisue/suda.vim](https://github.com/lambdalisue/suda.vim) - 🥪 An alternative sudo.vim for Vim and Neovim, limited support sudo in Windows
 - [PietJanHein/dwm-setup](https://github.com/PietJanHein/dwm-setup) - basic install of dwm with a few patches and a few extra files
 - [atomicptr/hoyo-daily-logins-helper](https://github.com/atomicptr/hoyo-daily-logins-helper) - Get hoyo daily login rewards automatically!
 - [snuffyDev/Beatbump](https://github.com/snuffyDev/Beatbump) - Alternative YouTube Music frontend built with Svelte/SvelteKit 🎧
-- [sigma67/ytmusicapi](https://github.com/sigma67/ytmusicapi) - Unofficial API for YouTube Music
 ### 📰 Recent Blog Posts
 
 - [NixOS Explained](https://christitus.com/nixos-explained/)
