@@ -18,11 +18,11 @@
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
+- [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/titus-conky](https://github.com/ChrisTitusTech/titus-conky) - My conky setup in KDE
-- [ChrisTitusTech/Debian-titus](https://github.com/ChrisTitusTech/Debian-titus) - Debian customizations from Chris Titus Tech
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/nixos-titus](https://github.com/ChrisTitusTech/nixos-titus) - Titus&#39;s personal NIX OS Configuration
@@ -32,11 +32,11 @@
 - [ChrisTitusTech/block-razer](https://github.com/ChrisTitusTech/block-razer) - This script blocks ALL razer software installs. Their hardware is OK, but I HATE their software. 
 ### 🔨 My recent Pull Requests
 
+- [07 15 2023 testing](https://github.com/ChrisTitusTech/winutil/pull/883) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [05 16 23 testing](https://github.com/ChrisTitusTech/winutil/pull/881) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Fix power profile (#766)](https://github.com/ChrisTitusTech/winutil/pull/767) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Fix power profile](https://github.com/ChrisTitusTech/winutil/pull/766) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test 06 2023 - The Fix for service issues](https://github.com/ChrisTitusTech/winutil/pull/764) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Fix Wifi issue](https://github.com/ChrisTitusTech/winutil/pull/754) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [Rem0o/FanControl.Releases](https://github.com/Rem0o/FanControl.Releases) - This is the release repository for Fan Control, a highly customizable fan controlling software for Windows.
