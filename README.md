@@ -19,9 +19,9 @@
 ### 👷 Check out what I'm currently working on
 
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/powershell-scripts](https://github.com/ChrisTitusTech/powershell-scripts) - A collection of powershell scripts
 - [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 ### 🌱 My latest projects
 
@@ -32,11 +32,11 @@
 - [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - My config files for Hyprland Wayland Window Manager
 ### 🔨 My recent Pull Requests
 
+- [Update release.yaml](https://github.com/ChrisTitusTech/winutil/pull/897) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [07 16 2023 testing](https://github.com/ChrisTitusTech/winutil/pull/895) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [07 15 2023 testing](https://github.com/ChrisTitusTech/winutil/pull/883) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [05 16 23 testing](https://github.com/ChrisTitusTech/winutil/pull/881) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Fix power profile (#766)](https://github.com/ChrisTitusTech/winutil/pull/767) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Fix power profile](https://github.com/ChrisTitusTech/winutil/pull/766) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Test 06 2023 - The Fix for service issues](https://github.com/ChrisTitusTech/winutil/pull/764) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [Rem0o/FanControl.Releases](https://github.com/Rem0o/FanControl.Releases) - This is the release repository for Fan Control, a highly customizable fan controlling software for Windows.
