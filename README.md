@@ -18,8 +18,8 @@
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
+- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/powershell-scripts](https://github.com/ChrisTitusTech/powershell-scripts) - A collection of powershell scripts
 - [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
@@ -32,11 +32,11 @@
 - [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - My config files for Hyprland Wayland Window Manager
 ### 🔨 My recent Pull Requests
 
+- [Test 2023 7 20](https://github.com/ChrisTitusTech/winutil/pull/917) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Update release.yaml](https://github.com/ChrisTitusTech/winutil/pull/897) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [07 16 2023 testing](https://github.com/ChrisTitusTech/winutil/pull/895) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [07 15 2023 testing](https://github.com/ChrisTitusTech/winutil/pull/883) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [05 16 23 testing](https://github.com/ChrisTitusTech/winutil/pull/881) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Fix power profile (#766)](https://github.com/ChrisTitusTech/winutil/pull/767) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [LukeSmithxyz/voidrice](https://github.com/LukeSmithxyz/voidrice) - My dotfiles (deployed by LARBS)
