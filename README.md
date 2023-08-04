@@ -18,11 +18,11 @@
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/ArchTitus](https://github.com/ChrisTitusTech/ArchTitus) - Automated Arch Linux Install
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
-- [ChrisTitusTech/Debian-titus](https://github.com/ChrisTitusTech/Debian-titus) - Debian customizations from Chris Titus Tech
+- [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [ChrisTitusTech/powershell-scripts](https://github.com/ChrisTitusTech/powershell-scripts) - A collection of powershell scripts
-- [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
+- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/powershell-scripts](https://github.com/ChrisTitusTech/powershell-scripts) - A collection of powershell scripts
@@ -32,11 +32,11 @@
 - [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - My config files for Hyprland Wayland Window Manager
 ### 🔨 My recent Pull Requests
 
+- [Test 2023 07 27](https://github.com/ChrisTitusTech/winutil/pull/934) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [Test 2023 07 27](https://github.com/ChrisTitusTech/winutil/pull/933) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test 2023 7 20](https://github.com/ChrisTitusTech/winutil/pull/917) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Update release.yaml](https://github.com/ChrisTitusTech/winutil/pull/897) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [07 16 2023 testing](https://github.com/ChrisTitusTech/winutil/pull/895) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [07 15 2023 testing](https://github.com/ChrisTitusTech/winutil/pull/883) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [05 16 23 testing](https://github.com/ChrisTitusTech/winutil/pull/881) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [LukeSmithxyz/voidrice](https://github.com/LukeSmithxyz/voidrice) - My dotfiles (deployed by LARBS)
