@@ -18,11 +18,11 @@
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/ArchTitus](https://github.com/ChrisTitusTech/ArchTitus) - Automated Arch Linux Install
+- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
+- [ChrisTitusTech/ArchTitus](https://github.com/ChrisTitusTech/ArchTitus) - Automated Arch Linux Install
 - [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/powershell-scripts](https://github.com/ChrisTitusTech/powershell-scripts) - A collection of powershell scripts
@@ -39,18 +39,18 @@
 - [07 16 2023 testing](https://github.com/ChrisTitusTech/winutil/pull/895) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [Pugmatt/BedrockConnect](https://github.com/Pugmatt/BedrockConnect) - Join any Minecraft Bedrock Edition server IP on Xbox One, Nintendo Switch, and PS4/PS5
+- [Matishzz/AMD-Install-Drivers](https://github.com/Matishzz/AMD-Install-Drivers) - Guide to install AMD drivers in a clean, safe and fast way.
 - [LukeSmithxyz/voidrice](https://github.com/LukeSmithxyz/voidrice) - My dotfiles (deployed by LARBS)
 - [MattyGWS/HorizonXI-Linux-Installation](https://github.com/MattyGWS/HorizonXI-Linux-Installation) - A step by step guide to installing HorizonXI on linux 
 - [Rem0o/FanControl.Releases](https://github.com/Rem0o/FanControl.Releases) - This is the release repository for Fan Control, a highly customizable fan controlling software for Windows.
-- [lambdalisue/suda.vim](https://github.com/lambdalisue/suda.vim) - 🥪 An alternative sudo.vim for Vim and Neovim, limited support sudo in Windows
-- [PietJanHein/dwm-setup](https://github.com/PietJanHein/dwm-setup) - basic install of dwm with a few patches and a few extra files
 ### 📰 Recent Blog Posts
 
+- [Windows 11 Perfect Install](https://christitus.com/windows-11-perfect-install/)
 - [NixOS Explained](https://christitus.com/nixos-explained/)
 - [The Perfect System](https://christitus.com/the-perfect-system/)
 - [Fitness Transformation](https://christitus.com/fitness-transformation/)
 - [Windows Utility Update](https://christitus.com/winutil-may-23-update/)
-- [The TRUTH about Registry Cleaners](https://christitus.com/registry-cleaner/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
