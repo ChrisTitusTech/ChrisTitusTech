@@ -18,11 +18,11 @@
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 - [ChrisTitusTech/ArchTitus](https://github.com/ChrisTitusTech/ArchTitus) - Automated Arch Linux Install
 - [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/powershell-scripts](https://github.com/ChrisTitusTech/powershell-scripts) - A collection of powershell scripts
@@ -32,18 +32,18 @@
 - [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - My config files for Hyprland Wayland Window Manager
 ### 🔨 My recent Pull Requests
 
+- [winget fix](https://github.com/ChrisTitusTech/winutil/pull/952) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [Test 2023 08 02](https://github.com/ChrisTitusTech/winutil/pull/950) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test 2023 07 27](https://github.com/ChrisTitusTech/winutil/pull/934) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test 2023 07 27](https://github.com/ChrisTitusTech/winutil/pull/933) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test 2023 7 20](https://github.com/ChrisTitusTech/winutil/pull/917) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Update release.yaml](https://github.com/ChrisTitusTech/winutil/pull/897) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [07 16 2023 testing](https://github.com/ChrisTitusTech/winutil/pull/895) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [TCNOco/TcNo-Acc-Switcher](https://github.com/TCNOco/TcNo-Acc-Switcher) - A Super-fast account switcher for Steam, Battle.net, Epic Games, Origin, Riot, Ubisoft and many others!
 - [Pugmatt/BedrockConnect](https://github.com/Pugmatt/BedrockConnect) - Join any Minecraft Bedrock Edition server IP on Xbox One, Nintendo Switch, and PS4/PS5
 - [Matishzz/AMD-Install-Drivers](https://github.com/Matishzz/AMD-Install-Drivers) - Guide to install AMD drivers in a clean, safe and fast way.
 - [LukeSmithxyz/voidrice](https://github.com/LukeSmithxyz/voidrice) - My dotfiles (deployed by LARBS)
 - [MattyGWS/HorizonXI-Linux-Installation](https://github.com/MattyGWS/HorizonXI-Linux-Installation) - A step by step guide to installing HorizonXI on linux 
-- [Rem0o/FanControl.Releases](https://github.com/Rem0o/FanControl.Releases) - This is the release repository for Fan Control, a highly customizable fan controlling software for Windows.
 ### 📰 Recent Blog Posts
 
 - [Windows 11 Perfect Install](https://christitus.com/windows-11-perfect-install/)
