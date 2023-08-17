@@ -46,11 +46,11 @@
 - [MattyGWS/HorizonXI-Linux-Installation](https://github.com/MattyGWS/HorizonXI-Linux-Installation) - A step by step guide to installing HorizonXI on linux 
 ### 📰 Recent Blog Posts
 
+- [Linus Tech Tips Problems](https://christitus.com/ltt-bad/)
 - [Windows 11 Perfect Install](https://christitus.com/windows-11-perfect-install/)
 - [NixOS Explained](https://christitus.com/nixos-explained/)
 - [The Perfect System](https://christitus.com/the-perfect-system/)
 - [Fitness Transformation](https://christitus.com/fitness-transformation/)
-- [Windows Utility Update](https://christitus.com/winutil-may-23-update/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
