@@ -39,11 +39,11 @@
 - [Test 2023 7 20](https://github.com/ChrisTitusTech/winutil/pull/917) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [bakkeby/dusk](https://github.com/bakkeby/dusk) - Just another fork of dwm
 - [TCNOco/TcNo-Acc-Switcher](https://github.com/TCNOco/TcNo-Acc-Switcher) - A Super-fast account switcher for Steam, Battle.net, Epic Games, Origin, Riot, Ubisoft and many others!
 - [Pugmatt/BedrockConnect](https://github.com/Pugmatt/BedrockConnect) - Join any Minecraft Bedrock Edition server IP on Xbox One, Nintendo Switch, and PS4/PS5
 - [Matishzz/AMD-Install-Drivers](https://github.com/Matishzz/AMD-Install-Drivers) - Guide to install AMD drivers in a clean, safe and fast way.
 - [LukeSmithxyz/voidrice](https://github.com/LukeSmithxyz/voidrice) - My dotfiles (deployed by LARBS)
-- [MattyGWS/HorizonXI-Linux-Installation](https://github.com/MattyGWS/HorizonXI-Linux-Installation) - A step by step guide to installing HorizonXI on linux 
 ### 📰 Recent Blog Posts
 
 - [Linus Tech Tips Problems](https://christitus.com/ltt-bad/)
