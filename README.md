@@ -18,11 +18,11 @@
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
-- [ChrisTitusTech/ArchTitus](https://github.com/ChrisTitusTech/ArchTitus) - Automated Arch Linux Install
 - [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
 - [ChrisTitusTech/Windower](https://github.com/ChrisTitusTech/Windower) - FFXI Configs
-- [ChrisTitusTech/Top-5-Bootloader-Themes](https://github.com/ChrisTitusTech/Top-5-Bootloader-Themes) - Bash script to automatically change GRUB to listed themes
+- [ChrisTitusTech/ArchTitus](https://github.com/ChrisTitusTech/ArchTitus) - Automated Arch Linux Install
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/Windower](https://github.com/ChrisTitusTech/Windower) - FFXI Configs
