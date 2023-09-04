@@ -39,11 +39,11 @@
 - [Test 2023 7 20](https://github.com/ChrisTitusTech/winutil/pull/917) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [nvim-lua/kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim) - A launch point for your personal nvim configuration
 - [stefonarch/LXQt-Wayland-files](https://github.com/stefonarch/LXQt-Wayland-files) - LXQt implementation in Wayland compositors
 - [bakkeby/dusk](https://github.com/bakkeby/dusk) - Just another fork of dwm
 - [TCNOco/TcNo-Acc-Switcher](https://github.com/TCNOco/TcNo-Acc-Switcher) - A Super-fast account switcher for Steam, Battle.net, Epic Games, Origin, Riot, Ubisoft and many others!
 - [Pugmatt/BedrockConnect](https://github.com/Pugmatt/BedrockConnect) - Join any Minecraft Bedrock Edition server IP on Xbox One, Nintendo Switch, and PS4/PS5
-- [Matishzz/AMD-Install-Drivers](https://github.com/Matishzz/AMD-Install-Drivers) - Guide to install AMD drivers in a clean, safe and fast way.
 ### 📰 Recent Blog Posts
 
 - [Install Windows the Arch Linux Way](https://christitus.com/install-windows-the-arch-linux-way/)
