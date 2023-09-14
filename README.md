@@ -18,11 +18,11 @@
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/Windower](https://github.com/ChrisTitusTech/Windower) - FFXI Configs
+- [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
-- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
+- [ChrisTitusTech/Windower](https://github.com/ChrisTitusTech/Windower) - FFXI Configs
 - [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - My Neovim configuration
-- [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/Windower](https://github.com/ChrisTitusTech/Windower) - FFXI Configs
@@ -32,11 +32,11 @@
 - [ChrisTitusTech/astro-nvim](https://github.com/ChrisTitusTech/astro-nvim) - My Custom AstraNvim files - https://github.com/AstroNvim/AstroNvim
 ### 🔨 My recent Pull Requests
 
+- [2023-09-13 September Bug fixes and Feature Additions](https://github.com/ChrisTitusTech/winutil/pull/1024) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test 2023 08 09](https://github.com/ChrisTitusTech/winutil/pull/1004) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [winget fix](https://github.com/ChrisTitusTech/winutil/pull/952) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test 2023 08 02](https://github.com/ChrisTitusTech/winutil/pull/950) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test 2023 07 27](https://github.com/ChrisTitusTech/winutil/pull/934) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Test 2023 07 27](https://github.com/ChrisTitusTech/winutil/pull/933) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) - A smarter cd command. Supports all major shells.
