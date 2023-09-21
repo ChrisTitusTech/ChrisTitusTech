@@ -18,8 +18,8 @@
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - My Neovim configuration
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
+- [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - My Neovim configuration
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
 - [ChrisTitusTech/Windower](https://github.com/ChrisTitusTech/Windower) - FFXI Configs
@@ -46,11 +46,11 @@
 - [postfen/clipboard-image.nvim](https://github.com/postfen/clipboard-image.nvim) - Neovim Lua plugin to paste image from clipboard.
 ### 📰 Recent Blog Posts
 
+- [Github Mistakes and What I Wish I Knew Sooner](https://christitus.com/do-not-make-these-github-mistakes/)
 - [Saving a Business Thousands a Year in Telecom](https://christitus.com/saving-a-business-5000-a-year-in-telecom/)
 - [Install Windows the Arch Linux Way](https://christitus.com/install-windows-the-arch-linux-way/)
 - [Linus Tech Tips Problems](https://christitus.com/ltt-bad/)
 - [Windows 11 Perfect Install](https://christitus.com/windows-11-perfect-install/)
-- [NixOS Explained](https://christitus.com/nixos-explained/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
