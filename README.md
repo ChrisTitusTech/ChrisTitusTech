@@ -25,11 +25,11 @@
 - [ChrisTitusTech/Windower](https://github.com/ChrisTitusTech/Windower) - FFXI Configs
 ### 🌱 My latest projects
 
+- [ChrisTitusTech/uup-download](https://github.com/ChrisTitusTech/uup-download) - 
 - [ChrisTitusTech/Windower](https://github.com/ChrisTitusTech/Windower) - FFXI Configs
 - [ChrisTitusTech/powershell-scripts](https://github.com/ChrisTitusTech/powershell-scripts) - A collection of powershell scripts
 - [ChrisTitusTech/nixos-titus](https://github.com/ChrisTitusTech/nixos-titus) - Titus&#39;s personal NIX OS Configuration
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
-- [ChrisTitusTech/astro-nvim](https://github.com/ChrisTitusTech/astro-nvim) - My Custom AstraNvim files - https://github.com/AstroNvim/AstroNvim
 ### 🔨 My recent Pull Requests
 
 - [2023-09-13 September Bug fixes and Feature Additions](https://github.com/ChrisTitusTech/winutil/pull/1024) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
