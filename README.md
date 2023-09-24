@@ -18,11 +18,11 @@
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/ArchTitus](https://github.com/ChrisTitusTech/ArchTitus) - Automated Arch Linux Install
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - My Neovim configuration
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
-- [ChrisTitusTech/Windower](https://github.com/ChrisTitusTech/Windower) - FFXI Configs
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/uup-download](https://github.com/ChrisTitusTech/uup-download) - 
@@ -32,11 +32,11 @@
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 ### 🔨 My recent Pull Requests
 
+- [2023 09 13 test](https://github.com/ChrisTitusTech/winutil/pull/1051) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [2023-09-13 September Bug fixes and Feature Additions](https://github.com/ChrisTitusTech/winutil/pull/1024) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test 2023 08 09](https://github.com/ChrisTitusTech/winutil/pull/1004) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [winget fix](https://github.com/ChrisTitusTech/winutil/pull/952) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test 2023 08 02](https://github.com/ChrisTitusTech/winutil/pull/950) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Test 2023 07 27](https://github.com/ChrisTitusTech/winutil/pull/934) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [AveYo/fox](https://github.com/AveYo/fox) - Firefox stuff
