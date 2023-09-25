@@ -46,11 +46,11 @@
 - [postfen/clipboard-image.nvim](https://github.com/postfen/clipboard-image.nvim) - Neovim Lua plugin to paste image from clipboard.
 ### 📰 Recent Blog Posts
 
+- [Creating a Secure System](https://christitus.com/creating-a-secure-system/)
 - [Github Mistakes and What I Wish I Knew Sooner](https://christitus.com/do-not-make-these-github-mistakes/)
 - [Saving a Business Thousands a Year in Telecom](https://christitus.com/saving-a-business-5000-a-year-in-telecom/)
 - [Install Windows the Arch Linux Way](https://christitus.com/install-windows-the-arch-linux-way/)
 - [Linus Tech Tips Problems](https://christitus.com/ltt-bad/)
-- [Windows 11 Perfect Install](https://christitus.com/windows-11-perfect-install/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
