@@ -18,11 +18,11 @@
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 - [ChrisTitusTech/ArchTitus](https://github.com/ChrisTitusTech/ArchTitus) - Automated Arch Linux Install
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - My Neovim configuration
-- [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/uup-download](https://github.com/ChrisTitusTech/uup-download) - 
@@ -39,11 +39,11 @@
 - [Test 2023 08 02](https://github.com/ChrisTitusTech/winutil/pull/950) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [LunarVim/synthwave84.nvim](https://github.com/LunarVim/synthwave84.nvim) - 
+- [rainbowhxch/beacon.nvim](https://github.com/rainbowhxch/beacon.nvim) - Neovim plugin to flash cursor when jumps or moves between windows.
 - [AveYo/fox](https://github.com/AveYo/fox) - Firefox stuff
 - [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) - A smarter cd command. Supports all major shells.
 - [awesome-foss/awesome-sysadmin](https://github.com/awesome-foss/awesome-sysadmin) - A curated list of amazingly awesome open-source sysadmin resources.
-- [goolord/alpha-nvim](https://github.com/goolord/alpha-nvim) - a lua powered greeter like vim-startify / dashboard-nvim
-- [postfen/clipboard-image.nvim](https://github.com/postfen/clipboard-image.nvim) - Neovim Lua plugin to paste image from clipboard.
 ### 📰 Recent Blog Posts
 
 - [Creating a Secure System](https://christitus.com/creating-a-secure-system/)
