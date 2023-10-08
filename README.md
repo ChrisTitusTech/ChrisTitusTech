@@ -46,11 +46,11 @@
 - [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) - A smarter cd command. Supports all major shells.
 ### 📰 Recent Blog Posts
 
+- [Installing Arch in 2 Minutes](https://christitus.com/installing-arch-in-2-minutes/)
 - [Creating a Secure System](https://christitus.com/creating-a-secure-system/)
 - [Github Mistakes and What I Wish I Knew Sooner](https://christitus.com/do-not-make-these-github-mistakes/)
 - [Saving a Business Thousands a Year in Telecom](https://christitus.com/saving-a-business-5000-a-year-in-telecom/)
 - [Install Windows the Arch Linux Way](https://christitus.com/install-windows-the-arch-linux-way/)
-- [Linus Tech Tips Problems](https://christitus.com/ltt-bad/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
