@@ -18,11 +18,11 @@
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
 - [ChrisTitusTech/nord-background](https://github.com/ChrisTitusTech/nord-background) - Collection of Nord Backgrounds
 - [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - My Neovim configuration
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/nord-background](https://github.com/ChrisTitusTech/nord-background) - Collection of Nord Backgrounds
@@ -32,11 +32,11 @@
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 ### 🔨 My recent Pull Requests
 
+- [Test 2023 10 24](https://github.com/ChrisTitusTech/winutil/pull/1176) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [took a pr on main and pulling it to test](https://github.com/ChrisTitusTech/winutil/pull/1175) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [2023 09 23 test](https://github.com/ChrisTitusTech/winutil/pull/1117) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [2023 09 13 test](https://github.com/ChrisTitusTech/winutil/pull/1051) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [2023-09-13 September Bug fixes and Feature Additions](https://github.com/ChrisTitusTech/winutil/pull/1024) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Test 2023 08 09](https://github.com/ChrisTitusTech/winutil/pull/1004) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [winget fix](https://github.com/ChrisTitusTech/winutil/pull/952) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [westandskif/rate-mirrors](https://github.com/westandskif/rate-mirrors) - Everyday-use client-side map-aware mirror ranking tool (Arch Linux; Manjaro; custom ones)
