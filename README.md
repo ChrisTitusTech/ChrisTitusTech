@@ -18,11 +18,11 @@
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/XIVLauncher-Config](https://github.com/ChrisTitusTech/XIVLauncher-Config) - My Personal config for FFXIV
 - [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
 - [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
-- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
-- [ChrisTitusTech/ArchTitus](https://github.com/ChrisTitusTech/ArchTitus) - Automated Arch Linux Install
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/XIVLauncher-Config](https://github.com/ChrisTitusTech/XIVLauncher-Config) - My Personal config for FFXIV
@@ -32,18 +32,18 @@
 - [ChrisTitusTech/nixos-titus](https://github.com/ChrisTitusTech/nixos-titus) - Titus&#39;s personal NIX OS Configuration
 ### 🔨 My recent Pull Requests
 
+- [Test 2023 11 15](https://github.com/ChrisTitusTech/winutil/pull/1209) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test 2023 10 24](https://github.com/ChrisTitusTech/winutil/pull/1176) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [took a pr on main and pulling it to test](https://github.com/ChrisTitusTech/winutil/pull/1175) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [2023 09 23 test](https://github.com/ChrisTitusTech/winutil/pull/1117) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [2023 09 13 test](https://github.com/ChrisTitusTech/winutil/pull/1051) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [2023-09-13 September Bug fixes and Feature Additions](https://github.com/ChrisTitusTech/winutil/pull/1024) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [maharmstone/btrfs](https://github.com/maharmstone/btrfs) - WinBtrfs - an open-source btrfs driver for Windows
+- [FluffyMaguro/AoE4_Overlay](https://github.com/FluffyMaguro/AoE4_Overlay) - 
 - [aoe4world/overlay](https://github.com/aoe4world/overlay) - Display stats, win-rates and most played civs of you and your opponent as a stream overlay.
 - [danielgatis/rembg](https://github.com/danielgatis/rembg) - Rembg is a tool to remove images background
 - [goatcorp/FFXIVQuickLauncher](https://github.com/goatcorp/FFXIVQuickLauncher) - Custom launcher for FFXIV
-- [chaotic-cx/nyx](https://github.com/chaotic-cx/nyx) - Nix flake for &#34;too much bleeding-edge&#34; and unreleased packages (e.g., mesa_git, linux_cachyos, firefox_nightly, sway_git, gamescope_git). And experimental modules (e.g., HDR, duckdns).
-- [westandskif/rate-mirrors](https://github.com/westandskif/rate-mirrors) - Everyday-use client-side map-aware mirror ranking tool (Arch Linux; Manjaro; custom ones)
 ### 📰 Recent Blog Posts
 
 - [My New Editor](https://christitus.com/my-new-editor/)
