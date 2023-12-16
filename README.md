@@ -39,11 +39,11 @@
 - [2023 09 13 test](https://github.com/ChrisTitusTech/winutil/pull/1051) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [gijsdev/ublock-hide-yt-shorts](https://github.com/gijsdev/ublock-hide-yt-shorts) - uBlock Origin filter list to hide YouTube Shorts
 - [maharmstone/btrfs](https://github.com/maharmstone/btrfs) - WinBtrfs - an open-source btrfs driver for Windows
 - [FluffyMaguro/AoE4_Overlay](https://github.com/FluffyMaguro/AoE4_Overlay) - 
 - [aoe4world/overlay](https://github.com/aoe4world/overlay) - Display stats, win-rates and most played civs of you and your opponent as a stream overlay.
 - [danielgatis/rembg](https://github.com/danielgatis/rembg) - Rembg is a tool to remove images background
-- [goatcorp/FFXIVQuickLauncher](https://github.com/goatcorp/FFXIVQuickLauncher) - Custom launcher for FFXIV
 ### 📰 Recent Blog Posts
 
 - [My New Editor](https://christitus.com/my-new-editor/)
