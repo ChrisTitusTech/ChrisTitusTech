@@ -18,11 +18,11 @@
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
+- [ChrisTitusTech/nixos-titus](https://github.com/ChrisTitusTech/nixos-titus) - Titus&#39;s personal NIX OS Configuration
 - [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
-- [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
 - [ChrisTitusTech/ArchTitus](https://github.com/ChrisTitusTech/ArchTitus) - Automated Arch Linux Install
-- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
-- [ChrisTitusTech/XIVLauncher-Config](https://github.com/ChrisTitusTech/XIVLauncher-Config) - My Personal config for FFXIV
+- [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/XIVLauncher-Config](https://github.com/ChrisTitusTech/XIVLauncher-Config) - My Personal config for FFXIV
@@ -32,11 +32,11 @@
 - [ChrisTitusTech/nixos-titus](https://github.com/ChrisTitusTech/nixos-titus) - Titus&#39;s personal NIX OS Configuration
 ### 🔨 My recent Pull Requests
 
+- [Fix oscdimg link](https://github.com/ChrisTitusTech/winutil/pull/1295) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [Test 2023 12 19](https://github.com/ChrisTitusTech/winutil/pull/1294) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test 2023 11 15](https://github.com/ChrisTitusTech/winutil/pull/1209) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test 2023 10 24](https://github.com/ChrisTitusTech/winutil/pull/1176) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [took a pr on main and pulling it to test](https://github.com/ChrisTitusTech/winutil/pull/1175) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [2023 09 23 test](https://github.com/ChrisTitusTech/winutil/pull/1117) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [2023 09 13 test](https://github.com/ChrisTitusTech/winutil/pull/1051) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [gijsdev/ublock-hide-yt-shorts](https://github.com/gijsdev/ublock-hide-yt-shorts) - uBlock Origin filter list to hide YouTube Shorts
