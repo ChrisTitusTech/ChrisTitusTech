@@ -18,9 +18,9 @@
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - My Neovim configuration
 - [ChrisTitusTech/nixos-titus](https://github.com/ChrisTitusTech/nixos-titus) - Titus&#39;s personal NIX OS Configuration
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
 - [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
 ### 🌱 My latest projects
@@ -32,11 +32,11 @@
 - [ChrisTitusTech/nixos-titus](https://github.com/ChrisTitusTech/nixos-titus) - Titus&#39;s personal NIX OS Configuration
 ### 🔨 My recent Pull Requests
 
+- [Test 2023 12 20](https://github.com/ChrisTitusTech/winutil/pull/1337) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Fix oscdimg link](https://github.com/ChrisTitusTech/winutil/pull/1295) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test 2023 12 19](https://github.com/ChrisTitusTech/winutil/pull/1294) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test 2023 11 15](https://github.com/ChrisTitusTech/winutil/pull/1209) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test 2023 10 24](https://github.com/ChrisTitusTech/winutil/pull/1176) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [took a pr on main and pulling it to test](https://github.com/ChrisTitusTech/winutil/pull/1175) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [gijsdev/ublock-hide-yt-shorts](https://github.com/gijsdev/ublock-hide-yt-shorts) - uBlock Origin filter list to hide YouTube Shorts
