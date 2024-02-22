@@ -32,18 +32,18 @@
 - [ChrisTitusTech/nixos-titus](https://github.com/ChrisTitusTech/nixos-titus) - Titus&#39;s personal NIX OS Configuration
 ### 🔨 My recent Pull Requests
 
+- [Bring workflow to test](https://github.com/ChrisTitusTech/winutil/pull/1638) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test 2024 02 03](https://github.com/ChrisTitusTech/winutil/pull/1583) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test 2023 02 02](https://github.com/ChrisTitusTech/winutil/pull/1556) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test 2024 01 30](https://github.com/ChrisTitusTech/winutil/pull/1541) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test 2024 01 25](https://github.com/ChrisTitusTech/winutil/pull/1505) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Test 2024 01 15](https://github.com/ChrisTitusTech/winutil/pull/1456) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [pikdum/steam-deck](https://github.com/pikdum/steam-deck) - steam deck tools, currently only vortex
 - [x0rzavi/github-readme-terminal](https://github.com/x0rzavi/github-readme-terminal) - ✨ Elevate your GitHub Profile ReadMe with Minimalistic Retro Terminal GIFs 🚀
 - [Vencord/Vesktop](https://github.com/Vencord/Vesktop) - Vesktop gives you the performance of web Discord and the comfort of Discord Desktop
 - [prabirshrestha/dwm-win32](https://github.com/prabirshrestha/dwm-win32) - dwm port of tiling manager to Window
 - [gijsdev/ublock-hide-yt-shorts](https://github.com/gijsdev/ublock-hide-yt-shorts) - uBlock Origin filter list to hide YouTube Shorts
-- [maharmstone/btrfs](https://github.com/maharmstone/btrfs) - WinBtrfs - an open-source btrfs driver for Windows
 ### 📰 Recent Blog Posts
 
 - [Remove Youtube Shorts](https://christitus.com/remove-youtube-shorts/)
