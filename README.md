@@ -18,8 +18,8 @@
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
+- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/Debian-titus](https://github.com/ChrisTitusTech/Debian-titus) - Debian customizations from Chris Titus Tech
 - [ChrisTitusTech/nixos-titus](https://github.com/ChrisTitusTech/nixos-titus) - Titus&#39;s personal NIX OS Configuration
@@ -46,11 +46,11 @@
 - [prabirshrestha/dwm-win32](https://github.com/prabirshrestha/dwm-win32) - dwm port of tiling manager to Window
 ### 📰 Recent Blog Posts
 
+- [The Ultimate System](https://christitus.com/the-ultimate-system/)
 - [Remove Youtube Shorts](https://christitus.com/remove-youtube-shorts/)
 - [My New Editor](https://christitus.com/my-new-editor/)
 - [Installing Arch in 2 Minutes](https://christitus.com/installing-arch-in-2-minutes/)
 - [Creating a Secure System](https://christitus.com/creating-a-secure-system/)
-- [Github Mistakes and What I Wish I Knew Sooner](https://christitus.com/do-not-make-these-github-mistakes/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
