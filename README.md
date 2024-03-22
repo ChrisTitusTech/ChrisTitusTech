@@ -18,9 +18,9 @@
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/Debian-titus](https://github.com/ChrisTitusTech/Debian-titus) - Debian customizations from Chris Titus Tech
 - [ChrisTitusTech/nixos-titus](https://github.com/ChrisTitusTech/nixos-titus) - Titus&#39;s personal NIX OS Configuration
 ### 🌱 My latest projects
@@ -32,11 +32,11 @@
 - [ChrisTitusTech/nixos-titus](https://github.com/ChrisTitusTech/nixos-titus) - Titus&#39;s personal NIX OS Configuration
 ### 🔨 My recent Pull Requests
 
+- [Test 2024 02 07 refactor noapps](https://github.com/ChrisTitusTech/winutil/pull/1717) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [pull workflow github actions](https://github.com/ChrisTitusTech/winutil/pull/1716) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Bring workflow to test](https://github.com/ChrisTitusTech/winutil/pull/1638) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test 2024 02 03](https://github.com/ChrisTitusTech/winutil/pull/1583) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test 2023 02 02](https://github.com/ChrisTitusTech/winutil/pull/1556) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Test 2024 01 30](https://github.com/ChrisTitusTech/winutil/pull/1541) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Test 2024 01 25](https://github.com/ChrisTitusTech/winutil/pull/1505) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [lostindark/DriverStoreExplorer](https://github.com/lostindark/DriverStoreExplorer) - Driver Store Explorer [RAPR]
