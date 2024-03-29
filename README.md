@@ -18,8 +18,8 @@
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
-- [ChrisTitusTech/TitusPi](https://github.com/ChrisTitusTech/TitusPi) - Custom CTT Pi based linux distro
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
+- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 - [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - My Neovim configuration
 - [ChrisTitusTech/ArchTitus](https://github.com/ChrisTitusTech/ArchTitus) - Automated Arch Linux Install
@@ -32,25 +32,25 @@
 - [ChrisTitusTech/nixos-titus](https://github.com/ChrisTitusTech/nixos-titus) - Titus&#39;s personal NIX OS Configuration
 ### 🔨 My recent Pull Requests
 
+- [Test 2024 03 21](https://github.com/ChrisTitusTech/winutil/pull/1755) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [Test 2024 03 21](https://github.com/ChrisTitusTech/winutil/pull/1748) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test 2024 02 07 refactor noapps](https://github.com/ChrisTitusTech/winutil/pull/1717) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [pull workflow github actions](https://github.com/ChrisTitusTech/winutil/pull/1716) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Bring workflow to test](https://github.com/ChrisTitusTech/winutil/pull/1638) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Test 2024 02 03](https://github.com/ChrisTitusTech/winutil/pull/1583) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Test 2023 02 02](https://github.com/ChrisTitusTech/winutil/pull/1556) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [lostindark/DriverStoreExplorer](https://github.com/lostindark/DriverStoreExplorer) - Driver Store Explorer [RAPR]
 - [pikdum/steam-deck](https://github.com/pikdum/steam-deck) - steam deck tools, currently only vortex
 - [x0rzavi/github-readme-terminal](https://github.com/x0rzavi/github-readme-terminal) - ✨ Elevate your GitHub Profile ReadMe with Minimalistic Retro Terminal GIFs 🚀
-- [Vencord/Vesktop](https://github.com/Vencord/Vesktop) - Vesktop gives you the performance of web Discord and the comfort of Discord Desktop
+- [Vencord/Vesktop](https://github.com/Vencord/Vesktop) - Vesktop is a custom Discord App aiming to give you better performance and improve linux support
 - [prabirshrestha/dwm-win32](https://github.com/prabirshrestha/dwm-win32) - dwm port of tiling manager to Window
 ### 📰 Recent Blog Posts
 
+- [3CX Version 20 Update](https://christitus.com/3cx-version-20-update/)
 - [The Ultimate System](https://christitus.com/the-ultimate-system/)
 - [Digital Downloads](https://christitus.com/downloads/)
 - [Remove Youtube Shorts](https://christitus.com/remove-youtube-shorts/)
 - [My New Editor](https://christitus.com/my-new-editor/)
-- [Installing Arch in 2 Minutes](https://christitus.com/installing-arch-in-2-minutes/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
