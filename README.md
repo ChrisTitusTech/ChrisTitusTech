@@ -39,11 +39,11 @@
 - [Bring workflow to test](https://github.com/ChrisTitusTech/winutil/pull/1638) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [drkhsh/slstatus](https://github.com/drkhsh/slstatus) - mirror from suckless.org. send patches to hackers@suckless.org mailing list. NO PRs
 - [lostindark/DriverStoreExplorer](https://github.com/lostindark/DriverStoreExplorer) - Driver Store Explorer [RAPR]
 - [pikdum/steam-deck](https://github.com/pikdum/steam-deck) - steam deck tools, currently only vortex
 - [x0rzavi/github-readme-terminal](https://github.com/x0rzavi/github-readme-terminal) - ✨ Elevate your GitHub Profile ReadMe with Minimalistic Retro Terminal GIFs 🚀
 - [Vencord/Vesktop](https://github.com/Vencord/Vesktop) - Vesktop is a custom Discord App aiming to give you better performance and improve linux support
-- [prabirshrestha/dwm-win32](https://github.com/prabirshrestha/dwm-win32) - dwm port of tiling manager to Window
 ### 📰 Recent Blog Posts
 
 - [3CX Version 20 Update](https://christitus.com/3cx-version-20-update/)
