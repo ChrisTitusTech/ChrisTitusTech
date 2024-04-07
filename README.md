@@ -35,11 +35,11 @@
 - [Vencord/Vesktop](https://github.com/Vencord/Vesktop) - Vesktop is a custom Discord App aiming to give you better performance and improve linux support
 ### 📰 Recent Blog Posts
 
+- [XZ Backdoor Affected These Users](https://christitus.com/xz-affected-these-users/)
 - [Cursor Editor](https://christitus.com/cursor-editor/)
 - [3CX Version 20 Update](https://christitus.com/3cx-version-20-update/)
 - [The Ultimate System](https://christitus.com/the-ultimate-system/)
 - [Digital Downloads](https://christitus.com/downloads/)
-- [Remove Youtube Shorts](https://christitus.com/remove-youtube-shorts/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
