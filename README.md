@@ -1,3 +1,5 @@
+<p align="center"><img src="https://github.com/ChrisTitusTech/ChrisTitusTech/blob/main/ctt-600px-github.png?raw=true" /></p>
+
 <a href="https://www.twitch.tv/christitustech" target="_blank" rel="noreferrer"><img
 src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for-the-badge&color=0891b2&labelColor=1c1917&label=TWITCH+STATUS" /></a>
 
