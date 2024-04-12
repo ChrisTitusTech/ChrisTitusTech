@@ -57,11 +57,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [lostindark/DriverStoreExplorer](https://github.com/lostindark/DriverStoreExplorer) - Driver Store Explorer [RAPR]
 ### 📰 Recent Blog Posts
 
+- [Drivers in Windows](https://christitus.com/drivers-in-windows/)
+- [Freedesktop Bans Hyprland](https://christitus.com/freedesktop-bans-hyprland/)
 - [Universal Android Debloat](https://christitus.com/universal-android-debloat/)
 - [Is Sony Abusing FreeBSD with Playstation?](https://christitus.com/sony-playstation-and-freebsd/)
 - [XZ Backdoor Affected These Users](https://christitus.com/xz-affected-these-users/)
-- [Cursor Editor](https://christitus.com/cursor-editor/)
-- [3CX Version 20 Update](https://christitus.com/3cx-version-20-update/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
