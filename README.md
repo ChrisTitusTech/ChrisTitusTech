@@ -50,11 +50,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [pull workflow github actions](https://github.com/ChrisTitusTech/winutil/pull/1716) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [gerardog/gsudo](https://github.com/gerardog/gsudo) - Sudo for Windows
 - [glzr-io/glazewm](https://github.com/glzr-io/glazewm) - GlazeWM is a tiling window manager for Windows inspired by i3 and Polybar.
 - [Universal-Debloater-Alliance/universal-android-debloater-next-generation](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation) - Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices. Improve your privacy, the security and battery life of your device.
 - [DRSDavidSoft/additional-hosts](https://github.com/DRSDavidSoft/additional-hosts) - 🛡 List of categorized undesired hosts
 - [drkhsh/slstatus](https://github.com/drkhsh/slstatus) - mirror from suckless.org. send patches to hackers@suckless.org mailing list. NO PRs
-- [lostindark/DriverStoreExplorer](https://github.com/lostindark/DriverStoreExplorer) - Driver Store Explorer [RAPR]
 ### 📰 Recent Blog Posts
 
 - [Drivers in Windows](https://christitus.com/drivers-in-windows/)
