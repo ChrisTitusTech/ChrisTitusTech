@@ -57,11 +57,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [DRSDavidSoft/additional-hosts](https://github.com/DRSDavidSoft/additional-hosts) - 🛡 List of categorized undesired hosts
 ### 📰 Recent Blog Posts
 
+- [Windows 24h2](https://christitus.com/windows-24h2/)
 - [GlazeWM Tiling Window Management](https://christitus.com/glazewm-tiling-window-management/)
 - [Drivers in Windows](https://christitus.com/drivers-in-windows/)
 - [Freedesktop Bans Hyprland](https://christitus.com/freedesktop-bans-hyprland/)
 - [Universal Android Debloat](https://christitus.com/universal-android-debloat/)
-- [Is Sony Abusing FreeBSD with Playstation?](https://christitus.com/sony-playstation-and-freebsd/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
