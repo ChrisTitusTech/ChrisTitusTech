@@ -57,11 +57,7 @@ jobs:
           plugin_lines_history_limit: 1
           plugin_lines_repositories_limit: 4
           plugin_lines_sections: base
-          plugin_sponsors: yes
-          plugin_sponsors_sections: goal, list, about
-          plugin_sponsors_size: 24
-          plugin_sponsors_title: Sponsor Me!
-          plugin_sponsorships: yes
-          plugin_sponsorships_sections: amount, sponsorships
-          plugin_sponsorships_size: 24
           plugin_traffic: yes
+          plugin_wakatime: yes
+          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors-graphs, os-graphs
+          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
