@@ -32,8 +32,6 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: America/Chicago
-          plugin_calendar: yes
-          plugin_calendar_limit: 2
           plugin_gists: yes
           plugin_habits: yes
           plugin_habits_charts_type: classic
@@ -66,8 +64,4 @@ jobs:
           plugin_sponsorships: yes
           plugin_sponsorships_sections: amount, sponsorships
           plugin_sponsorships_size: 24
-          plugin_stargazers: yes
-          plugin_stargazers_charts: yes
-          plugin_stargazers_charts_type: classic
-          plugin_stargazers_days: 14
           plugin_traffic: yes

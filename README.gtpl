@@ -9,7 +9,7 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### GitHub Stats
 
-<p align="center"><img src="https://raw.githubusercontent.com/ChrisTitusTech/ChrisTitusTech/main/github-metrics.svg" /></p>
+<p align="left"><img src="https://raw.githubusercontent.com/ChrisTitusTech/ChrisTitusTech/main/github-metrics.svg" /></p>
 
 ### 👷 Check out what I'm currently working on
 {{ range recentContributions 5 }}
