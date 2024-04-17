@@ -29,9 +29,9 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 - [ChrisTitusTech/ArchTitus](https://github.com/ChrisTitusTech/ArchTitus) - Automated Arch Linux Install
-- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/glazewm](https://github.com/ChrisTitusTech/glazewm) - 
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 ### 🌱 My latest projects
@@ -50,18 +50,18 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [pull workflow github actions](https://github.com/ChrisTitusTech/winutil/pull/1716) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [lowlighter/metrics](https://github.com/lowlighter/metrics) - 📊 An infographics generator with 30&#43; plugins and 300&#43; options to display stats about your GitHub account and render them as SVG, Markdown, PDF or JSON!
+- [HikariKnight/Deckstation](https://github.com/HikariKnight/Deckstation) - A personal development and test build of Bazzite-deck with Qemu and SDDM enabled
 - [code-charity/youtube](https://github.com/code-charity/youtube) - [Top~1 open YouTube / Video Web-Extension] Enrich your experience &amp; choice! 🧰100&#43; clever features📌set &amp; forget📌Longest-standing (yet rare &amp; tough alone. Please help/join🧩us👨‍👩‍👧‍👧) ..⋮ {playback|content discovery|player|extra buttons|distractions|related videos|shorts|ads|quality|codec|full tab|full screen}
 - [zed-industries/zed](https://github.com/zed-industries/zed) - Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
 - [gerardog/gsudo](https://github.com/gerardog/gsudo) - Sudo for Windows
-- [glzr-io/glazewm](https://github.com/glzr-io/glazewm) - GlazeWM is a tiling window manager for Windows inspired by i3 and Polybar.
-- [Universal-Debloater-Alliance/universal-android-debloater-next-generation](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation) - Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices. Improve your privacy, the security and battery life of your device.
 ### 📰 Recent Blog Posts
 
+- [Bazzite Linux](https://christitus.com/bazzite-linux/)
 - [Windows 24h2](https://christitus.com/windows-24h2/)
 - [GlazeWM Tiling Window Management](https://christitus.com/glazewm-tiling-window-management/)
 - [Drivers in Windows](https://christitus.com/drivers-in-windows/)
 - [Freedesktop Bans Hyprland](https://christitus.com/freedesktop-bans-hyprland/)
-- [Universal Android Debloat](https://christitus.com/universal-android-debloat/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
