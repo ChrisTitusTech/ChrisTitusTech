@@ -47,6 +47,6 @@ jobs:
           plugin_traffic: yes
           plugin_wakatime: yes
           plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors-graphs, os-graphs
-          plugin_wakatime_languages_ignored: markdown, plaintext, text, xml, yaml
+          plugin_wakatime_languages_ignored: markdown, plaintext, text, xml, yaml, JSON
           plugin_wakatime_days: 365
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
