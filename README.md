@@ -41,11 +41,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [gerardog/gsudo](https://github.com/gerardog/gsudo) - Sudo for Windows
 ### 📰 Recent Blog Posts
 
+- [VPN Tier List 2024](https://christitus.com/vpn-tier-list-2024/)
 - [Bazzite Linux](https://christitus.com/bazzite-linux/)
 - [Windows 24h2](https://christitus.com/windows-24h2/)
 - [GlazeWM Tiling Window Management](https://christitus.com/glazewm-tiling-window-management/)
 - [Drivers in Windows](https://christitus.com/drivers-in-windows/)
-- [Freedesktop Bans Hyprland](https://christitus.com/freedesktop-bans-hyprland/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
