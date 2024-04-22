@@ -13,11 +13,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - My config files for Hyprland Wayland Window Manager
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
+- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/ArchTitus](https://github.com/ChrisTitusTech/ArchTitus) - Automated Arch Linux Install
-- [ChrisTitusTech/glazewm](https://github.com/ChrisTitusTech/glazewm) - Tiling Window Management for Microsoft Windows
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/glazewm](https://github.com/ChrisTitusTech/glazewm) - Tiling Window Management for Microsoft Windows
@@ -27,25 +27,25 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/powershell-scripts](https://github.com/ChrisTitusTech/powershell-scripts) - A collection of powershell scripts
 ### 🔨 My recent Pull Requests
 
+- [Fix ALL Program Installs](https://github.com/ChrisTitusTech/winutil/pull/1856) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Fix Unit Tests and Official Releases](https://github.com/ChrisTitusTech/winutil/pull/1854) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test 2024 03 30](https://github.com/ChrisTitusTech/winutil/pull/1852) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Sacrifice to the AV Gods test 24-03-28 branch](https://github.com/ChrisTitusTech/winutil/pull/1766) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test 2024 03 21](https://github.com/ChrisTitusTech/winutil/pull/1755) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Test 2024 03 21](https://github.com/ChrisTitusTech/winutil/pull/1748) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [toptal/haste-server](https://github.com/toptal/haste-server) - open source pastebin written in node.js
 - [lowlighter/metrics](https://github.com/lowlighter/metrics) - 📊 An infographics generator with 30&#43; plugins and 300&#43; options to display stats about your GitHub account and render them as SVG, Markdown, PDF or JSON!
 - [HikariKnight/Deckstation](https://github.com/HikariKnight/Deckstation) - A personal development and test build of Bazzite-deck with Qemu and SDDM enabled
 - [code-charity/youtube](https://github.com/code-charity/youtube) - [Top~1 open YouTube / Video Web-Extension] Enrich your experience &amp; choice! 🧰100&#43; clever features📌set &amp; forget📌Longest-standing (yet rare &amp; tough alone. Please help/join🧩us👨‍👩‍👧‍👧) ..⋮ {playback|content discovery|player|extra buttons|distractions|related videos|shorts|ads|quality|codec|full tab|full screen}
 - [zed-industries/zed](https://github.com/zed-industries/zed) - Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
-- [gerardog/gsudo](https://github.com/gerardog/gsudo) - Sudo for Windows
 ### 📰 Recent Blog Posts
 
+- [Zoxide](https://christitus.com/zoxide/)
 - [VPN Tier List 2024](https://christitus.com/vpn-tier-list-2024/)
 - [Bazzite Linux](https://christitus.com/bazzite-linux/)
 - [Windows 24h2](https://christitus.com/windows-24h2/)
 - [GlazeWM Tiling Window Management](https://christitus.com/glazewm-tiling-window-management/)
-- [Drivers in Windows](https://christitus.com/drivers-in-windows/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
