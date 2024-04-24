@@ -41,11 +41,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [zed-industries/zed](https://github.com/zed-industries/zed) - Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
 ### 📰 Recent Blog Posts
 
+- [Improve Youtube](https://christitus.com/improve-youtube/)
 - [Zoxide](https://christitus.com/zoxide/)
 - [VPN Tier List 2024](https://christitus.com/vpn-tier-list-2024/)
 - [Bazzite Linux](https://christitus.com/bazzite-linux/)
 - [Windows 24h2](https://christitus.com/windows-24h2/)
-- [GlazeWM Tiling Window Management](https://christitus.com/glazewm-tiling-window-management/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
