@@ -41,11 +41,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [code-charity/youtube](https://github.com/code-charity/youtube) - [Top~1 open YouTube / Video Web-Extension] Enrich your experience &amp; choice! 🧰100&#43; clever features📌set &amp; forget📌Longest-standing (yet rare &amp; tough alone. Please help/join🧩us👨‍👩‍👧‍👧) ..⋮ {playback|content discovery|player|extra buttons|distractions|related videos|shorts|ads|quality|codec|full tab|full screen}
 ### 📰 Recent Blog Posts
 
-- [RisingOS 2.0 - Android Custom ROM](https://christitus.com/risingoss/)
 - [Windows Utility Improved](https://christitus.com/windows-utility-improved/)
 - [Improve Youtube](https://christitus.com/improve-youtube/)
 - [Zoxide](https://christitus.com/zoxide/)
 - [VPN Tier List 2024](https://christitus.com/vpn-tier-list-2024/)
+- [Bazzite Linux](https://christitus.com/bazzite-linux/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
