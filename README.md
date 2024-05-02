@@ -41,11 +41,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [lowlighter/metrics](https://github.com/lowlighter/metrics) - 📊 An infographics generator with 30&#43; plugins and 300&#43; options to display stats about your GitHub account and render them as SVG, Markdown, PDF or JSON!
 ### 📰 Recent Blog Posts
 
+- [RisingOS 2.0 - Android Custom ROM](https://christitus.com/risingoss/)
 - [Windows Utility Improved](https://christitus.com/windows-utility-improved/)
 - [Improve Youtube](https://christitus.com/improve-youtube/)
 - [Zoxide](https://christitus.com/zoxide/)
 - [VPN Tier List 2024](https://christitus.com/vpn-tier-list-2024/)
-- [Bazzite Linux](https://christitus.com/bazzite-linux/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
