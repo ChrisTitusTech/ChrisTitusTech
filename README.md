@@ -41,11 +41,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [toptal/haste-server](https://github.com/toptal/haste-server) - open source pastebin written in node.js
 ### 📰 Recent Blog Posts
 
+- [The Ultimate Powershell Experience](https://christitus.com/the-ultimate-powershell-experience/)
 - [RisingOS 2.0 - Android Custom ROM](https://christitus.com/risingoss/)
 - [Windows Utility Improved](https://christitus.com/windows-utility-improved/)
 - [Improve Youtube](https://christitus.com/improve-youtube/)
 - [Zoxide](https://christitus.com/zoxide/)
-- [VPN Tier List 2024](https://christitus.com/vpn-tier-list-2024/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
