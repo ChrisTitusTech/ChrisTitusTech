@@ -34,11 +34,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [Test 2024 03 21](https://github.com/ChrisTitusTech/winutil/pull/1755) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [andsens/homeshick](https://github.com/andsens/homeshick) - git dotfiles synchronizer written in bash
+- [builtbybel/Winpilot](https://github.com/builtbybel/Winpilot) - The manic cousin of Microsoft Copilot
 - [TheDrHax/Twitch-Chat-Downloader](https://github.com/TheDrHax/Twitch-Chat-Downloader) - Download chat messages from past broadcasts on Twitch
 - [NixOS/nixpkgs](https://github.com/NixOS/nixpkgs) - Nix Packages collection &amp; NixOS
 - [siduck/chadwm](https://github.com/siduck/chadwm) - Making dwm as beautiful as possible! 
-- [Tk-Glitch/PKGBUILDS](https://github.com/Tk-Glitch/PKGBUILDS) - FOR ISSUES, PLEASE USE THE CORRESPONDING SUBPROJECT ISSUE TRACKER - Some pkgbuilds and stuff. Please don&#39;t target release tags and always use current. The PKGBUILDs are meant to be retro-compatible. Kernels are the exception.
-- [toptal/haste-server](https://github.com/toptal/haste-server) - open source pastebin written in node.js
 ### 📰 Recent Blog Posts
 
 - [The Ultimate Powershell Experience](https://christitus.com/the-ultimate-powershell-experience/)
