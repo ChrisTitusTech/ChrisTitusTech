@@ -41,11 +41,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [siduck/chadwm](https://github.com/siduck/chadwm) - Making dwm as beautiful as possible! 
 ### 📰 Recent Blog Posts
 
+- [Atomic Desktops: Revolutionizing the Linux Experience](https://christitus.com/linux-atomic-desktops/)
 - [Hastebin](https://christitus.com/hastebin/)
 - [The Ultimate Powershell Experience](https://christitus.com/the-ultimate-powershell-experience/)
 - [RisingOS 2.0 - Android Custom ROM](https://christitus.com/risingoss/)
 - [Windows Utility Improved](https://christitus.com/windows-utility-improved/)
-- [Improve Youtube](https://christitus.com/improve-youtube/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
