@@ -13,18 +13,18 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
+- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/glazewm](https://github.com/ChrisTitusTech/glazewm) - Tiling Window Management for Microsoft Windows
-- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 - [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
-- [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - My config files for Hyprland Wayland Window Manager
 ### 🌱 My latest projects
 
+- [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - 
 - [ChrisTitusTech/glazewm](https://github.com/ChrisTitusTech/glazewm) - Tiling Window Management for Microsoft Windows
 - [ChrisTitusTech/XIVLauncher-Config](https://github.com/ChrisTitusTech/XIVLauncher-Config) - My Personal config for FFXIV
 - [ChrisTitusTech/nord-background](https://github.com/ChrisTitusTech/nord-background) - Collection of Nord Backgrounds
 - [ChrisTitusTech/Windower](https://github.com/ChrisTitusTech/Windower) - FFXI Configs
-- [ChrisTitusTech/powershell-scripts](https://github.com/ChrisTitusTech/powershell-scripts) - A collection of powershell scripts
 ### 🔨 My recent Pull Requests
 
 - [Fix ALL Program Installs](https://github.com/ChrisTitusTech/winutil/pull/1856) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
