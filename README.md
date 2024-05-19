@@ -41,11 +41,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [NixOS/nixpkgs](https://github.com/NixOS/nixpkgs) - Nix Packages collection &amp; NixOS
 ### 📰 Recent Blog Posts
 
+- [Ultra BASH Prompt](https://christitus.com/mybash/)
 - [Lunduke: The Alex Jones of Linux](https://christitus.com/lunduke/)
 - [Atomic Desktops: Revolutionizing the Linux Experience](https://christitus.com/linux-atomic-desktops/)
 - [Hastebin](https://christitus.com/hastebin/)
 - [The Ultimate Powershell Experience](https://christitus.com/the-ultimate-powershell-experience/)
-- [RisingOS 2.0 - Android Custom ROM](https://christitus.com/risingoss/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
