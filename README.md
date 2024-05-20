@@ -34,7 +34,7 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [Test 2024 03 21](https://github.com/ChrisTitusTech/winutil/pull/1755) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
-- [abgox/PSCompletions](https://github.com/abgox/PSCompletions) - A completion manager for better and simpler use PowerShell completions. (一个补全管理模块，更简单、更方便的使用命令补全)
+- [abgox/PSCompletions](https://github.com/abgox/PSCompletions) - A completion manager for better and simpler use completions in PowerShell.  一个补全管理模块，更简单、更方便的在 PowerShell 中使用命令补全。
 - [andsens/homeshick](https://github.com/andsens/homeshick) - git dotfiles synchronizer written in bash
 - [builtbybel/Winpilot](https://github.com/builtbybel/Winpilot) - The manic cousin of Microsoft Copilot
 - [TheDrHax/Twitch-Chat-Downloader](https://github.com/TheDrHax/Twitch-Chat-Downloader) - Download chat messages from past broadcasts on Twitch
