@@ -34,11 +34,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [Test 2024 03 21](https://github.com/ChrisTitusTech/winutil/pull/1755) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [luong-komorebi/Awesome-Linux-Software](https://github.com/luong-komorebi/Awesome-Linux-Software) - 🐧 A list of awesome Linux softwares 
 - [atuinsh/atuin](https://github.com/atuinsh/atuin) - ✨ Magical shell history
 - [JustLinuxUser/for_titus](https://github.com/JustLinuxUser/for_titus) - Check it out
 - [abgox/PSCompletions](https://github.com/abgox/PSCompletions) - A completion manager for better and simpler use completions in PowerShell.  一个补全管理模块，更简单、更方便的在 PowerShell 中使用命令补全。
 - [andsens/homeshick](https://github.com/andsens/homeshick) - git dotfiles synchronizer written in bash
-- [builtbybel/Winpilot](https://github.com/builtbybel/Winpilot) - The manic cousin of Microsoft Copilot
 ### 📰 Recent Blog Posts
 
 - [Ultra BASH Prompt](https://christitus.com/mybash/)
