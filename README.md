@@ -34,18 +34,18 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [Test 2024 03 21](https://github.com/ChrisTitusTech/winutil/pull/1755) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [fairyglade/ly](https://github.com/fairyglade/ly) - display manager with console UI
+- [akinomyoga/ble.sh](https://github.com/akinomyoga/ble.sh) - Bash Line Editor―a line editor written in pure Bash with syntax highlighting, auto suggestions, vim modes, etc. for Bash interactive sessions.
+- [KRTirtho/spotube](https://github.com/KRTirtho/spotube) - 🎧 Open source Spotify client that doesn&#39;t require Premium nor uses Electron! Available for both desktop &amp; mobile!
 - [luong-komorebi/Awesome-Linux-Software](https://github.com/luong-komorebi/Awesome-Linux-Software) - 🐧 A list of awesome Linux softwares 
 - [atuinsh/atuin](https://github.com/atuinsh/atuin) - ✨ Magical shell history
-- [JustLinuxUser/for_titus](https://github.com/JustLinuxUser/for_titus) - Check it out
-- [abgox/PSCompletions](https://github.com/abgox/PSCompletions) - A completion manager for better and simpler use completions in PowerShell.  一个补全管理模块，更简单、更方便的在 PowerShell 中使用命令补全。
-- [andsens/homeshick](https://github.com/andsens/homeshick) - git dotfiles synchronizer written in bash
 ### 📰 Recent Blog Posts
 
+- [My Problems With Linux](https://christitus.com/my-problems-with-linux/)
 - [Ultra BASH Prompt](https://christitus.com/mybash/)
 - [Lunduke: The Alex Jones of Linux](https://christitus.com/lunduke/)
 - [Atomic Desktops: Revolutionizing the Linux Experience](https://christitus.com/linux-atomic-desktops/)
 - [Hastebin](https://christitus.com/hastebin/)
-- [The Ultimate Powershell Experience](https://christitus.com/the-ultimate-powershell-experience/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
