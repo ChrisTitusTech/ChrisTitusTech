@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/nord-background](https://github.com/ChrisTitusTech/nord-background) - Collection of Nord Backgrounds
 ### 🔨 My recent Pull Requests
 
+- [Compile Cleanup and Tweak Fixes](https://github.com/ChrisTitusTech/winutil/pull/2062) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Fix Numlock toggle](https://github.com/ChrisTitusTech/winutil/pull/2044) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test 2024 04 20 2](https://github.com/ChrisTitusTech/winutil/pull/2030) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Fix ALL Program Installs](https://github.com/ChrisTitusTech/winutil/pull/1856) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Fix Unit Tests and Official Releases](https://github.com/ChrisTitusTech/winutil/pull/1854) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Test 2024 03 30](https://github.com/ChrisTitusTech/winutil/pull/1852) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [fairyglade/ly](https://github.com/fairyglade/ly) - display manager with console UI
