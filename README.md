@@ -14,17 +14,17 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 ### 👷 Check out what I'm currently working on
 
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
+- [ChrisTitusTech/linux-setup](https://github.com/ChrisTitusTech/linux-setup) - The ultimate linux setup script for Arch - Debian - Fedora
 - [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - My Neovim configuration
-- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
+- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 ### 🌱 My latest projects
 
+- [ChrisTitusTech/linux-setup](https://github.com/ChrisTitusTech/linux-setup) - The ultimate linux setup script for Arch - Debian - Fedora
 - [ChrisTitusTech/acpilight](https://github.com/ChrisTitusTech/acpilight) - fixes broken xbacklight on new intels that uninstall xorg-server-video-intel packages which cause tearing
 - [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - The Ultimate Linux Toolbox
 - [ChrisTitusTech/glazewm](https://github.com/ChrisTitusTech/glazewm) - Tiling Window Management for Microsoft Windows
 - [ChrisTitusTech/XIVLauncher-Config](https://github.com/ChrisTitusTech/XIVLauncher-Config) - My Personal config for FFXIV
-- [ChrisTitusTech/nord-background](https://github.com/ChrisTitusTech/nord-background) - Collection of Nord Backgrounds
 ### 🔨 My recent Pull Requests
 
 - [Compile Cleanup and Tweak Fixes](https://github.com/ChrisTitusTech/winutil/pull/2062) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
