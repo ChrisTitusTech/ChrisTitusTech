@@ -13,9 +13,9 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/linux-setup](https://github.com/ChrisTitusTech/linux-setup) - The ultimate linux setup script for Arch - Debian - Fedora
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - My Neovim configuration
 - [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
 ### 🌱 My latest projects
@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/XIVLauncher-Config](https://github.com/ChrisTitusTech/XIVLauncher-Config) - My Personal config for FFXIV
 ### 🔨 My recent Pull Requests
 
+- [Update Invoke-WinUtilNumLock.ps1](https://github.com/ChrisTitusTech/winutil/pull/2104) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Compile Cleanup and Tweak Fixes](https://github.com/ChrisTitusTech/winutil/pull/2062) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Fix Numlock toggle](https://github.com/ChrisTitusTech/winutil/pull/2044) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Test 2024 04 20 2](https://github.com/ChrisTitusTech/winutil/pull/2030) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Fix ALL Program Installs](https://github.com/ChrisTitusTech/winutil/pull/1856) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Fix Unit Tests and Official Releases](https://github.com/ChrisTitusTech/winutil/pull/1854) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [fairyglade/ly](https://github.com/fairyglade/ly) - display manager with console UI
