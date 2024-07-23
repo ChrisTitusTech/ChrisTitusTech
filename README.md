@@ -13,18 +13,18 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/ffxi-windower](https://github.com/ChrisTitusTech/ffxi-windower) - 
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - The Ultimate Linux Toolbox
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 - [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
-- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 ### 🌱 My latest projects
 
+- [ChrisTitusTech/ffxi-windower](https://github.com/ChrisTitusTech/ffxi-windower) - 
 - [ChrisTitusTech/acpilight](https://github.com/ChrisTitusTech/acpilight) - fixes broken xbacklight on new intels that uninstall xorg-server-video-intel packages which cause tearing
 - [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - The Ultimate Linux Toolbox
 - [ChrisTitusTech/glazewm](https://github.com/ChrisTitusTech/glazewm) - Tiling Window Management for Microsoft Windows
 - [ChrisTitusTech/XIVLauncher-Config](https://github.com/ChrisTitusTech/XIVLauncher-Config) - My Personal config for FFXIV
-- [ChrisTitusTech/nord-background](https://github.com/ChrisTitusTech/nord-background) - Collection of Nord Backgrounds
 ### 🔨 My recent Pull Requests
 
 - [fix unit tests](https://github.com/ChrisTitusTech/linutil/pull/53) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
