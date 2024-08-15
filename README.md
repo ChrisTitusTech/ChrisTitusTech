@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/XIVLauncher-Config](https://github.com/ChrisTitusTech/XIVLauncher-Config) - My Personal config for FFXIV
 ### 🔨 My recent Pull Requests
 
+- [Admin elevation when runs as regular user](https://github.com/ChrisTitusTech/winutil/pull/2565) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [fix unit tests](https://github.com/ChrisTitusTech/linutil/pull/53) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [Update Invoke-WinUtilNumLock.ps1](https://github.com/ChrisTitusTech/winutil/pull/2104) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Compile Cleanup and Tweak Fixes](https://github.com/ChrisTitusTech/winutil/pull/2062) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Fix Numlock toggle](https://github.com/ChrisTitusTech/winutil/pull/2044) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Test 2024 04 20 2](https://github.com/ChrisTitusTech/winutil/pull/2030) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [nektos/act](https://github.com/nektos/act) - Run your GitHub Actions locally 🚀
