@@ -13,11 +13,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
+- [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
 - [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - The Ultimate Linux Toolbox
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 - [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - My config files for Hyprland Wayland Window Manager
-- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/ffxi-windower](https://github.com/ChrisTitusTech/ffxi-windower) - 
@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/XIVLauncher-Config](https://github.com/ChrisTitusTech/XIVLauncher-Config) - My Personal config for FFXIV
 ### 🔨 My recent Pull Requests
 
+- [Add AUR Helpers](https://github.com/ChrisTitusTech/linutil/pull/166) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [Admin elevation when runs as regular user](https://github.com/ChrisTitusTech/winutil/pull/2565) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [fix unit tests](https://github.com/ChrisTitusTech/linutil/pull/53) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [Update Invoke-WinUtilNumLock.ps1](https://github.com/ChrisTitusTech/winutil/pull/2104) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Compile Cleanup and Tweak Fixes](https://github.com/ChrisTitusTech/winutil/pull/2062) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Fix Numlock toggle](https://github.com/ChrisTitusTech/winutil/pull/2044) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [nektos/act](https://github.com/nektos/act) - Run your GitHub Actions locally 🚀
