@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/XIVLauncher-Config](https://github.com/ChrisTitusTech/XIVLauncher-Config) - My Personal config for FFXIV
 ### 🔨 My recent Pull Requests
 
+- [fix archtitus](https://github.com/ChrisTitusTech/linutil/pull/191) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
+- [ArchTitus Implementation](https://github.com/ChrisTitusTech/linutil/pull/190) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [Add AUR Helpers](https://github.com/ChrisTitusTech/linutil/pull/166) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [Admin elevation when runs as regular user](https://github.com/ChrisTitusTech/winutil/pull/2565) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [fix unit tests](https://github.com/ChrisTitusTech/linutil/pull/53) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
-- [Update Invoke-WinUtilNumLock.ps1](https://github.com/ChrisTitusTech/winutil/pull/2104) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Compile Cleanup and Tweak Fixes](https://github.com/ChrisTitusTech/winutil/pull/2062) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [pbatard/Fido](https://github.com/pbatard/Fido) - A PowerShell script to download Windows or UEFI Shell ISOs
