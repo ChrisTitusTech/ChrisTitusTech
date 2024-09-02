@@ -34,11 +34,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [fix unit tests](https://github.com/ChrisTitusTech/linutil/pull/53) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 ### ⭐ Recent Stars
 
+- [Maaaaaarrk/d2r-loot-filter](https://github.com/Maaaaaarrk/d2r-loot-filter) - 
+- [Caedendi/D2RMM-Loot-Filter-Extended](https://github.com/Caedendi/D2RMM-Loot-Filter-Extended) - A Diablo II: Resurrected loot filter mod for D2RMM
 - [pbatard/Fido](https://github.com/pbatard/Fido) - A PowerShell script to download Windows or UEFI Shell ISOs
 - [nektos/act](https://github.com/nektos/act) - Run your GitHub Actions locally 🚀
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [FT-Labs/picom](https://github.com/FT-Labs/picom) - More than 10 unique animation supported picom fork (open window, tag change, fading ...)
-- [gui-cs/TerminalGuiDesigner](https://github.com/gui-cs/TerminalGuiDesigner) - Forms Designer for Terminal.Gui (aka gui.cs)
 ### 📰 Recent Blog Posts
 
 - [Crowdstrike Alternatives](https://christitus.com/crowdstrike-alternatives/)
