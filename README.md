@@ -13,25 +13,25 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/d2r-loot-filter](https://github.com/ChrisTitusTech/d2r-loot-filter) - Chris Titus Tech&#39;s Loot Filter for Diablo II Resurrected.
+- [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - The Ultimate Linux Toolbox
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 - [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
-- [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - My config files for Hyprland Wayland Window Manager
 ### 🌱 My latest projects
 
+- [ChrisTitusTech/d2r-loot-filter](https://github.com/ChrisTitusTech/d2r-loot-filter) - Chris Titus Tech&#39;s Loot Filter for Diablo II Resurrected.
 - [ChrisTitusTech/ffxi-windower](https://github.com/ChrisTitusTech/ffxi-windower) - 
 - [ChrisTitusTech/acpilight](https://github.com/ChrisTitusTech/acpilight) - fixes broken xbacklight on new intels that uninstall xorg-server-video-intel packages which cause tearing
-- [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - The Ultimate Linux Toolbox
+- [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
 - [ChrisTitusTech/glazewm](https://github.com/ChrisTitusTech/glazewm) - Tiling Window Management for Microsoft Windows
-- [ChrisTitusTech/XIVLauncher-Config](https://github.com/ChrisTitusTech/XIVLauncher-Config) - My Personal config for FFXIV
 ### 🔨 My recent Pull Requests
 
+- [Compile date and version fix - Competing PR #221](https://github.com/ChrisTitusTech/linutil/pull/223) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
+- [D2r loot filter](https://github.com/ChrisTitusTech/linutil/pull/218) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [fix archtitus](https://github.com/ChrisTitusTech/linutil/pull/191) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [ArchTitus Implementation](https://github.com/ChrisTitusTech/linutil/pull/190) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [Add AUR Helpers](https://github.com/ChrisTitusTech/linutil/pull/166) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
-- [Admin elevation when runs as regular user](https://github.com/ChrisTitusTech/winutil/pull/2565) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [fix unit tests](https://github.com/ChrisTitusTech/linutil/pull/53) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 ### ⭐ Recent Stars
 
 - [Maaaaaarrk/d2r-loot-filter](https://github.com/Maaaaaarrk/d2r-loot-filter) - 
