@@ -13,11 +13,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/d2r-loot-filter](https://github.com/ChrisTitusTech/d2r-loot-filter) - Chris Titus Tech&#39;s Loot Filter for Diablo II Resurrected.
 - [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
+- [ChrisTitusTech/ArchTitus](https://github.com/ChrisTitusTech/ArchTitus) - Automated Arch Linux Install
+- [ChrisTitusTech/d2r-loot-filter](https://github.com/ChrisTitusTech/d2r-loot-filter) - Chris Titus Tech&#39;s Loot Filter for Diablo II Resurrected.
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
-- [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/d2r-loot-filter](https://github.com/ChrisTitusTech/d2r-loot-filter) - Chris Titus Tech&#39;s Loot Filter for Diablo II Resurrected.
@@ -27,18 +27,18 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/glazewm](https://github.com/ChrisTitusTech/glazewm) - Tiling Window Management for Microsoft Windows
 ### 🔨 My recent Pull Requests
 
+- [Dwm fixes](https://github.com/ChrisTitusTech/linutil/pull/229) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [Compile date and version fix - Competing PR #221](https://github.com/ChrisTitusTech/linutil/pull/223) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [D2r loot filter](https://github.com/ChrisTitusTech/linutil/pull/218) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [fix archtitus](https://github.com/ChrisTitusTech/linutil/pull/191) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [ArchTitus Implementation](https://github.com/ChrisTitusTech/linutil/pull/190) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
-- [Add AUR Helpers](https://github.com/ChrisTitusTech/linutil/pull/166) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 ### ⭐ Recent Stars
 
+- [isantop/kernelstub](https://github.com/isantop/kernelstub) - A simple EFI boot manager manager for Linux
 - [Maaaaaarrk/d2r-loot-filter](https://github.com/Maaaaaarrk/d2r-loot-filter) - 
 - [Caedendi/D2RMM-Loot-Filter-Extended](https://github.com/Caedendi/D2RMM-Loot-Filter-Extended) - A Diablo II: Resurrected loot filter mod for D2RMM
 - [pbatard/Fido](https://github.com/pbatard/Fido) - A PowerShell script to download Windows or UEFI Shell ISOs
 - [nektos/act](https://github.com/nektos/act) - Run your GitHub Actions locally 🚀
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 ### 📰 Recent Blog Posts
 
 - [Crowdstrike Alternatives](https://christitus.com/crowdstrike-alternatives/)
