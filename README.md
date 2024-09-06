@@ -34,11 +34,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ArchTitus Implementation](https://github.com/ChrisTitusTech/linutil/pull/190) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 ### ⭐ Recent Stars
 
+- [mylinuxforwork/dotfiles](https://github.com/mylinuxforwork/dotfiles) - The ML4W Dotfiles for Hyprland - An advanced and full-featured configuration for the dynamic tiling window manager Hyprland including an easy to use installation script for Arch based Linux distributions.
+- [NilliP/NillipussUI_1440p](https://github.com/NilliP/NillipussUI_1440p) - 1440p Large UI
 - [kimmknight/remoteapptool](https://github.com/kimmknight/remoteapptool) - Create and manage RemoteApps hosted on Windows 7, 8, 10, 11, XP and Server. Generate RDP and MSI files for clients.
 - [feschber/lan-mouse](https://github.com/feschber/lan-mouse) - mouse &amp; keyboard sharing via LAN
 - [end-4/dots-hyprland](https://github.com/end-4/dots-hyprland) - i hate minimalism so...
-- [isantop/kernelstub](https://github.com/isantop/kernelstub) - A simple EFI boot manager manager for Linux
-- [Maaaaaarrk/d2r-loot-filter](https://github.com/Maaaaaarrk/d2r-loot-filter) - 
 ### 📰 Recent Blog Posts
 
 - [Crowdstrike Alternatives](https://christitus.com/crowdstrike-alternatives/)
