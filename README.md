@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/glazewm](https://github.com/ChrisTitusTech/glazewm) - Tiling Window Management for Microsoft Windows
 ### 🔨 My recent Pull Requests
 
+- [Revert &#34;Rust formatting stuff 2 - removed an unused variable&#34;](https://github.com/ChrisTitusTech/linutil/pull/538) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
+- [D2r posix update](https://github.com/ChrisTitusTech/linutil/pull/531) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [Runspace Change to fix Tweaks](https://github.com/ChrisTitusTech/winutil/pull/2719) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Revert &#34;Better Image handling&#34;](https://github.com/ChrisTitusTech/winutil/pull/2717) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Revert &#34;Modify `Compile.ps1` Handling of Xaml to Improve Maintainability&#34;](https://github.com/ChrisTitusTech/winutil/pull/2716) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Dwm fixes](https://github.com/ChrisTitusTech/linutil/pull/229) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
-- [Compile date and version fix - Competing PR #221](https://github.com/ChrisTitusTech/linutil/pull/223) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 ### ⭐ Recent Stars
 
 - [mylinuxforwork/dotfiles](https://github.com/mylinuxforwork/dotfiles) - The ML4W Dotfiles for Hyprland - An advanced and full-featured configuration for the dynamic tiling window manager Hyprland including an easy to use installation script for Arch based Linux distributions.
