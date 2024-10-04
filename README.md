@@ -13,18 +13,18 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/ageoftitus](https://github.com/ChrisTitusTech/ageoftitus) - Age of Titus Gaming Channel
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
-- [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
-- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
+- [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
+- [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
 ### 🌱 My latest projects
 
+- [ChrisTitusTech/ageoftitus](https://github.com/ChrisTitusTech/ageoftitus) - Age of Titus Gaming Channel
 - [ChrisTitusTech/d2r-loot-filter](https://github.com/ChrisTitusTech/d2r-loot-filter) - Chris Titus Tech&#39;s Loot Filter for Diablo II Resurrected.
 - [ChrisTitusTech/ffxi-windower](https://github.com/ChrisTitusTech/ffxi-windower) - 
 - [ChrisTitusTech/acpilight](https://github.com/ChrisTitusTech/acpilight) - fixes broken xbacklight on new intels that uninstall xorg-server-video-intel packages which cause tearing
 - [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
-- [ChrisTitusTech/glazewm](https://github.com/ChrisTitusTech/glazewm) - Tiling Window Management for Microsoft Windows
 ### 🔨 My recent Pull Requests
 
 - [Revert &#34;refac(invoke-wpfuninstall.ps1): remove null assignments and simplify taskbaritem invocation&#34;](https://github.com/ChrisTitusTech/winutil/pull/2806) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
