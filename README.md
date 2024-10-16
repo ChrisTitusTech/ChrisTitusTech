@@ -34,11 +34,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [Revert &#34;Better Image handling&#34;](https://github.com/ChrisTitusTech/winutil/pull/2717) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [derceg/explorerplusplus](https://github.com/derceg/explorerplusplus) - Explorer&#43;&#43; is a lightweight and fast file manager for Windows
+- [sxyazi/yazi](https://github.com/sxyazi/yazi) - 💥 Blazing fast terminal file manager written in Rust, based on async I/O.
 - [g1eny0ung/hugo-theme-dream](https://github.com/g1eny0ung/hugo-theme-dream) - 🌱 A Hugo theme named Dream.
 - [lxc/incus](https://github.com/lxc/incus) - Powerful system container and virtual machine manager 
 - [McShelby/hugo-theme-relearn](https://github.com/McShelby/hugo-theme-relearn) - A theme for Hugo designed for documentation
-- [mylinuxforwork/dotfiles](https://github.com/mylinuxforwork/dotfiles) - The ML4W Dotfiles for Hyprland - An advanced and full-featured configuration for the dynamic tiling window manager Hyprland including an easy to use installation script for Arch based Linux distributions.
-- [NilliP/NillipussUI_1440p](https://github.com/NilliP/NillipussUI_1440p) - 1440p Large UI
 ### 📰 Recent Blog Posts
 
 - [The Most Popular Windows Utility](https://christitus.com/winutil-install/)
