@@ -14,10 +14,10 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 ### 👷 Check out what I'm currently working on
 
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
+- [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
 - [ChrisTitusTech/ageoftitus](https://github.com/ChrisTitusTech/ageoftitus) - Age of Titus Gaming Channel
 - [ChrisTitusTech/Top-5-Bootloader-Themes](https://github.com/ChrisTitusTech/Top-5-Bootloader-Themes) - Bash script to automatically change GRUB to listed themes
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
-- [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/ageoftitus](https://github.com/ChrisTitusTech/ageoftitus) - Age of Titus Gaming Channel
@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
 ### 🔨 My recent Pull Requests
 
+- [Update preview for latest](https://github.com/ChrisTitusTech/linutil/pull/904) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
+- [Update preview for latest](https://github.com/ChrisTitusTech/linutil/pull/903) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [Revert &#34;refac(invoke-wpfuninstall.ps1): remove null assignments and simplify taskbaritem invocation&#34;](https://github.com/ChrisTitusTech/winutil/pull/2806) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Revert &#34;Rust formatting stuff 2 - removed an unused variable&#34;](https://github.com/ChrisTitusTech/linutil/pull/538) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [D2r posix update](https://github.com/ChrisTitusTech/linutil/pull/531) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
-- [Runspace Change to fix Tweaks](https://github.com/ChrisTitusTech/winutil/pull/2719) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Revert &#34;Better Image handling&#34;](https://github.com/ChrisTitusTech/winutil/pull/2717) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [derceg/explorerplusplus](https://github.com/derceg/explorerplusplus) - Explorer&#43;&#43; is a lightweight and fast file manager for Windows
