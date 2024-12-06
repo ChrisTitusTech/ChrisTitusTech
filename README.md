@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/acpilight](https://github.com/ChrisTitusTech/acpilight) - fixes broken xbacklight on new intels that uninstall xorg-server-video-intel packages which cause tearing
 ### 🔨 My recent Pull Requests
 
+- [Change install to winget, nuget, msstore](https://github.com/ChrisTitusTech/winutil/pull/3088) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [Fix language and Logic to Updates](https://github.com/ChrisTitusTech/winutil/pull/3087) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Update preview for latest](https://github.com/ChrisTitusTech/linutil/pull/904) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [Update preview for latest](https://github.com/ChrisTitusTech/linutil/pull/903) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [Revert &#34;refac(invoke-wpfuninstall.ps1): remove null assignments and simplify taskbaritem invocation&#34;](https://github.com/ChrisTitusTech/winutil/pull/2806) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Revert &#34;Rust formatting stuff 2 - removed an unused variable&#34;](https://github.com/ChrisTitusTech/linutil/pull/538) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
-- [D2r posix update](https://github.com/ChrisTitusTech/linutil/pull/531) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 ### ⭐ Recent Stars
 
 - [CodingWonders/updgui](https://github.com/CodingWonders/updgui) - UpdGUI - A simple PowerShell front-end for PSWindowsUpdate
