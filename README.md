@@ -34,11 +34,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [Update preview for latest](https://github.com/ChrisTitusTech/linutil/pull/903) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 ### ⭐ Recent Stars
 
+- [moraroy/NonSteamLaunchers-On-Steam-Deck](https://github.com/moraroy/NonSteamLaunchers-On-Steam-Deck) - Installs the latest UMU/GE-Proton and Non Steam Launchers under 1 Proton prefix folder and adds them to your steam library. Installs... Battle.net, Epic Games, Ubisoft, GOG, EA App, Amazon Games, itch.io , Legacy Games, The Humble Games Collection, IndieGala, Rockstar Games Launcher,PS Plus, Glyph, VKPlay &amp; HoYoPlay. SD Card Support and Games.
 - [CodingWonders/updgui](https://github.com/CodingWonders/updgui) - UpdGUI - A simple PowerShell front-end for PSWindowsUpdate
 - [Nexus-Mods/NexusMods.App](https://github.com/Nexus-Mods/NexusMods.App) - Home of the development of the Nexus Mods App
 - [derceg/explorerplusplus](https://github.com/derceg/explorerplusplus) - Explorer&#43;&#43; is a lightweight and fast file manager for Windows
 - [sxyazi/yazi](https://github.com/sxyazi/yazi) - 💥 Blazing fast terminal file manager written in Rust, based on async I/O.
-- [g1eny0ung/hugo-theme-dream](https://github.com/g1eny0ung/hugo-theme-dream) - 🌱 A Hugo theme named Dream.
 ### 📰 Recent Blog Posts
 
 - [The Most Popular Windows Utility](https://christitus.com/winutil-install/)
