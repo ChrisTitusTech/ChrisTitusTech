@@ -41,11 +41,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [sxyazi/yazi](https://github.com/sxyazi/yazi) - 💥 Blazing fast terminal file manager written in Rust, based on async I/O.
 ### 📰 Recent Blog Posts
 
+- [Enhanced Linux in Windows](https://christitus.com/enhanced-linux-in-windows/)
 - [The Most Popular Windows Utility](https://christitus.com/winutil-install/)
 - [Crowdstrike Alternatives](https://christitus.com/crowdstrike-alternatives/)
 - [Home Theater PC](https://christitus.com/home-theater-pc/)
 - [Why You NEED to Contribute to Open Source](https://christitus.com/why-you-NEED-to-contribute-to-open-source/)
-- [My Problems With Linux](https://christitus.com/my-problems-with-linux/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
