@@ -44,8 +44,8 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [The State of Linux Gaming](https://christitus.com/the-state-of-linux-gaming/)
 - [Enhanced Linux in Windows](https://christitus.com/enhanced-linux-in-windows/)
 - [Removing SystemD from Linux](https://christitus.com/removing-systemd/)
+- [The Microsoft Recall Situation](https://christitus.com/microsoft-recall-situation/)
 - [The Most Popular Windows Utility](https://christitus.com/winutil-install/)
-- [Crowdstrike Alternatives](https://christitus.com/crowdstrike-alternatives/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
