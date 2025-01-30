@@ -34,18 +34,18 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [Update preview for latest](https://github.com/ChrisTitusTech/linutil/pull/904) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 ### ⭐ Recent Stars
 
+- [JaKooLit/Ubuntu-Hyprland](https://github.com/JaKooLit/Ubuntu-Hyprland) - Automated Hyprland installer for Ubuntu. NOTE: Repo Branches as per Ubuntu Versions
 - [tpill90/battlenet-lancache-prefill](https://github.com/tpill90/battlenet-lancache-prefill) - CLI tool to automatically prefill a Lancache with Battle.Net games
 - [moraroy/NonSteamLaunchers-On-Steam-Deck](https://github.com/moraroy/NonSteamLaunchers-On-Steam-Deck) - Installs the latest UMU/GE-Proton and Non Steam Launchers under 1 Proton prefix folder and adds them to your steam library. Installs... Battle.net, Epic Games, Ubisoft, GOG, EA App, Amazon Games, itch.io , Legacy Games, The Humble Games Collection, IndieGala, Rockstar Games Launcher,PS Plus, Glyph, VKPlay &amp; HoYoPlay. SD Card Support and Games.
 - [CodingWonders/updgui](https://github.com/CodingWonders/updgui) - UpdGUI - A simple PowerShell front-end for PSWindowsUpdate
 - [Nexus-Mods/NexusMods.App](https://github.com/Nexus-Mods/NexusMods.App) - Home of the development of the Nexus Mods App
-- [derceg/explorerplusplus](https://github.com/derceg/explorerplusplus) - Explorer&#43;&#43; is a lightweight and fast file manager for Windows
 ### 📰 Recent Blog Posts
 
+- [Windows to Linux for Powerusers](https://christitus.com/windows-to-linux/)
 - [The State of Linux Gaming](https://christitus.com/the-state-of-linux-gaming/)
 - [Enhanced Linux in Windows](https://christitus.com/enhanced-linux-in-windows/)
 - [Removing SystemD from Linux](https://christitus.com/removing-systemd/)
 - [The Microsoft Recall Situation](https://christitus.com/microsoft-recall-situation/)
-- [The Most Popular Windows Utility](https://christitus.com/winutil-install/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
