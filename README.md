@@ -13,10 +13,10 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
-- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
+- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
+- [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
 - [ChrisTitusTech/ageoftitus](https://github.com/ChrisTitusTech/ageoftitus) - Age of Titus Gaming Channel
 ### 🌱 My latest projects
 
@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/acpilight](https://github.com/ChrisTitusTech/acpilight) - fixes broken xbacklight on new intels that uninstall xorg-server-video-intel packages which cause tearing
 ### 🔨 My recent Pull Requests
 
+- [allow different os-releases and hyprland setup](https://github.com/ChrisTitusTech/linutil/pull/1013) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
+- [remove shfmt](https://github.com/ChrisTitusTech/linutil/pull/1012) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [Update linutil.yml release workflow](https://github.com/ChrisTitusTech/linutil/pull/993) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [fix winget for good](https://github.com/ChrisTitusTech/winutil/pull/3096) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Change install to winget, nuget, msstore](https://github.com/ChrisTitusTech/winutil/pull/3088) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Fix language and Logic to Updates](https://github.com/ChrisTitusTech/winutil/pull/3087) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Update preview for latest](https://github.com/ChrisTitusTech/linutil/pull/904) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 ### ⭐ Recent Stars
 
 - [JaKooLit/Arch-Hyprland](https://github.com/JaKooLit/Arch-Hyprland) - For automated installation of Hyprland on Arch Linux or any Arch Linux-based distros
