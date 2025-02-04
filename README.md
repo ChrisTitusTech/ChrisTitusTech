@@ -13,9 +13,9 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
 - [ChrisTitusTech/ageoftitus](https://github.com/ChrisTitusTech/ageoftitus) - Age of Titus Gaming Channel
 ### 🌱 My latest projects
@@ -41,11 +41,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [CodingWonders/updgui](https://github.com/CodingWonders/updgui) - UpdGUI - A simple PowerShell front-end for PSWindowsUpdate
 ### 📰 Recent Blog Posts
 
+- [Why I Use Linux](https://christitus.com/why-i-use-linux/)
 - [Windows to Linux for Powerusers](https://christitus.com/windows-to-linux/)
 - [The State of Linux Gaming](https://christitus.com/the-state-of-linux-gaming/)
 - [Enhanced Linux in Windows](https://christitus.com/enhanced-linux-in-windows/)
 - [Removing SystemD from Linux](https://christitus.com/removing-systemd/)
-- [The Microsoft Recall Situation](https://christitus.com/microsoft-recall-situation/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
