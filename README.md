@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/acpilight](https://github.com/ChrisTitusTech/acpilight) - fixes broken xbacklight on new intels that uninstall xorg-server-video-intel packages which cause tearing
 ### 🔨 My recent Pull Requests
 
+- [Update inner.rs](https://github.com/ChrisTitusTech/linutil/pull/1022) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
+- [Update inner.rs](https://github.com/ChrisTitusTech/linutil/pull/1021) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
+- [Revert &#34;refactor: Improve File Contains precondition&#34;](https://github.com/ChrisTitusTech/linutil/pull/1020) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [allow different os-releases and hyprland setup](https://github.com/ChrisTitusTech/linutil/pull/1013) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [remove shfmt](https://github.com/ChrisTitusTech/linutil/pull/1012) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
-- [Update linutil.yml release workflow](https://github.com/ChrisTitusTech/linutil/pull/993) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
-- [fix winget for good](https://github.com/ChrisTitusTech/winutil/pull/3096) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Change install to winget, nuget, msstore](https://github.com/ChrisTitusTech/winutil/pull/3088) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [JaKooLit/Arch-Hyprland](https://github.com/JaKooLit/Arch-Hyprland) - For automated installation of Hyprland on Arch Linux or any Arch Linux-based distros
