@@ -34,11 +34,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [allow different os-releases and hyprland setup](https://github.com/ChrisTitusTech/linutil/pull/1013) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 ### ⭐ Recent Stars
 
+- [Shirk/Nameplate](https://github.com/Shirk/Nameplate) - Ashita/Windower plugin that corrects defects in FFXi&#39;s nameplate rendering
+- [onimitch/ffxi-balloon-ashitav4](https://github.com/onimitch/ffxi-balloon-ashitav4) - This is an Ashita v4 port of the Balloon addon, forked from StarlitGhost&#39;s version.  The original Windower Balloon addon was created by Hando and modified by Kenshi, Yuki and Ghosty.
 - [svanheulen/anchor-windower-addon](https://github.com/svanheulen/anchor-windower-addon) - A no-knockback addon for Windower
 - [CorentinTh/it-tools](https://github.com/CorentinTh/it-tools) - Collection of handy online tools for developers, with great UX. 
 - [zpaav/HealBot](https://github.com/zpaav/HealBot) - Healbot for FFXI
-- [JaKooLit/Arch-Hyprland](https://github.com/JaKooLit/Arch-Hyprland) - For automated installation of Hyprland on Arch Linux or any Arch Linux-based distros
-- [JaKooLit/Ubuntu-Hyprland](https://github.com/JaKooLit/Ubuntu-Hyprland) - Automated Hyprland installer for Ubuntu. NOTE: Repo Branches as per Ubuntu Versions
 ### 📰 Recent Blog Posts
 
 - [Jakoolit Hyprland](https://christitus.com/jakoolit-hyprland/)
