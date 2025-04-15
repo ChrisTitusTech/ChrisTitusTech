@@ -13,9 +13,9 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/ashita-ffxi](https://github.com/ChrisTitusTech/ashita-ffxi) - Complete repo with all addons for Ashita and customized for retail ffxi
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
+- [ChrisTitusTech/ashita-ffxi](https://github.com/ChrisTitusTech/ashita-ffxi) - Complete repo with all addons for Ashita and customized for retail ffxi
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
 ### 🌱 My latest projects
@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/ffxi-windower](https://github.com/ChrisTitusTech/ffxi-windower) - 
 ### 🔨 My recent Pull Requests
 
+- [Revert &#34;Refactor preferChocolatey system to handle other package managers easier&#34;](https://github.com/ChrisTitusTech/winutil/pull/3323) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Fix Winget. Version Mismatch and Repairing.](https://github.com/ChrisTitusTech/winutil/pull/3233) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Update inner.rs](https://github.com/ChrisTitusTech/linutil/pull/1022) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [Update inner.rs](https://github.com/ChrisTitusTech/linutil/pull/1021) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [Revert &#34;refactor: Improve File Contains precondition&#34;](https://github.com/ChrisTitusTech/linutil/pull/1020) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
-- [allow different os-releases and hyprland setup](https://github.com/ChrisTitusTech/linutil/pull/1013) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 ### ⭐ Recent Stars
 
 - [Shirk/Nameplate](https://github.com/Shirk/Nameplate) - Ashita/Windower plugin that corrects defects in FFXi&#39;s nameplate rendering
