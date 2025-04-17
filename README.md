@@ -13,10 +13,10 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
+- [Chris-Titus-Docs/winutil-docs](https://github.com/Chris-Titus-Docs/winutil-docs) - 
+- [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
 - [ChrisTitusTech/ashita-ffxi](https://github.com/ChrisTitusTech/ashita-ffxi) - Complete repo with all addons for Ashita and customized for retail ffxi
-- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
 ### 🌱 My latest projects
 
@@ -27,18 +27,18 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/ffxi-windower](https://github.com/ChrisTitusTech/ffxi-windower) - 
 ### 🔨 My recent Pull Requests
 
-- [Revert &#34;Refactor preferChocolatey system to handle other package managers easier&#34;](https://github.com/ChrisTitusTech/winutil/pull/3323) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Fix Winget. Version Mismatch and Repairing.](https://github.com/ChrisTitusTech/winutil/pull/3233) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Update inner.rs](https://github.com/ChrisTitusTech/linutil/pull/1022) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
-- [Update inner.rs](https://github.com/ChrisTitusTech/linutil/pull/1021) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
-- [Revert &#34;refactor: Improve File Contains precondition&#34;](https://github.com/ChrisTitusTech/linutil/pull/1020) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
+- [fix links #1](https://github.com/Chris-Titus-Docs/winutil-docs/pull/22) on [Chris-Titus-Docs/winutil-docs](https://github.com/Chris-Titus-Docs/winutil-docs)
+- [Update hugo.yml](https://github.com/Chris-Titus-Docs/winutil-docs/pull/21) on [Chris-Titus-Docs/winutil-docs](https://github.com/Chris-Titus-Docs/winutil-docs)
+- [Fix build and deploy... maybe.](https://github.com/Chris-Titus-Docs/winutil-docs/pull/20) on [Chris-Titus-Docs/winutil-docs](https://github.com/Chris-Titus-Docs/winutil-docs)
+- [remove bs actions from llm](https://github.com/Chris-Titus-Docs/winutil-docs/pull/19) on [Chris-Titus-Docs/winutil-docs](https://github.com/Chris-Titus-Docs/winutil-docs)
+- [fix build](https://github.com/Chris-Titus-Docs/winutil-docs/pull/18) on [Chris-Titus-Docs/winutil-docs](https://github.com/Chris-Titus-Docs/winutil-docs)
 ### ⭐ Recent Stars
 
+- [Chris-Titus-Docs/winutil-docs](https://github.com/Chris-Titus-Docs/winutil-docs) - 
 - [Shirk/Nameplate](https://github.com/Shirk/Nameplate) - Ashita/Windower plugin that corrects defects in FFXi&#39;s nameplate rendering
 - [onimitch/ffxi-balloon-ashitav4](https://github.com/onimitch/ffxi-balloon-ashitav4) - This is an Ashita v4 port of the Balloon addon, forked from StarlitGhost&#39;s version.  The original Windower Balloon addon was created by Hando and modified by Kenshi, Yuki and Ghosty.
 - [svanheulen/anchor-windower-addon](https://github.com/svanheulen/anchor-windower-addon) - A no-knockback addon for Windower
 - [CorentinTh/it-tools](https://github.com/CorentinTh/it-tools) - Collection of handy online tools for developers, with great UX. 
-- [zpaav/HealBot](https://github.com/zpaav/HealBot) - Healbot for FFXI
 ### 📰 Recent Blog Posts
 
 - [Jakoolit Hyprland](https://christitus.com/jakoolit-hyprland/)
