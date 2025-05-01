@@ -13,18 +13,18 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/dwl-ubuntu](https://github.com/ChrisTitusTech/dwl-ubuntu) - 
+- [ChrisTitusTech/quickshell](https://github.com/ChrisTitusTech/quickshell) - 
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/ashita-ffxi](https://github.com/ChrisTitusTech/ashita-ffxi) - Complete repo with all addons for Ashita and customized for retail ffxi
 - [Chris-Titus-Docs/winutil-docs](https://github.com/Chris-Titus-Docs/winutil-docs) - 
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
 ### 🌱 My latest projects
 
+- [ChrisTitusTech/quickshell](https://github.com/ChrisTitusTech/quickshell) - 
+- [ChrisTitusTech/dwl-ubuntu](https://github.com/ChrisTitusTech/dwl-ubuntu) - 
 - [ChrisTitusTech/ashita-ffxi](https://github.com/ChrisTitusTech/ashita-ffxi) - Complete repo with all addons for Ashita and customized for retail ffxi
 - [ChrisTitusTech/apm](https://github.com/ChrisTitusTech/apm) - This is a basic Actions Per Minute Overlay for tracking in Windows and Linux
 - [ChrisTitusTech/ageoftitus](https://github.com/ChrisTitusTech/ageoftitus) - Age of Titus Gaming Channel
-- [ChrisTitusTech/d2r-loot-filter](https://github.com/ChrisTitusTech/d2r-loot-filter) - Chris Titus Tech&#39;s Loot Filter for Diablo II Resurrected.
-- [ChrisTitusTech/ffxi-windower](https://github.com/ChrisTitusTech/ffxi-windower) - 
 ### 🔨 My recent Pull Requests
 
 - [fix links #1](https://github.com/Chris-Titus-Docs/winutil-docs/pull/22) on [Chris-Titus-Docs/winutil-docs](https://github.com/Chris-Titus-Docs/winutil-docs)
