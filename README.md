@@ -14,10 +14,10 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 ### 👷 Check out what I'm currently working on
 
 - [ChrisTitusTech/quickshell](https://github.com/ChrisTitusTech/quickshell) - Wayland based bar for Hyprland and other WMs.
+- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 - [ChrisTitusTech/ashita-ffxi](https://github.com/ChrisTitusTech/ashita-ffxi) - Complete repo with all addons for Ashita and customized for retail ffxi
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/dwl-titus](https://github.com/ChrisTitusTech/dwl-titus) - 
-- [ChrisTitusTech/dwl-ubuntu](https://github.com/ChrisTitusTech/dwl-ubuntu) - 
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/dwl-titus](https://github.com/ChrisTitusTech/dwl-titus) - 
@@ -34,11 +34,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [fix build](https://github.com/Chris-Titus-Docs/winutil-docs/pull/18) on [Chris-Titus-Docs/winutil-docs](https://github.com/Chris-Titus-Docs/winutil-docs)
 ### ⭐ Recent Stars
 
+- [yetone/avante.nvim](https://github.com/yetone/avante.nvim) - Use your Neovim like using Cursor AI IDE!
 - [kunkunsh/kunkun](https://github.com/kunkunsh/kunkun) - An open source, cross-platform, extensible app launcher.
 - [Chris-Titus-Docs/winutil-docs](https://github.com/Chris-Titus-Docs/winutil-docs) - 
 - [Shirk/Nameplate](https://github.com/Shirk/Nameplate) - Ashita/Windower plugin that corrects defects in FFXi&#39;s nameplate rendering
 - [onimitch/ffxi-balloon-ashitav4](https://github.com/onimitch/ffxi-balloon-ashitav4) - This is an Ashita v4 port of the Balloon addon, forked from StarlitGhost&#39;s version.  The original Windower Balloon addon was created by Hando and modified by Kenshi, Yuki and Ghosty.
-- [svanheulen/anchor-windower-addon](https://github.com/svanheulen/anchor-windower-addon) - A no-knockback addon for Windower
 ### 📰 Recent Blog Posts
 
 - [Cleaning Arch Linux](https://christitus.com/cleaning-arch-linux/)
