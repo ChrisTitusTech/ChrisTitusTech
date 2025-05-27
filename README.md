@@ -20,11 +20,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/quickshell](https://github.com/ChrisTitusTech/quickshell) - Wayland based bar for Hyprland and other WMs.
 ### 🌱 My latest projects
 
-- [ChrisTitusTech/dwl-titus](https://github.com/ChrisTitusTech/dwl-titus) - 
 - [ChrisTitusTech/quickshell](https://github.com/ChrisTitusTech/quickshell) - Wayland based bar for Hyprland and other WMs.
-- [ChrisTitusTech/dwl-ubuntu](https://github.com/ChrisTitusTech/dwl-ubuntu) - 
 - [ChrisTitusTech/ashita-ffxi](https://github.com/ChrisTitusTech/ashita-ffxi) - Complete repo with all addons for Ashita and customized for retail ffxi
 - [ChrisTitusTech/apm](https://github.com/ChrisTitusTech/apm) - This is a basic Actions Per Minute Overlay for tracking in Windows and Linux
+- [ChrisTitusTech/ageoftitus](https://github.com/ChrisTitusTech/ageoftitus) - Age of Titus Gaming Channel
+- [ChrisTitusTech/d2r-loot-filter](https://github.com/ChrisTitusTech/d2r-loot-filter) - Chris Titus Tech&#39;s Loot Filter for Diablo II Resurrected.
 ### 🔨 My recent Pull Requests
 
 - [fix links #1](https://github.com/Chris-Titus-Docs/winutil-docs/pull/22) on [Chris-Titus-Docs/winutil-docs](https://github.com/Chris-Titus-Docs/winutil-docs)
