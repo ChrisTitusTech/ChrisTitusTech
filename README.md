@@ -34,11 +34,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [fix build](https://github.com/Chris-Titus-Docs/winutil-docs/pull/18) on [Chris-Titus-Docs/winutil-docs](https://github.com/Chris-Titus-Docs/winutil-docs)
 ### ⭐ Recent Stars
 
+- [cyritegamestudios/trust](https://github.com/cyritegamestudios/trust) - Windower 4 addon for FFXI to automate your character in battle.
 - [yetone/avante.nvim](https://github.com/yetone/avante.nvim) - Use your Neovim like using Cursor AI IDE!
 - [kunkunsh/kunkun](https://github.com/kunkunsh/kunkun) - An open source, cross-platform, extensible app launcher.
 - [Chris-Titus-Docs/winutil-docs](https://github.com/Chris-Titus-Docs/winutil-docs) - 
 - [Shirk/Nameplate](https://github.com/Shirk/Nameplate) - Ashita/Windower plugin that corrects defects in FFXi&#39;s nameplate rendering
-- [onimitch/ffxi-balloon-ashitav4](https://github.com/onimitch/ffxi-balloon-ashitav4) - This is an Ashita v4 port of the Balloon addon, forked from StarlitGhost&#39;s version.  The original Windower Balloon addon was created by Hando and modified by Kenshi, Yuki and Ghosty.
 ### 📰 Recent Blog Posts
 
 - [Cleaning Arch Linux](https://christitus.com/cleaning-arch-linux/)
