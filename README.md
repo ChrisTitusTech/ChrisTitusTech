@@ -13,11 +13,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/quickshell](https://github.com/ChrisTitusTech/quickshell) - Wayland based bar for Hyprland and other WMs.
+- [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - My config files for Hyprland Wayland Window Manager
+- [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
 - [ChrisTitusTech/linux-book-publish](https://github.com/ChrisTitusTech/linux-book-publish) - The Linux book
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [ChrisTitusTech/quickshell](https://github.com/ChrisTitusTech/quickshell) - Wayland based bar for Hyprland and other WMs.
-- [ChrisTitusTech/ashita-ffxi](https://github.com/ChrisTitusTech/ashita-ffxi) - Complete repo with all addons for Ashita and customized for retail ffxi
-- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/linux-book-publish](https://github.com/ChrisTitusTech/linux-book-publish) - The Linux book
