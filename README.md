@@ -34,11 +34,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [fix build](https://github.com/Chris-Titus-Docs/winutil-docs/pull/18) on [Chris-Titus-Docs/winutil-docs](https://github.com/Chris-Titus-Docs/winutil-docs)
 ### ⭐ Recent Stars
 
+- [rhee876527/chiyogami](https://github.com/rhee876527/chiyogami) - Yet another pastebin
+- [gabm/Satty](https://github.com/gabm/Satty) - Satty - Modern Screenshot Annotation.
+- [SinTan1729/chhoto-url](https://github.com/SinTan1729/chhoto-url) - A simple, blazingly fast, selfhosted URL shortener with no unnecessary features; written in Rust.
 - [X11Libre/xserver](https://github.com/X11Libre/xserver) - 
 - [catppuccin/mdBook](https://github.com/catppuccin/mdBook) - 🎊 Soothing pastel theme for mdBook
-- [ekrividus/autoAssist](https://github.com/ekrividus/autoAssist) - An ffxi windower addon to automatically assist a party member in combat
-- [cyritegamestudios/trust](https://github.com/cyritegamestudios/trust) - Windower 4 addon for FFXI to automate your character in battle.
-- [yetone/avante.nvim](https://github.com/yetone/avante.nvim) - Use your Neovim like using Cursor AI IDE!
 ### 📰 Recent Blog Posts
 
 - [Cleaning Arch Linux](https://christitus.com/cleaning-arch-linux/)
