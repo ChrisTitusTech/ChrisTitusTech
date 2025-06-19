@@ -15,9 +15,9 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 - [ChrisTitusTech/linux-book-publish](https://github.com/ChrisTitusTech/linux-book-publish) - The Linux book
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [ChrisTitusTech/ashita-ffxi](https://github.com/ChrisTitusTech/ashita-ffxi) - Complete repo with all addons for Ashita and customized for retail ffxi
-- [ChrisTitusTech/quickshell](https://github.com/ChrisTitusTech/quickshell) - Wayland based bar for Hyprland and other WMs.
+- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - My config files for Hyprland Wayland Window Manager
+- [ChrisTitusTech/quickshell](https://github.com/ChrisTitusTech/quickshell) - Wayland based bar for Hyprland and other WMs.
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/linux-book-publish](https://github.com/ChrisTitusTech/linux-book-publish) - The Linux book
@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/ageoftitus](https://github.com/ChrisTitusTech/ageoftitus) - Age of Titus Gaming Channel
 ### 🔨 My recent Pull Requests
 
+- [Remove github pages and old docs gh actions](https://github.com/ChrisTitusTech/winutil/pull/3448) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [fix links #1](https://github.com/Chris-Titus-Docs/winutil-docs/pull/22) on [Chris-Titus-Docs/winutil-docs](https://github.com/Chris-Titus-Docs/winutil-docs)
 - [Update hugo.yml](https://github.com/Chris-Titus-Docs/winutil-docs/pull/21) on [Chris-Titus-Docs/winutil-docs](https://github.com/Chris-Titus-Docs/winutil-docs)
 - [Fix build and deploy... maybe.](https://github.com/Chris-Titus-Docs/winutil-docs/pull/20) on [Chris-Titus-Docs/winutil-docs](https://github.com/Chris-Titus-Docs/winutil-docs)
 - [remove bs actions from llm](https://github.com/Chris-Titus-Docs/winutil-docs/pull/19) on [Chris-Titus-Docs/winutil-docs](https://github.com/Chris-Titus-Docs/winutil-docs)
-- [fix build](https://github.com/Chris-Titus-Docs/winutil-docs/pull/18) on [Chris-Titus-Docs/winutil-docs](https://github.com/Chris-Titus-Docs/winutil-docs)
 ### ⭐ Recent Stars
 
 - [rhee876527/chiyogami](https://github.com/rhee876527/chiyogami) - Yet another pastebin
