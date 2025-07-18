@@ -14,10 +14,10 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 ### 👷 Check out what I'm currently working on
 
 - [ChrisTitusTech/macutil](https://github.com/ChrisTitusTech/macutil) - 
-- [ChrisTitusTech/linux-book-publish](https://github.com/ChrisTitusTech/linux-book-publish) - The Linux book
+- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 - [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
+- [ChrisTitusTech/linux-book-publish](https://github.com/ChrisTitusTech/linux-book-publish) - The Linux book
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
-- [ChrisTitusTech/ashita-ffxi](https://github.com/ChrisTitusTech/ashita-ffxi) - Complete repo with all addons for Ashita and customized for retail ffxi
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/maczsh](https://github.com/ChrisTitusTech/maczsh) - 
@@ -34,11 +34,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [remove bs actions from llm](https://github.com/Chris-Titus-Docs/winutil-docs/pull/19) on [Chris-Titus-Docs/winutil-docs](https://github.com/Chris-Titus-Docs/winutil-docs)
 ### ⭐ Recent Stars
 
+- [hardentools/hardentools](https://github.com/hardentools/hardentools) - Hardentools simply reduces the attack surface on Microsoft Windows computers by disabling low-hanging fruit risky features.
+- [marcelhoffs/input-switcher](https://github.com/marcelhoffs/input-switcher) - Switch inputs with hidapitester (Windows &amp; Linux)
 - [sickcodes/osx-optimizer](https://github.com/sickcodes/osx-optimizer) - OSX Optimizer: Optimize MacOS - Shell scripts to speed up your mac boot time, accelerate loading, and prevent unnecessary throttling.
 - [Caradog/XI-View](https://github.com/Caradog/XI-View) - UI Improvement for FFXI
 - [Faugus/faugus-launcher](https://github.com/Faugus/faugus-launcher) - A simple and lightweight app for running Windows games using UMU-Launcher
-- [uint23/sxwm](https://github.com/uint23/sxwm) - tiling window managers dont have to be difficult
-- [anametologin/krohnkite](https://github.com/anametologin/krohnkite) - A dynamic tiling extension for KWin
 ### 📰 Recent Blog Posts
 
 - [The Ai Problem](https://christitus.com/the-ai-problem/)
