@@ -13,11 +13,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - My Neovim configuration
 - [ChrisTitusTech/ashita-ffxi](https://github.com/ChrisTitusTech/ashita-ffxi) - Complete repo with all addons for Ashita and customized for retail ffxi
 - [ChrisTitusTech/yabai-config](https://github.com/ChrisTitusTech/yabai-config) - Full config files for Yabai, Sketchybar, and skhd
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
-- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/yabai-config](https://github.com/ChrisTitusTech/yabai-config) - Full config files for Yabai, Sketchybar, and skhd
@@ -34,11 +34,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [remove bs actions from llm](https://github.com/Chris-Titus-Docs/winutil-docs/pull/19) on [Chris-Titus-Docs/winutil-docs](https://github.com/Chris-Titus-Docs/winutil-docs)
 ### ⭐ Recent Stars
 
+- [DavidMoore/ipfilter](https://github.com/DavidMoore/ipfilter) - Keeps your preferred Bit Torrent client blocklist up to date to support your privacy and security
 - [yorukot/superfile](https://github.com/yorukot/superfile) - Pretty fancy and modern terminal file manager
 - [charmbracelet/gum](https://github.com/charmbracelet/gum) - A tool for glamorous shell scripts 🎀
 - [schollz/croc](https://github.com/schollz/croc) - Easily and securely send things from one computer to another :crocodile: :package:
 - [hardentools/hardentools](https://github.com/hardentools/hardentools) - Hardentools simply reduces the attack surface on Microsoft Windows computers by disabling low-hanging fruit risky features.
-- [marcelhoffs/input-switcher](https://github.com/marcelhoffs/input-switcher) - Switch inputs with hidapitester (Windows &amp; Linux)
 ### 📰 Recent Blog Posts
 
 - [The Ai Problem](https://christitus.com/the-ai-problem/)
