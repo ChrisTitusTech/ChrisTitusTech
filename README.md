@@ -14,9 +14,9 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 ### 👷 Check out what I'm currently working on
 
 - [ChrisTitusTech/macutil](https://github.com/ChrisTitusTech/macutil) - Fix macOS crazy defaults to be functional and remove animations and other apple b.s.
+- [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - My Neovim configuration
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/yabai-config](https://github.com/ChrisTitusTech/yabai-config) - Full config files for Yabai, Sketchybar, and skhd
-- [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - My Neovim configuration
 - [ChrisTitusTech/ashita-ffxi](https://github.com/ChrisTitusTech/ashita-ffxi) - Complete repo with all addons for Ashita and customized for retail ffxi
 ### 🌱 My latest projects
 
