@@ -13,11 +13,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [ChrisTitusTech/aerospace-config](https://github.com/ChrisTitusTech/aerospace-config) - 
-- [ChrisTitusTech/macutil](https://github.com/ChrisTitusTech/macutil) - Fix macOS crazy defaults to be functional and remove animations and other apple b.s.
-- [ChrisTitusTech/ashita-ffxi](https://github.com/ChrisTitusTech/ashita-ffxi) - Complete repo with all addons for Ashita and customized for retail ffxi
+- [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - My config files for Hyprland Wayland Window Manager
 - [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - My Neovim configuration
+- [ChrisTitusTech/aerospace-config](https://github.com/ChrisTitusTech/aerospace-config) - 
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
+- [ChrisTitusTech/macutil](https://github.com/ChrisTitusTech/macutil) - Fix macOS crazy defaults to be functional and remove animations and other apple b.s.
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/aerospace-config](https://github.com/ChrisTitusTech/aerospace-config) - 
@@ -34,11 +34,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [Update hugo.yml](https://github.com/Chris-Titus-Docs/winutil-docs/pull/21) on [Chris-Titus-Docs/winutil-docs](https://github.com/Chris-Titus-Docs/winutil-docs)
 ### ⭐ Recent Stars
 
+- [ionide/Ionide-vim](https://github.com/ionide/Ionide-vim) - F# Vim plugin based on FsAutoComplete and LSP protocol 
 - [kvndrsslr/sketchybar-app-font](https://github.com/kvndrsslr/sketchybar-app-font) - A symbol font for sketchybar, initialized with the symbols from simple-bar
 - [abiosoft/colima](https://github.com/abiosoft/colima) - Container runtimes on macOS (and Linux) with minimal setup
 - [Coopydood/ultimate-macOS-KVM](https://github.com/Coopydood/ultimate-macOS-KVM) - Helping noobs and pros alike build the ultimate macOS virtual machine with easy automation, powered by KVM. Now with macOS Tahoe beta support!
 - [geerlingguy/mac-dev-playbook](https://github.com/geerlingguy/mac-dev-playbook) - Mac setup and configuration via Ansible.
-- [DavidMoore/ipfilter](https://github.com/DavidMoore/ipfilter) - Keeps your preferred Bit Torrent client blocklist up to date to support your privacy and security
 ### 📰 Recent Blog Posts
 
 - [The Ai Problem](https://christitus.com/the-ai-problem/)
