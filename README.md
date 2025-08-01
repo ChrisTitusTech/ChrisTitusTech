@@ -13,18 +13,18 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/aerospace-config](https://github.com/ChrisTitusTech/aerospace-config) - 
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - My Neovim configuration
+- [ChrisTitusTech/fstack](https://github.com/ChrisTitusTech/fstack) - 
 - [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - My config files for Hyprland Wayland Window Manager
-- [ChrisTitusTech/macutil](https://github.com/ChrisTitusTech/macutil) - Fix macOS crazy defaults to be functional and remove animations and other apple b.s.
+- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
+- [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - My Neovim configuration
+- [ChrisTitusTech/aerospace-config](https://github.com/ChrisTitusTech/aerospace-config) - 
 ### 🌱 My latest projects
 
+- [ChrisTitusTech/fstack](https://github.com/ChrisTitusTech/fstack) - 
 - [ChrisTitusTech/aerospace-config](https://github.com/ChrisTitusTech/aerospace-config) - 
 - [ChrisTitusTech/yabai-config](https://github.com/ChrisTitusTech/yabai-config) - Full config files for Yabai, Sketchybar, and skhd
 - [ChrisTitusTech/maczsh](https://github.com/ChrisTitusTech/maczsh) - 
 - [ChrisTitusTech/macutil](https://github.com/ChrisTitusTech/macutil) - Fix macOS crazy defaults to be functional and remove animations and other apple b.s.
-- [ChrisTitusTech/linux-book-publish](https://github.com/ChrisTitusTech/linux-book-publish) - The Linux book
 ### 🔨 My recent Pull Requests
 
 - [Fix CI/CD for F# instead of Rust](https://github.com/ChrisTitusTech/macutil/pull/12) on [ChrisTitusTech/macutil](https://github.com/ChrisTitusTech/macutil)
@@ -34,18 +34,18 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [Update hugo.yml](https://github.com/Chris-Titus-Docs/winutil-docs/pull/21) on [Chris-Titus-Docs/winutil-docs](https://github.com/Chris-Titus-Docs/winutil-docs)
 ### ⭐ Recent Stars
 
+- [StreamController/StreamController](https://github.com/StreamController/StreamController) - An elegant Linux app for the Elgato Stream Deck with support for plugins
+- [hakonharnes/img-clip.nvim](https://github.com/hakonharnes/img-clip.nvim) - Embed images into any markup language, like LaTeX, Markdown or Typst
 - [ionide/Ionide-vim](https://github.com/ionide/Ionide-vim) - F# Vim plugin based on FsAutoComplete and LSP protocol 
 - [kvndrsslr/sketchybar-app-font](https://github.com/kvndrsslr/sketchybar-app-font) - A symbol font for sketchybar, initialized with the symbols from simple-bar
 - [abiosoft/colima](https://github.com/abiosoft/colima) - Container runtimes on macOS (and Linux) with minimal setup
-- [Coopydood/ultimate-macOS-KVM](https://github.com/Coopydood/ultimate-macOS-KVM) - Helping noobs and pros alike build the ultimate macOS virtual machine with easy automation, powered by KVM. Now with macOS Tahoe beta support!
-- [geerlingguy/mac-dev-playbook](https://github.com/geerlingguy/mac-dev-playbook) - Mac setup and configuration via Ansible.
 ### 📰 Recent Blog Posts
 
+- [Hyprland Monitor Config](https://christitus.com/hyprland-monitor-config/)
 - [The Ai Problem](https://christitus.com/the-ai-problem/)
 - [Cleaning Arch Linux](https://christitus.com/cleaning-arch-linux/)
 - [iSCSI on Boot](https://christitus.com/iscsi-on-boot/)
 - [Jakoolit Hyprland](https://christitus.com/jakoolit-hyprland/)
-- [Why I Use Linux](https://christitus.com/why-i-use-linux/)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
