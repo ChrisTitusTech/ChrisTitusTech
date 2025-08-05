@@ -13,10 +13,10 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [ChrisTitusTech/fstack](https://github.com/ChrisTitusTech/fstack) - 
+- [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
-- [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - My config files for Hyprland Wayland Window Manager
+- [ChrisTitusTech/macutil](https://github.com/ChrisTitusTech/macutil) - Fix macOS crazy defaults to be functional and remove animations and other apple b.s.
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - My Neovim configuration
 ### 🌱 My latest projects
 
@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/macutil](https://github.com/ChrisTitusTech/macutil) - Fix macOS crazy defaults to be functional and remove animations and other apple b.s.
 ### 🔨 My recent Pull Requests
 
+- [Update README.md](https://github.com/ChrisTitusTech/linutil/pull/1106) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
+- [Update README.md](https://github.com/ChrisTitusTech/linutil/pull/1105) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [Fix CI/CD for F# instead of Rust](https://github.com/ChrisTitusTech/macutil/pull/12) on [ChrisTitusTech/macutil](https://github.com/ChrisTitusTech/macutil)
 - [F# Conversion](https://github.com/ChrisTitusTech/macutil/pull/11) on [ChrisTitusTech/macutil](https://github.com/ChrisTitusTech/macutil)
 - [Remove github pages and old docs gh actions](https://github.com/ChrisTitusTech/winutil/pull/3448) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [fix links #1](https://github.com/Chris-Titus-Docs/winutil-docs/pull/22) on [Chris-Titus-Docs/winutil-docs](https://github.com/Chris-Titus-Docs/winutil-docs)
-- [Update hugo.yml](https://github.com/Chris-Titus-Docs/winutil-docs/pull/21) on [Chris-Titus-Docs/winutil-docs](https://github.com/Chris-Titus-Docs/winutil-docs)
 ### ⭐ Recent Stars
 
 - [StreamController/StreamController](https://github.com/StreamController/StreamController) - An elegant Linux app for the Elgato Stream Deck with support for plugins
