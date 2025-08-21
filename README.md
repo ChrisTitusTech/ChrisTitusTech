@@ -13,11 +13,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/aerospace-config](https://github.com/ChrisTitusTech/aerospace-config) - 
 - [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
 - [ChrisTitusTech/omarchy-titus](https://github.com/ChrisTitusTech/omarchy-titus) - My customizations to DHH&#39;s Omarchy
-- [ChrisTitusTech/gimphelp](https://github.com/ChrisTitusTech/gimphelp) - 
 - [ChrisTitusTech/linux-book-publish](https://github.com/ChrisTitusTech/linux-book-publish) - The Linux book
-- [ChrisTitusTech/macutil](https://github.com/ChrisTitusTech/macutil) - Fix macOS crazy defaults to be functional and remove animations and other apple b.s.
+- [ChrisTitusTech/gimphelp](https://github.com/ChrisTitusTech/gimphelp) - 
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/omarchy-titus](https://github.com/ChrisTitusTech/omarchy-titus) - My customizations to DHH&#39;s Omarchy
@@ -34,11 +34,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [Remove github pages and old docs gh actions](https://github.com/ChrisTitusTech/winutil/pull/3448) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [charmbracelet/crush](https://github.com/charmbracelet/crush) - The glamourous AI coding agent for your favourite terminal 💘
+- [sst/opencode](https://github.com/sst/opencode) - AI coding agent, built for the terminal.
 - [builtbybel/CrapFixer](https://github.com/builtbybel/CrapFixer) - Cr*ap Fixer
 - [StreamController/StreamController](https://github.com/StreamController/StreamController) - An elegant Linux app for the Elgato Stream Deck with support for plugins
 - [hakonharnes/img-clip.nvim](https://github.com/hakonharnes/img-clip.nvim) - Embed images into any markup language, like LaTeX, Markdown or Typst
-- [ionide/Ionide-vim](https://github.com/ionide/Ionide-vim) - F# Vim plugin based on FsAutoComplete and LSP protocol 
-- [kvndrsslr/sketchybar-app-font](https://github.com/kvndrsslr/sketchybar-app-font) - A symbol font for sketchybar, initialized with the symbols from simple-bar
 ### 📰 Recent Blog Posts
 
 - [Hyprland Monitor Config](https://christitus.com/hyprland-monitor-config/)
