@@ -13,8 +13,8 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
+- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 - [ChrisTitusTech/fallout76-configs](https://github.com/ChrisTitusTech/fallout76-configs) - 
 - [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
 - [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/aerospace-config](https://github.com/ChrisTitusTech/aerospace-config) - 
 ### 🔨 My recent Pull Requests
 
+- [Install Windows Update Blocker](https://github.com/ChrisTitusTech/winutil/pull/3577) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Dwmh tag enhancement](https://github.com/ChrisTitusTech/dwm-titus/pull/71) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 - [Update README.md](https://github.com/ChrisTitusTech/linutil/pull/1106) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [Update README.md](https://github.com/ChrisTitusTech/linutil/pull/1105) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [Fix CI/CD for F# instead of Rust](https://github.com/ChrisTitusTech/macutil/pull/12) on [ChrisTitusTech/macutil](https://github.com/ChrisTitusTech/macutil)
-- [F# Conversion](https://github.com/ChrisTitusTech/macutil/pull/11) on [ChrisTitusTech/macutil](https://github.com/ChrisTitusTech/macutil)
 ### ⭐ Recent Stars
 
 - [abenz1267/walker](https://github.com/abenz1267/walker) - Multi-Purpose Launcher with a lot of features. Highly Customizable and fast.
