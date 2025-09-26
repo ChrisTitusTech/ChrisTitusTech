@@ -13,11 +13,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/linux-book-publish](https://github.com/ChrisTitusTech/linux-book-publish) - The Linux book
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
-- [ChrisTitusTech/linux-book-publish](https://github.com/ChrisTitusTech/linux-book-publish) - The Linux book
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/dwm-titus-docs](https://github.com/ChrisTitusTech/dwm-titus-docs) - Documentation Website for DWM-Titus
@@ -34,11 +34,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [Update README.md](https://github.com/ChrisTitusTech/linutil/pull/1105) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 ### ⭐ Recent Stars
 
+- [imputnet/helium](https://github.com/imputnet/helium) - Private, fast, and honest web browser
+- [dshnkao/SpaceId](https://github.com/dshnkao/SpaceId) - macOS space indicator
 - [CodingWonders/MicroWin](https://github.com/CodingWonders/MicroWin) - This repository contains the source code for the MicroWin CANARY version. MicroWin CANARY allows us to work more quickly and efficiently on the next version of MicroWin that will be available on WinUtil (https://github.com/ChrisTitusTech/winutil).
 - [Meliketoaste/wodin](https://github.com/Meliketoaste/wodin) - tiny xlib window manager as of now.
 - [enzo1982/freac](https://github.com/enzo1982/freac) - The fre:ac audio converter project
-- [TibixDev/winboat](https://github.com/TibixDev/winboat) - Run Windows apps on 🐧 Linux with ✨ seamless integration
-- [abenz1267/walker](https://github.com/abenz1267/walker) - Multi-Purpose Launcher with a lot of features. Highly Customizable and fast.
 ### 📰 Recent Blog Posts
 
 - [Track Changes Word Author Macro](https://christitus.com/track-changes-word-author-macro/)
