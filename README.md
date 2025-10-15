@@ -13,11 +13,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [ChrisTitusTech/dwm-titus-docs](https://github.com/ChrisTitusTech/dwm-titus-docs) - Documentation Website for DWM-Titus
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
-- [ChrisTitusTech/bypassnro](https://github.com/ChrisTitusTech/bypassnro) - Fixing Microsoft&#39;s removal of BypassNRO
+- [ChrisTitusTech/ashita-ffxi](https://github.com/ChrisTitusTech/ashita-ffxi) - Complete repo with all addons for Ashita and customized for retail ffxi
+- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
+- [ChrisTitusTech/dwm-titus-docs](https://github.com/ChrisTitusTech/dwm-titus-docs) - Documentation Website for DWM-Titus
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/bypassnro](https://github.com/ChrisTitusTech/bypassnro) - Fixing Microsoft&#39;s removal of BypassNRO
@@ -34,11 +34,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [Update README.md](https://github.com/ChrisTitusTech/linutil/pull/1105) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 ### ⭐ Recent Stars
 
+- [kkslidermight/laa](https://github.com/kkslidermight/laa) - tiny c program to toggle large adress aware on windows portable executable files
+- [crosire/d3d8to9](https://github.com/crosire/d3d8to9) - A D3D8 pseudo-driver which converts API calls and bytecode shaders to equivalent D3D9 ones.
 - [Vinzent03/obsidian-git](https://github.com/Vinzent03/obsidian-git) - Integrate Git version control with automatic commit-and-sync and other advanced features in Obsidian.md
 - [imputnet/helium](https://github.com/imputnet/helium) - Private, fast, and honest web browser
 - [dshnkao/SpaceId](https://github.com/dshnkao/SpaceId) - macOS space indicator
-- [CodingWonders/MicroWin](https://github.com/CodingWonders/MicroWin) - This repository contains the source code for the MicroWin CANARY version. MicroWin CANARY allows us to work more quickly and efficiently on the next version of MicroWin that will be available on WinUtil (https://github.com/ChrisTitusTech/winutil).
-- [Meliketoaste/wodin](https://github.com/Meliketoaste/wodin) - tiny xlib window manager as of now.
 ### 📰 Recent Blog Posts
 
 - [Enable Vrr Xorg](https://christitus.com/enable-vrr-xorg/)
