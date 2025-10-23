@@ -17,14 +17,14 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/ashita-ffxi](https://github.com/ChrisTitusTech/ashita-ffxi) - Complete repo with all addons for Ashita and customized for retail ffxi
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
-- [ChrisTitusTech/dwm-titus-docs](https://github.com/ChrisTitusTech/dwm-titus-docs) - Documentation Website for DWM-Titus
+- [ChrisTitusTech/bypassnro](https://github.com/ChrisTitusTech/bypassnro) - Fixing Microsoft&#39;s removal of BypassNRO
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/bypassnro](https://github.com/ChrisTitusTech/bypassnro) - Fixing Microsoft&#39;s removal of BypassNRO
-- [ChrisTitusTech/obsidian](https://github.com/ChrisTitusTech/obsidian) - 
 - [ChrisTitusTech/dwm-titus-docs](https://github.com/ChrisTitusTech/dwm-titus-docs) - Documentation Website for DWM-Titus
 - [ChrisTitusTech/fallout76-configs](https://github.com/ChrisTitusTech/fallout76-configs) - Fallout 76 custom ini and mod list auto installer
 - [ChrisTitusTech/vkbasalt-conf](https://github.com/ChrisTitusTech/vkbasalt-conf) - 
+- [ChrisTitusTech/omarchy-titus](https://github.com/ChrisTitusTech/omarchy-titus) - My customizations to DHH&#39;s Omarchy
 ### 🔨 My recent Pull Requests
 
 - [MultiMonitor-TagsperMonitor](https://github.com/ChrisTitusTech/dwm-titus/pull/72) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
