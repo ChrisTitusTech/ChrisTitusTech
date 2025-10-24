@@ -34,11 +34,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [Update README.md](https://github.com/ChrisTitusTech/linutil/pull/1105) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 ### ⭐ Recent Stars
 
+- [danielmiessler/Fabric](https://github.com/danielmiessler/Fabric) - Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.
 - [kkslidermight/laa](https://github.com/kkslidermight/laa) - tiny c program to toggle large adress aware on windows portable executable files
 - [crosire/d3d8to9](https://github.com/crosire/d3d8to9) - A D3D8 pseudo-driver which converts API calls and bytecode shaders to equivalent D3D9 ones.
 - [Vinzent03/obsidian-git](https://github.com/Vinzent03/obsidian-git) - Integrate Git version control with automatic commit-and-sync and other advanced features in Obsidian.md
 - [imputnet/helium](https://github.com/imputnet/helium) - Private, fast, and honest web browser
-- [dshnkao/SpaceId](https://github.com/dshnkao/SpaceId) - macOS space indicator
 ### 📰 Recent Blog Posts
 
 - [Enable Vrr Xorg](https://christitus.com/enable-vrr-xorg/)
