@@ -23,7 +23,7 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/bypassnro](https://github.com/ChrisTitusTech/bypassnro) - Fixing Microsoft&#39;s removal of BypassNRO
 - [ChrisTitusTech/dwm-titus-docs](https://github.com/ChrisTitusTech/dwm-titus-docs) - Documentation Website for DWM-Titus
 - [ChrisTitusTech/fallout76-configs](https://github.com/ChrisTitusTech/fallout76-configs) - Fallout 76 custom ini and mod list auto installer
-- [ChrisTitusTech/vkbasalt-conf](https://github.com/ChrisTitusTech/vkbasalt-conf) - 
+- [ChrisTitusTech/vkbasalt-conf](https://github.com/ChrisTitusTech/vkbasalt-conf) - Linux version of reshade, but better
 - [ChrisTitusTech/omarchy-titus](https://github.com/ChrisTitusTech/omarchy-titus) - My customizations to DHH&#39;s Omarchy
 ### 🔨 My recent Pull Requests
 
