@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/fallout76-configs](https://github.com/ChrisTitusTech/fallout76-configs) - Fallout 76 custom ini and mod list auto installer
 ### 🔨 My recent Pull Requests
 
+- [Upgrade to PyQt6](https://github.com/ChrisTitusTech/AoE4_Overlay/pull/1) on [ChrisTitusTech/AoE4_Overlay](https://github.com/ChrisTitusTech/AoE4_Overlay)
+- [Upgrade to PyQt6](https://github.com/FluffyMaguro/AoE4_Overlay/pull/49) on [FluffyMaguro/AoE4_Overlay](https://github.com/FluffyMaguro/AoE4_Overlay)
 - [commit for removal of user scope progs and user scope winget](https://github.com/ChrisTitusTech/winutil/pull/3727) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [MultiMonitor-TagsperMonitor](https://github.com/ChrisTitusTech/dwm-titus/pull/72) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 - [Install Windows Update Blocker](https://github.com/ChrisTitusTech/winutil/pull/3577) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Dwmh tag enhancement](https://github.com/ChrisTitusTech/dwm-titus/pull/71) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [Update README.md](https://github.com/ChrisTitusTech/linutil/pull/1106) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 ### ⭐ Recent Stars
 
 - [streetpea/chiaki-ng](https://github.com/streetpea/chiaki-ng) - Next-Generation of Chiaki (the open-source remote play client for PlayStation)
