@@ -13,11 +13,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
+- [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/aoe4](https://github.com/ChrisTitusTech/aoe4) - 
 - [ChrisTitusTech/aoe4-config](https://github.com/ChrisTitusTech/aoe4-config) - 
-- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
-- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/aoe4](https://github.com/ChrisTitusTech/aoe4) - 
@@ -27,18 +27,18 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/fallout76-configs](https://github.com/ChrisTitusTech/fallout76-configs) - Fallout 76 custom ini and mod list auto installer
 ### 🔨 My recent Pull Requests
 
+- [fix sorting in linutil](https://github.com/ChrisTitusTech/linutil/pull/1165) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [Upgrade to PyQt6](https://github.com/ChrisTitusTech/AoE4_Overlay/pull/1) on [ChrisTitusTech/AoE4_Overlay](https://github.com/ChrisTitusTech/AoE4_Overlay)
 - [Upgrade to PyQt6](https://github.com/FluffyMaguro/AoE4_Overlay/pull/49) on [FluffyMaguro/AoE4_Overlay](https://github.com/FluffyMaguro/AoE4_Overlay)
 - [commit for removal of user scope progs and user scope winget](https://github.com/ChrisTitusTech/winutil/pull/3727) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [MultiMonitor-TagsperMonitor](https://github.com/ChrisTitusTech/dwm-titus/pull/72) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [Install Windows Update Blocker](https://github.com/ChrisTitusTech/winutil/pull/3577) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [alejandroqh/term39](https://github.com/alejandroqh/term39) - A modern, retro-styled terminal multiplexer built with Rust.
 - [8bit2qubit/XboxFullScreenExperienceTool](https://github.com/8bit2qubit/XboxFullScreenExperienceTool) - A one-click GUI tool to safely enable the hidden Xbox full screen gaming experience on Windows 11.
 - [streetpea/chiaki-ng](https://github.com/streetpea/chiaki-ng) - Next-Generation of Chiaki (the open-source remote play client for PlayStation)
 - [danielmiessler/Fabric](https://github.com/danielmiessler/Fabric) - Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.
 - [roakizi/laa](https://github.com/roakizi/laa) - tiny c program to toggle large adress aware on windows portable executable files
-- [crosire/d3d8to9](https://github.com/crosire/d3d8to9) - A D3D8 pseudo-driver which converts API calls and bytecode shaders to equivalent D3D9 ones.
 ### 📰 Recent Blog Posts
 
 - [Enable Vrr Xorg](https://christitus.com/enable-vrr-xorg/)
