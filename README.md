@@ -13,11 +13,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/aoe4](https://github.com/ChrisTitusTech/aoe4) - aoe4.christitus.com website and scripts
+- [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
+- [ChrisTitusTech/secure-linux](https://github.com/ChrisTitusTech/secure-linux) - 
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
-- [ChrisTitusTech/aoe4-config](https://github.com/ChrisTitusTech/aoe4-config) - Key binds and hotkey file for aoe4 in documents/my games/age of empires iv
 - [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
+- [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - My config files for Hyprland Wayland Window Manager
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/aoe4](https://github.com/ChrisTitusTech/aoe4) - aoe4.christitus.com website and scripts
@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/fallout76-configs](https://github.com/ChrisTitusTech/fallout76-configs) - Fallout 76 custom ini and mod list auto installer
 ### 🔨 My recent Pull Requests
 
+- [update to include publish version checks](https://github.com/ChrisTitusTech/linutil/pull/1169) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
+- [dwm-tag update](https://github.com/ChrisTitusTech/dwm-titus/pull/76) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 - [implement mouse locking](https://github.com/ChrisTitusTech/dwm-titus/pull/75) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 - [Potential fix for code scanning alert no. 8: Workflow does not contain permissions](https://github.com/ChrisTitusTech/linutil/pull/1167) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [fix sorting in linutil](https://github.com/ChrisTitusTech/linutil/pull/1165) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
-- [Upgrade to PyQt6](https://github.com/ChrisTitusTech/AoE4_Overlay/pull/1) on [ChrisTitusTech/AoE4_Overlay](https://github.com/ChrisTitusTech/AoE4_Overlay)
-- [Upgrade to PyQt6](https://github.com/FluffyMaguro/AoE4_Overlay/pull/49) on [FluffyMaguro/AoE4_Overlay](https://github.com/FluffyMaguro/AoE4_Overlay)
 ### ⭐ Recent Stars
 
 - [ashpynov/AnyFSE](https://github.com/ashpynov/AnyFSE) - 
