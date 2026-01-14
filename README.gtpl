@@ -27,10 +27,6 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 {{ range recentStars 5 }}
 - [{{ .Repo.Name }}]({{ .Repo.URL }}) - {{ .Repo.Description }}
 {{- end }}
-### 📰 Recent Blog Posts
-{{- range rss "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fchristitus.com%2Findex.xml" 5 }}
-- [{{ .Title }}]({{ .URL }})
-{{- end }}
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
