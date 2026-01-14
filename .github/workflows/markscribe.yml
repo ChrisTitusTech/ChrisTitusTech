@@ -1,19 +1,22 @@
 name: markscribe
-
 on:
   push:
   workflow_dispatch:
   schedule:
     - cron: '0 0 * * *'
-
 jobs:
   markscribe:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
+      
+      - name: Fetch RSS Feed
+        run: |
+          curl -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" \
+            -H "Accept: application/rss+xml, application/xml, text/xml" \
+            https://christitus.com/index.xml > rss-feed.xml || echo "Failed to fetch RSS"
+      
       - name: Generate README
         uses: muesli/readme-scribe@master
         env:
@@ -21,7 +24,7 @@ jobs:
         with:
           template: 'README.gtpl'
           writeTo: 'README.md'
-
+      
       - name: Commit README
         uses: stefanzweifel/git-auto-commit-action@v5
         env:
