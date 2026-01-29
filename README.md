@@ -14,10 +14,10 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 ### 👷 Check out what I'm currently working on
 
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [ChrisTitusTech/fallout76-configs](https://github.com/ChrisTitusTech/fallout76-configs) - Fallout 76 custom ini and mod list auto installer
 - [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
-- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
+- [ChrisTitusTech/fallout76-configs](https://github.com/ChrisTitusTech/fallout76-configs) - Fallout 76 custom ini and mod list auto installer
 - [ChrisTitusTech/starfield-config](https://github.com/ChrisTitusTech/starfield-config) - 
+- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/starfield-config](https://github.com/ChrisTitusTech/starfield-config) - 
@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/bypassnro](https://github.com/ChrisTitusTech/bypassnro) - Fixing Microsoft&#39;s removal of BypassNRO
 ### 🔨 My recent Pull Requests
 
+- [update minor version for oneshot](https://github.com/ChrisTitusTech/linutil/pull/1190) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
+- [fix adobe hosts](https://github.com/ChrisTitusTech/winutil/pull/3955) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [add flush dns](https://github.com/ChrisTitusTech/winutil/pull/3953) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [update to include publish version checks](https://github.com/ChrisTitusTech/linutil/pull/1169) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [dwm-tag update](https://github.com/ChrisTitusTech/dwm-titus/pull/76) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [implement mouse locking](https://github.com/ChrisTitusTech/dwm-titus/pull/75) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [Potential fix for code scanning alert no. 8: Workflow does not contain permissions](https://github.com/ChrisTitusTech/linutil/pull/1167) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
-- [fix sorting in linutil](https://github.com/ChrisTitusTech/linutil/pull/1165) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 ### ⭐ Recent Stars
 
 - [Omni-guides/Jackify](https://github.com/Omni-guides/Jackify) - Jackify - Simplifying Wabbajack modlist installation and configuration on Linux
