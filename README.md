@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/bypassnro](https://github.com/ChrisTitusTech/bypassnro) - Fixing Microsoft&#39;s removal of BypassNRO
 ### 🔨 My recent Pull Requests
 
+- [New install gui](https://github.com/ChrisTitusTech/winutil/pull/3995) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Simplify pull request template](https://github.com/ChrisTitusTech/linutil/pull/1191) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [Fix-multi-monitor](https://github.com/ChrisTitusTech/dwm-titus/pull/78) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 - [update minor version for oneshot](https://github.com/ChrisTitusTech/linutil/pull/1190) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [fix adobe hosts](https://github.com/ChrisTitusTech/winutil/pull/3955) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [add flush dns](https://github.com/ChrisTitusTech/winutil/pull/3953) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [Omni-guides/Jackify](https://github.com/Omni-guides/Jackify) - Jackify - Simplifying Wabbajack modlist installation and configuration on Linux
