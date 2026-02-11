@@ -13,8 +13,8 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/aoe4](https://github.com/ChrisTitusTech/aoe4) - aoe4.christitus.com website and scripts
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
 - [ChrisTitusTech/fallout76-configs](https://github.com/ChrisTitusTech/fallout76-configs) - Fallout 76 custom ini and mod list auto installer
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
@@ -27,18 +27,18 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/bypassnro](https://github.com/ChrisTitusTech/bypassnro) - Fixing Microsoft&#39;s removal of BypassNRO
 ### 🔨 My recent Pull Requests
 
+- [Zeus-toggle-fix](https://github.com/ChrisTitusTech/winutil/pull/4017) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [Revert &#34;Fix Get Installed toggle detection (#3762)&#34;](https://github.com/ChrisTitusTech/winutil/pull/4016) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [update publish script](https://github.com/ChrisTitusTech/linutil/pull/1203) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [Sync with main vt100 branch](https://github.com/doy/vt100-rust/pull/24) on [doy/vt100-rust](https://github.com/doy/vt100-rust)
 - [New install gui](https://github.com/ChrisTitusTech/winutil/pull/3995) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Simplify pull request template](https://github.com/ChrisTitusTech/linutil/pull/1191) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
-- [Fix-multi-monitor](https://github.com/ChrisTitusTech/dwm-titus/pull/78) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 ### ⭐ Recent Stars
 
+- [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) - A simple, lightweight PowerShell script to remove pre-installed apps, disable telemetry, as well as perform various other changes to customize, declutter and improve your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.
 - [Omni-guides/Jackify](https://github.com/Omni-guides/Jackify) - Jackify - Simplifying Wabbajack modlist installation and configuration on Linux
 - [open-webui/open-webui](https://github.com/open-webui/open-webui) - User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
 - [zelikos/davincibox](https://github.com/zelikos/davincibox) - Container for DaVinci Resolve installation and runtime dependencies on Linux
 - [DreamMaoMao/mangowc](https://github.com/DreamMaoMao/mangowc) - wayland compositor base wlroots and scenefx(dwm but wayland)
-- [jeffkl/ManagedDism](https://github.com/jeffkl/ManagedDism) - A managed wrapper for the native Deployment Image Servicing and Management (DISM) API. 
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
