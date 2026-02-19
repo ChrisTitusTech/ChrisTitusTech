@@ -13,11 +13,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/aoe4-config](https://github.com/ChrisTitusTech/aoe4-config) - Key binds and hotkey file for aoe4 in documents/my games/age of empires iv
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 - [ChrisTitusTech/aoe4](https://github.com/ChrisTitusTech/aoe4) - aoe4.christitus.com website and scripts
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/starfield-config](https://github.com/ChrisTitusTech/starfield-config) - 
@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/bypassnro](https://github.com/ChrisTitusTech/bypassnro) - Fixing Microsoft&#39;s removal of BypassNRO
 ### 🔨 My recent Pull Requests
 
+- [Json-Cleanup-Expansion](https://github.com/ChrisTitusTech/winutil/pull/4090) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Zeus-toggle-fix](https://github.com/ChrisTitusTech/winutil/pull/4017) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Revert &#34;Fix Get Installed toggle detection (#3762)&#34;](https://github.com/ChrisTitusTech/winutil/pull/4016) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [update publish script](https://github.com/ChrisTitusTech/linutil/pull/1203) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [Sync with main vt100 branch](https://github.com/doy/vt100-rust/pull/24) on [doy/vt100-rust](https://github.com/doy/vt100-rust)
-- [New install gui](https://github.com/ChrisTitusTech/winutil/pull/3995) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) - A simple, lightweight PowerShell script to remove pre-installed apps, disable telemetry, as well as perform various other changes to customize, declutter and improve your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.
