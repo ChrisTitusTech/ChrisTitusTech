@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/aoe4-config](https://github.com/ChrisTitusTech/aoe4-config) - Key binds and hotkey file for aoe4 in documents/my games/age of empires iv
 ### 🔨 My recent Pull Requests
 
+- [Win11 ISO Creator](https://github.com/ChrisTitusTech/winutil/pull/4110) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4105) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Json-Cleanup-Expansion](https://github.com/ChrisTitusTech/winutil/pull/4090) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Zeus-toggle-fix](https://github.com/ChrisTitusTech/winutil/pull/4017) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Revert &#34;Fix Get Installed toggle detection (#3762)&#34;](https://github.com/ChrisTitusTech/winutil/pull/4016) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [update publish script](https://github.com/ChrisTitusTech/linutil/pull/1203) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
-- [Sync with main vt100 branch](https://github.com/doy/vt100-rust/pull/24) on [doy/vt100-rust](https://github.com/doy/vt100-rust)
 ### ⭐ Recent Stars
 
 - [KonTy/smplos](https://github.com/KonTy/smplos) - A minimal Arch Linux distribution with cross-compositor support
