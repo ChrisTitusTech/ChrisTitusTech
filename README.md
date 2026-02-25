@@ -13,8 +13,8 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/mango-titus](https://github.com/ChrisTitusTech/mango-titus) - 
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/aoe4-config](https://github.com/ChrisTitusTech/aoe4-config) - Key binds and hotkey file for aoe4 in documents/my games/age of empires iv
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/aoe4-config](https://github.com/ChrisTitusTech/aoe4-config) - Key binds and hotkey file for aoe4 in documents/my games/age of empires iv
 ### 🔨 My recent Pull Requests
 
+- [Win11 iso](https://github.com/ChrisTitusTech/winutil/pull/4113) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Win11 ISO Creator](https://github.com/ChrisTitusTech/winutil/pull/4110) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4105) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Json-Cleanup-Expansion](https://github.com/ChrisTitusTech/winutil/pull/4090) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Zeus-toggle-fix](https://github.com/ChrisTitusTech/winutil/pull/4017) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Revert &#34;Fix Get Installed toggle detection (#3762)&#34;](https://github.com/ChrisTitusTech/winutil/pull/4016) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [KonTy/smplos](https://github.com/KonTy/smplos) - A minimal Arch Linux distribution with cross-compositor support
