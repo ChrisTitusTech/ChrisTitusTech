@@ -13,18 +13,18 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/storage-lan-drivers](https://github.com/ChrisTitusTech/storage-lan-drivers) - 
 - [ChrisTitusTech/mango-titus](https://github.com/ChrisTitusTech/mango-titus) - 
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/aoe4-config](https://github.com/ChrisTitusTech/aoe4-config) - Key binds and hotkey file for aoe4 in documents/my games/age of empires iv
-- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 ### 🌱 My latest projects
 
+- [ChrisTitusTech/storage-lan-drivers](https://github.com/ChrisTitusTech/storage-lan-drivers) - 
 - [ChrisTitusTech/mango-titus](https://github.com/ChrisTitusTech/mango-titus) - 
 - [ChrisTitusTech/starfield-config](https://github.com/ChrisTitusTech/starfield-config) - 
 - [ChrisTitusTech/arc-raiders](https://github.com/ChrisTitusTech/arc-raiders) - 
 - [ChrisTitusTech/aoe4](https://github.com/ChrisTitusTech/aoe4) - aoe4.christitus.com website and scripts
-- [ChrisTitusTech/aoe4-config](https://github.com/ChrisTitusTech/aoe4-config) - Key binds and hotkey file for aoe4 in documents/my games/age of empires iv
 ### 🔨 My recent Pull Requests
 
 - [Win11 iso](https://github.com/ChrisTitusTech/winutil/pull/4113) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
@@ -34,11 +34,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [Zeus-toggle-fix](https://github.com/ChrisTitusTech/winutil/pull/4017) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [Bioruebe/UniExtract2](https://github.com/Bioruebe/UniExtract2) - Universal Extractor 2 is a tool to extract files from any type of archive or installer.
 - [KonTy/smplos](https://github.com/KonTy/smplos) - A minimal Arch Linux distribution with cross-compositor support
 - [AvengeMedia/DankMaterialShell](https://github.com/AvengeMedia/DankMaterialShell) - Desktop shell for wayland compositors built with Quickshell &amp; GO, optimized for niri, hyprland, sway, MangoWC, labwc, and MiracleWM.
 - [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) - A simple, lightweight PowerShell script to remove pre-installed apps, disable telemetry, as well as perform various other changes to customize, declutter and improve your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.
 - [Omni-guides/Jackify](https://github.com/Omni-guides/Jackify) - Jackify - Simplifying Wabbajack modlist installation and configuration on Linux
-- [open-webui/open-webui](https://github.com/open-webui/open-webui) - User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
