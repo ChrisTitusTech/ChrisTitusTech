@@ -13,18 +13,18 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/remote-streamerbot-chat](https://github.com/ChrisTitusTech/remote-streamerbot-chat) - Streamer Bot Remote Chat Interface
 - [ChrisTitusTech/storage-lan-drivers](https://github.com/ChrisTitusTech/storage-lan-drivers) - 
 - [ChrisTitusTech/mango-titus](https://github.com/ChrisTitusTech/mango-titus) - 
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
-- [ChrisTitusTech/aoe4-config](https://github.com/ChrisTitusTech/aoe4-config) - Key binds and hotkey file for aoe4 in documents/my games/age of empires iv
 ### 🌱 My latest projects
 
+- [ChrisTitusTech/remote-streamerbot-chat](https://github.com/ChrisTitusTech/remote-streamerbot-chat) - Streamer Bot Remote Chat Interface
 - [ChrisTitusTech/storage-lan-drivers](https://github.com/ChrisTitusTech/storage-lan-drivers) - 
 - [ChrisTitusTech/mango-titus](https://github.com/ChrisTitusTech/mango-titus) - 
 - [ChrisTitusTech/starfield-config](https://github.com/ChrisTitusTech/starfield-config) - 
 - [ChrisTitusTech/arc-raiders](https://github.com/ChrisTitusTech/arc-raiders) - 
-- [ChrisTitusTech/aoe4](https://github.com/ChrisTitusTech/aoe4) - aoe4.christitus.com website and scripts
 ### 🔨 My recent Pull Requests
 
 - [Win11 iso](https://github.com/ChrisTitusTech/winutil/pull/4113) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
