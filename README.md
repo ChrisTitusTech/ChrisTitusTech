@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/arc-raiders](https://github.com/ChrisTitusTech/arc-raiders) - 
 ### 🔨 My recent Pull Requests
 
+- [Win11 Creator USB and Log Fixes](https://github.com/ChrisTitusTech/winutil/pull/4139) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4138) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4137) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Win11 iso](https://github.com/ChrisTitusTech/winutil/pull/4113) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Win11 ISO Creator](https://github.com/ChrisTitusTech/winutil/pull/4110) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4105) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [Bioruebe/UniExtract2](https://github.com/Bioruebe/UniExtract2) - Universal Extractor 2 is a tool to extract files from any type of archive or installer.
