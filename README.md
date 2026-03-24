@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/arc-raiders](https://github.com/ChrisTitusTech/arc-raiders) - simple mod to reduce load times and performance tweaks (no motion blur, etc)
 ### 🔨 My recent Pull Requests
 
+- [Support sub 1080p res](https://github.com/ChrisTitusTech/dwm-titus/pull/83) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [Hot Reload support with Themes and Hotkeys](https://github.com/ChrisTitusTech/dwm-titus/pull/82) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 - [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4234) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4205) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Fix mount disk error](https://github.com/ChrisTitusTech/winutil/pull/4204) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4192) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4191) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [Roguecor/d2r-endgame-loot-filter](https://github.com/Roguecor/d2r-endgame-loot-filter) - 
