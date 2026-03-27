@@ -13,11 +13,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/remote-streamerbot-chat](https://github.com/ChrisTitusTech/remote-streamerbot-chat) - Streamer Bot Remote Chat Interface
 - [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [ChrisTitusTech/fallout76-configs](https://github.com/ChrisTitusTech/fallout76-configs) - Fallout 76 custom ini and mod list auto installer
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/remote-streamerbot-chat](https://github.com/ChrisTitusTech/remote-streamerbot-chat) - Streamer Bot Remote Chat Interface
@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/arc-raiders](https://github.com/ChrisTitusTech/arc-raiders) - simple mod to reduce load times and performance tweaks (no motion blur, etc)
 ### 🔨 My recent Pull Requests
 
+- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4264) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4258) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4257) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Support sub 1080p res](https://github.com/ChrisTitusTech/dwm-titus/pull/83) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 - [Hot Reload support with Themes and Hotkeys](https://github.com/ChrisTitusTech/dwm-titus/pull/82) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4234) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4205) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Fix mount disk error](https://github.com/ChrisTitusTech/winutil/pull/4204) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [Roguecor/d2r-endgame-loot-filter](https://github.com/Roguecor/d2r-endgame-loot-filter) - 

@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chris Titus Tech | Tech Content Creator</title><link>https://christitus.com/</link><description>Recent content on Chris Titus Tech | Tech Content Creator</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 16 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://christitus.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Restore WMI after Corruption</title><link>https://christitus.com/restore-wmi-corruption/</link><pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate><guid>https://christitus.com/restore-wmi-corruption/</guid><description>&lt;p&gt;The WMI database can become corrupted, leading to various system issues. This article provides a step-by-step guide to restore WMI after corruption.&lt;/p&gt;
 &lt;p&gt;Example of my WMI corruption (System Restore not supported from powershell)&lt;/p&gt;
 &lt;p&gt;&lt;img loading="lazy" src="https://christitus.com/images/2026/WMI-corruption.webp" alt="WMI-corruption" class="img-fluid"&gt; &lt;/p&gt;
+&lt;p&gt;Also verify with this command:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;winmgmt /verifyrepository
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Note: You should see &lt;code&gt;wmi repository is consistent&lt;/code&gt; if the WMI repository is healthy. If you see &lt;code&gt;wmi repository is inconsistent&lt;/code&gt;, it indicates that the WMI repository is corrupted and needs to be repaired.&lt;/p&gt;
 &lt;h2 id="the-fix"&gt;The Fix&lt;/h2&gt;
-&lt;p&gt;reset the WMI repository by running the following command in an elevated PowerShell:&lt;/p&gt;
+&lt;p&gt;First check if you can salvage the repository by running the following command in an elevated PowerShell:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;winmgmt /salvagerepository
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then proceed to reset the WMI repository by running the following command in an elevated PowerShell (if above failed):&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Stop-Service winmgmt -Force
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Remove-Item C:\Windows\System32\wbem\Repository -Recurse -Force
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;winmgmt /resetrepository
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Start-Service winmgmt
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then for my case to restore the System Restore part of the WMI I ran this command:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;mofcomp C:\Windows\System32\wbem\sr.mof
