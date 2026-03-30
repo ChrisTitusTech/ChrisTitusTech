@@ -22,7 +22,7 @@
 &lt;li&gt;Run the following command:&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-powershell" data-lang="powershell"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;irm &lt;/span&gt;&lt;span class="n"&gt;christitus&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="p"&gt;/&lt;/span&gt;&lt;span class="n"&gt;win&lt;/span&gt; &lt;span class="p"&gt;|&lt;/span&gt; &lt;span class="nb"&gt;iex
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Prefer an offline option? Head over to &lt;a href="https://cttstore.com"&gt;cttstore.com&lt;/a&gt; to download the executable. The online version always pulls the latest release, while the offline executable is ideal for systems without internet access or for those who want a static version.&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Prefer an offline or EXE option?&lt;/strong&gt; Head over to &lt;a href="https://cttstore.com"&gt;cttstore.com&lt;/a&gt; to download the executable. The online version always pulls the latest release, while the offline executable is ideal for systems without internet access or for those who want a static version.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id="the-four-tabs"&gt;The Four Tabs&lt;/h2&gt;
 &lt;h3 id="1-install"&gt;1. Install&lt;/h3&gt;
@@ -112,33 +112,19 @@
 &lt;/blockquote&gt;
 &lt;p&gt;A &lt;strong&gt;Default Updates&lt;/strong&gt; button resets everything back to Windows defaults.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id="what-happened-to-microwin"&gt;What Happened to MicroWin?&lt;/h2&gt;
-&lt;p&gt;MicroWin — the tab that let you create a stripped-down Windows ISO — has been &lt;strong&gt;removed from the main utility and forked into its own separate project&lt;/strong&gt;.&lt;/p&gt;
-&lt;h3 id="why"&gt;Why?&lt;/h3&gt;
-&lt;p&gt;A few reasons:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;PowerShell is slow for ISO creation.&lt;/strong&gt; Using async C# with .NET would be significantly faster and more capable.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;New users were misusing it&lt;/strong&gt; — reinstalling Windows on top of Windows, causing all kinds of problems.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Feature creep.&lt;/strong&gt; Keeping the utility lean and focused is a priority. A 30,000-line PowerShell script isn&amp;rsquo;t the goal.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id="alternatives-for-creating-a-custom-windows-iso"&gt;Alternatives for Creating a Custom Windows ISO&lt;/h3&gt;
-&lt;p&gt;If you want a minimal or customized Windows install, here are the recommended tools:&lt;/p&gt;
+&lt;h3 id="win11-creator"&gt;Win11 Creator&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Win11 Creator&lt;/strong&gt; takes a different approach from the old MicroWin:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href="https://github.com/CodingWonders/MicroWin"&gt;MicroWin (Forked)&lt;/a&gt;&lt;/strong&gt; — The new standalone version, faster and built in C#&lt;/li&gt;
+&lt;li&gt;Removes AI integrations, bloatware, and pre-installed apps from the Windows image&lt;/li&gt;
+&lt;li&gt;Maintains &lt;strong&gt;full program compatibility&lt;/strong&gt; — nothing is stripped that would break normal software&lt;/li&gt;
+&lt;li&gt;Produces a clean, privacy-respecting Windows install without the Microsoft cruft&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="other-alternatives-for-creating-a-custom-windows-iso"&gt;Other Alternatives for Creating a Custom Windows ISO&lt;/h3&gt;
+&lt;p&gt;If you want a minimal or customized Windows install, here are additional tools:&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href="https://github.com/ntdevlabs/tiny11builder"&gt;Tiny11 Builder&lt;/a&gt;&lt;/strong&gt; — By NTDEV (IntiDev), who has been creating Windows ISOs for 20+ years. Uses official Microsoft media.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href="https://www.ntlite.com/"&gt;NTLite&lt;/a&gt;&lt;/strong&gt; — A veteran tool dating back to Windows XP. Highly configurable ISO modification.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id="whats-coming-next"&gt;What&amp;rsquo;s Coming Next&lt;/h2&gt;
-&lt;p&gt;An offline &lt;strong&gt;.NET application&lt;/strong&gt; built in &lt;strong&gt;F#&lt;/strong&gt; is in active development and will eventually replace the current offline executable.&lt;/p&gt;
-&lt;p&gt;Key advantages over the PowerShell-based version:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Faster tweak application&lt;/strong&gt; — Directly interfaces with Windows APIs, no PowerShell overhead&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Shared codebase with WinUtil&lt;/strong&gt; — Tweaks and settings sync automatically as the main utility is updated&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Same functionality, better performance&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The target is to have this ready within the next month or two.&lt;/p&gt;
-&lt;hr&gt;
 &lt;h2 id="stay-in-the-loop"&gt;Stay in the Loop&lt;/h2&gt;
 &lt;p&gt;Development is ongoing and moves fast. Catch live updates every &lt;strong&gt;Tuesday and Thursday&lt;/strong&gt; on:&lt;/p&gt;
 &lt;ul&gt;
@@ -146,7 +132,7 @@
 &lt;li&gt;&lt;strong&gt;&lt;a href="https://www.twitch.tv/christitustech"&gt;Twitch&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;em&gt;Have thoughts on the MicroWin removal or what you&amp;rsquo;d like to see in the new .NET app? Drop a comment — feedback directly shapes where this project goes next.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Have thoughts on Win11 Creator or what you&amp;rsquo;d like to see in the new .NET app? Drop a comment — feedback directly shapes where this project goes next.&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id="walkthrough-video"&gt;Walkthrough Video&lt;/h2&gt;
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
 &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/yKydZFJRzMk?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
@@ -2453,252 +2439,7 @@ PCI passthrough is not for the faint of heart. Some motherboards do not separate
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
 &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/zq6yvQifyDw?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
 &lt;/div&gt;</description></item><item><title>Digital Downloads</title><link>https://christitus.com/downloads/</link><pubDate>Tue, 19 Mar 2024 15:25:58 +0000</pubDate><author>Chris Titus</author><guid>https://christitus.com/downloads/</guid><description>&lt;div id='product-component-1711256048474'&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-(function () {
-var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-if (window.ShopifyBuy) {
-if (window.ShopifyBuy.UI) {
-ShopifyBuyInit();
-} else {
-loadScript();
-}
-} else {
-loadScript();
-}
-function loadScript() {
-var script = document.createElement('script');
-script.async = true;
-script.src = scriptURL;
-(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-script.onload = ShopifyBuyInit;
-}
-function ShopifyBuyInit() {
-var client = ShopifyBuy.buildClient({
-domain: '1efdc2-1a.myshopify.com',
-storefrontAccessToken: 'd3832fa1046e2ebd19d3bfd837bf5eb3',
-});
-function createButton() {
-const isDarkMode = document.documentElement.getAttribute('data-theme') === 'dark' ||
-localStorage.getItem('theme') === 'dark';
-const dynamicColor = isDarkMode ? '#f5f5f5' : '#222222';
-console.log('Shopify button theme:', isDarkMode ? 'dark' : 'light');
-console.log('Shopify button color:', dynamicColor);
-ShopifyBuy.UI.onReady(client).then(function (ui) {
-ui.createComponent('product', {
-id: '9430583542065',
-node: document.getElementById('product-component-1711256048474'),
-moneyFormat: '%24%7B%7Bamount%7D%7D',
-options: {
-"product": {
-"styles": {
-"product": {
-"@media (min-width: 601px)": {
-"max-width": "100%",
-"margin-left": "0",
-"margin-bottom": "50px"
-},
-"text-align": "left"
-},
-"title": {
-"font-size": "26px",
-"color": dynamicColor,
-"font-family": "inherit"
-},
-"button": {
-"font-weight": "bold",
-"font-size": "18px",
-"padding-top": "17px",
-"padding-bottom": "17px",
-":hover": {
-"background-color": "#4e6aa4"
-},
-"background-color": "#5776b6",
-":focus": {
-"background-color": "#4e6aa4"
-}
-},
-"quantityInput": {
-"font-size": "18px",
-"padding-top": "17px",
-"padding-bottom": "17px"
-},
-"price": {
-"font-size": "18px",
-"color": dynamicColor,
-"font-family": "inherit"
-},
-"compareAt": {
-"font-size": "15.299999999999999px",
-"color": dynamicColor,
-"font-family": "inherit"
-},
-"unitPrice": {
-"font-size": "15.299999999999999px",
-"color": dynamicColor,
-"font-family": "inherit"
-},
-"description": {
-"color": dynamicColor,
-"font-family": "inherit"
-}
-},
-"buttonDestination": "checkout",
-"layout": "horizontal",
-"contents": {
-"img": false,
-"imgWithCarousel": true,
-"description": true
-},
-"width": "100%",
-"text": {
-"button": "Buy now"
-}
-},
-"productSet": {
-"styles": {
-"products": {
-"@media (min-width: 601px)": {
-"margin-left": "-20px"
-}
-}
-}
-},
-"modalProduct": {
-"contents": {
-"img": false,
-"imgWithCarousel": true,
-"button": false,
-"buttonWithQuantity": true
-},
-"styles": {
-"product": {
-"@media (min-width: 601px)": {
-"max-width": "100%",
-"margin-left": "0px",
-"margin-bottom": "0px"
-}
-},
-"button": {
-"font-weight": "bold",
-"font-size": "18px",
-"padding-top": "17px",
-"padding-bottom": "17px",
-":hover": {
-"background-color": "#4e6aa4"
-},
-"background-color": "#5776b6",
-":focus": {
-"background-color": "#4e6aa4"
-}
-},
-"quantityInput": {
-"font-size": "18px",
-"padding-top": "17px",
-"padding-bottom": "17px"
-},
-"title": {
-"font-family": "Helvetica Neue, sans-serif",
-"font-weight": "bold",
-"font-size": "26px",
-"color": dynamicColor,
-"font-family": "inherit"
-},
-"price": {
-"font-family": "Helvetica Neue, sans-serif",
-"font-weight": "normal",
-"font-size": "18px",
-"color": dynamicColor,
-"font-family": "inherit"
-},
-"compareAt": {
-"font-family": "Helvetica Neue, sans-serif",
-"font-weight": "normal",
-"font-size": "15.299999999999999px",
-"color": dynamicColor,
-"font-family": "inherit"
-},
-"unitPrice": {
-"font-family": "Helvetica Neue, sans-serif",
-"font-weight": "normal",
-"font-size": "15.299999999999999px",
-"color": dynamicColor,
-"font-family": "inherit"
-},
-"description": {
-"font-family": "Helvetica Neue, sans-serif",
-"font-weight": "normal",
-"font-size": "14px",
-"color": dynamicColor,
-"font-family": "inherit"
-}
-},
-"text": {
-"button": "Add to cart"
-}
-},
-"option": {},
-"cart": {
-"styles": {
-"button": {
-"font-weight": "bold",
-"font-size": "18px",
-"padding-top": "17px",
-"padding-bottom": "17px",
-":hover": {
-"background-color": "#4e6aa4"
-},
-"background-color": "#5776b6",
-":focus": {
-"background-color": "#4e6aa4"
-}
-}
-},
-"text": {
-"total": "Subtotal",
-"button": "Checkout"
-}
-},
-"toggle": {
-"styles": {
-"toggle": {
-"font-weight": "bold",
-"background-color": "#5776b6",
-":hover": {
-"background-color": "#4e6aa4"
-},
-":focus": {
-"background-color": "#4e6aa4"
-}
-},
-"count": {
-"font-size": "18px"
-}
-}
-}
-}
-});
-});
-}
-createButton();
-const observer = new MutationObserver((mutations) =&gt; {
-mutations.forEach((mutation) =&gt; {
-if (mutation.attributeName === 'data-theme') {
-console.log('Theme changed to:', document.documentElement.getAttribute('data-theme'));
-var node = document.getElementById('product-component-1711256048474');
-if (node) {
-node.innerHTML = '';
-createButton();
-}
-}
-});
-});
-observer.observe(document.documentElement, {
-attributes: true,
-attributeFilter: ['data-theme']
-});
-}
-})();
-&lt;/script&gt;
+&lt;script src="https://christitus.com/js/shopify-button.16c50dc28234a6f0522d3f791256c26291e20545e7573aeae24102e8681b51f1.js" integrity="sha256-FsUNwoI0pvBSLT95ElbCYpHiBUXnVzrq4kEC6GgbUfE=" crossorigin="anonymous"&gt;&lt;/script&gt;
 &lt;br&gt;
 &lt;h2 id="winutil-documentation-website"&gt;&lt;a href="https://winutil.christitus.com"&gt;WinUtil Documentation Website&lt;/a&gt;&lt;/h2&gt;
 &lt;h2 id="troubleshooting"&gt;&lt;a href="https://cttstore.com/pages/troubleshooting"&gt;Troubleshooting&lt;/a&gt;&lt;/h2&gt;</description></item><item><title>Refund Policy</title><link>https://christitus.com/refund/</link><pubDate>Tue, 19 Mar 2024 15:25:58 +0000</pubDate><author>Chris Titus</author><guid>https://christitus.com/refund/</guid><description>&lt;h2 id="refund-policy"&gt;Refund policy&lt;/h2&gt;
@@ -7099,76 +6840,220 @@ This guide shows how to host a website, owning a web domain forever, and redirec
 &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/GERBV2Bv-A4?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
 &lt;/div&gt;</description></item><item><title>The Ultimate Windows Utility</title><link>https://christitus.com/windows-tool/</link><pubDate>Fri, 13 May 2022 13:07:19 -0500</pubDate><author>Chris Titus</author><guid>https://christitus.com/windows-tool/</guid><description>&lt;p&gt;Refined over years, this utility goes beyond debloating Windows:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Install and update apps via WinGet (broader catalog than Ninite)&lt;/li&gt;
-&lt;li&gt;Apply practical, safe tweaks&lt;/li&gt;
+&lt;li&gt;Install and update hundreds of apps via WinGet with a single click&lt;/li&gt;
+&lt;li&gt;Apply safe, practical tweaks for performance and privacy&lt;/li&gt;
 &lt;li&gt;Use proven Windows Update presets used in business environments&lt;/li&gt;
+&lt;li&gt;Build a custom debloated Windows 11 ISO with Win11 Creator&lt;/li&gt;
+&lt;li&gt;Automate your setup across multiple PCs&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Important: Use at your own risk. Misuse can break your system, and no support is provided.&lt;/p&gt;
 &lt;h2 id="one-command---download-and-usage"&gt;One Command - Download and Usage&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;If you want to support the project, you can buy an exe version at &lt;a href="https://cttstore.com"&gt;https://cttstore.com&lt;/a&gt; or &lt;a href="https://christitus.com/downloads/"&gt;https://christitus.com/downloads/&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Run in an elevated PowerShell (Run as Administrator):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;iwr -useb https://christitus.com/win | iex
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Or:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;irm christitus.com/win | iex
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="utility-components"&gt;Utility Components&lt;/h2&gt;
-&lt;p&gt;Modules:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-powershell" data-lang="powershell"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;irm &lt;/span&gt;&lt;span class="n"&gt;christitus&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="p"&gt;/&lt;/span&gt;&lt;span class="n"&gt;win&lt;/span&gt; &lt;span class="p"&gt;|&lt;/span&gt; &lt;span class="nb"&gt;iex
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="want-the-offline-exe-get-it-at-cttstorecom"&gt;Want the Offline EXE? Get It at &lt;a href="https://cttstore.com"&gt;cttstore.com&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;The online command always pulls the latest release straight from GitHub — but if you need more flexibility, the &lt;strong&gt;offline EXE from &lt;a href="https://cttstore.com"&gt;cttstore.com&lt;/a&gt;&lt;/strong&gt; is the better option:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;No internet required&lt;/strong&gt; — run it on air-gapped machines, work environments, or anywhere without reliable connectivity&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Works online too&lt;/strong&gt; — fully functional on internet-connected machines just like the PowerShell command&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;No PowerShell execution policy headaches&lt;/strong&gt; — just double-click and run as Administrator&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Portable&lt;/strong&gt; — copy it to a USB drive and carry your Windows setup toolkit everywhere&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Supports the project&lt;/strong&gt; — purchasing the EXE directly funds continued development and new features&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you find yourself setting up Windows machines regularly, the EXE pays for itself in convenience alone.&lt;/p&gt;
+&lt;p&gt;Full documentation is available at &lt;a href="https://winutil.christitus.com"&gt;winutil.christitus.com&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="utility-tabs"&gt;Utility Tabs&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Install&lt;/li&gt;
 &lt;li&gt;Tweaks&lt;/li&gt;
-&lt;li&gt;Features &amp;amp; Legacy Panels&lt;/li&gt;
-&lt;li&gt;Windows Updates&lt;/li&gt;
-&lt;li&gt;MicroWin&lt;/li&gt;
+&lt;li&gt;Config (Features &amp;amp; Legacy Panels)&lt;/li&gt;
+&lt;li&gt;Updates&lt;/li&gt;
+&lt;li&gt;Win11 Creator&lt;/li&gt;
 &lt;/ul&gt;
+&lt;hr&gt;
 &lt;h3 id="install"&gt;Install&lt;/h3&gt;
-&lt;p&gt;&lt;img loading="lazy" decoding="async" src="https://christitus.com/images/2022/winutil/install.webp" alt="install" class="img-fluid"&gt; &lt;/p&gt;
-&lt;p&gt;Uses WinGet to:&lt;/p&gt;
+&lt;p&gt;Uses WinGet to install, upgrade, or uninstall hundreds of popular applications without hunting for download links or dealing with installer bloat.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key features:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Select and install apps with checkboxes&lt;/li&gt;
-&lt;li&gt;Upgrade installed apps&lt;/li&gt;
-&lt;li&gt;Save time and simplify maintenance&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Install/Upgrade Selected&lt;/strong&gt; — installs programs not yet on your system; upgrades those that are&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upgrade All&lt;/strong&gt; — updates every installed app in one click&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Uninstall&lt;/strong&gt; — removes selected apps cleanly&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Get Installed&lt;/strong&gt; — queries your system and shows what&amp;rsquo;s already installed&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Clear Selection&lt;/strong&gt; — resets your checkboxes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Search&lt;/strong&gt; — press &lt;code&gt;Ctrl+F&lt;/code&gt; to filter the app list as you type&lt;/li&gt;
 &lt;/ul&gt;
+&lt;hr&gt;
 &lt;h3 id="tweaks"&gt;Tweaks&lt;/h3&gt;
-&lt;p&gt;&lt;img loading="lazy" decoding="async" src="https://christitus.com/images/2022/winutil/tweaks.webp" alt="tweaks" class="img-fluid"&gt; &lt;/p&gt;
-&lt;p&gt;Purpose: Improve usability and performance without hurting stability.&lt;/p&gt;
-&lt;p&gt;Profiles:&lt;/p&gt;
+&lt;p&gt;The heart of the utility. All tweaks are reversible — a System Restore Point is created automatically before anything is applied.&lt;/p&gt;
+&lt;h4 id="essential-tweaks"&gt;Essential Tweaks&lt;/h4&gt;
+&lt;p&gt;Safe optimizations recommended for most users. These improve performance, reduce telemetry, and trim unnecessary background activity without risking stability. Start here before touching anything else.&lt;/p&gt;
+&lt;h4 id="advanced-tweaks-caution"&gt;Advanced Tweaks (CAUTION)&lt;/h4&gt;
+&lt;p&gt;For power users who understand the implications. These make deeper OS-level changes and carry a higher risk of side effects. Do not apply them blindly.&lt;/p&gt;
+&lt;h4 id="oo-shutup10"&gt;O&amp;amp;O ShutUp10++&lt;/h4&gt;
+&lt;p&gt;Launch &lt;a href="https://www.oo-software.com/en/shutup10"&gt;O&amp;amp;O ShutUp10++&lt;/a&gt; directly from Winutil — a free privacy tool that lets you fine-tune telemetry, update behavior, and app permission settings with a detailed GUI.&lt;/p&gt;
+&lt;h4 id="dns"&gt;DNS&lt;/h4&gt;
+&lt;p&gt;Switch your DNS provider from within Winutil. Available options include:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Standard: Performance-focused defaults&lt;/li&gt;
-&lt;li&gt;Minimal: Essential privacy and security&lt;/li&gt;
+&lt;li&gt;Default / DHCP&lt;/li&gt;
+&lt;li&gt;Google, Cloudflare, Cloudflare (malware blocking), Cloudflare (malware + adult content)&lt;/li&gt;
+&lt;li&gt;OpenDNS, Quad9&lt;/li&gt;
+&lt;li&gt;AdGuard (ads + trackers), AdGuard (ads + trackers + malware + adult content)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Notes:&lt;/p&gt;
+&lt;p&gt;Both IPv4 and IPv6 are configured automatically.&lt;/p&gt;
+&lt;h4 id="customize-preferences"&gt;Customize Preferences&lt;/h4&gt;
+&lt;p&gt;Toggle visual and functional Windows settings to match your preferences.&lt;/p&gt;
+&lt;h4 id="performance-plans"&gt;Performance Plans&lt;/h4&gt;
+&lt;p&gt;Add and activate the &lt;strong&gt;Ultimate Performance&lt;/strong&gt; power plan to minimize latency and maximize efficiency, or revert to the &lt;strong&gt;Balanced&lt;/strong&gt; profile when you don&amp;rsquo;t need it.&lt;/p&gt;
+&lt;h4 id="reverting-tweaks"&gt;Reverting Tweaks&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Conservative approach; avoids aggressive debloat&lt;/li&gt;
-&lt;li&gt;Do not select everything or remove the Microsoft Store unless you accept breaking the Store and apps&lt;/li&gt;
-&lt;li&gt;A restore point is created; use System Restore or &amp;ldquo;Undo All&amp;rdquo; to revert&lt;/li&gt;
-&lt;li&gt;Provided as-is, no warranty&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Undo Selected Tweaks&lt;/strong&gt; — reverts only what you chose&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;System Restore&lt;/strong&gt; — roll back to the restore point Winutil created before tweaks ran&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="features-and-legacy-windows-panels"&gt;Features and Legacy Windows Panels&lt;/h3&gt;
-&lt;p&gt;&lt;img loading="lazy" decoding="async" src="https://christitus.com/images/2022/winutil/features.webp" alt="features" class="img-fluid"&gt; &lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="config-features--fixes"&gt;Config (Features &amp;amp; Fixes)&lt;/h3&gt;
+&lt;h4 id="windows-features"&gt;Windows Features&lt;/h4&gt;
+&lt;p&gt;Enable optional Windows components with a checkbox and a single click:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Enable built-in Windows features quickly&lt;/li&gt;
-&lt;li&gt;Access classic control panels (often faster for power users)&lt;/li&gt;
+&lt;li&gt;All .NET Frameworks (2, 3, 4)&lt;/li&gt;
+&lt;li&gt;Hyper-V Virtualization&lt;/li&gt;
+&lt;li&gt;Legacy Media (Windows Media Player, DirectPlay)&lt;/li&gt;
+&lt;li&gt;NFS — Network File System&lt;/li&gt;
+&lt;li&gt;Windows Subsystem for Linux (WSL)&lt;/li&gt;
+&lt;li&gt;Windows Sandbox&lt;/li&gt;
+&lt;li&gt;Enable Legacy F8 Boot Recovery&lt;/li&gt;
+&lt;li&gt;Enable Daily Registry Backup (12:30 AM)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="windows-updates"&gt;Windows Updates&lt;/h3&gt;
-&lt;p&gt;&lt;img loading="lazy" decoding="async" src="https://christitus.com/images/2022/winutil/updates.webp" alt="updates" class="img-fluid"&gt; &lt;/p&gt;
-&lt;p&gt;Presets:&lt;/p&gt;
+&lt;h4 id="fixes"&gt;Fixes&lt;/h4&gt;
+&lt;p&gt;One-click repairs for common system problems:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Fix&lt;/th&gt;
+&lt;th&gt;What It Does&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Set Up Autologin&lt;/td&gt;
+&lt;td&gt;Configures automatic login for the current user&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Reset Windows Update&lt;/td&gt;
+&lt;td&gt;Re-registers update DLLs and restarts update services&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Reset Network&lt;/td&gt;
+&lt;td&gt;Runs &lt;code&gt;netsh int ip reset&lt;/code&gt; and &lt;code&gt;netsh winsock reset&lt;/code&gt; to restore the network stack&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;System Corruption Scan&lt;/td&gt;
+&lt;td&gt;Runs &lt;code&gt;sfc /scannow&lt;/code&gt; and &lt;code&gt;DISM /RestoreHealth&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;WinGet Reinstall&lt;/td&gt;
+&lt;td&gt;Restores WinGet if installs or uninstalls start failing&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id="legacy-windows-panels"&gt;Legacy Windows Panels&lt;/h4&gt;
+&lt;p&gt;Open classic Windows control panels that are faster and more feature-rich than the modern Settings app:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Default will reset Windows Update settings to stock settings.&lt;/li&gt;
-&lt;li&gt;Recommended: Security-only; defer feature updates ~24 months&lt;/li&gt;
-&lt;li&gt;Disable All: Not recommended; use only for legacy/isolated systems (stability over security)&lt;/li&gt;
+&lt;li&gt;Control Panel&lt;/li&gt;
+&lt;li&gt;Network Connections&lt;/li&gt;
+&lt;li&gt;Power Panel&lt;/li&gt;
+&lt;li&gt;Region&lt;/li&gt;
+&lt;li&gt;Sound Settings&lt;/li&gt;
+&lt;li&gt;System Properties&lt;/li&gt;
+&lt;li&gt;User Accounts&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;em&gt;Note: The disable update has been revamped on 09-02-2025 to completely disable updates on every windows version. Use the Default button to restore update functionality!&lt;/em&gt;&lt;/p&gt;
-&lt;h3 id="microwin"&gt;MicroWin&lt;/h3&gt;
-&lt;p&gt;&lt;img loading="lazy" decoding="async" src="https://christitus.com/images/2022/winutil/microwin.webp" alt="microwin" class="img-fluid"&gt; &lt;/p&gt;
+&lt;h4 id="remote-access"&gt;Remote Access&lt;/h4&gt;
+&lt;p&gt;Enable an &lt;strong&gt;OpenSSH server&lt;/strong&gt; on your Windows machine for remote access without third-party software.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="updates"&gt;Updates&lt;/h3&gt;
+&lt;p&gt;Three update modes to match your risk tolerance:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Mode&lt;/th&gt;
+&lt;th&gt;What It Does&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Default&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Restores standard Windows Update behavior (out-of-box settings)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Security (Recommended)&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Delays feature updates by 365 days; delays security updates by 4 days to catch bad patches before they hit your machine&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Disable ALL Updates&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Turns off all updates entirely — only for isolated or special-purpose systems. Leaves the system without security patches. Use the Default button to restore.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h3 id="win11-creator"&gt;Win11 Creator&lt;/h3&gt;
+&lt;p&gt;Win11 Creator takes an official Windows 11 ISO and produces a customized, debloated version — removing AI features, telemetry, and pre-installed apps while maintaining full program compatibility. Export the result as a new ISO or write it directly to a USB drive.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;You need an official Windows 11 ISO from &lt;a href="https://www.microsoft.com/en-us/software-download/windows11"&gt;Microsoft&amp;rsquo;s website&lt;/a&gt; before starting.&lt;/strong&gt; Requires ~10–15 GB of temporary disk space.&lt;/p&gt;
+&lt;h4 id="what-it-removes-and-changes"&gt;What it removes and changes:&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;App &amp;amp; Component Removal:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Minimal Windows profile focused on speed and low footprint&lt;/li&gt;
-&lt;li&gt;Removes unnecessary components and preinstalled apps while preserving core functionality&lt;/li&gt;
+&lt;li&gt;40+ bloat apps removed — Clipchamp, Teams, Copilot, Dev Home, new Outlook, Bing apps, Solitaire, and more&lt;/li&gt;
+&lt;li&gt;OneDrive setup deleted from the image&lt;/li&gt;
+&lt;li&gt;Unused Windows editions stripped (saves 1–2 GB per removed edition)&lt;/li&gt;
+&lt;li&gt;Component store cleaned via DISM (reclaims 300–800 MB)&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;System Customization:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hardware requirement checks bypassed — installs on machines without TPM 2.0, Secure Boot, or supported CPUs&lt;/li&gt;
+&lt;li&gt;Local account setup enabled — skips the Microsoft account screen during OOBE&lt;/li&gt;
+&lt;li&gt;BitLocker and device encryption disabled&lt;/li&gt;
+&lt;li&gt;Chat icon removed from taskbar&lt;/li&gt;
+&lt;li&gt;Dark mode enabled by default&lt;/li&gt;
+&lt;li&gt;Empty taskbar and Start Menu — no pinned apps&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Privacy &amp;amp; Telemetry:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Advertising ID, tailored experiences, input personalization, and speech online privacy disabled&lt;/li&gt;
+&lt;li&gt;Cloud content features, app suggestions, and Microsoft Store recommendations disabled&lt;/li&gt;
+&lt;li&gt;Telemetry scheduled tasks removed (CEIP, Appraiser, WaaSMedic, and others)&lt;/li&gt;
+&lt;li&gt;Copilot and search box suggestions disabled&lt;/li&gt;
+&lt;li&gt;DevHome, new Outlook, and Teams auto-installation blocked&lt;/li&gt;
+&lt;li&gt;Windows Update disabled during OOBE (re-enabled automatically on first login)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Optional: Driver Injection&lt;/strong&gt; — injects all drivers from your current system into the install image, useful for offline installations on machines with missing drivers.&lt;/p&gt;
+&lt;h4 id="steps"&gt;Steps:&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Select ISO&lt;/strong&gt; — browse to your official Windows 11 ISO (4 GB+)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mount &amp;amp; Verify&lt;/strong&gt; — Winutil mounts and validates the image, then lets you pick the edition (Pro selected by default)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Run Modification&lt;/strong&gt; — starts the customization process (10–30 minutes depending on disk speed)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Export&lt;/strong&gt; — save as a new ISO file or write directly to a USB drive&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Clean Up&lt;/strong&gt; (optional) — delete the temporary working directory (~10–15 GB)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Typical output ISO size: &lt;strong&gt;2.5–3.5 GB&lt;/strong&gt; (down from 5–6 GB original).&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="automation"&gt;Automation&lt;/h2&gt;
+&lt;p&gt;Winutil configurations can be exported and reused to apply the same setup across multiple machines — ideal for labs, workstations, or personal reinstalls.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Export a config:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Open Winutil&lt;/li&gt;
+&lt;li&gt;Click the gear icon (top-right corner)&lt;/li&gt;
+&lt;li&gt;Choose &lt;strong&gt;Export&lt;/strong&gt; and save the JSON file&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Apply the config on another machine:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-powershell" data-lang="powershell"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;amp;&lt;/span&gt; &lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="no"&gt;ScriptBlock&lt;/span&gt;&lt;span class="p"&gt;]::&lt;/span&gt;&lt;span class="n"&gt;Create&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="nb"&gt;irm &lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;https://christitus.com/win&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;)))&lt;/span&gt; &lt;span class="n"&gt;-Config&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;C:\Path\To\Config.json&amp;#34;&lt;/span&gt; &lt;span class="n"&gt;-Run&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Run this in an elevated PowerShell session.&lt;/p&gt;
+&lt;hr&gt;
 &lt;h2 id="demonstration-videos"&gt;Demonstration Videos&lt;/h2&gt;
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
 &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/92SM8Az5QVM?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
 &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/IuaNw8Tpn7Q?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/yKydZFJRzMk?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
 &lt;/div&gt;</description></item><item><title>Easily moving Linux installs</title><link>https://christitus.com/chezmoi/</link><pubDate>Mon, 25 Apr 2022 17:04:25 -0500</pubDate><author>Chris Titus</author><guid>https://christitus.com/chezmoi/</guid><description>&lt;p&gt;Are you tired of having to reset all your app settings on a new install? Using a simple tool you will never have to reconfig your app settings again. Also adding new apps and programs are extremely simple and intuitive. Stop wasting your time and start using Chezmoi to restore your app settings. This isn&amp;rsquo;t meant to be a system backup but a settings backup.&lt;/p&gt;
 &lt;h2 id="why-chezmoi"&gt;Why Chezmoi&lt;/h2&gt;
 &lt;p&gt;Chezmoi offers the most simplistic approach and versioning that is simply is my preferred solution over the other dot file tools below. Here is a brief diagram of how it works. &lt;em&gt;Note: I do not use git from command line in my tutorial for commits and pushes&lt;/em&gt;&lt;/p&gt;
