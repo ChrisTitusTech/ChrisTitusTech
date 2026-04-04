@@ -20,11 +20,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/remote-streamerbot-chat](https://github.com/ChrisTitusTech/remote-streamerbot-chat) - Streamer Bot Remote Chat Interface
 ### 🌱 My latest projects
 
+- [ChrisTitusTech/3plates](https://github.com/ChrisTitusTech/3plates) - 
 - [ChrisTitusTech/remote-streamerbot-chat](https://github.com/ChrisTitusTech/remote-streamerbot-chat) - Streamer Bot Remote Chat Interface
 - [ChrisTitusTech/storage-lan-drivers](https://github.com/ChrisTitusTech/storage-lan-drivers) - This is repo with EVERY SINGLE Network (LAN) and Storage driver ever made for 64bit win11
 - [ChrisTitusTech/mango-titus](https://github.com/ChrisTitusTech/mango-titus) - Basic MangoWC WM configuration (Alpha)
 - [ChrisTitusTech/starfield-config](https://github.com/ChrisTitusTech/starfield-config) - Starfield mods and auto installs
-- [ChrisTitusTech/arc-raiders](https://github.com/ChrisTitusTech/arc-raiders) - simple mod to reduce load times and performance tweaks (no motion blur, etc)
 ### 🔨 My recent Pull Requests
 
 - [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4301) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
