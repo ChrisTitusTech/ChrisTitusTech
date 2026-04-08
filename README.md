@@ -13,9 +13,9 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/shopify-theme](https://github.com/ChrisTitusTech/shopify-theme) - 
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 ### 🌱 My latest projects
@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/mango-titus](https://github.com/ChrisTitusTech/mango-titus) - Basic MangoWC WM configuration (Alpha)
 ### 🔨 My recent Pull Requests
 
-- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4301) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4300) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Optimize mobile sidebar ad height and adjust widget styles](https://github.com/ChrisTitusTech/website/pull/260) on [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website)
-- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4293) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4292) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4338) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [Revert &#34;Revert &#34;Simplfy Invoke-WPFUltimatePerformance.ps1&#34;&#34;](https://github.com/ChrisTitusTech/winutil/pull/4335) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4334) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [Revert &#34;Simplfy Invoke-WPFUltimatePerformance.ps1&#34;](https://github.com/ChrisTitusTech/winutil/pull/4333) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4332) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [Roguecor/d2r-endgame-loot-filter](https://github.com/Roguecor/d2r-endgame-loot-filter) - 
