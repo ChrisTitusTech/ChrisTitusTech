@@ -20,11 +20,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/shopify-theme](https://github.com/ChrisTitusTech/shopify-theme) - 
 ### 🌱 My latest projects
 
+- [ChrisTitusTech/community](https://github.com/ChrisTitusTech/community) - 
 - [ChrisTitusTech/shopify-theme](https://github.com/ChrisTitusTech/shopify-theme) - 
 - [ChrisTitusTech/3plates](https://github.com/ChrisTitusTech/3plates) - 
 - [ChrisTitusTech/remote-streamerbot-chat](https://github.com/ChrisTitusTech/remote-streamerbot-chat) - Streamer Bot Remote Chat Interface
 - [ChrisTitusTech/storage-lan-drivers](https://github.com/ChrisTitusTech/storage-lan-drivers) - This is repo with EVERY SINGLE Network (LAN) and Storage driver ever made for 64bit win11
-- [ChrisTitusTech/mango-titus](https://github.com/ChrisTitusTech/mango-titus) - Basic MangoWC WM configuration (Alpha)
 ### 🔨 My recent Pull Requests
 
 - [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4338) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
