@@ -13,18 +13,18 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
+- [ChrisTitusTech/uboot-orangepi-rk3399](https://github.com/ChrisTitusTech/uboot-orangepi-rk3399) - 
 - [ChrisTitusTech/community](https://github.com/ChrisTitusTech/community) - 
+- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 - [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 ### 🌱 My latest projects
 
+- [ChrisTitusTech/uboot-orangepi-rk3399](https://github.com/ChrisTitusTech/uboot-orangepi-rk3399) - 
 - [ChrisTitusTech/community](https://github.com/ChrisTitusTech/community) - 
 - [ChrisTitusTech/shopify-theme](https://github.com/ChrisTitusTech/shopify-theme) - 
 - [ChrisTitusTech/3plates](https://github.com/ChrisTitusTech/3plates) - 
 - [ChrisTitusTech/remote-streamerbot-chat](https://github.com/ChrisTitusTech/remote-streamerbot-chat) - Streamer Bot Remote Chat Interface
-- [ChrisTitusTech/storage-lan-drivers](https://github.com/ChrisTitusTech/storage-lan-drivers) - This is repo with EVERY SINGLE Network (LAN) and Storage driver ever made for 64bit win11
 ### 🔨 My recent Pull Requests
 
 - [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4338) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
