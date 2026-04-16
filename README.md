@@ -14,17 +14,17 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 ### 👷 Check out what I'm currently working on
 
 - [ChrisTitusTech/uboot-orangepi-rk3399](https://github.com/ChrisTitusTech/uboot-orangepi-rk3399) - Orange Pi 800 - Reborn in 2026 with arch linux arm
-- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
-- [ChrisTitusTech/nord-background](https://github.com/ChrisTitusTech/nord-background) - Collection of Nord Backgrounds
+- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
+- [ChrisTitusTech/image-upscale](https://github.com/ChrisTitusTech/image-upscale) - 
+- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 ### 🌱 My latest projects
 
+- [ChrisTitusTech/image-upscale](https://github.com/ChrisTitusTech/image-upscale) - 
 - [ChrisTitusTech/uboot-orangepi-rk3399](https://github.com/ChrisTitusTech/uboot-orangepi-rk3399) - Orange Pi 800 - Reborn in 2026 with arch linux arm
 - [ChrisTitusTech/community](https://github.com/ChrisTitusTech/community) - 
 - [ChrisTitusTech/shopify-theme](https://github.com/ChrisTitusTech/shopify-theme) - 
 - [ChrisTitusTech/3plates](https://github.com/ChrisTitusTech/3plates) - 
-- [ChrisTitusTech/remote-streamerbot-chat](https://github.com/ChrisTitusTech/remote-streamerbot-chat) - Streamer Bot Remote Chat Interface
 ### 🔨 My recent Pull Requests
 
 - [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4338) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
