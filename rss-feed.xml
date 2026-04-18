@@ -1,4 +1,147 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chris Titus Tech | Tech Content Creator</title><link>https://christitus.com/</link><description>Recent content on Chris Titus Tech | Tech Content Creator</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>Chris Titus</managingEditor><webMaster>Chris Titus</webMaster><lastBuildDate>Mon, 16 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://christitus.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Restore WMI after Corruption</title><link>https://christitus.com/restore-wmi-corruption/</link><pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate><author>Chris Titus</author><guid>https://christitus.com/restore-wmi-corruption/</guid><description>&lt;p&gt;The WMI database can become corrupted, leading to various system issues. This article provides a step-by-step guide to restore WMI after corruption.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chris Titus Tech | Tech Content Creator</title><link>https://christitus.com/</link><description>Recent content on Chris Titus Tech | Tech Content Creator</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>Chris Titus</managingEditor><webMaster>Chris Titus</webMaster><lastBuildDate>Tue, 14 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://christitus.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Securing Your Network: A Comprehensive Guide to Checking and Enhancing Network Security</title><link>https://christitus.com/check-network-security/</link><pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate><author>Chris Titus</author><guid>https://christitus.com/check-network-security/</guid><description>&lt;p&gt;This article explains how to check to see if your network is secure, and if you have any open ports or services that could be vulnerable to attack. It covers both Windows and Linux operating systems, and provides step-by-step instructions for using various tools to scan your network for vulnerabilities.&lt;/p&gt;
+&lt;h2 id="basic-network-scan"&gt;Basic Network Scan&lt;/h2&gt;
+&lt;p&gt;To check your network you can use grc.com to perform a basic network scan. It will show if you have any open ports or services that could be exposed to the internet. You can also use tools like Nmap or Wireshark to perform more in-depth scans and analysis of your network traffic.&lt;/p&gt;
+&lt;p&gt;GRC&amp;rsquo;s ShieldsUP! service is a popular tool for checking the security of your network. It tests for open ports and vulnerabilities that could be exploited by attackers. You can access it at &lt;a href="https://www.grc.com/shieldsup"&gt;https://www.grc.com/shieldsup&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note: You should see something like this below&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;img loading="lazy" decoding="async" src="https://christitus.com/images/2026/grc.webp" alt="grc" class="img-fluid"&gt;
+&lt;/p&gt;
+&lt;h3 id="windows-scan"&gt;Windows Scan&lt;/h3&gt;
+&lt;p&gt;On Windows, you can use the built-in Command Prompt or PowerShell to check for open ports. The &lt;code&gt;netstat&lt;/code&gt; command is commonly used for this purpose. Open Command Prompt and run the following command:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;netstat -an
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This will display a list of all active connections and listening ports on your system. Look for any entries that show &amp;ldquo;LISTENING&amp;rdquo; to identify open ports.&lt;/p&gt;
+&lt;h3 id="linux-scan"&gt;Linux Scan&lt;/h3&gt;
+&lt;p&gt;On Linux, you can use the &lt;code&gt;netstat&lt;/code&gt; command as well, or you can use &lt;code&gt;ss&lt;/code&gt; which is a more modern tool. Open a terminal and run the following command:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo netstat -tuln
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;em&gt;Note: netstat package is in the net-tools package, which may not be installed by default on some Linux distributions. You can install it using your package manager (e.g., &lt;code&gt;sudo apt install net-tools&lt;/code&gt; on Debian-based systems).&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Newer Systems use &lt;code&gt;ss&lt;/code&gt; instead of &lt;code&gt;netstat&lt;/code&gt;. You can run the following command to check for open ports:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo ss -tuln
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This will show you all the TCP and UDP ports that are currently listening on your system. Look for any entries that indicate open ports.&lt;/p&gt;
+&lt;h3 id="check-for-outside-addresses"&gt;Check for Outside Addresses&lt;/h3&gt;
+&lt;p&gt;From your netstat or ss output, you can identify any external IP addresses that are connected to your system. This can help you detect unauthorized access or potential security threats.&lt;/p&gt;
+&lt;h3 id="find-what-is-running-on-the-open-ports"&gt;Find what is Running on the Open Ports&lt;/h3&gt;
+&lt;p&gt;Windows:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;# PowerShell — replace 8080 with your port
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;netstat -ano | findstr :8080
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;# Then look up the PID
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;tasklist | findstr &amp;lt;PID&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;# PowerShell one-liner (shows process name directly)
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Get-Process -Id (Get-NetTCPConnection -LocalPort 8080).OwningProcess
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Linux:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;# ss (modern, preferred)
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ss -tulnp | grep :8080
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;# netstat (older systems)
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;netstat -tulnp | grep :8080
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;# lsof — shows process name + PID
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;lsof -i :8080
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;# fuser — just the PID
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;fuser 8080/tcp
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="securing-a-network"&gt;Securing a Network&lt;/h2&gt;
+&lt;h3 id="routers"&gt;Routers&lt;/h3&gt;
+&lt;p&gt;If you are using a router your ISP provided, I&amp;rsquo;d recommend getting something like a Ubiquiti unifi gateway or a pfSense box. These devices provide better security features and allow you to have more control over your network. You can set up firewalls, VPNs, and other security measures to protect your network from potential threats.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubiquiti = easy to setup and manage but expensive&lt;/li&gt;
+&lt;li&gt;pfSense = more complex to setup and manage but much cheaper with build your own hardware setups. Or buy a pre-built appliance from Netgate.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Other 3rd party routers like Asus, TP-Link, etc. can be decent but they often have security vulnerabilities and may not receive regular updates. They probably are better than the ISP provided router but I would recommend going with a more reputable brand if you want better security.&lt;/p&gt;
+&lt;p&gt;Resources for pfSense:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/playlist?list=PLjGQNuuUzvmsuXCoj6g6vm1N-ZeLJso6o"&gt;Lawerence PC Security&amp;rsquo;s pfSense Guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.netgate.com/pfsense/en/latest/"&gt;Netgate&amp;rsquo;s pfSense Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="firewall"&gt;Firewall&lt;/h3&gt;
+&lt;p&gt;DO NOT buy a firewall or internet suite&amp;hellip; they are terrible.&lt;/p&gt;
+&lt;p&gt;Check your windows firewall with &lt;code&gt;wf.msc&lt;/code&gt; and make sure it is enabled and properly configured. You can create rules to block incoming connections on specific ports or from specific IP addresses.&lt;/p&gt;
+&lt;p&gt;For linux I&amp;rsquo;d recommned using &lt;code&gt;ufw&lt;/code&gt; (Uncomplicated Firewall) which is a user-friendly interface for managing iptables. You can enable it with the following commands:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo ufw enable
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo ufw default deny incoming
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo ufw default allow outgoing
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;or configure with a gui like &lt;code&gt;gufw&lt;/code&gt; or &lt;code&gt;firewall-config&lt;/code&gt; depending on your linux distribution.&lt;/p&gt;
+&lt;h4 id="3rd-party-firewall-software"&gt;3rd Party Firewall Software&lt;/h4&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;App&lt;/th&gt;
+&lt;th&gt;Platform&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;th&gt;Link&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;simplewall&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;img loading="lazy" decoding="async" src="https://img.shields.io/badge/Windows-0078D4?logo=windows&amp;amp;logoColor=white" alt="Windows" class="img-fluid"&gt;
+&lt;/td&gt;
+&lt;td&gt;Lightweight WFP-based per-app firewall, no background service required&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://github.com/henrypp/simplewall"&gt;github.com/henrypp/simplewall&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Windows Firewall Control (WFC)&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;img loading="lazy" decoding="async" src="https://img.shields.io/badge/Windows-0078D4?logo=windows&amp;amp;logoColor=white" alt="Windows" class="img-fluid"&gt;
+&lt;/td&gt;
+&lt;td&gt;GUI front-end for the built-in Windows Firewall by Malwarebytes, free tier available&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.binisoft.org/wfc"&gt;binisoft.org/wfc&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;TinyWall&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;img loading="lazy" decoding="async" src="https://img.shields.io/badge/Windows-0078D4?logo=windows&amp;amp;logoColor=white" alt="Windows" class="img-fluid"&gt;
+&lt;/td&gt;
+&lt;td&gt;Lightweight wrapper around Windows Firewall, whitelist-based, very low resource usage&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://tinywall.pados.hu"&gt;tinywall.pados.hu&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;OpenSnitch&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;img loading="lazy" decoding="async" src="https://img.shields.io/badge/Linux-FCC624?logo=linux&amp;amp;logoColor=black" alt="Linux" class="img-fluid"&gt;
+&lt;img loading="lazy" decoding="async" src="https://img.shields.io/badge/Windows-0078D4?logo=windows&amp;amp;logoColor=white" alt="Windows" class="img-fluid"&gt;
+&lt;/td&gt;
+&lt;td&gt;Application-level outbound firewall, prompts on first connection per app&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://github.com/evilsocket/opensnitch"&gt;github.com/evilsocket/opensnitch&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;ufw / gufw&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;img loading="lazy" decoding="async" src="https://img.shields.io/badge/Linux-FCC624?logo=linux&amp;amp;logoColor=black" alt="Linux" class="img-fluid"&gt;
+&lt;/td&gt;
+&lt;td&gt;Uncomplicated Firewall with optional GUI, default on many distros&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://launchpad.net/ufw"&gt;launchpad.net/ufw&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;firewalld&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;img loading="lazy" decoding="async" src="https://img.shields.io/badge/Linux-FCC624?logo=linux&amp;amp;logoColor=black" alt="Linux" class="img-fluid"&gt;
+&lt;/td&gt;
+&lt;td&gt;Dynamic firewall manager used on Fedora/RHEL/Arch, supports zones&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://firewalld.org"&gt;firewalld.org&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id="vpn"&gt;VPN&lt;/h3&gt;
+&lt;p&gt;VPN is a bandaid and can fix some issues but it is not a replacement for proper network security. It can help protect your data from being intercepted by encrypting your internet traffic, but it does not protect you from vulnerabilities in your network or devices. If you have a VPN, make sure to use a reputable provider.&lt;/p&gt;
+&lt;p&gt;All &amp;ldquo;security&amp;rdquo; influencers pushing VPNs are just trying to make a quick buck. A VPN can be useful in certain situations, but it is not a silver bullet for network security. Focus on securing your network and devices first, and use a VPN as an additional layer of protection if needed.&lt;/p&gt;
+&lt;h2 id="check-devices-on-your-network"&gt;Check Devices on Your Network&lt;/h2&gt;
+&lt;p&gt;You need to login to your router and check the list of connected devices. This will show you all the devices that are currently connected to your network, including their IP addresses and MAC addresses. Look for any devices that you do not recognize or that should not be on your network. If you find any suspicious devices, you can block them from accessing your network through your router&amp;rsquo;s settings.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ABOVE IS ACTIVE PROTECTION AND YOU MUST KEEP DOING IT TO MAINTAIN SECURITY&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Other than above, you can use software like Angry IP Scanner or Advanced IP Scanner to scan your network for connected devices. These tools will show you all the devices that are currently connected to your network, along with their IP addresses and other information. You can use this information to identify any unauthorized devices and take action to secure your network.&lt;/p&gt;
+&lt;p&gt;Links:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://angryip.org/"&gt;Angry IP Scanner&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.advanced-ip-scanner.com/"&gt;Advanced IP Scanner&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="closing-thoughts"&gt;Closing Thoughts&lt;/h2&gt;
+&lt;p&gt;Security is a journey, not a destination. You need to continuously monitor and maintain your network security to protect yourself from potential threats. Regularly check for open ports, update your software and firmware, and be vigilant about any suspicious activity on your network. By taking these steps, you can help ensure that your network remains secure and protected from potential attacks.&lt;/p&gt;
+&lt;h2 id="walkthrough-video"&gt;Walkthrough Video&lt;/h2&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/n7cjd5E_nsc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+&lt;/div&gt;</description></item><item><title>Restore WMI after Corruption</title><link>https://christitus.com/restore-wmi-corruption/</link><pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate><author>Chris Titus</author><guid>https://christitus.com/restore-wmi-corruption/</guid><description>&lt;p&gt;The WMI database can become corrupted, leading to various system issues. This article provides a step-by-step guide to restore WMI after corruption.&lt;/p&gt;
 &lt;p&gt;Example of my WMI corruption (System Restore not supported from powershell)&lt;/p&gt;
 &lt;p&gt;
 &lt;img loading="lazy" decoding="async" src="https://christitus.com/images/2026/WMI-corruption.webp" alt="WMI-corruption" class="img-fluid"&gt;
