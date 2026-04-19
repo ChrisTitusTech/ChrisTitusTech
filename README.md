@@ -14,13 +14,13 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 ### 👷 Check out what I'm currently working on
 
 - [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - My Neovim configuration
-- [ChrisTitusTech/thunar-webp-convert](https://github.com/ChrisTitusTech/thunar-webp-convert) - 
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
+- [ChrisTitusTech/thunar-webp-convert](https://github.com/ChrisTitusTech/thunar-webp-convert) - Easily convert webp images direct from thunar or cli
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
-- [ChrisTitusTech/uboot-orangepi-rk3399](https://github.com/ChrisTitusTech/uboot-orangepi-rk3399) - Orange Pi 800 - Reborn in 2026 with arch linux arm
+- [ChrisTitusTech/image-upscale](https://github.com/ChrisTitusTech/image-upscale) - easy cli based image 4x upscale and sharpening
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 ### 🌱 My latest projects
 
-- [ChrisTitusTech/thunar-webp-convert](https://github.com/ChrisTitusTech/thunar-webp-convert) - 
+- [ChrisTitusTech/thunar-webp-convert](https://github.com/ChrisTitusTech/thunar-webp-convert) - Easily convert webp images direct from thunar or cli
 - [ChrisTitusTech/image-upscale](https://github.com/ChrisTitusTech/image-upscale) - easy cli based image 4x upscale and sharpening
 - [ChrisTitusTech/uboot-orangepi-rk3399](https://github.com/ChrisTitusTech/uboot-orangepi-rk3399) - Orange Pi 800 - Reborn in 2026 with arch linux arm
 - [ChrisTitusTech/community](https://github.com/ChrisTitusTech/community) - Custom Discourse plugin - Twitch Subs, Discord Sync, YT Members, Github Sponsors, and Christitus.com Themed
@@ -34,11 +34,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [Revert &#34;Revert &#34;Simplfy Invoke-WPFUltimatePerformance.ps1&#34;&#34;](https://github.com/ChrisTitusTech/winutil/pull/4335) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [SearchSavior/OpenArc](https://github.com/SearchSavior/OpenArc) - Inference engine for Intel devices. Serve LLMs, VLMs, Whisper, Kokoro-TTS, Embedding and Rerank models over OpenAI endpoints.
 - [EdvinNilsson/ffmpeg_encoder_plugin](https://github.com/EdvinNilsson/ffmpeg_encoder_plugin) - FFmpeg Encoder Plugin for DaVinci Resolve Studio
 - [Roguecor/d2r-endgame-loot-filter](https://github.com/Roguecor/d2r-endgame-loot-filter) - 
 - [jcageman/d2mapapi](https://github.com/jcageman/d2mapapi) - d2 map rest API to retrieve the map layout per area given a map seed
 - [Bioruebe/UniExtract2](https://github.com/Bioruebe/UniExtract2) - Universal Extractor 2 is a tool to extract files from any type of archive or installer.
-- [smpl-os/smplos](https://github.com/smpl-os/smplos) - A minimal Arch Linux distribution with cross-compositor support
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
