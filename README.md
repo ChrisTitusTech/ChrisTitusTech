@@ -14,10 +14,10 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 ### 👷 Check out what I'm currently working on
 
 - [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - My Neovim configuration
-- [ChrisTitusTech/image-resize](https://github.com/ChrisTitusTech/image-resize) - 
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
+- [ChrisTitusTech/image-resize](https://github.com/ChrisTitusTech/image-resize) - 
 - [ChrisTitusTech/thunar-webp-convert](https://github.com/ChrisTitusTech/thunar-webp-convert) - Easily convert webp images direct from thunar or cli
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
+- [ChrisTitusTech/image-upscale](https://github.com/ChrisTitusTech/image-upscale) - easy cli based image 4x upscale and sharpening
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/image-resize](https://github.com/ChrisTitusTech/image-resize) - 
