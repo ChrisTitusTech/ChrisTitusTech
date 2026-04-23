@@ -13,18 +13,18 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/image-tools](https://github.com/ChrisTitusTech/image-tools) - 
+- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - My Neovim configuration
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/image-resize](https://github.com/ChrisTitusTech/image-resize) - Right Click resize images from thunar and cli
-- [ChrisTitusTech/thunar-webp-convert](https://github.com/ChrisTitusTech/thunar-webp-convert) - Easily convert webp images direct from thunar or cli
 ### 🌱 My latest projects
 
+- [ChrisTitusTech/image-tools](https://github.com/ChrisTitusTech/image-tools) - 
 - [ChrisTitusTech/image-resize](https://github.com/ChrisTitusTech/image-resize) - Right Click resize images from thunar and cli
 - [ChrisTitusTech/thunar-webp-convert](https://github.com/ChrisTitusTech/thunar-webp-convert) - Easily convert webp images direct from thunar or cli
 - [ChrisTitusTech/image-upscale](https://github.com/ChrisTitusTech/image-upscale) - easy cli based image 4x upscale and sharpening
 - [ChrisTitusTech/uboot-orangepi-rk3399](https://github.com/ChrisTitusTech/uboot-orangepi-rk3399) - Orange Pi 800 - Reborn in 2026 with arch linux arm
-- [ChrisTitusTech/community](https://github.com/ChrisTitusTech/community) - Custom Discourse plugin - Twitch Subs, Discord Sync, YT Members, Github Sponsors, and Christitus.com Themed
 ### 🔨 My recent Pull Requests
 
 - [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4403) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
