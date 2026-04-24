@@ -13,18 +13,18 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/image-tools](https://github.com/ChrisTitusTech/image-tools) - 
+- [ChrisTitusTech/gemma4-intelb70-archsetup](https://github.com/ChrisTitusTech/gemma4-intelb70-archsetup) - 
+- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
+- [ChrisTitusTech/image-tools](https://github.com/ChrisTitusTech/image-tools) - 
 - [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - My Neovim configuration
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [ChrisTitusTech/image-resize](https://github.com/ChrisTitusTech/image-resize) - Right Click resize images from thunar and cli
 ### 🌱 My latest projects
 
+- [ChrisTitusTech/gemma4-intelb70-archsetup](https://github.com/ChrisTitusTech/gemma4-intelb70-archsetup) - 
 - [ChrisTitusTech/image-tools](https://github.com/ChrisTitusTech/image-tools) - 
 - [ChrisTitusTech/image-resize](https://github.com/ChrisTitusTech/image-resize) - Right Click resize images from thunar and cli
 - [ChrisTitusTech/thunar-webp-convert](https://github.com/ChrisTitusTech/thunar-webp-convert) - Easily convert webp images direct from thunar or cli
 - [ChrisTitusTech/image-upscale](https://github.com/ChrisTitusTech/image-upscale) - easy cli based image 4x upscale and sharpening
-- [ChrisTitusTech/uboot-orangepi-rk3399](https://github.com/ChrisTitusTech/uboot-orangepi-rk3399) - Orange Pi 800 - Reborn in 2026 with arch linux arm
 ### 🔨 My recent Pull Requests
 
 - [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4403) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
@@ -34,11 +34,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4382) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [Syllo/nvtop](https://github.com/Syllo/nvtop) - GPU &amp; Accelerator process monitoring for AMD, Apple, Huawei, Intel, NVIDIA and Qualcomm
 - [SearchSavior/OpenArc](https://github.com/SearchSavior/OpenArc) - Inference engine for Intel devices. Serve LLMs, VLMs, Whisper, Kokoro-TTS, Embedding and Rerank models over OpenAI endpoints.
 - [EdvinNilsson/ffmpeg_encoder_plugin](https://github.com/EdvinNilsson/ffmpeg_encoder_plugin) - FFmpeg Encoder Plugin for DaVinci Resolve Studio
 - [Roguecor/d2r-endgame-loot-filter](https://github.com/Roguecor/d2r-endgame-loot-filter) - 
 - [jcageman/d2mapapi](https://github.com/jcageman/d2mapapi) - d2 map rest API to retrieve the map layout per area given a map seed
-- [Bioruebe/UniExtract2](https://github.com/Bioruebe/UniExtract2) - Universal Extractor 2 is a tool to extract files from any type of archive or installer.
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
