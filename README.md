@@ -13,25 +13,25 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/gimphelp](https://github.com/ChrisTitusTech/gimphelp) - 
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
+- [ChrisTitusTech/resolve-linux](https://github.com/ChrisTitusTech/resolve-linux) - Tools for Resolve on Linux
+- [ChrisTitusTech/gimphelp](https://github.com/ChrisTitusTech/gimphelp) - 
 - [ChrisTitusTech/uboot-orangepi-rk3399](https://github.com/ChrisTitusTech/uboot-orangepi-rk3399) - Orange Pi 800 - Reborn in 2026 with arch linux arm
 - [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - My Neovim configuration
-- [ChrisTitusTech/gemma4-intelb70-archsetup](https://github.com/ChrisTitusTech/gemma4-intelb70-archsetup) - 
 ### 🌱 My latest projects
 
+- [ChrisTitusTech/resolve-linux](https://github.com/ChrisTitusTech/resolve-linux) - Tools for Resolve on Linux
 - [ChrisTitusTech/gemma4-intelb70-archsetup](https://github.com/ChrisTitusTech/gemma4-intelb70-archsetup) - 
 - [ChrisTitusTech/image-tools](https://github.com/ChrisTitusTech/image-tools) - 
 - [ChrisTitusTech/image-resize](https://github.com/ChrisTitusTech/image-resize) - Right Click resize images from thunar and cli
 - [ChrisTitusTech/thunar-webp-convert](https://github.com/ChrisTitusTech/thunar-webp-convert) - Easily convert webp images direct from thunar or cli
-- [ChrisTitusTech/image-upscale](https://github.com/ChrisTitusTech/image-upscale) - easy cli based image 4x upscale and sharpening
 ### 🔨 My recent Pull Requests
 
+- [feat: Add Brave debloat settings to tweaks.json](https://github.com/ChrisTitusTech/winutil/pull/4427) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [feat: add DTB verification script and update new DTS branch notes for Orange Pi 800](https://github.com/ChrisTitusTech/uboot-orangepi-rk3399/pull/1) on [ChrisTitusTech/uboot-orangepi-rk3399](https://github.com/ChrisTitusTech/uboot-orangepi-rk3399)
 - [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4403) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4399) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4398) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Remove lazy.nvim — migrate to vim.pack](https://github.com/ChrisTitusTech/neovim/pull/15) on [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim)
 ### ⭐ Recent Stars
 
 - [Syllo/nvtop](https://github.com/Syllo/nvtop) - GPU &amp; Accelerator process monitoring for AMD, Apple, Huawei, Intel, NVIDIA and Qualcomm
