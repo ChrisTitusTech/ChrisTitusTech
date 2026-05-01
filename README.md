@@ -14,10 +14,10 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 ### 👷 Check out what I'm currently working on
 
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
+- [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
+- [ChrisTitusTech/remote-streamerbot-chat](https://github.com/ChrisTitusTech/remote-streamerbot-chat) - Streamer Bot Remote Chat Interface
 - [ChrisTitusTech/resolve-linux](https://github.com/ChrisTitusTech/resolve-linux) - Tools for Resolve on Linux
-- [ChrisTitusTech/gimphelp](https://github.com/ChrisTitusTech/gimphelp) - 
-- [ChrisTitusTech/uboot-orangepi-rk3399](https://github.com/ChrisTitusTech/uboot-orangepi-rk3399) - Orange Pi 800 - Reborn in 2026 with arch linux arm
+- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/resolve-linux](https://github.com/ChrisTitusTech/resolve-linux) - Tools for Resolve on Linux
@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/thunar-webp-convert](https://github.com/ChrisTitusTech/thunar-webp-convert) - Easily convert webp images direct from thunar or cli
 ### 🔨 My recent Pull Requests
 
+- [Cleanup: Delete all Scheduled Tasks related things](https://github.com/ChrisTitusTech/winutil/pull/4435) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4434) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4433) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4432) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [feat: Add Brave debloat settings to tweaks.json](https://github.com/ChrisTitusTech/winutil/pull/4427) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [feat: add DTB verification script and update new DTS branch notes for Orange Pi 800](https://github.com/ChrisTitusTech/uboot-orangepi-rk3399/pull/1) on [ChrisTitusTech/uboot-orangepi-rk3399](https://github.com/ChrisTitusTech/uboot-orangepi-rk3399)
-- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4403) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [Syllo/nvtop](https://github.com/Syllo/nvtop) - GPU &amp; Accelerator process monitoring for AMD, Apple, Huawei, Intel, NVIDIA and Qualcomm
