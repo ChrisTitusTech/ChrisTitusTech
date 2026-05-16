@@ -1,4 +1,205 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chris Titus Tech | Tech Content Creator</title><link>https://christitus.com/</link><description>Recent content on Chris Titus Tech | Tech Content Creator</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><managingEditor>Chris Titus</managingEditor><webMaster>Chris Titus</webMaster><lastBuildDate>Tue, 05 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://christitus.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Neovim the Elite Editor</title><link>https://christitus.com/neovim-the-elite-editor/</link><pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate><author>Chris Titus</author><guid>https://christitus.com/neovim-the-elite-editor/</guid><description>&lt;p&gt;Most editors today are bloated, slow, and pretending to be IDEs while burning your RAM. Neovim 0.12 goes the other direction: less junk, more control, better speed.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chris Titus Tech | Tech Content Creator</title><link>https://christitus.com/</link><description>Recent content on Chris Titus Tech | Tech Content Creator</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><managingEditor>Chris Titus</managingEditor><webMaster>Chris Titus</webMaster><lastBuildDate>Fri, 15 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://christitus.com/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Benchmark in Linux</title><link>https://christitus.com/how-to-benchmark-in-linux/</link><pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate><author>Chris Titus</author><guid>https://christitus.com/how-to-benchmark-in-linux/</guid><description>&lt;p&gt;Proper Linux benchmarking is not about the biggest single run. It is about building a clean baseline, controlling variables, repeating runs for statistical validity, and generating charts that show the data clearly.&lt;/p&gt;
+&lt;p&gt;The Phoronix Test Suite provides the structure: repeatable workloads, saved results, baseline comparison, and batch automation. MangoHud captures frame-time data. Together with a Python plotting tool, you get a complete workflow from raw test data to publication-ready charts.&lt;/p&gt;
+&lt;h2 id="core-principle-test-one-variable-at-a-time"&gt;Core Principle: Test One Variable at a Time&lt;/h2&gt;
+&lt;p&gt;Before running any benchmarks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Same hardware, distro, and driver stack each time&lt;/li&gt;
+&lt;li&gt;Same game patch or application version&lt;/li&gt;
+&lt;li&gt;Same graphics preset and resolution&lt;/li&gt;
+&lt;li&gt;Baseline run first, then one controlled change, then re-run&lt;/li&gt;
+&lt;li&gt;Repeat at least 3 to 5 times per configuration&lt;/li&gt;
+&lt;li&gt;Log hardware info (CPU, GPU, kernel, Mesa version) before each session&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Phoronix Test Suite saves this metadata automatically. If you change multiple variables at once, your data proves nothing.&lt;/p&gt;
+&lt;h2 id="install-the-tools"&gt;Install the Tools&lt;/h2&gt;
+&lt;h3 id="phoronix-test-suite"&gt;Phoronix Test Suite&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Debian/Ubuntu&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo apt install phoronix-test-suite
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Fedora&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo dnf install phoronix-test-suite
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Arch&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -S phoronix-test-suite
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="mangohud-required-for-1-lows-and-frame-consistency"&gt;MangoHud (required for 1% lows and frame consistency)&lt;/h3&gt;
+&lt;p&gt;MangoHud captures frame-time data needed to calculate 1% lows and analyze frame pacing. Without it, you only get average FPS.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Debian/Ubuntu&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo apt install mangohud
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Fedora&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo dnf install mangohud
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Arch&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -S mangohud
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="plotpy-for-charts"&gt;Plot.py for Charts&lt;/h3&gt;
+&lt;p&gt;Clone the Linux benchmarks repository to get the plotting script:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git clone https://github.com/ChrisTitusTech/linux-benchmarks.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; linux-benchmarks
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Install Python dependencies:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;pip install numpy pandas matplotlib
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="prep-your-system"&gt;Prep Your System&lt;/h2&gt;
+&lt;p&gt;Before every test session:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reboot and let the system settle&lt;/li&gt;
+&lt;li&gt;Close browsers, Discord, RGB software, and unnecessary services&lt;/li&gt;
+&lt;li&gt;Plug in laptops and use the same power mode for every run&lt;/li&gt;
+&lt;li&gt;Keep the same CPU governor and GPU mode&lt;/li&gt;
+&lt;li&gt;Check kernel, Mesa version, and game patch level&lt;/li&gt;
+&lt;li&gt;Note the date/time and save this metadata somewhere&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Phoronix automatically logs hardware info, so you just need to know what you changed between runs.&lt;/p&gt;
+&lt;h2 id="quick-workflow-batch-setup-and-benchmark"&gt;Quick Workflow: Batch Setup and Benchmark&lt;/h2&gt;
+&lt;h3 id="1-configure-batch-mode-once"&gt;1. Configure Batch Mode Once&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;phoronix-test-suite batch-setup
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This prompts you to set defaults for automated testing: whether to save results to OpenBenchmarking, how many times to run each test, and whether to use strict mode. Set these once and reuse them for consistency.&lt;/p&gt;
+&lt;h3 id="2-run-batch-benchmarks"&gt;2. Run Batch Benchmarks&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;export&lt;/span&gt; &lt;span class="nv"&gt;MANGOHUD&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;export&lt;/span&gt; &lt;span class="nv"&gt;MANGOHUD_CONFIG&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;output_folder=&lt;/span&gt;&lt;span class="nv"&gt;$HOME&lt;/span&gt;&lt;span class="s2"&gt;/benchmark-logs,autostart_log=1,benchmark_percentiles=AVG+1+0.1&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;TEST_RESULTS_NAME&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;baseline&amp;#34;&lt;/span&gt; &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;TEST_RESULTS_IDENTIFIER&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;stock-system&amp;#34;&lt;/span&gt; &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;TEST_RESULTS_DESCRIPTION&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;Baseline on stock kernel&amp;#34;&lt;/span&gt; &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;TEST_EXEC_PREPEND&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;mangohud&amp;#34;&lt;/span&gt; &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;phoronix-test-suite batch-benchmark pts/c-ray pts/compress-7zip pts/openssl
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The batch mode processes all tests without prompting you. Logs are saved to &lt;code&gt;~/.phoronix-test-suite/&lt;/code&gt; with metadata automatically included.&lt;/p&gt;
+&lt;p&gt;Repeat this command after making one change (kernel, driver, Proton version) with a different identifier:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;export&lt;/span&gt; &lt;span class="nv"&gt;MANGOHUD&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;export&lt;/span&gt; &lt;span class="nv"&gt;MANGOHUD_CONFIG&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;output_folder=&lt;/span&gt;&lt;span class="nv"&gt;$HOME&lt;/span&gt;&lt;span class="s2"&gt;/benchmark-logs,autostart_log=1,benchmark_percentiles=AVG+1+0.1&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;TEST_RESULTS_NAME&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;tested&amp;#34;&lt;/span&gt; &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;TEST_RESULTS_IDENTIFIER&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;zen-kernel&amp;#34;&lt;/span&gt; &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;TEST_RESULTS_DESCRIPTION&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;Same workload on Zen kernel&amp;#34;&lt;/span&gt; &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;TEST_EXEC_PREPEND&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;mangohud&amp;#34;&lt;/span&gt; &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;phoronix-test-suite batch-benchmark pts/c-ray pts/compress-7zip pts/openssl
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now you have two saved result sets to compare.&lt;/p&gt;
+&lt;h3 id="3-export-results-to-csv"&gt;3. Export Results to CSV&lt;/h3&gt;
+&lt;p&gt;After running benchmarks, export the results to ~/benchmark-logs:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;phoronix-test-suite result-file-to-csv baseline ~/benchmark-logs/baseline.csv
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;phoronix-test-suite result-file-to-csv tested ~/benchmark-logs/tested.csv
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This creates CSV files that &lt;code&gt;plot.py&lt;/code&gt; can read. The CSV contains:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Benchmark name&lt;/li&gt;
+&lt;li&gt;Average score (or FPS)&lt;/li&gt;
+&lt;li&gt;Run count&lt;/li&gt;
+&lt;li&gt;Variance, standard deviation, and standard error (if available)&lt;/li&gt;
+&lt;li&gt;System metadata (CPU, GPU, kernel)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;MangoHud logs are already being saved to ~/benchmark-logs as individual CSV files with frame-time data.&lt;/p&gt;
+&lt;h3 id="4-understanding-the-export-csv-workflow"&gt;4. Understanding the Export-CSV Workflow&lt;/h3&gt;
+&lt;p&gt;The export process transforms Phoronix binary result files into text formats:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;result-file-to-csv&lt;/strong&gt;: Standard export with aggregated stats per benchmark&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;result-file-raw-to-csv&lt;/strong&gt;: Individual run data; useful if you need to inspect variance&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;result-file-stats&lt;/strong&gt;: Statistical summary&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For &lt;code&gt;plot.py&lt;/code&gt;, you need CSV files with:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Phoronix CSV exports&lt;/strong&gt; — Benchmark names, average FPS/scores, run count, variance&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MangoHud CSV logs&lt;/strong&gt; — Frame-time data with columns like &lt;code&gt;fps&lt;/code&gt; and &lt;code&gt;frametime&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Both get saved in the same directory and &lt;code&gt;plot.py&lt;/code&gt; finds them automatically.&lt;/p&gt;
+&lt;h2 id="running-plotpy-to-generate-charts"&gt;Running plot.py to Generate Charts&lt;/h2&gt;
+&lt;p&gt;Once you have CSV files from both Phoronix exports and MangoHud logs in ~/benchmark-logs, generate visualizations:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; /path/to/linux-benchmarks
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;python plot.py --log-dir ~/benchmark-logs
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The script generates two types of charts:&lt;/p&gt;
+&lt;h3 id="1-mangohud-fps-distribution-heatmap"&gt;1. MangoHud FPS Distribution Heatmap&lt;/h3&gt;
+&lt;p&gt;Shows frame-time consistency across all runs. Each row is one run, and the heatmap colors show how many frames hit each FPS bucket. Vertical lines mark:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;0.1%ile&lt;/strong&gt; (darkest): lowest 0.1% of frames&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1%ile&lt;/strong&gt; (dark): lowest 1% of frames&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;50%ile&lt;/strong&gt; (blue): median frame rate&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If the heatmap is wide and flat, frames are inconsistent. If it is tall and narrow, frame pacing is smooth.&lt;/p&gt;
+&lt;h3 id="2-phoronix-average-fps-bar-chart"&gt;2. Phoronix Average FPS Bar Chart&lt;/h3&gt;
+&lt;p&gt;Shows average performance per benchmark with run count, variance, and standard error labeled. If variance is high or run count is low, that test may not be stable yet.&lt;/p&gt;
+&lt;h3 id="output-files"&gt;Output Files&lt;/h3&gt;
+&lt;p&gt;Both charts are saved as PNG files in ~/benchmark-logs:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;mangohud_bar_chart.png&lt;/code&gt; — FPS distribution heatmap (frame consistency from MangoHud logs)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;*_avg_fps_bar_chart.png&lt;/code&gt; — One per Phoronix CSV export (average FPS per benchmark)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="enriching-phoronix-data-with-mangohud-stats"&gt;Enriching Phoronix Data with MangoHud Stats&lt;/h2&gt;
+&lt;p&gt;If your Phoronix export only has one aggregate result per benchmark (common when exporting from the GUI), &lt;code&gt;plot.py&lt;/code&gt; automatically matches MangoHud runs by name pattern and enriches the Phoronix data with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Actual run count from multiple MangoHud passes&lt;/li&gt;
+&lt;li&gt;Calculated variance and standard error&lt;/li&gt;
+&lt;li&gt;Frame-time percentiles (0.1%, 1%, 50%)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="complete-example-kernel-comparison"&gt;Complete Example: Kernel Comparison&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s a real-world walkthrough:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 1. Configure batch mode&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;phoronix-test-suite batch-setup
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 2. Set up logging environment&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;export&lt;/span&gt; &lt;span class="nv"&gt;MANGOHUD&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;export&lt;/span&gt; &lt;span class="nv"&gt;MANGOHUD_CONFIG&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;output_folder=&lt;/span&gt;&lt;span class="nv"&gt;$HOME&lt;/span&gt;&lt;span class="s2"&gt;/benchmark-logs,autostart_log=1,benchmark_percentiles=AVG+1+0.1&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 3. Run baseline on stock kernel (reboot first)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;TEST_RESULTS_NAME&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;kernel-compare&amp;#34;&lt;/span&gt; &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;TEST_RESULTS_IDENTIFIER&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;stock-distro&amp;#34;&lt;/span&gt; &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;TEST_RESULTS_DESCRIPTION&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;Stock distro kernel&amp;#34;&lt;/span&gt; &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;TEST_EXEC_PREPEND&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;mangohud&amp;#34;&lt;/span&gt; &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;phoronix-test-suite batch-benchmark pts/c-ray pts/compress-7zip pts/openssl
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 4. Reboot into Zen kernel and run same tests&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;TEST_RESULTS_NAME&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;kernel-compare&amp;#34;&lt;/span&gt; &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;TEST_RESULTS_IDENTIFIER&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;zen-kernel&amp;#34;&lt;/span&gt; &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;TEST_RESULTS_DESCRIPTION&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;CachyOS Zen kernel&amp;#34;&lt;/span&gt; &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;TEST_EXEC_PREPEND&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;mangohud&amp;#34;&lt;/span&gt; &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;phoronix-test-suite batch-benchmark pts/c-ray pts/compress-7zip pts/openssl
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 5. Export both results to CSV&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;phoronix-test-suite result-file-to-csv kernel-compare ~/benchmark-logs/kernel-compare.csv
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 6. Run plot.py to generate charts&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; /path/to/linux-benchmarks
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;python plot.py --log-dir ~/benchmark-logs
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now you have:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;One bar chart showing average FPS for each test under both kernels&lt;/li&gt;
+&lt;li&gt;Run counts, variance, and error bars on the chart&lt;/li&gt;
+&lt;li&gt;MangoHud frame-time heatmaps if you also logged with MangoHud&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is publication-ready data: controlled variables, multiple runs, statistical validity, and clear visualization.&lt;/p&gt;
+&lt;h2 id="what-the-charts-tell-you"&gt;What the Charts Tell You&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Bar chart reading:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Higher bars = better performance&lt;/li&gt;
+&lt;li&gt;Variance labeled in red: if it is high, the result is noisy&lt;/li&gt;
+&lt;li&gt;Small error bars = consistent performance across runs&lt;/li&gt;
+&lt;li&gt;Large error bars = inconsistent or thermal-throttled performance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Heatmap reading:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tall narrow heatmap = consistent frame pacing&lt;/li&gt;
+&lt;li&gt;Wide scattered heatmap = erratic frame delivery, even if average FPS is high&lt;/li&gt;
+&lt;li&gt;Compare rows: if one kernel produces more consistent colors, it has better frame consistency&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="workflow-checklist"&gt;Workflow Checklist&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Reboot and verify kernel/driver/Mesa version&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Close unnecessary services&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Run &lt;code&gt;phoronix-test-suite batch-setup&lt;/code&gt; once&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Run baseline: &lt;code&gt;phoronix-test-suite batch-benchmark pts/...&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Make one change only (kernel, driver, etc.)&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Run same tests again with new identifier&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Export: &lt;code&gt;phoronix-test-suite result-file-to-csv &amp;lt;name&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Generate charts: &lt;code&gt;python plot.py --log-dir &amp;lt;path&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Compare against baseline&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Repeat for next variable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="the-final-results"&gt;The Final Results&lt;/h2&gt;
+&lt;p&gt;
+&lt;img loading="lazy" decoding="async" src="https://christitus.com/images/2026/pts-benchmark.webp" alt="pts-benchmark" class="img-fluid"&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;img loading="lazy" decoding="async" src="https://christitus.com/images/2026/mangohud-benchmark.webp" alt="mangohud-benchmark" class="img-fluid"&gt;
+&lt;/p&gt;
+&lt;h2 id="walkthrough-video"&gt;Walkthrough Video&lt;/h2&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/gn0x-Tg1qxk?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+&lt;/div&gt;</description></item><item><title>Neovim the Elite Editor</title><link>https://christitus.com/neovim-the-elite-editor/</link><pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate><author>Chris Titus</author><guid>https://christitus.com/neovim-the-elite-editor/</guid><description>&lt;p&gt;Most editors today are bloated, slow, and pretending to be IDEs while burning your RAM. Neovim 0.12 goes the other direction: less junk, more control, better speed.&lt;/p&gt;
 &lt;p&gt;This is the no-BS breakdown of what changed in my Neovim setup, why I removed the old pieces, and what actually matters in daily use.&lt;/p&gt;
 &lt;p&gt;
 &lt;img loading="lazy" decoding="async" src="https://christitus.com/images/2026/neovim.webp" alt="neovim" class="img-fluid"&gt;
