@@ -13,11 +13,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/remote-streamerbot-chat](https://github.com/ChrisTitusTech/remote-streamerbot-chat) - Streamer Bot Remote Chat Interface
 - [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
-- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/linux-benchmarks](https://github.com/ChrisTitusTech/linux-benchmarks) - takes exports from Phoronix and Mango hud to give graphs for Frametimes, 1% FPS, and Avg FPS
@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/resolve-linux](https://github.com/ChrisTitusTech/resolve-linux) - Tools for Resolve on Linux
 ### 🔨 My recent Pull Requests
 
-- [Security workflow fix](https://github.com/ChrisTitusTech/linutil/pull/1285) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
-- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4475) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4474) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4473) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4472) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [Fix missing dism metadata](https://github.com/ChrisTitusTech/winutil/pull/4516) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4515) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [Merge branch &#39;main&#39; into pr/gepardjaro/4503](https://github.com/ChrisTitusTech/winutil/pull/4514) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4513) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4512) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [nuttylmao/nutty.gg](https://github.com/nuttylmao/nutty.gg) - 
