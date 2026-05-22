@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/resolve-linux](https://github.com/ChrisTitusTech/resolve-linux) - Tools for Resolve on Linux
 ### 🔨 My recent Pull Requests
 
+- [revamp to use nested install from dwm-titus repo](https://github.com/ChrisTitusTech/linutil/pull/1291) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [Fix missing dism metadata](https://github.com/ChrisTitusTech/winutil/pull/4516) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4515) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Merge branch &#39;main&#39; into pr/gepardjaro/4503](https://github.com/ChrisTitusTech/winutil/pull/4514) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4513) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4512) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [nuttylmao/nutty.gg](https://github.com/nuttylmao/nutty.gg) - 
