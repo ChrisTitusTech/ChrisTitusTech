@@ -13,8 +13,8 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/starfield-config](https://github.com/ChrisTitusTech/starfield-config) - Starfield mods and auto installs
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
 - [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
 - [ChrisTitusTech/remote-streamerbot-chat](https://github.com/ChrisTitusTech/remote-streamerbot-chat) - Streamer Bot Remote Chat Interface
@@ -27,18 +27,18 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/resolve-linux](https://github.com/ChrisTitusTech/resolve-linux) - Tools for Resolve on Linux
 ### 🔨 My recent Pull Requests
 
+- [Expand interface mods](https://github.com/ChrisTitusTech/starfield-config/pull/1) on [ChrisTitusTech/starfield-config](https://github.com/ChrisTitusTech/starfield-config)
 - [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4558) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4555) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [revamp to use nested install from dwm-titus repo](https://github.com/ChrisTitusTech/linutil/pull/1291) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [Fix missing dism metadata](https://github.com/ChrisTitusTech/winutil/pull/4516) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4515) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [lVlyke/stellar-mod-loader](https://github.com/lVlyke/stellar-mod-loader) - A mod manager for Windows and Linux supporting games including Fallout, Oblivion, Skyrim, and Starfield. 
 - [mattpocock/skills](https://github.com/mattpocock/skills) - Skills for Real Engineers. Straight from my .claude directory.
 - [nuttylmao/nutty.gg](https://github.com/nuttylmao/nutty.gg) - 
 - [RemakeCode/sentinel](https://github.com/RemakeCode/sentinel) - Sentinel  - An achievement watcher for Linux
 - [deskflow/deskflow](https://github.com/deskflow/deskflow) - Share a single keyboard and mouse between multiple computers.
-- [Panonim/dynacat](https://github.com/Panonim/dynacat) - Dynacat is a dashboard focused on dynamic reloading and easy integrity with external applications. 
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
