@@ -13,9 +13,9 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
 - [ChrisTitusTech/starfield-config](https://github.com/ChrisTitusTech/starfield-config) - Starfield mods and auto installs
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
 - [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
 - [ChrisTitusTech/remote-streamerbot-chat](https://github.com/ChrisTitusTech/remote-streamerbot-chat) - Streamer Bot Remote Chat Interface
 ### 🌱 My latest projects
@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/resolve-linux](https://github.com/ChrisTitusTech/resolve-linux) - Tools for Resolve on Linux
 ### 🔨 My recent Pull Requests
 
+- [Delete .github/workflows/xtask.yml](https://github.com/ChrisTitusTech/linutil/pull/1297) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 - [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4579) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Expand interface mods](https://github.com/ChrisTitusTech/starfield-config/pull/1) on [ChrisTitusTech/starfield-config](https://github.com/ChrisTitusTech/starfield-config)
 - [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4558) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4555) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [revamp to use nested install from dwm-titus repo](https://github.com/ChrisTitusTech/linutil/pull/1291) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
 ### ⭐ Recent Stars
 
 - [Foxboron/sbctl](https://github.com/Foxboron/sbctl) - :computer: :lock: :key: Secure Boot key manager
