@@ -13,18 +13,18 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/zed-titus](https://github.com/ChrisTitusTech/zed-titus) - 
+- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
 - [ChrisTitusTech/starfield-config](https://github.com/ChrisTitusTech/starfield-config) - Starfield mods and auto installs
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
-- [ChrisTitusTech/remote-streamerbot-chat](https://github.com/ChrisTitusTech/remote-streamerbot-chat) - Streamer Bot Remote Chat Interface
 ### 🌱 My latest projects
 
+- [ChrisTitusTech/zed-titus](https://github.com/ChrisTitusTech/zed-titus) - 
 - [ChrisTitusTech/linux-benchmarks](https://github.com/ChrisTitusTech/linux-benchmarks) - takes exports from Phoronix and Mango hud to give graphs for Frametimes, 1% FPS, and Avg FPS
 - [ChrisTitusTech/newsletter](https://github.com/ChrisTitusTech/newsletter) - CTT Newsletter template
 - [ChrisTitusTech/live-clip-finder](https://github.com/ChrisTitusTech/live-clip-finder) - Using my own LLM to find good clips instead of using a service
 - [ChrisTitusTech/workout-plan](https://github.com/ChrisTitusTech/workout-plan) - Current Workout plan with Webpage and SQLite DB for tracking
-- [ChrisTitusTech/resolve-linux](https://github.com/ChrisTitusTech/resolve-linux) - Tools for Resolve on Linux
 ### 🔨 My recent Pull Requests
 
 - [Delete .github/workflows/xtask.yml](https://github.com/ChrisTitusTech/linutil/pull/1297) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
@@ -34,11 +34,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4555) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [th0jensen/fff-gpui](https://github.com/th0jensen/fff-gpui) - UI harness for fff made in GPUI. System-wide file finder that integrates well with the Zed editor.
+- [jellydn/zed-101-setup](https://github.com/jellydn/zed-101-setup) - Your ultimate guide to setting up Zed with Vim mode, tailored settings, and key bindings for a seamless coding experience
 - [Foxboron/sbctl](https://github.com/Foxboron/sbctl) - :computer: :lock: :key: Secure Boot key manager
 - [lVlyke/stellar-mod-loader](https://github.com/lVlyke/stellar-mod-loader) - A mod manager for Windows and Linux supporting games including Fallout, Oblivion, Skyrim, and Starfield. 
 - [mattpocock/skills](https://github.com/mattpocock/skills) - Skills for Real Engineers. Straight from my .claude directory.
-- [nuttylmao/nutty.gg](https://github.com/nuttylmao/nutty.gg) - 
-- [RemakeCode/sentinel](https://github.com/RemakeCode/sentinel) - Sentinel  - An achievement watcher for Linux
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
