@@ -17,7 +17,7 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/zed-titus](https://github.com/ChrisTitusTech/zed-titus) - 
 - [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
+- [ChrisTitusTech/starfield-config](https://github.com/ChrisTitusTech/starfield-config) - Starfield mods and auto installs
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/zed-titus](https://github.com/ChrisTitusTech/zed-titus) - 
