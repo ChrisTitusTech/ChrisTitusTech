@@ -13,18 +13,18 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/drew-website](https://github.com/ChrisTitusTech/drew-website) - 
+- [dagadoci-lgtm/website](https://github.com/dagadoci-lgtm/website) - 
 - [ChrisTitusTech/titus-ai](https://github.com/ChrisTitusTech/titus-ai) - 
 - [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
 - [ChrisTitusTech/mango-titus](https://github.com/ChrisTitusTech/mango-titus) - Basic MangoWC WM configuration (Alpha)
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 ### 🌱 My latest projects
 
+- [ChrisTitusTech/drew-website](https://github.com/ChrisTitusTech/drew-website) - 
 - [ChrisTitusTech/titus-ai](https://github.com/ChrisTitusTech/titus-ai) - 
 - [ChrisTitusTech/zed-titus](https://github.com/ChrisTitusTech/zed-titus) - 
 - [ChrisTitusTech/linux-benchmarks](https://github.com/ChrisTitusTech/linux-benchmarks) - takes exports from Phoronix and Mango hud to give graphs for Frametimes, 1% FPS, and Avg FPS
 - [ChrisTitusTech/newsletter](https://github.com/ChrisTitusTech/newsletter) - CTT Newsletter template
-- [ChrisTitusTech/live-clip-finder](https://github.com/ChrisTitusTech/live-clip-finder) - Using my own LLM to find good clips instead of using a service
 ### 🔨 My recent Pull Requests
 
 - [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4672) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
