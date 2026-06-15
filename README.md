@@ -14,8 +14,8 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 ### 👷 Check out what I'm currently working on
 
 - [ChrisTitusTech/linux-book-publish](https://github.com/ChrisTitusTech/linux-book-publish) - The Linux book
-- [dagadoci-lgtm/website](https://github.com/dagadoci-lgtm/website) - 
 - [ChrisTitusTech/drew-website](https://github.com/ChrisTitusTech/drew-website) - 
+- [dagadoci-lgtm/website](https://github.com/dagadoci-lgtm/website) - 
 - [ChrisTitusTech/titus-ai](https://github.com/ChrisTitusTech/titus-ai) - 
 - [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
 ### 🌱 My latest projects
