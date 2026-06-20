@@ -13,18 +13,18 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/myheroultra](https://github.com/ChrisTitusTech/myheroultra) - Compendium of all online my hero ultra rumble content. Ingesting youtube videos from all creators, subreddit myheroultrarumble, and other community sources.
 - [ChrisTitusTech/titusbooks](https://github.com/ChrisTitusTech/titusbooks) - I hate quickbooks, I&#39;m making my own self-hosted all data never leaves local network.
 - [ChrisTitusTech/linux-book-publish](https://github.com/ChrisTitusTech/linux-book-publish) - The Linux book
 - [dagadoci-lgtm/website](https://github.com/dagadoci-lgtm/website) - 
 - [ChrisTitusTech/titus-ai](https://github.com/ChrisTitusTech/titus-ai) - 
-- [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
 ### 🌱 My latest projects
 
+- [ChrisTitusTech/myheroultra](https://github.com/ChrisTitusTech/myheroultra) - Compendium of all online my hero ultra rumble content. Ingesting youtube videos from all creators, subreddit myheroultrarumble, and other community sources.
 - [ChrisTitusTech/titusbooks](https://github.com/ChrisTitusTech/titusbooks) - I hate quickbooks, I&#39;m making my own self-hosted all data never leaves local network.
 - [ChrisTitusTech/titus-ai](https://github.com/ChrisTitusTech/titus-ai) - 
 - [ChrisTitusTech/zed-titus](https://github.com/ChrisTitusTech/zed-titus) - 
 - [ChrisTitusTech/linux-benchmarks](https://github.com/ChrisTitusTech/linux-benchmarks) - takes exports from Phoronix and Mango hud to give graphs for Frametimes, 1% FPS, and Avg FPS
-- [ChrisTitusTech/newsletter](https://github.com/ChrisTitusTech/newsletter) - CTT Newsletter template
 ### 🔨 My recent Pull Requests
 
 - [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4672) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
