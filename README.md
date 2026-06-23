@@ -13,25 +13,25 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/myheroultra](https://github.com/ChrisTitusTech/myheroultra) - Compendium of all online my hero ultra rumble content. Ingesting youtube videos from all creators, subreddit myheroultrarumble, and other community sources.
-- [ChrisTitusTech/titus-ai](https://github.com/ChrisTitusTech/titus-ai) - 
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/titusbooks](https://github.com/ChrisTitusTech/titusbooks) - I hate quickbooks, I&#39;m making my own self-hosted all data never leaves local network.
-- [ChrisTitusTech/zed-titus](https://github.com/ChrisTitusTech/zed-titus) - 
-- [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim) - My Neovim configuration
+- [ChrisTitusTech/titus-ai](https://github.com/ChrisTitusTech/titus-ai) - Codex and AI skills
+- [ChrisTitusTech/myheroultra](https://github.com/ChrisTitusTech/myheroultra) - Compendium of all online my hero ultra rumble content. Ingesting youtube videos from all creators, subreddit myheroultrarumble, and other community sources.
+- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/myheroultra](https://github.com/ChrisTitusTech/myheroultra) - Compendium of all online my hero ultra rumble content. Ingesting youtube videos from all creators, subreddit myheroultrarumble, and other community sources.
 - [ChrisTitusTech/titusbooks](https://github.com/ChrisTitusTech/titusbooks) - I hate quickbooks, I&#39;m making my own self-hosted all data never leaves local network.
-- [ChrisTitusTech/titus-ai](https://github.com/ChrisTitusTech/titus-ai) - 
-- [ChrisTitusTech/zed-titus](https://github.com/ChrisTitusTech/zed-titus) - 
+- [ChrisTitusTech/titus-ai](https://github.com/ChrisTitusTech/titus-ai) - Codex and AI skills
+- [ChrisTitusTech/zed-titus](https://github.com/ChrisTitusTech/zed-titus) - My Zed IDE Config
 - [ChrisTitusTech/linux-benchmarks](https://github.com/ChrisTitusTech/linux-benchmarks) - takes exports from Phoronix and Mango hud to give graphs for Frametimes, 1% FPS, and Avg FPS
 ### 🔨 My recent Pull Requests
 
-- [Finalize Phase 8 Completion](https://github.com/ChrisTitusTech/titusbooks/pull/2) on [ChrisTitusTech/titusbooks](https://github.com/ChrisTitusTech/titusbooks)
-- [Cleanup and import for Bofa and PayPal integrations](https://github.com/ChrisTitusTech/titusbooks/pull/1) on [ChrisTitusTech/titusbooks](https://github.com/ChrisTitusTech/titusbooks)
-- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4672) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4671) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4670) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4739) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4738) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4737) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4736) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4735) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [rtk-ai/rtk](https://github.com/rtk-ai/rtk) - CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
