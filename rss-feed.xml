@@ -1,4 +1,193 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chris Titus Tech | Tech Content Creator</title><link>https://christitus.com/</link><description>Recent content on Chris Titus Tech | Tech Content Creator</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><managingEditor>Chris Titus</managingEditor><webMaster>Chris Titus</webMaster><lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://christitus.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Zed Editor</title><link>https://christitus.com/zed-editor/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><author>Chris Titus</author><guid>https://christitus.com/zed-editor/</guid><description>&lt;p&gt;Zed is what happens when an editor is built for speed first. It is written in Rust, rendered with the GPU, and feels instant in a way most Electron-based editors never do.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chris Titus Tech | Tech Content Creator</title><link>https://christitus.com/</link><description>Recent content on Chris Titus Tech | Tech Content Creator</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><managingEditor>Chris Titus</managingEditor><webMaster>Chris Titus</webMaster><lastBuildDate>Tue, 23 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://christitus.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Resolve in Arch Linux</title><link>https://christitus.com/resolve-in-arch-linux/</link><pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate><author>Chris Titus</author><guid>https://christitus.com/resolve-in-arch-linux/</guid><description>&lt;p&gt;DaVinci Resolve on Arch Linux is one of those setups that can be perfect for weeks and then break after one system update. The problem is not that Arch is bad or Resolve is bad. The problem is that Resolve is a proprietary professional video editor built and tested against a conservative Linux stack, while Arch is a rolling-release distribution that moves libraries, GPU drivers, and desktop components quickly.&lt;/p&gt;
+&lt;p&gt;This post goes through the common problems, the fixes that matter, and the workflow I use to make Resolve usable on Arch Linux.&lt;/p&gt;
+&lt;h2 id="the-big-picture"&gt;The Big Picture&lt;/h2&gt;
+&lt;p&gt;Blackmagic Design&amp;rsquo;s Linux target is Rocky Linux, not Arch. Arch users rely on the AUR, community packaging, and wrapper fixes when Resolve expects older or different system libraries. That means the install can work extremely well, but you need to understand what is being fixed.&lt;/p&gt;
+&lt;p&gt;There are three major problem areas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Resolve launch errors caused by library/runtime mismatch&lt;/li&gt;
+&lt;li&gt;GPU and OpenCL/CUDA setup&lt;/li&gt;
+&lt;li&gt;Codec support, especially H.264, H.265, and AAC&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The practical fix is to install Resolve cleanly, verify GPU compute, run Resolve through a compatibility wrapper when needed, and transcode unsupported media into native Resolve-friendly formats.&lt;/p&gt;
+&lt;h2 id="install-resolve-on-arch"&gt;Install Resolve on Arch&lt;/h2&gt;
+&lt;p&gt;Use the AUR package for the free version:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;paru -S davinci-resolve
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;or the Studio version:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;paru -S davinci-resolve-studio
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Blackmagic requires a manual download for the Linux installer. If the AUR build fails because the ZIP is missing, download the exact version requested by the package from Blackmagic&amp;rsquo;s support page, place it in the AUR build directory shown in the error, and run the install again.&lt;/p&gt;
+&lt;p&gt;For a clean build environment, make sure you have the basics:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -S --needed base-devel git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Do not randomly install old libraries from random mirrors. If the AUR package expects a specific dependency, use the package sources and comments from the AUR package first. Arch partial upgrades and manually pinned libraries are a great way to break this later.&lt;/p&gt;
+&lt;h2 id="gpu-compute-is-required"&gt;GPU Compute Is Required&lt;/h2&gt;
+&lt;p&gt;Resolve is not a normal desktop video editor. It expects GPU acceleration. If Resolve starts but says it cannot find a GPU, crashes when opening a project, or shows broken playback, check OpenCL or CUDA first.&lt;/p&gt;
+&lt;p&gt;Install the correct stack for your GPU.&lt;/p&gt;
+&lt;h3 id="nvidia"&gt;NVIDIA&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -S --needed nvidia nvidia-utils opencl-nvidia cuda
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Verify OpenCL:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;clinfo &lt;span class="p"&gt;|&lt;/span&gt; less
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If &lt;code&gt;clinfo&lt;/code&gt; does not show your NVIDIA GPU, Resolve will not be happy. Reboot after driver changes and make sure Secure Boot is not blocking the NVIDIA kernel module.&lt;/p&gt;
+&lt;h3 id="amd"&gt;AMD&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -S --needed rocm-opencl-runtime
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Verify:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;clinfo &lt;span class="p"&gt;|&lt;/span&gt; less
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;AMD on Arch has changed over time. Some users used &lt;code&gt;opencl-amd&lt;/code&gt; from the AUR, but ROCm version changes can break Resolve. If Resolve crashes after an AMD OpenCL update, test &lt;code&gt;rocm-opencl-runtime&lt;/code&gt; from the official repos before chasing random downgrade guides.&lt;/p&gt;
+&lt;h3 id="intel"&gt;Intel&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -S --needed intel-compute-runtime
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then verify:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;clinfo &lt;span class="p"&gt;|&lt;/span&gt; less
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Intel can work, but NVIDIA remains the least painful Resolve path on Linux because Blackmagic&amp;rsquo;s Linux support matrix is CUDA-focused.&lt;/p&gt;
+&lt;h2 id="the-library-launch-problem"&gt;The Library Launch Problem&lt;/h2&gt;
+&lt;p&gt;The classic Arch problem is that Resolve launches from &lt;code&gt;/opt/resolve/bin/resolve&lt;/code&gt;, then fails with library or symbol errors after an update. This happens because Resolve bundles some libraries but still interacts with system libraries. On a rolling distro, the ABI can move faster than Resolve.&lt;/p&gt;
+&lt;p&gt;The quick fix is my &lt;code&gt;resolve-fix&lt;/code&gt; wrapper from:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/ChrisTitusTech/resolve-linux"&gt;https://github.com/ChrisTitusTech/resolve-linux&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Clone it:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git clone https://github.com/ChrisTitusTech/resolve-linux.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; resolve-linux
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;chmod +x resolve-fix
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Run Resolve through the wrapper:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;./resolve-fix
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The wrapper preloads Arch&amp;rsquo;s GLib stack and puts &lt;code&gt;/usr/lib&lt;/code&gt; earlier in &lt;code&gt;LD_LIBRARY_PATH&lt;/code&gt; before launching Resolve:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;export&lt;/span&gt; &lt;span class="nv"&gt;LD_PRELOAD&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;/usr/lib/libglib-2.0.so.0:/usr/lib/libgobject-2.0.so.0:/usr/lib/libgio-2.0.so.0:/usr/lib/libgmodule-2.0.so.0
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;export&lt;/span&gt; &lt;span class="nv"&gt;LD_LIBRARY_PATH&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;/usr/lib:&lt;span class="nv"&gt;$LD_LIBRARY_PATH&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;exec&lt;/span&gt; /opt/resolve/bin/resolve &lt;span class="s2"&gt;&amp;#34;&lt;/span&gt;&lt;span class="nv"&gt;$@&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If that fixes the launch, make it your normal Resolve command:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo install -m &lt;span class="m"&gt;755&lt;/span&gt; resolve-fix /usr/local/bin/resolve-fix
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then launch:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;resolve-fix
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can also edit your desktop launcher to run &lt;code&gt;/usr/local/bin/resolve-fix&lt;/code&gt; instead of the default Resolve binary.&lt;/p&gt;
+&lt;h2 id="check-missing-libraries"&gt;Check Missing Libraries&lt;/h2&gt;
+&lt;p&gt;If Resolve still will not launch, run:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ldd /opt/resolve/bin/resolve &lt;span class="p"&gt;|&lt;/span&gt; grep &lt;span class="s2"&gt;&amp;#34;not found&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Common fixes include:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -S --needed libxcrypt-compat glu apr-util
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Do not install packages blindly. Run &lt;code&gt;ldd&lt;/code&gt;, see what is missing, then install the package that owns that library.&lt;/p&gt;
+&lt;p&gt;To find the package for a missing library:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;pacman -Fyx &lt;span class="s1"&gt;&amp;#39;libcrypt.so.1&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If file database search is not enabled:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -Fy
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="the-codec-problem"&gt;The Codec Problem&lt;/h2&gt;
+&lt;p&gt;This is the part that confuses most people because MP4 is a container, not a codec.&lt;/p&gt;
+&lt;p&gt;On Linux, Resolve codec support is different from Windows and macOS. Blackmagic&amp;rsquo;s supported codec document for Resolve 20 lists Rocky Linux 8.6 CUDA as the Linux platform. In that Linux matrix, AAC is not available, while embedded audio support is limited to decodable formats such as PCM, MP3, FLAC, OPUS, and AC-3 depending on the container.&lt;/p&gt;
+&lt;p&gt;That means common camera, phone, OBS, and downloaded clips can fail in weird ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MP4 imports but video is missing&lt;/li&gt;
+&lt;li&gt;Video imports but audio is silent&lt;/li&gt;
+&lt;li&gt;H.264 or H.265 media shows as offline&lt;/li&gt;
+&lt;li&gt;Free Resolve cannot decode formats that Studio can&lt;/li&gt;
+&lt;li&gt;Studio still does not magically fix AAC audio on Linux&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The most reliable answer is to transcode footage before editing.&lt;/p&gt;
+&lt;h2 id="convert-footage-to-native-resolve-formats"&gt;Convert Footage to Native Resolve Formats&lt;/h2&gt;
+&lt;p&gt;Use the conversion script from the same repo:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/ChrisTitusTech/resolve-linux"&gt;https://github.com/ChrisTitusTech/resolve-linux&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Install dependencies:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -S --needed ffmpeg parallel
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Clone and prepare the script:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git clone https://github.com/ChrisTitusTech/resolve-linux.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; resolve-linux
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;chmod +x resolve_convert.sh
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Preview what will be converted:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;./resolve_convert.sh -n /path/to/footage
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Convert the folder:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;./resolve_convert.sh /path/to/footage
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The script recursively scans the folder, skips its own output directory, and mirrors the original folder layout under &lt;code&gt;resolve_ready/&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Video is converted to:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;DNxHR in a .mov container
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Audio is converted to:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;PCM 24-bit 48 kHz .wav
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;That avoids the common Linux Resolve problems with H.264, H.265, and AAC. DNxHR takes much more disk space than camera originals, but it edits smoothly and imports cleanly.&lt;/p&gt;
+&lt;h2 id="quality-profiles"&gt;Quality Profiles&lt;/h2&gt;
+&lt;p&gt;The conversion script supports multiple DNxHR profiles:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;./resolve_convert.sh -q lb /path/to/footage
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;./resolve_convert.sh -q sq /path/to/footage
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;./resolve_convert.sh -q hq /path/to/footage
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;./resolve_convert.sh -q hqx /path/to/footage
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;./resolve_convert.sh -q &lt;span class="m"&gt;444&lt;/span&gt; /path/to/footage
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Use them like this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;lb&lt;/code&gt;: proxy/offline editing&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sq&lt;/code&gt;: smaller intermediate files&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hq&lt;/code&gt;: good default&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hqx&lt;/code&gt;: high quality 12-bit work&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;444&lt;/code&gt;: maximum quality when you actually need it&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For most YouTube and screen-recording workflows, &lt;code&gt;hq&lt;/code&gt; is the default I would use. For rough cuts on a laptop, use &lt;code&gt;lb&lt;/code&gt; and relink later if needed.&lt;/p&gt;
+&lt;p&gt;Parallel conversion:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;./resolve_convert.sh -q hq -j &lt;span class="m"&gt;4&lt;/span&gt; /path/to/footage
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Do not point this at a nearly full disk. DNxHR files are large.&lt;/p&gt;
+&lt;h2 id="fix-silent-audio"&gt;Fix Silent Audio&lt;/h2&gt;
+&lt;p&gt;If the clip imports but has no audio, it is probably AAC. Convert the file:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;./resolve_convert.sh /path/to/clip-folder
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Or convert just the audio manually:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ffmpeg -i input.mp4 -vn -c:a pcm_s24le -ar &lt;span class="m"&gt;48000&lt;/span&gt; output.wav
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then import the WAV into Resolve and sync it with the video.&lt;/p&gt;
+&lt;p&gt;For batch work, the script is easier because it keeps the folder structure and handles video plus audio together.&lt;/p&gt;
+&lt;h2 id="fix-media-offline-for-mp4"&gt;Fix Media Offline for MP4&lt;/h2&gt;
+&lt;p&gt;If an MP4 shows &amp;ldquo;Media Offline&amp;rdquo;, inspect it:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ffprobe input.mp4
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If it is H.264 or H.265, convert it:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;./resolve_convert.sh -q hq /path/to/footage
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then import the converted &lt;code&gt;.mov&lt;/code&gt; from &lt;code&gt;resolve_ready/&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Do not waste time installing random codec packs. Resolve does not use your desktop media player codec stack the same way VLC or Kdenlive does.&lt;/p&gt;
+&lt;h2 id="fix-fonts-missing-in-resolve"&gt;Fix Fonts Missing in Resolve&lt;/h2&gt;
+&lt;p&gt;Resolve may only look at system font paths. If fonts installed under your home directory do not appear, open Fusion settings and update the font path map from:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;SystemFonts:
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;to:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;SystemFonts:;$HOME/.local/share/fonts
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Restart Resolve after changing it.&lt;/p&gt;
+&lt;h2 id="backup-before-you-break-it"&gt;Backup Before You Break It&lt;/h2&gt;
+&lt;p&gt;The &lt;code&gt;resolve-linux&lt;/code&gt; repo also includes &lt;code&gt;resolve_backup.sh&lt;/code&gt;, which can archive the Resolve install and user configuration. This is useful before reinstalling, moving to another Linux machine, or testing a big driver update.&lt;/p&gt;
+&lt;p&gt;Run a dry run first:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;./resolve_backup.sh --dry-run
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Create a backup:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;./resolve_backup.sh --output-dir ~/backups
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Restore from an archive:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;./resolve_backup.sh --restore inputfile.tar.gz
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This is not a replacement for real system snapshots, but it is useful for preserving Resolve settings, LUTs, scripts, fonts, and the application install.&lt;/p&gt;
+&lt;h2 id="troubleshooting-checklist"&gt;Troubleshooting Checklist&lt;/h2&gt;
+&lt;h3 id="resolve-does-not-launch"&gt;Resolve does not launch&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;resolve-fix
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ldd /opt/resolve/bin/resolve &lt;span class="p"&gt;|&lt;/span&gt; grep &lt;span class="s2"&gt;&amp;#34;not found&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Install missing libraries with &lt;code&gt;pacman&lt;/code&gt;, not random downloads.&lt;/p&gt;
+&lt;h3 id="resolve-cannot-find-a-gpu"&gt;Resolve cannot find a GPU&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;clinfo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Install the correct OpenCL/CUDA stack for your GPU and reboot.&lt;/p&gt;
+&lt;h3 id="resolve-crashes-after-a-system-update"&gt;Resolve crashes after a system update&lt;/h3&gt;
+&lt;p&gt;Try the wrapper first:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;resolve-fix
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then check AUR comments for the exact Resolve package version. Rolling distros break proprietary apps when runtime libraries move.&lt;/p&gt;
+&lt;h3 id="mp4-imports-without-audio"&gt;MP4 imports without audio&lt;/h3&gt;
+&lt;p&gt;Convert AAC to PCM:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;./resolve_convert.sh /path/to/footage
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="mp4-or-h265-shows-media-offline"&gt;MP4 or H.265 shows Media Offline&lt;/h3&gt;
+&lt;p&gt;Convert to DNxHR:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;./resolve_convert.sh -q hq /path/to/footage
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="conversion-script-says-dnxhddnxhr-is-missing"&gt;Conversion script says DNxHD/DNxHR is missing&lt;/h3&gt;
+&lt;p&gt;Reinstall Arch&amp;rsquo;s ffmpeg package:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -S ffmpeg
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="recommended-workflow"&gt;Recommended Workflow&lt;/h2&gt;
+&lt;p&gt;My practical Arch workflow is:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Install Resolve from the AUR.&lt;/li&gt;
+&lt;li&gt;Install the right GPU compute stack.&lt;/li&gt;
+&lt;li&gt;Verify with &lt;code&gt;clinfo&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Launch with &lt;code&gt;resolve-fix&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Convert all questionable footage with &lt;code&gt;resolve_convert.sh&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Edit from &lt;code&gt;resolve_ready/&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Backup Resolve settings before major system or driver updates.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Arch Linux can be a great Resolve workstation, but only if you stop treating Resolve like a normal Arch-native package. It is proprietary software with Linux-specific codec limitations and runtime assumptions. Once you wrap the launch and feed it DNxHR/PCM media, the experience becomes much more predictable.&lt;/p&gt;
+&lt;h2 id="sources"&gt;Sources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ChrisTitusTech Resolve Linux tools: &lt;a href="https://github.com/ChrisTitusTech/resolve-linux"&gt;https://github.com/ChrisTitusTech/resolve-linux&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Arch Wiki DaVinci Resolve page: &lt;a href="https://wiki.archlinux.org/title/DaVinci_Resolve"&gt;https://wiki.archlinux.org/title/DaVinci_Resolve&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;DaVinci Resolve 20 supported codecs: &lt;a href="https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_20_Supported_Codec_List.pdf"&gt;https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_20_Supported_Codec_List.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;AUR &lt;code&gt;davinci-resolve&lt;/code&gt; package: &lt;a href="https://aur.archlinux.org/packages/davinci-resolve"&gt;https://aur.archlinux.org/packages/davinci-resolve&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="youtube-video"&gt;YouTube Video&lt;/h2&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/oHsboGBxUuc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+&lt;/div&gt;</description></item><item><title>Zed Editor</title><link>https://christitus.com/zed-editor/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><author>Chris Titus</author><guid>https://christitus.com/zed-editor/</guid><description>&lt;p&gt;Zed is what happens when an editor is built for speed first. It is written in Rust, rendered with the GPU, and feels instant in a way most Electron-based editors never do.&lt;/p&gt;
 &lt;p&gt;If you want VS Code comfort without Electron drag, Zed is a sharp middle ground that still delivers LSPs, Vim mode, terminals, Git, remote development, and AI.&lt;/p&gt;
 &lt;p&gt;
 &lt;img loading="lazy" decoding="async" src="https://christitus.com/images/2026/zed-header.webp" alt="Zed header" class="img-fluid"&gt;
