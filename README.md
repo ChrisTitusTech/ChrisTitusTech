@@ -13,11 +13,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/zed-titus](https://github.com/ChrisTitusTech/zed-titus) - My Zed IDE Config
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
+- [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
+- [ChrisTitusTech/zed-titus](https://github.com/ChrisTitusTech/zed-titus) - My Zed IDE Config
 - [ChrisTitusTech/titus-ai](https://github.com/ChrisTitusTech/titus-ai) - Codex and AI skills
-- [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
-- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/myheroultra](https://github.com/ChrisTitusTech/myheroultra) - Compendium of all online my hero ultra rumble content. Ingesting youtube videos from all creators, subreddit myheroultrarumble, and other community sources.
@@ -27,18 +27,18 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/linux-benchmarks](https://github.com/ChrisTitusTech/linux-benchmarks) - takes exports from Phoronix and Mango hud to give graphs for Frametimes, 1% FPS, and Avg FPS
 ### 🔨 My recent Pull Requests
 
+- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4763) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Phase4/main](https://github.com/ChrisTitusTech/dwm-titus/pull/98) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 - [Phase 3/main](https://github.com/ChrisTitusTech/dwm-titus/pull/97) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 - [phase 2 theme and other fixes](https://github.com/ChrisTitusTech/dwm-titus/pull/96) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 - [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4739) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4738) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [cushycush/qml-language-server](https://github.com/cushycush/qml-language-server) - 
 - [EliverLara/Nordic](https://github.com/EliverLara/Nordic) - :snowflake: Dark Gtk3.20&#43; theme created using the awesome Nord color pallete.
 - [rtk-ai/rtk](https://github.com/rtk-ai/rtk) - CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
 - [lenucksi/aur-malware-check](https://github.com/lenucksi/aur-malware-check) - Detection tools for the June 2026 atomic-lockfile AUR supply-chain attack. Consolidated from community Gists.
 - [openai/skills](https://github.com/openai/skills) - Skills Catalog for Codex
-- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) - The agent that grows with you
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
