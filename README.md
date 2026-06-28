@@ -13,18 +13,18 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/tuxedo-titus](https://github.com/ChrisTitusTech/tuxedo-titus) - My Tuxedo Laptop automated Fedora Install
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
-- [ChrisTitusTech/zed-titus](https://github.com/ChrisTitusTech/zed-titus) - My Zed IDE Config
 - [ChrisTitusTech/titus-ai](https://github.com/ChrisTitusTech/titus-ai) - Codex and AI skills
 ### 🌱 My latest projects
 
+- [ChrisTitusTech/tuxedo-titus](https://github.com/ChrisTitusTech/tuxedo-titus) - My Tuxedo Laptop automated Fedora Install
 - [ChrisTitusTech/myheroultra](https://github.com/ChrisTitusTech/myheroultra) - Compendium of all online my hero ultra rumble content. Ingesting youtube videos from all creators, subreddit myheroultrarumble, and other community sources.
 - [ChrisTitusTech/titusbooks](https://github.com/ChrisTitusTech/titusbooks) - I hate quickbooks, I&#39;m making my own self-hosted all data never leaves local network.
 - [ChrisTitusTech/titus-ai](https://github.com/ChrisTitusTech/titus-ai) - Codex and AI skills
 - [ChrisTitusTech/zed-titus](https://github.com/ChrisTitusTech/zed-titus) - My Zed IDE Config
-- [ChrisTitusTech/linux-benchmarks](https://github.com/ChrisTitusTech/linux-benchmarks) - takes exports from Phoronix and Mango hud to give graphs for Frametimes, 1% FPS, and Avg FPS
 ### 🔨 My recent Pull Requests
 
 - [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4763) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
