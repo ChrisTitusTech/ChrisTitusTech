@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/zed-titus](https://github.com/ChrisTitusTech/zed-titus) - My Zed IDE Config
 ### 🔨 My recent Pull Requests
 
-- [Fix Win11 Creator product-key validation failures](https://github.com/ChrisTitusTech/winutil/pull/4791) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Add new application entries and support msstore Winget installs](https://github.com/ChrisTitusTech/winutil/pull/4790) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4787) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4786) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4779) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4801) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [Fix DHCP DNS reset handling](https://github.com/ChrisTitusTech/winutil/pull/4800) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4798) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [Resolve PR 4658 Copilot conflict](https://github.com/ChrisTitusTech/winutil/pull/4797) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [Clean up analyzer warnings across app search and ISO workflows](https://github.com/ChrisTitusTech/winutil/pull/4794) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) - A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy&#39;s observations on LLM coding pitfalls.
