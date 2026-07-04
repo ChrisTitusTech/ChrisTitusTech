@@ -13,11 +13,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/resolve-linux](https://github.com/ChrisTitusTech/resolve-linux) - Tools for Resolve on Linux
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/titus-ai](https://github.com/ChrisTitusTech/titus-ai) - Codex and AI skills
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
-- [ChrisTitusTech/resolve-linux](https://github.com/ChrisTitusTech/resolve-linux) - Tools for Resolve on Linux
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/tuxedo-titus](https://github.com/ChrisTitusTech/tuxedo-titus) - My Tuxedo Laptop automated Fedora Install
@@ -34,11 +34,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [Clean up analyzer warnings across app search and ISO workflows](https://github.com/ChrisTitusTech/winutil/pull/4794) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [HANCORE-linux/quickshell-dots](https://github.com/HANCORE-linux/quickshell-dots) - A new journey of customization — Quickshell Rise is my first Quickshell bar, built from scratch for Omarchy. Modern, modular, and fully integrated into the Omarchy ecosystem.
 - [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) - A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy&#39;s observations on LLM coding pitfalls.
 - [cushycush/qml-language-server](https://github.com/cushycush/qml-language-server) - 
 - [EliverLara/Nordic](https://github.com/EliverLara/Nordic) - :snowflake: Dark Gtk3.20&#43; theme created using the awesome Nord color pallete.
 - [rtk-ai/rtk](https://github.com/rtk-ai/rtk) - CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
-- [lenucksi/aur-malware-check](https://github.com/lenucksi/aur-malware-check) - Detection tools for the June 2026 atomic-lockfile AUR supply-chain attack. Consolidated from community Gists.
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
