@@ -13,10 +13,10 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/resolve-linux](https://github.com/ChrisTitusTech/resolve-linux) - Tools for Resolve on Linux
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [ChrisTitusTech/titus-ai](https://github.com/ChrisTitusTech/titus-ai) - Codex and AI skills
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
+- [ChrisTitusTech/resolve-linux](https://github.com/ChrisTitusTech/resolve-linux) - Tools for Resolve on Linux
+- [ChrisTitusTech/titus-ai](https://github.com/ChrisTitusTech/titus-ai) - Codex and AI skills
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 ### 🌱 My latest projects
 
@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/zed-titus](https://github.com/ChrisTitusTech/zed-titus) - My Zed IDE Config
 ### 🔨 My recent Pull Requests
 
+- [fix(iso): resolve windows update re-enabling failures on first boot](https://github.com/ChrisTitusTech/winutil/pull/4807) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4806) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4805) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [Fix wallpaper reload hotkey](https://github.com/ChrisTitusTech/dwm-titus/pull/101) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 - [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4801) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Fix DHCP DNS reset handling](https://github.com/ChrisTitusTech/winutil/pull/4800) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4798) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Resolve PR 4658 Copilot conflict](https://github.com/ChrisTitusTech/winutil/pull/4797) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Clean up analyzer warnings across app search and ISO workflows](https://github.com/ChrisTitusTech/winutil/pull/4794) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [HANCORE-linux/quickshell-dots](https://github.com/HANCORE-linux/quickshell-dots) - A new journey of customization — Quickshell Rise is my first Quickshell bar, built from scratch for Omarchy. Modern, modular, and fully integrated into the Omarchy ecosystem.
