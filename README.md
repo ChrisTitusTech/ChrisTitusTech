@@ -13,11 +13,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
+- [dagadoci-lgtm/website](https://github.com/dagadoci-lgtm/website) - 
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
+- [ChrisTitusTech/titus-ai](https://github.com/ChrisTitusTech/titus-ai) - Codex and AI skills
 - [ChrisTitusTech/powershell-profile](https://github.com/ChrisTitusTech/powershell-profile) - Pretty PowerShell that looks good and functions almost as good as Linux terminal 
-- [ChrisTitusTech/3plates](https://github.com/ChrisTitusTech/3plates) - Monorepo scaffold for a multi-platform website/ios/android app.
-- [ChrisTitusTech/aerospace-config](https://github.com/ChrisTitusTech/aerospace-config) - My No frills Aerospace config with sketchybar
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/tuxedo-titus](https://github.com/ChrisTitusTech/tuxedo-titus) - My Tuxedo Laptop automated Fedora Install
@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/zed-titus](https://github.com/ChrisTitusTech/zed-titus) - My Zed IDE Config
 ### 🔨 My recent Pull Requests
 
+- [Build Pages CMS portfolio for Cloudflare](https://github.com/dagadoci-lgtm/website/pull/1) on [dagadoci-lgtm/website](https://github.com/dagadoci-lgtm/website)
 - [fix quickshell systray icons](https://github.com/ChrisTitusTech/dwm-titus/pull/102) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 - [fix(iso): resolve windows update re-enabling failures on first boot](https://github.com/ChrisTitusTech/winutil/pull/4807) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4806) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4805) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Fix wallpaper reload hotkey](https://github.com/ChrisTitusTech/dwm-titus/pull/101) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 ### ⭐ Recent Stars
 
 - [HANCORE-linux/quickshell-dots](https://github.com/HANCORE-linux/quickshell-dots) - A new journey of customization — Quickshell Rise is my first Quickshell bar, built from scratch for Omarchy. Modern, modular, and fully integrated into the Omarchy ecosystem.
