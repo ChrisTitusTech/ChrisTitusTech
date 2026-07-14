@@ -9278,58 +9278,81 @@ This guide shows how to host a website, owning a web domain forever, and redirec
 &lt;h3 id="walkthrough-video"&gt;Walkthrough Video&lt;/h3&gt;
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
 &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/0q3rGK_IMZg?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
-&lt;/div&gt;</description></item><item><title>Setup Qemu in Debian Linux</title><link>https://christitus.com/vm-setup-in-linux/</link><pubDate>Wed, 12 Jan 2022 16:28:59 -0500</pubDate><author>Chris Titus</author><guid>https://christitus.com/vm-setup-in-linux/</guid><description>&lt;p&gt;This is guide on setting up QEMU in Debian Linux.&lt;/p&gt;
-&lt;h2 id="check-virtualization-extension"&gt;Check Virtualization Extension&lt;/h2&gt;
-&lt;p&gt;Run this command to make sure you&amp;rsquo;ve enabled virtualization in on your computer. It should be above 0&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;egrep -c &amp;#39;(vmx|svm)&amp;#39; /proc/cpuinfo
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If the output is zero then go to bios settings and enable VT-x (Virtualization Technology Extension) for Intel processor and AMD-V for AMD processor.&lt;/p&gt;
-&lt;h2 id="install-qemu-and-virtual-machine-manager"&gt;Install QEMU and Virtual Machine Manager&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo apt install qemu-kvm qemu-system qemu-utils python3 python3-pip libvirt-clients libvirt-daemon-system bridge-utils virtinst libvirt-daemon virt-manager -y
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Verify that Libvirtd service is started&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo systemctl status libvirtd.service
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;
-&lt;img loading="lazy" decoding="async" src="https://christitus.com/images/2022/libvirtd-service.webp" alt="libvirtd-service" class="img-fluid"&gt;
-&lt;/p&gt;
-&lt;h2 id="start-default-network-for-networking"&gt;Start Default Network for Networking&lt;/h2&gt;
-&lt;p&gt;VIRSH is a command to directly interact with our VMs from terminal. We use it to list networks, vm-status and various other tools when we need to make tweaks. Here is how we start the default and make it auto-start after reboot.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo virsh net-start default
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Network default started&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo virsh net-autostart default
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Network default marked as autostarted&lt;/p&gt;
-&lt;p&gt;Check status with:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo virsh net-list --all
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; Name State Autostart Persistent
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;----------------------------------------------
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; default active yes yes
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="add-user-to-libvirt-to-allow-access-to-vms"&gt;Add User to libvirt to Allow Access to VMs&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo usermod -aG libvirt $USER
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo usermod -aG libvirt-qemu $USER
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo usermod -aG kvm $USER
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo usermod -aG input $USER
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo usermod -aG disk $USER
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Reboot and you are Finished!&lt;/p&gt;
-&lt;h3 id="walkthrough-video"&gt;Walkthrough Video&lt;/h3&gt;
+&lt;/div&gt;</description></item><item><title>Install KVM, QEMU, and Virt-Manager on Linux</title><link>https://christitus.com/vm-setup-in-linux/</link><pubDate>Wed, 12 Jan 2022 16:28:59 -0500</pubDate><author>Chris Titus</author><guid>https://christitus.com/vm-setup-in-linux/</guid><description>&lt;p&gt;This guide installs KVM/QEMU, libvirt, and the Virt-Manager desktop app on Debian, Arch Linux, or Fedora. Pick your distribution, copy the commands, and then complete the shared setup steps.&lt;/p&gt;
+&lt;h2 id="before-you-install"&gt;Before You Install&lt;/h2&gt;
+&lt;p&gt;KVM needs Intel VT-x or AMD-V hardware virtualization. Check whether your CPU exposes either feature:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;grep -Eoc &lt;span class="s1"&gt;&amp;#39;(vmx|svm)&amp;#39;&lt;/span&gt; /proc/cpuinfo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Any number greater than &lt;code&gt;0&lt;/code&gt; means the CPU virtualization extensions are available. If the result is &lt;code&gt;0&lt;/code&gt;, reboot into your BIOS/UEFI settings and enable &lt;strong&gt;Intel VT-x&lt;/strong&gt;, &lt;strong&gt;Intel Virtualization Technology&lt;/strong&gt;, &lt;strong&gt;AMD-V&lt;/strong&gt;, or &lt;strong&gt;SVM Mode&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id="debian"&gt;Debian&lt;/h2&gt;
+&lt;p&gt;These commands install the QEMU/KVM hypervisor, libvirt, its command-line tools, and Virt-Manager:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo apt update
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo apt install -y qemu-system-x86 qemu-utils libvirt-daemon-system libvirt-clients virt-manager
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Start libvirt now and automatically at boot:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo systemctl &lt;span class="nb"&gt;enable&lt;/span&gt; --now libvirtd.service
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="arch-linux"&gt;Arch Linux&lt;/h2&gt;
+&lt;p&gt;The &lt;code&gt;qemu-desktop&lt;/code&gt; package is the practical choice for running x86 virtual machines with a graphical desktop. &lt;code&gt;dnsmasq&lt;/code&gt; supplies DHCP and DNS for libvirt&amp;rsquo;s default NAT network.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -Syu --needed qemu-desktop libvirt virt-manager dnsmasq
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Start libvirt now and automatically at boot:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo systemctl &lt;span class="nb"&gt;enable&lt;/span&gt; --now libvirtd.service
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="fedora"&gt;Fedora&lt;/h2&gt;
+&lt;p&gt;Fedora&amp;rsquo;s virtualization package group installs QEMU/KVM, libvirt, Virt-Manager, and the default network configuration:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo dnf install -y @virtualization
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Start libvirt now and automatically at boot:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo systemctl &lt;span class="nb"&gt;enable&lt;/span&gt; --now libvirtd.service
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="allow-your-user-to-manage-virtual-machines"&gt;Allow Your User to Manage Virtual Machines&lt;/h2&gt;
+&lt;p&gt;Add your current user to the &lt;code&gt;libvirt&lt;/code&gt; group:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo usermod -aG libvirt &lt;span class="s2"&gt;&amp;#34;&lt;/span&gt;&lt;span class="nv"&gt;$USER&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Log out and back in so the new group membership takes effect. A reboot works too.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Membership in the &lt;code&gt;libvirt&lt;/code&gt; group grants permission to manage system virtual machines. Do not add your account to broad device-access groups such as &lt;code&gt;disk&lt;/code&gt; or &lt;code&gt;input&lt;/code&gt; for this setup.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="enable-the-default-virtual-network"&gt;Enable the Default Virtual Network&lt;/h2&gt;
+&lt;p&gt;First, check the available libvirt networks:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo virsh net-list --all
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If &lt;code&gt;default&lt;/code&gt; is listed as inactive, start it and configure it to start at boot:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo virsh net-start default
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo virsh net-autostart default
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Verify that &lt;code&gt;default&lt;/code&gt; now shows &lt;code&gt;active&lt;/code&gt; and &lt;code&gt;yes&lt;/code&gt; under Autostart:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo virsh net-list --all
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="verify-kvm-and-libvirt"&gt;Verify KVM and Libvirt&lt;/h2&gt;
+&lt;p&gt;Check that the KVM kernel modules are loaded. You should see &lt;code&gt;kvm_intel&lt;/code&gt; or &lt;code&gt;kvm_amd&lt;/code&gt;, plus the main &lt;code&gt;kvm&lt;/code&gt; module:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;lsmod &lt;span class="p"&gt;|&lt;/span&gt; grep kvm
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;After logging back in, verify that your user can connect to the system libvirt service:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;virsh --connect qemu:///system list --all
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;An empty virtual-machine list is normal on a new installation. If the command returns without a connection or permission error, the setup is working.&lt;/p&gt;
+&lt;h2 id="create-your-first-virtual-machine"&gt;Create Your First Virtual Machine&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Download the ISO for the operating system you want to install.&lt;/li&gt;
+&lt;li&gt;Open &lt;strong&gt;Virtual Machine Manager&lt;/strong&gt; from your application menu, or run &lt;code&gt;virt-manager&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Make sure the connection is &lt;strong&gt;QEMU/KVM - System&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Select &lt;strong&gt;Create a new virtual machine&lt;/strong&gt;, choose your ISO, and follow the wizard.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Virt-Manager stores system VM disk images in &lt;code&gt;/var/lib/libvirt/images/&lt;/code&gt; by default.&lt;/p&gt;
+&lt;h2 id="troubleshooting"&gt;Troubleshooting&lt;/h2&gt;
+&lt;h3 id="the-virtualization-check-returns-0"&gt;The Virtualization Check Returns 0&lt;/h3&gt;
+&lt;p&gt;Enable VT-x or AMD-V/SVM in BIOS/UEFI. On a VM host provided by a cloud service or another hypervisor, nested virtualization must also be enabled by that provider or parent hypervisor.&lt;/p&gt;
+&lt;h3 id="the-default-network-does-not-exist"&gt;The Default Network Does Not Exist&lt;/h3&gt;
+&lt;p&gt;Define it from libvirt&amp;rsquo;s packaged configuration, then start it:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo virsh net-define /usr/share/libvirt/networks/default.xml
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo virsh net-autostart default
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo virsh net-start default
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="virt-manager-cannot-connect"&gt;Virt-Manager Cannot Connect&lt;/h3&gt;
+&lt;p&gt;Confirm that libvirt is running:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;systemctl status libvirtd.service
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then confirm that your login session has the &lt;code&gt;libvirt&lt;/code&gt; group:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;groups
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If &lt;code&gt;libvirt&lt;/code&gt; is missing, log out completely and log back in, or reboot.&lt;/p&gt;
+&lt;h2 id="distribution-documentation"&gt;Distribution Documentation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.debian.org/doc/manuals/debian-handbook/sect.virtualization.en.html"&gt;Debian Handbook: Virtualization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://wiki.archlinux.org/title/Libvirt"&gt;ArchWiki: libvirt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.fedoraproject.org/en-US/quick-docs/virtualization-getting-started/"&gt;Fedora Docs: Virtualization - Getting Started&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="walkthrough-video"&gt;Walkthrough Video&lt;/h2&gt;
+&lt;p&gt;The video below shows the original Debian-focused version of this setup. Package names and screens may differ from the updated commands above.&lt;/p&gt;
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
 &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Kq849CpGd88?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
-&lt;/div&gt;</description></item><item><title>Setup Qemu in Arch Linux</title><link>https://christitus.com/setup-qemu-in-archlinux/</link><pubDate>Tue, 11 Jan 2022 09:52:18 -0600</pubDate><author>Chris Titus</author><guid>https://christitus.com/setup-qemu-in-archlinux/</guid><description>&lt;h2 id="setting-up-virtual-machines-in-qemu-on-arch-linux"&gt;Setting up Virtual Machines in QEMU on Arch Linux&lt;/h2&gt;
-&lt;p&gt;QEMU/KVM Dependancies to install:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -S qemu virt-manager virt-viewer dnsmasq vde2 bridge-utils openbsd-netcat ebtables nftables libguestfs
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;
-&lt;img loading="lazy" decoding="async" src="https://christitus.com/images/2025/qemu-install-questions.webp" alt="qemu-install-questions" class="img-fluid"&gt;
-&lt;/p&gt;
-&lt;p&gt;I recommend using qemu-full and if you get a prompt to REMOVE iptables, select yes. nftables is the NEW package that replaces it.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Note: Make sure you update your system with a $ sudo pacman -Syu BEFORE you install the dependencies&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id="make-libvirt-group-for-your-user"&gt;Make Libvirt Group for your user&lt;/h2&gt;
-&lt;p&gt;Edit &lt;code&gt;/etc/libvirt/libvirtd.conf&lt;/code&gt;
-(Change the following Lines)&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;unix_sock_group = &amp;#34;libvirt&amp;#34;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;unix_sock_rw_perms = &amp;#34;0770&amp;#34;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then add your user and create group:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo usermod -a -G libvirt $(whoami)
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;newgrp libvirt
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Start QEMU libvirt service automatically:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo systemctl enable --now libvirtd
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="reboot-and-launch-virt-manager"&gt;Reboot and launch virt-manager!&lt;/h2&gt;</description></item><item><title>Uninstall Microsoft Edge</title><link>https://christitus.com/uninstall-edge/</link><pubDate>Fri, 06 Aug 2021 11:55:48 -0500</pubDate><author>Chris Titus</author><guid>https://christitus.com/uninstall-edge/</guid><description>&lt;p&gt;This goes over Removing Microsoft Edge Chromium edition and keeping it removed.&lt;/p&gt;
+&lt;/div&gt;</description></item><item><title>Uninstall Microsoft Edge</title><link>https://christitus.com/uninstall-edge/</link><pubDate>Fri, 06 Aug 2021 11:55:48 -0500</pubDate><author>Chris Titus</author><guid>https://christitus.com/uninstall-edge/</guid><description>&lt;p&gt;This goes over Removing Microsoft Edge Chromium edition and keeping it removed.&lt;/p&gt;
 &lt;h2 id="the-problem"&gt;The Problem&lt;/h2&gt;
 &lt;p&gt;Microsoft Edge has taken over PDF viewer, and other default web tasks. Even when manually removing it will reinstall via windows updates.&lt;/p&gt;
 &lt;h2 id="removing-the-base-install"&gt;Removing the Base Install&lt;/h2&gt;

@@ -13,25 +13,25 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
-- [ChrisTitusTech/copr-fedora](https://github.com/ChrisTitusTech/copr-fedora) - Automated COPR Deployment
+- [ChrisTitusTech/website-messages](https://github.com/ChrisTitusTech/website-messages) - 
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [ChrisTitusTech/fallout76-configs](https://github.com/ChrisTitusTech/fallout76-configs) - Fallout 76 custom ini and mod list auto installer
-- [dagadoci-lgtm/website](https://github.com/dagadoci-lgtm/website) - 
+- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
+- [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
+- [ChrisTitusTech/titus-ai](https://github.com/ChrisTitusTech/titus-ai) - Codex and AI skills
 ### 🌱 My latest projects
 
+- [ChrisTitusTech/website-messages](https://github.com/ChrisTitusTech/website-messages) - 
 - [ChrisTitusTech/copr-fedora](https://github.com/ChrisTitusTech/copr-fedora) - Automated COPR Deployment
 - [ChrisTitusTech/tuxedo-titus](https://github.com/ChrisTitusTech/tuxedo-titus) - My Tuxedo Laptop automated Fedora Install
 - [ChrisTitusTech/myheroultra](https://github.com/ChrisTitusTech/myheroultra) - Compendium of all online my hero ultra rumble content. Ingesting youtube videos from all creators, subreddit myheroultrarumble, and other community sources.
 - [ChrisTitusTech/titusbooks](https://github.com/ChrisTitusTech/titusbooks) - I hate quickbooks, I&#39;m making my own self-hosted all data never leaves local network.
-- [ChrisTitusTech/titus-ai](https://github.com/ChrisTitusTech/titus-ai) - Codex and AI skills
 ### 🔨 My recent Pull Requests
 
-- [Fix Quickshell audio client leak](https://github.com/ChrisTitusTech/dwm-titus/pull/104) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [Fix DPMS and locker lifecycle](https://github.com/ChrisTitusTech/dwm-titus/pull/103) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [Build Pages CMS portfolio for Cloudflare](https://github.com/dagadoci-lgtm/website/pull/1) on [dagadoci-lgtm/website](https://github.com/dagadoci-lgtm/website)
-- [fix quickshell systray icons](https://github.com/ChrisTitusTech/dwm-titus/pull/102) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [fix(iso): resolve windows update re-enabling failures on first boot](https://github.com/ChrisTitusTech/winutil/pull/4807) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [Optimize session startup and cleanup](https://github.com/ChrisTitusTech/dwm-titus/pull/107) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [Add linutil RPM package](https://github.com/ChrisTitusTech/copr-fedora/pull/1) on [ChrisTitusTech/copr-fedora](https://github.com/ChrisTitusTech/copr-fedora)
+- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4838) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4837) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4836) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [HANCORE-linux/quickshell-dots](https://github.com/HANCORE-linux/quickshell-dots) - A new journey of customization — Quickshell Rise is my first Quickshell bar, built from scratch for Omarchy. Modern, modular, and fully integrated into the Omarchy ecosystem.
