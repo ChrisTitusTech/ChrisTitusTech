@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/myheroultra](https://github.com/ChrisTitusTech/myheroultra) - Compendium of all online my hero ultra rumble content. Ingesting youtube videos from all creators, subreddit myheroultrarumble, and other community sources.
 ### 🔨 My recent Pull Requests
 
+- [Honor EWMH always-on-top states](https://github.com/ChrisTitusTech/dwm-titus/pull/110) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 - [Fix Show Installed Apps reliability and selection](https://github.com/ChrisTitusTech/winutil/pull/4850) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4846) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Fix progress, update profiles, and documentation links](https://github.com/ChrisTitusTech/winutil/pull/4845) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Replace install progress overlay with shared indicator](https://github.com/ChrisTitusTech/winutil/pull/4844) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Fix AppX detection and add package restore support](https://github.com/ChrisTitusTech/winutil/pull/4842) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [HANCORE-linux/quickshell-dots](https://github.com/HANCORE-linux/quickshell-dots) - A new journey of customization — Quickshell Rise is my first Quickshell bar, built from scratch for Omarchy. Modern, modular, and fully integrated into the Omarchy ecosystem.
