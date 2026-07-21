@@ -15,9 +15,9 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 - [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [ChrisTitusTech/titus-ai](https://github.com/ChrisTitusTech/titus-ai) - Codex and AI skills
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
-- [ChrisTitusTech/fallout76-configs](https://github.com/ChrisTitusTech/fallout76-configs) - Fallout 76 custom ini and mod list auto installer
+- [ChrisTitusTech/titus-ai](https://github.com/ChrisTitusTech/titus-ai) - Codex and AI skills
+- [ChrisTitusTech/streamdeck-dashboard](https://github.com/ChrisTitusTech/streamdeck-dashboard) - OpenDeck plugin that shows local Codex task status on a Stream Deck key
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/streamdeck-dashboard](https://github.com/ChrisTitusTech/streamdeck-dashboard) - OpenDeck plugin that shows local Codex task status on a Stream Deck key
