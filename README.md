@@ -13,11 +13,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 - [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - Chris Titus Tech&#39;s Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/titus-ai](https://github.com/ChrisTitusTech/titus-ai) - Codex and AI skills
-- [ChrisTitusTech/streamdeck-dashboard](https://github.com/ChrisTitusTech/streamdeck-dashboard) - OpenDeck plugin that shows local Codex task status on a Stream Deck key
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/streamdeck-dashboard](https://github.com/ChrisTitusTech/streamdeck-dashboard) - OpenDeck plugin that shows local Codex task status on a Stream Deck key
@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/myheroultra](https://github.com/ChrisTitusTech/myheroultra) - Compendium of all online my hero ultra rumble content. Ingesting youtube videos from all creators, subreddit myheroultrarumble, and other community sources.
 ### 🔨 My recent Pull Requests
 
-- [Honor EWMH always-on-top states](https://github.com/ChrisTitusTech/dwm-titus/pull/110) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [Fix Show Installed Apps reliability and selection](https://github.com/ChrisTitusTech/winutil/pull/4850) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [chore: Update Generated Dev Docs](https://github.com/ChrisTitusTech/winutil/pull/4846) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Fix progress, update profiles, and documentation links](https://github.com/ChrisTitusTech/winutil/pull/4845) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Replace install progress overlay with shared indicator](https://github.com/ChrisTitusTech/winutil/pull/4844) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [fix: restore Quickshell system tray icons](https://github.com/ChrisTitusTech/dwm-titus/pull/123) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [quickshell: complete phase 1 settings foundation](https://github.com/ChrisTitusTech/dwm-titus/pull/122) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [docs: reset roadmap for Fedora desktop expansion](https://github.com/ChrisTitusTech/dwm-titus/pull/121) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [quickshell: brighten inactive workspace tags](https://github.com/ChrisTitusTech/dwm-titus/pull/120) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [Adopt repository best practices and harden session cleanup](https://github.com/ChrisTitusTech/dwm-titus/pull/113) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 ### ⭐ Recent Stars
 
 - [HANCORE-linux/quickshell-dots](https://github.com/HANCORE-linux/quickshell-dots) - A new journey of customization — Quickshell Rise is my first Quickshell bar, built from scratch for Omarchy. Modern, modular, and fully integrated into the Omarchy ecosystem.
