@@ -13,25 +13,25 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 - [ChrisTitusTech/titus-ai](https://github.com/ChrisTitusTech/titus-ai) - Codex and AI skills
-- [ChrisTitusTech/plazmic-legends](https://github.com/ChrisTitusTech/plazmic-legends) - External Map/Player Window for EQ Legends Running in Linux
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
+- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
-- [ChrisTitusTech/gimphelp](https://github.com/ChrisTitusTech/gimphelp) - 
+- [ChrisTitusTech/chrome-home](https://github.com/ChrisTitusTech/chrome-home) - Independent, self-hosted daily task board for Chromium new tabs
 ### 🌱 My latest projects
 
+- [ChrisTitusTech/chrome-home](https://github.com/ChrisTitusTech/chrome-home) - Independent, self-hosted daily task board for Chromium new tabs
 - [ChrisTitusTech/plazmic-ui](https://github.com/ChrisTitusTech/plazmic-ui) - Public toolkit and browser Studio for building, editing, validating, and loading EverQuest Legends UI files.
 - [ChrisTitusTech/plazmic-legends](https://github.com/ChrisTitusTech/plazmic-legends) - External Map/Player Window for EQ Legends Running in Linux
 - [ChrisTitusTech/fedora-copilot](https://github.com/ChrisTitusTech/fedora-copilot) - Fedora installer for the GitHub Copilot app
 - [ChrisTitusTech/agent-proxy](https://github.com/ChrisTitusTech/agent-proxy) - Linux API gateway for Claude Code, Codex, Google Antigravity, and Grok CLI tools
-- [ChrisTitusTech/streamdeck-dashboard](https://github.com/ChrisTitusTech/streamdeck-dashboard) - OpenDeck plugin that shows local Codex task status on a Stream Deck key
 ### 🔨 My recent Pull Requests
 
-- [Plan Astro site migration](https://github.com/ChrisTitusTech/website/pull/273) on [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website)
-- [Consolidate inventory and activity summary layout](https://github.com/ChrisTitusTech/plazmic-legends/pull/24) on [ChrisTitusTech/plazmic-legends](https://github.com/ChrisTitusTech/plazmic-legends)
-- [feat: add bounded timers and local alert rules](https://github.com/ChrisTitusTech/plazmic-legends/pull/23) on [ChrisTitusTech/plazmic-legends](https://github.com/ChrisTitusTech/plazmic-legends)
-- [Add bounded progression and activity insights](https://github.com/ChrisTitusTech/plazmic-legends/pull/22) on [ChrisTitusTech/plazmic-legends](https://github.com/ChrisTitusTech/plazmic-legends)
-- [Add bounded combat analytics and history](https://github.com/ChrisTitusTech/plazmic-legends/pull/21) on [ChrisTitusTech/plazmic-legends](https://github.com/ChrisTitusTech/plazmic-legends)
+- [Add Phase 2 display and input settings](https://github.com/ChrisTitusTech/dwm-titus/pull/149) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [Harden X11 screenshots and Quickshell notifications](https://github.com/ChrisTitusTech/dwm-titus/pull/148) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [chore: Update Sponsors README](https://github.com/ChrisTitusTech/winutil/pull/4985) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [Make site layout more compact](https://github.com/ChrisTitusTech/website/pull/281) on [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website)
+- [Fix livestream monitor repository context](https://github.com/ChrisTitusTech/website/pull/279) on [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website)
 ### ⭐ Recent Stars
 
 - [github/app](https://github.com/github/app) - The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub repositories.
