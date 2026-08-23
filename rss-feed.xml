@@ -1,4 +1,712 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Chris Titus Tech</title><description>Having Fun with Technology</description><link>https://christitus.com/</link><language>en-US</language><item><title>My AI Coding Workflow That Actually Works</title><link>https://christitus.com/my-ai-workflow/</link><guid isPermaLink="true">https://christitus.com/my-ai-workflow/</guid><description>&lt;p&gt;My AI development workflow is not perfect, and it will keep changing. What matters is the structure: define the project, build the guardrails, work in small phases, and stop at manual gates.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Chris Titus Tech</title><description>Having Fun with Technology</description><link>https://christitus.com/</link><language>en-US</language><item><title>GitHub Copilot App Is Actually Good... Just Not with Copilot</title><link>https://christitus.com/github-copilot-on-linux/</link><guid isPermaLink="true">https://christitus.com/github-copilot-on-linux/</guid><description>&lt;p&gt;GitHub Copilot is a terrible name for this app. Microsoft has put the Copilot name on everything, but this is much more useful as a &lt;strong&gt;GitHub desktop dashboard&lt;/strong&gt; for Linux, macOS, and Windows.&lt;/p&gt;
+&lt;p&gt;I use it to organize repositories, issues, pull requests, and notifications. I do not use the built-in Copilot subscription. Instead, I connect the app to my existing Codex subscription through &lt;a href=&quot;https://github.com/router-for-me/CLIProxyAPI&quot;&gt;CLIProxyAPI&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;The GitHub App I Actually Wanted&lt;/h2&gt;
+&lt;p&gt;The app&apos;s &lt;strong&gt;My work&lt;/strong&gt; view puts review requests, issues, pull requests, and repository activity in one place. That matters when your notification feed is constantly moving and older projects are easy to forget.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2026/github/intro-myword.webp&quot; alt=&quot;GitHub Copilot app My work view with issues and pull requests from connected repositories&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;My normal workflow looks like this:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Open &lt;strong&gt;My work&lt;/strong&gt; and scan new activity across every connected repository.&lt;/li&gt;
+&lt;li&gt;Open an issue or pull request in the app to get the context.&lt;/li&gt;
+&lt;li&gt;Ask for a plan or initial scaffolding when an issue needs code.&lt;/li&gt;
+&lt;li&gt;Continue the detailed implementation in my preferred editor or terminal.&lt;/li&gt;
+&lt;li&gt;Review, close, or archive the item when the work is done.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I do not want the app to replace my IDE. It is the front door to the work: a fast way to decide what needs attention before I move into Codex, HerdR, or another development environment.&lt;/p&gt;
+&lt;h2&gt;Prioritize Issues Across Every Repository&lt;/h2&gt;
+&lt;p&gt;The biggest win is triage. GitHub&apos;s normal notification stream tells you what happened, but it does not necessarily tell you what matters most.&lt;/p&gt;
+&lt;p&gt;I can ask the app to prioritize my outstanding issues and pull requests. If several users report the same WinUtil problem, that cluster should rank above a one-off request with little impact. A useful prompt is:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;Prioritize my outstanding issues and pull requests across all connected
+repositories. Group duplicate or closely related reports, rank them by user
+impact and urgency, and explain why each item deserves its position.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The result is a practical queue instead of an endless inbox.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2026/github/top20.webp&quot; alt=&quot;GitHub Copilot ranking the top 20 outstanding issues across many repositories&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;AI can miss context, so I still review the source issue before acting. The ranking is a starting point, not an automatic decision-maker.&lt;/p&gt;
+&lt;h2&gt;Add and Synchronize Existing Repositories&lt;/h2&gt;
+&lt;p&gt;Adding a large collection of repositories one at a time is tedious. I pointed the app at my working directory and asked it to identify local GitHub projects that were not already configured.&lt;/p&gt;
+&lt;p&gt;Once the repositories are available, the app can help spot stale clones, dirty worktrees, and branches that need attention. That is useful when I commit on one machine and later discover that another workstation has not pulled the change.&lt;/p&gt;
+&lt;p&gt;Never ask an agent to discard or overwrite local changes automatically. Have it report the repository state first, then review each proposed pull, commit, or cleanup action.&lt;/p&gt;
+&lt;h2&gt;Replace the Copilot Provider with Codex&lt;/h2&gt;
+&lt;p&gt;The app supports additional model providers. I use that capability to avoid buying another AI subscription for another application.&lt;/p&gt;
+&lt;p&gt;The path is:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;GitHub Copilot app -&amp;gt; CLIProxyAPI on localhost -&amp;gt; OpenAI Codex
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;CLIProxyAPI is a third-party open-source project that signs in to supported AI services and exposes an OpenAI-compatible local endpoint. If your ChatGPT plan includes Codex, it can route the app through that existing access instead of a separately billed OpenAI Platform API key.&lt;/p&gt;
+&lt;p&gt;This is not an official GitHub or OpenAI integration. Review the project before installing it, keep it updated, and expect your normal subscription limits and terms to apply.&lt;/p&gt;
+&lt;h2&gt;Install CLIProxyAPI on Linux&lt;/h2&gt;
+&lt;p&gt;The CLIProxyAPI documentation recommends a community-maintained Linux installer. Download it first so you can inspect it before running it:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;installer=&quot;$(mktemp)&quot;
+curl -fsSL \
+  https://raw.githubusercontent.com/router-for-me/cliproxyapi-installer/refs/heads/master/cliproxyapi-installer \
+  -o &quot;$installer&quot; || { rm -f &quot;$installer&quot;; exit 1; }
+
+less &quot;$installer&quot;
+bash &quot;$installer&quot;
+rm -f &quot;$installer&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The installer normally places the binary and configuration under &lt;code&gt;~/cliproxyapi/&lt;/code&gt;. It also creates a &lt;code&gt;cliproxyapi.service&lt;/code&gt; user unit and generates a local API key.&lt;/p&gt;
+&lt;p&gt;Open &lt;code&gt;~/cliproxyapi/config.yaml&lt;/code&gt; and verify that the service is bound only to localhost:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;host: &quot;127.0.0.1&quot;
+port: 8317
+auth-dir: &quot;~/.cli-proxy-api&quot;
+
+api-keys:
+  - &quot;sk-replace-this-with-a-long-random-local-key&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Edit the existing values instead of replacing the entire configuration. If the installer already generated a strong local key, keep it. Protect the configuration with:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;install -d -m 700 &quot;$HOME/.cli-proxy-api&quot;
+chmod 700 &quot;$HOME/cliproxyapi&quot; &quot;$HOME/.cli-proxy-api&quot;
+chmod 600 &quot;$HOME/cliproxyapi/config.yaml&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Sign In to Codex and Start the Service&lt;/h2&gt;
+&lt;p&gt;Run the one-time OAuth login as your normal desktop user:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;cd &quot;$HOME/cliproxyapi&quot;
+./cli-proxy-api --codex-login
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;For a headless machine, use the device-code flow instead of the browser callback:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;./cli-proxy-api --codex-device-login
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;After signing in, restrict the saved OAuth credentials to your user:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;find &quot;$HOME/.cli-proxy-api&quot; -type d -exec chmod 700 {} +
+find &quot;$HOME/.cli-proxy-api&quot; -type f -exec chmod 600 {} +
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then enable the user service:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;systemctl --user daemon-reload
+systemctl --user enable --now cliproxyapi.service
+systemctl --user status cliproxyapi.service
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;A desktop user service starts when you log in, which is normally all this setup needs.&lt;/p&gt;
+&lt;h2&gt;Test the Local Endpoint&lt;/h2&gt;
+&lt;p&gt;Before changing the GitHub app, confirm that the proxy is running and that its local key works:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;read -rsp &apos;CLIProxyAPI key: &apos; CLIPROXY_API_KEY
+printf &apos;\n&apos;
+curl -fsS \
+  -H &quot;Authorization: Bearer ${CLIPROXY_API_KEY}&quot; \
+  http://127.0.0.1:8317/v1/models
+unset CLIPROXY_API_KEY
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;A JSON model list confirms that the service is reachable, the key matches, and the Codex login was loaded.&lt;/p&gt;
+&lt;h2&gt;Connect the GitHub Copilot App&lt;/h2&gt;
+&lt;p&gt;In the GitHub Copilot app:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Open &lt;strong&gt;Settings&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Select &lt;strong&gt;Model providers&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Choose &lt;strong&gt;Add provider&lt;/strong&gt;, then &lt;strong&gt;OpenAI&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Set the base URL to &lt;code&gt;http://127.0.0.1:8317/v1&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Paste the local key from &lt;code&gt;config.yaml&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Save the provider and select one of the Codex models it exposes.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Start with a disposable repository and a small test prompt. Confirm the diff and commands before trusting the setup with important work.&lt;/p&gt;
+&lt;h2&gt;Troubleshooting&lt;/h2&gt;
+&lt;p&gt;Check the service and recent logs with:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;systemctl --user status cliproxyapi.service
+journalctl --user -u cliproxyapi.service -n 100 --no-pager
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If the app cannot connect, verify that the base URL includes &lt;code&gt;/v1&lt;/code&gt;, the port is &lt;code&gt;8317&lt;/code&gt;, and the service is listening on &lt;code&gt;127.0.0.1&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;For a &lt;code&gt;401&lt;/code&gt; response, make sure the key entered in the app exactly matches a value under &lt;code&gt;api-keys&lt;/code&gt; in &lt;code&gt;config.yaml&lt;/code&gt;. After changing the configuration, restart the service:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;systemctl --user restart cliproxyapi.service
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If no Codex models appear, repeat the OAuth login and test &lt;code&gt;/v1/models&lt;/code&gt; from the terminal before changing more app settings.&lt;/p&gt;
+&lt;h2&gt;Faster GitHub Actions with Blacksmith&lt;/h2&gt;
+&lt;p&gt;The video also shows &lt;a href=&quot;https://link.christitus.com/blacksmith&quot;&gt;Blacksmith&lt;/a&gt;, the sponsor for this walkthrough. Replacing the standard GitHub-hosted runners and enabling Blacksmith&apos;s cache cut one WinOnOneShot workflow from roughly five minutes to about two minutes in my test.&lt;/p&gt;
+&lt;p&gt;That result is from one project, not a promise for every workflow, but it is worth testing if CI wait time is slowing down your development loop.&lt;/p&gt;
+&lt;h2&gt;Final Thoughts&lt;/h2&gt;
+&lt;p&gt;The GitHub Copilot app is useful once I stop treating it as Copilot. It gives me one dashboard for repository activity, issue triage, pull requests, and local projects across Linux, macOS, and Windows.&lt;/p&gt;
+&lt;p&gt;Routing its AI features through CLIProxyAPI lets me use the Codex subscription I already have, while the app remains valuable even without AI as a GitHub organization and notification tool. For developers managing dozens of repositories, that organization is the real feature.&lt;/p&gt;
+&lt;h2&gt;Sources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.github.com/en/copilot/concepts/agents/github-copilot-app&quot;&gt;GitHub Copilot app overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.github.com/en/copilot/how-tos/github-copilot-app/use-byok-models&quot;&gt;GitHub Copilot app model providers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan&quot;&gt;OpenAI Codex with a ChatGPT plan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/router-for-me/CLIProxyAPI&quot;&gt;CLIProxyAPI project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://help.router-for.me/introduction/quick-start&quot;&gt;CLIProxyAPI Linux quick start&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Video Walkthrough&lt;/h2&gt;
+&lt;p&gt;The video shows my complete workflow, from replacing the built-in AI provider to triaging issues across roughly 100 repositories.&lt;/p&gt;
+&lt;div class=&quot;media-embed&quot;&gt;&lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/sspesgDbWLc&quot; title=&quot;YouTube video player&quot; loading=&quot;lazy&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/sspesgDbWLc&quot;&gt;Watch the video directly on YouTube&lt;/a&gt; if the embed does not load.&lt;/p&gt;
+</description><pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;GitHub Copilot is a terrible name for this app. Microsoft has put the Copilot name on everything, but this is much more useful as a &lt;strong&gt;GitHub desktop dashboard&lt;/strong&gt; for Linux, macOS, and Windows.&lt;/p&gt;
+&lt;p&gt;I use it to organize repositories, issues, pull requests, and notifications. I do not use the built-in Copilot subscription. Instead, I connect the app to my existing Codex subscription through &lt;a href=&quot;https://github.com/router-for-me/CLIProxyAPI&quot;&gt;CLIProxyAPI&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;The GitHub App I Actually Wanted&lt;/h2&gt;
+&lt;p&gt;The app&apos;s &lt;strong&gt;My work&lt;/strong&gt; view puts review requests, issues, pull requests, and repository activity in one place. That matters when your notification feed is constantly moving and older projects are easy to forget.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2026/github/intro-myword.webp&quot; alt=&quot;GitHub Copilot app My work view with issues and pull requests from connected repositories&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;My normal workflow looks like this:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Open &lt;strong&gt;My work&lt;/strong&gt; and scan new activity across every connected repository.&lt;/li&gt;
+&lt;li&gt;Open an issue or pull request in the app to get the context.&lt;/li&gt;
+&lt;li&gt;Ask for a plan or initial scaffolding when an issue needs code.&lt;/li&gt;
+&lt;li&gt;Continue the detailed implementation in my preferred editor or terminal.&lt;/li&gt;
+&lt;li&gt;Review, close, or archive the item when the work is done.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I do not want the app to replace my IDE. It is the front door to the work: a fast way to decide what needs attention before I move into Codex, HerdR, or another development environment.&lt;/p&gt;
+&lt;h2&gt;Prioritize Issues Across Every Repository&lt;/h2&gt;
+&lt;p&gt;The biggest win is triage. GitHub&apos;s normal notification stream tells you what happened, but it does not necessarily tell you what matters most.&lt;/p&gt;
+&lt;p&gt;I can ask the app to prioritize my outstanding issues and pull requests. If several users report the same WinUtil problem, that cluster should rank above a one-off request with little impact. A useful prompt is:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;Prioritize my outstanding issues and pull requests across all connected
+repositories. Group duplicate or closely related reports, rank them by user
+impact and urgency, and explain why each item deserves its position.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The result is a practical queue instead of an endless inbox.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2026/github/top20.webp&quot; alt=&quot;GitHub Copilot ranking the top 20 outstanding issues across many repositories&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;AI can miss context, so I still review the source issue before acting. The ranking is a starting point, not an automatic decision-maker.&lt;/p&gt;
+&lt;h2&gt;Add and Synchronize Existing Repositories&lt;/h2&gt;
+&lt;p&gt;Adding a large collection of repositories one at a time is tedious. I pointed the app at my working directory and asked it to identify local GitHub projects that were not already configured.&lt;/p&gt;
+&lt;p&gt;Once the repositories are available, the app can help spot stale clones, dirty worktrees, and branches that need attention. That is useful when I commit on one machine and later discover that another workstation has not pulled the change.&lt;/p&gt;
+&lt;p&gt;Never ask an agent to discard or overwrite local changes automatically. Have it report the repository state first, then review each proposed pull, commit, or cleanup action.&lt;/p&gt;
+&lt;h2&gt;Replace the Copilot Provider with Codex&lt;/h2&gt;
+&lt;p&gt;The app supports additional model providers. I use that capability to avoid buying another AI subscription for another application.&lt;/p&gt;
+&lt;p&gt;The path is:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;GitHub Copilot app -&amp;gt; CLIProxyAPI on localhost -&amp;gt; OpenAI Codex
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;CLIProxyAPI is a third-party open-source project that signs in to supported AI services and exposes an OpenAI-compatible local endpoint. If your ChatGPT plan includes Codex, it can route the app through that existing access instead of a separately billed OpenAI Platform API key.&lt;/p&gt;
+&lt;p&gt;This is not an official GitHub or OpenAI integration. Review the project before installing it, keep it updated, and expect your normal subscription limits and terms to apply.&lt;/p&gt;
+&lt;h2&gt;Install CLIProxyAPI on Linux&lt;/h2&gt;
+&lt;p&gt;The CLIProxyAPI documentation recommends a community-maintained Linux installer. Download it first so you can inspect it before running it:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;installer=&quot;$(mktemp)&quot;
+curl -fsSL \
+  https://raw.githubusercontent.com/router-for-me/cliproxyapi-installer/refs/heads/master/cliproxyapi-installer \
+  -o &quot;$installer&quot; || { rm -f &quot;$installer&quot;; exit 1; }
+
+less &quot;$installer&quot;
+bash &quot;$installer&quot;
+rm -f &quot;$installer&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The installer normally places the binary and configuration under &lt;code&gt;~/cliproxyapi/&lt;/code&gt;. It also creates a &lt;code&gt;cliproxyapi.service&lt;/code&gt; user unit and generates a local API key.&lt;/p&gt;
+&lt;p&gt;Open &lt;code&gt;~/cliproxyapi/config.yaml&lt;/code&gt; and verify that the service is bound only to localhost:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;host: &quot;127.0.0.1&quot;
+port: 8317
+auth-dir: &quot;~/.cli-proxy-api&quot;
+
+api-keys:
+  - &quot;sk-replace-this-with-a-long-random-local-key&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Edit the existing values instead of replacing the entire configuration. If the installer already generated a strong local key, keep it. Protect the configuration with:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;install -d -m 700 &quot;$HOME/.cli-proxy-api&quot;
+chmod 700 &quot;$HOME/cliproxyapi&quot; &quot;$HOME/.cli-proxy-api&quot;
+chmod 600 &quot;$HOME/cliproxyapi/config.yaml&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Sign In to Codex and Start the Service&lt;/h2&gt;
+&lt;p&gt;Run the one-time OAuth login as your normal desktop user:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;cd &quot;$HOME/cliproxyapi&quot;
+./cli-proxy-api --codex-login
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;For a headless machine, use the device-code flow instead of the browser callback:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;./cli-proxy-api --codex-device-login
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;After signing in, restrict the saved OAuth credentials to your user:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;find &quot;$HOME/.cli-proxy-api&quot; -type d -exec chmod 700 {} +
+find &quot;$HOME/.cli-proxy-api&quot; -type f -exec chmod 600 {} +
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then enable the user service:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;systemctl --user daemon-reload
+systemctl --user enable --now cliproxyapi.service
+systemctl --user status cliproxyapi.service
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;A desktop user service starts when you log in, which is normally all this setup needs.&lt;/p&gt;
+&lt;h2&gt;Test the Local Endpoint&lt;/h2&gt;
+&lt;p&gt;Before changing the GitHub app, confirm that the proxy is running and that its local key works:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;read -rsp &apos;CLIProxyAPI key: &apos; CLIPROXY_API_KEY
+printf &apos;\n&apos;
+curl -fsS \
+  -H &quot;Authorization: Bearer ${CLIPROXY_API_KEY}&quot; \
+  http://127.0.0.1:8317/v1/models
+unset CLIPROXY_API_KEY
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;A JSON model list confirms that the service is reachable, the key matches, and the Codex login was loaded.&lt;/p&gt;
+&lt;h2&gt;Connect the GitHub Copilot App&lt;/h2&gt;
+&lt;p&gt;In the GitHub Copilot app:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Open &lt;strong&gt;Settings&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Select &lt;strong&gt;Model providers&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Choose &lt;strong&gt;Add provider&lt;/strong&gt;, then &lt;strong&gt;OpenAI&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Set the base URL to &lt;code&gt;http://127.0.0.1:8317/v1&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Paste the local key from &lt;code&gt;config.yaml&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Save the provider and select one of the Codex models it exposes.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Start with a disposable repository and a small test prompt. Confirm the diff and commands before trusting the setup with important work.&lt;/p&gt;
+&lt;h2&gt;Troubleshooting&lt;/h2&gt;
+&lt;p&gt;Check the service and recent logs with:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;systemctl --user status cliproxyapi.service
+journalctl --user -u cliproxyapi.service -n 100 --no-pager
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If the app cannot connect, verify that the base URL includes &lt;code&gt;/v1&lt;/code&gt;, the port is &lt;code&gt;8317&lt;/code&gt;, and the service is listening on &lt;code&gt;127.0.0.1&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;For a &lt;code&gt;401&lt;/code&gt; response, make sure the key entered in the app exactly matches a value under &lt;code&gt;api-keys&lt;/code&gt; in &lt;code&gt;config.yaml&lt;/code&gt;. After changing the configuration, restart the service:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;systemctl --user restart cliproxyapi.service
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If no Codex models appear, repeat the OAuth login and test &lt;code&gt;/v1/models&lt;/code&gt; from the terminal before changing more app settings.&lt;/p&gt;
+&lt;h2&gt;Faster GitHub Actions with Blacksmith&lt;/h2&gt;
+&lt;p&gt;The video also shows &lt;a href=&quot;https://link.christitus.com/blacksmith&quot;&gt;Blacksmith&lt;/a&gt;, the sponsor for this walkthrough. Replacing the standard GitHub-hosted runners and enabling Blacksmith&apos;s cache cut one WinOnOneShot workflow from roughly five minutes to about two minutes in my test.&lt;/p&gt;
+&lt;p&gt;That result is from one project, not a promise for every workflow, but it is worth testing if CI wait time is slowing down your development loop.&lt;/p&gt;
+&lt;h2&gt;Final Thoughts&lt;/h2&gt;
+&lt;p&gt;The GitHub Copilot app is useful once I stop treating it as Copilot. It gives me one dashboard for repository activity, issue triage, pull requests, and local projects across Linux, macOS, and Windows.&lt;/p&gt;
+&lt;p&gt;Routing its AI features through CLIProxyAPI lets me use the Codex subscription I already have, while the app remains valuable even without AI as a GitHub organization and notification tool. For developers managing dozens of repositories, that organization is the real feature.&lt;/p&gt;
+&lt;h2&gt;Sources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.github.com/en/copilot/concepts/agents/github-copilot-app&quot;&gt;GitHub Copilot app overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.github.com/en/copilot/how-tos/github-copilot-app/use-byok-models&quot;&gt;GitHub Copilot app model providers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan&quot;&gt;OpenAI Codex with a ChatGPT plan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/router-for-me/CLIProxyAPI&quot;&gt;CLIProxyAPI project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://help.router-for.me/introduction/quick-start&quot;&gt;CLIProxyAPI Linux quick start&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Video Walkthrough&lt;/h2&gt;
+&lt;p&gt;The video shows my complete workflow, from replacing the built-in AI provider to triaging issues across roughly 100 repositories.&lt;/p&gt;
+&lt;div class=&quot;media-embed&quot;&gt;&lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/sspesgDbWLc&quot; title=&quot;YouTube video player&quot; loading=&quot;lazy&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/sspesgDbWLc&quot;&gt;Watch the video directly on YouTube&lt;/a&gt; if the embed does not load.&lt;/p&gt;
+</content:encoded></item><item><title>I Rebuilt My Website in Astro - Was It Worth It?</title><link>https://christitus.com/i-rebuilt-my-website-in-astro-was-it-worth-it/</link><guid isPermaLink="true">https://christitus.com/i-rebuilt-my-website-in-astro-was-it-worth-it/</guid><description>&lt;p&gt;Four years ago, I built this website with Hugo. In August 2026, I deleted the
+Hugo build, replaced it with Astro, and moved the entire production site without
+changing the URLs people already use.&lt;/p&gt;
+&lt;p&gt;Hugo was not broken. That is what made this migration interesting. The site had
+simply grown from a blog into a publication, video archive, search engine,
+download hub, newsletter funnel, and a pile of old links that absolutely could
+not disappear. Rebuilding the easy 80 percent would have taken an afternoon.
+Preserving the last 20 percent was the real project.&lt;/p&gt;
+
+&lt;p&gt;So, was moving from Hugo to Astro worth it? Yes, but not for the reason most
+framework comparisons give you.&lt;/p&gt;
+&lt;h2&gt;Why Replace Something That Already Worked?&lt;/h2&gt;
+&lt;p&gt;My &lt;a href=&quot;/how-i-setup-my-website/&quot;&gt;original website setup&lt;/a&gt; was intentionally simple:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;Markdown -&amp;gt; Hugo -&amp;gt; GitHub -&amp;gt; Cloudflare Pages
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;That workflow served me well for years. Hugo is fast, dependable, and still one
+of the best static site generators available. If you have a documentation site
+or a straightforward blog, I am not going to tell you to rewrite it because a
+JavaScript framework has a shinier home page.&lt;/p&gt;
+&lt;p&gt;But christitus.com stopped being a straightforward blog.&lt;/p&gt;
+&lt;p&gt;It now has hundreds of articles, category and tag archives, livestreams with
+synchronized chat replays, local search, downloads, newsletter signup, feeds,
+comments, ads, analytics, old redirects, and years of Markdown written against
+Hugo behavior. The Hugo version worked, but every custom feature added another
+template, partial, shortcode, SCSS rule, or vendor script to a stack that was
+getting harder to reason about as one system.&lt;/p&gt;
+&lt;p&gt;I wanted three things:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;A frontend I could understand from the page down to the browser behavior.&lt;/li&gt;
+&lt;li&gt;Tests that proved the old links and content still worked.&lt;/li&gt;
+&lt;li&gt;A foundation that was easier to change without dragging a client framework
+into every page.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Astro fit that job. It gives me components and TypeScript at build time, ships
+static HTML by default, and lets browser JavaScript stay small and local. There
+is no React application hiding underneath this site. It is still a static
+website deployed by Cloudflare Pages.&lt;/p&gt;
+&lt;p&gt;The new publishing path is almost boring:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;Markdown -&amp;gt; Astro -&amp;gt; GitHub -&amp;gt; Cloudflare Pages
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The generator changed. The static-site philosophy did not.&lt;/p&gt;
+&lt;h2&gt;The Website Was the Contract&lt;/h2&gt;
+&lt;p&gt;The biggest mistake in any rebuild is treating the source code as the product.
+It is not. The product is everything people and machines can already reach.&lt;/p&gt;
+&lt;p&gt;Before changing the build, I captured Hugo&apos;s production output as a baseline.
+That clean build contained:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2,156 generated files&lt;/li&gt;
+&lt;li&gt;813 Hugo pages&lt;/li&gt;
+&lt;li&gt;125 paginator pages&lt;/li&gt;
+&lt;li&gt;244 aliases&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That included much more than article HTML. It included case-sensitive URLs,
+category pages, tag pages, RSS feeds, sitemap entries, social metadata, search
+records, redirects, images, downloads, and weird historical edge cases nobody
+remembers until Google lands on one.&lt;/p&gt;
+&lt;p&gt;One tracked image even had to remain byte-for-byte identical at its old public
+path. Some old posts had empty categories. Others used historical capitalization
+that new articles are no longer allowed to use. The archive contained Hugo
+shortcodes, raw HTML, date-only front matter, timestamps with offsets, and posts
+where an omitted &lt;code&gt;draft&lt;/code&gt; field meant published.&lt;/p&gt;
+&lt;p&gt;That mess is not bad data. It is a public compatibility contract accumulated
+over years.&lt;/p&gt;
+&lt;p&gt;Instead of cleaning up the archive and hoping for the best, the migration taught
+Astro how to read it. New content gets stricter rules. Old published content
+keeps working.&lt;/p&gt;
+&lt;h2&gt;Rebuilding Hugo Behavior Without Hugo&lt;/h2&gt;
+&lt;p&gt;Astro content collections now load the existing Markdown with typed metadata.
+The production build excludes drafts and future posts, but a separate local
+preview command lets me see them while writing. A repository-owned post
+scaffolder replaced Hugo archetypes and catches URL collisions before it writes
+a file.&lt;/p&gt;
+&lt;p&gt;The compatibility renderer handles the Hugo shortcodes that are actually in the
+archive, including YouTube, notices, tables, X posts, and Shopify embeds. An
+unknown active shortcode fails the build instead of quietly publishing broken
+template syntax. Literal shortcode examples inside code blocks remain article
+content.&lt;/p&gt;
+&lt;p&gt;This is the unglamorous part of a successful migration. I did not run a giant
+search-and-replace across old articles. I built a boundary around the history.&lt;/p&gt;
+&lt;p&gt;Routes received the same treatment. The Astro build generates and checks the
+homepage, posts, pagination, taxonomies, search index, feeds, sitemap,
+livestreams, player pages, legal pages, and redirects. The validator rejects
+collisions between content, static assets, redirects, feeds, and generated
+routes.&lt;/p&gt;
+&lt;p&gt;By the end, the new production artifact had a deterministic 1,183-route
+compatibility contract and 312 searchable entries. That matters more to me than
+whether one generator won a synthetic build-speed contest.&lt;/p&gt;
+&lt;h2&gt;I Used the Migration to Delete Frontend Baggage&lt;/h2&gt;
+&lt;p&gt;The Hugo site had grown a traditional frontend layer over time: Bootstrap,
+Font Awesome bundles, Fuse, Mark.js, Shuffle, theme scripts, Shopify code, SCSS
+partials, and many custom layout files.&lt;/p&gt;
+&lt;p&gt;The Astro conversion removed that layer and replaced it with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;reusable Astro components&lt;/li&gt;
+&lt;li&gt;one custom CSS token system&lt;/li&gt;
+&lt;li&gt;vanilla TypeScript for interactive behavior&lt;/li&gt;
+&lt;li&gt;self-hosted fonts&lt;/li&gt;
+&lt;li&gt;static pages with progressive enhancement&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The result supports dark and light themes, keyboard navigation, local search,
+livestream browsing, synchronized chat, lazy comments, lazy ads, and an
+intent-driven store integration. The important part is that a visitor does not
+download a full client UI framework just to read an article.&lt;/p&gt;
+&lt;p&gt;Third-party code also stopped being a requirement for the page to function.
+Search uses a generated local index. The download page retains a direct store
+link if Shopify is blocked. The livestream player works without chat. Ads,
+comments, video APIs, and newsletter extras load only when they are needed.&lt;/p&gt;
+&lt;p&gt;That is the web I want: the content works first, and the integrations enhance it
+afterward.&lt;/p&gt;
+&lt;h2&gt;Performance Was a Gate, Not a Vibe&lt;/h2&gt;
+&lt;p&gt;Framework marketing loves a perfect Lighthouse screenshot. Real performance
+work is less glamorous.&lt;/p&gt;
+&lt;p&gt;The migration added a pinned mobile Lighthouse profile that runs three times on
+the homepage, an article, a category page, and the livestream archive. During
+the final review, those pages scored between 99 and 100 for performance, 100 for
+accessibility, 100 for SEO, and 96 for best practices in the local fallback
+environment. Median Largest Contentful Paint ranged from 1.58 to 1.95 seconds,
+with zero layout shift on those runs.&lt;/p&gt;
+&lt;p&gt;Those results did not appear automatically because the project used Astro. The
+commit history shows the real work:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;stabilize Lighthouse performance&lt;/li&gt;
+&lt;li&gt;stabilize mobile listing performance&lt;/li&gt;
+&lt;li&gt;reduce webfont render delay&lt;/li&gt;
+&lt;li&gt;inline the site stylesheet&lt;/li&gt;
+&lt;li&gt;fix the remaining migration review findings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And after launch, I still changed the layout spacing, added missing support
+paths to search and downloads, adjusted the Lighthouse threshold to account for
+real run-to-run variance, and fixed the article table of contents so it actually
+stays pinned while scrolling.&lt;/p&gt;
+&lt;p&gt;That last part is important. A green migration does not mean the design is done.
+It means the new foundation is safe enough to improve.&lt;/p&gt;
+&lt;h2&gt;The Test Suite Became the Real Feature&lt;/h2&gt;
+&lt;p&gt;The final Astro build is checked by much more than &lt;code&gt;npm run build&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The repository validates formatting, Markdown, dependency policy, Astro types,
+unit tests, deterministic output, the route contract, and the production build.
+Playwright then exercises the site in Chromium, Firefox, mobile Chromium, and
+WebKit. Browser tests cover the homepage, articles, taxonomy pages, search,
+downloads, newsletter signup, livestreams, chat and no-chat player states,
+redirects, the theme switcher, mobile navigation, keyboard access, and the 404
+page.&lt;/p&gt;
+&lt;p&gt;Accessibility checks found a real contrast failure during development. It was
+fixed before the final run. That is exactly what I want from automation: not a
+badge, but a specific problem found before users have to report it.&lt;/p&gt;
+&lt;p&gt;The full clean validation produced a deterministic 1,285-page Astro build, ran
+61 unit and workflow tests, exercised 66 applicable browser tests, and completed
+12 Lighthouse runs. WebKit ran in its supported Playwright container because
+the fallback binary did not match my Fedora host libraries.&lt;/p&gt;
+&lt;p&gt;This is more ceremony than a personal blog needs. It is not more ceremony than
+a production publication with years of inbound links needs.&lt;/p&gt;
+&lt;h2&gt;The Hidden Migration Was GitHub Automation&lt;/h2&gt;
+&lt;p&gt;The visible redesign was only half the job.&lt;/p&gt;
+&lt;p&gt;Livestream and chat data had been updated by separate scheduled workflows that
+pushed generated data. The migration consolidated that pipeline and added
+guards around the exact commit being tested. Candidate automation changes are
+limited to the generated data paths, checks attach to the exact validated SHA,
+and interruption handling can reconcile the branch and pull request instead of
+blindly starting over.&lt;/p&gt;
+&lt;p&gt;Nobody watching the video will look at the homepage and say, &quot;Nice immutable
+commit validation.&quot; That is fine. Infrastructure is successful when it makes
+the boring failures boring to recover from.&lt;/p&gt;
+&lt;p&gt;The same rule applied to deployment. The old Hugo output, Cloudflare settings,
+redirect behavior, and repository state were captured before cutover. A rewrite
+without a rollback plan is not confidence. It is gambling with extra steps.&lt;/p&gt;
+&lt;h2&gt;What the Commit History Actually Shows&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&quot;https://github.com/ChrisTitusTech/website/pull/273&quot;&gt;main pull request&lt;/a&gt;
+contained 23 commits before it was merged. The sequence is more useful than the
+final screenshot:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;write the specification and roadmap
+  -&amp;gt; close planning and cutover gaps
+  -&amp;gt; capture the Hugo baseline
+  -&amp;gt; build the Astro content foundation
+  -&amp;gt; build the editorial experience
+  -&amp;gt; finish infrastructure and automation
+  -&amp;gt; review, fix, measure, and repeat
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The merged change touched 175 files, added 49,426 lines, and removed 7,408. A
+large part of those additions is recorded baseline and lockfile data, not
+49,000 lines of shiny new application code. The deletions are more revealing:
+Hugo configuration, templates, archetypes, old pipeline assets, vendor scripts,
+and SCSS all left the production path.&lt;/p&gt;
+&lt;p&gt;The project did not begin with &lt;code&gt;npm install astro&lt;/code&gt;. It began with nine planning
+and review commits that defined what could not break. Only then did the history
+move through baseline capture, content, design, infrastructure, performance,
+and final review.&lt;/p&gt;
+&lt;p&gt;That order is why this worked.&lt;/p&gt;
+&lt;h2&gt;What Got Better&lt;/h2&gt;
+&lt;p&gt;The obvious improvement is maintainability. A page is now composed from Astro
+components instead of behavior being spread across Hugo templates, partials,
+shortcodes, and global vendor scripts. TypeScript catches mistakes earlier, and
+the browser code lives beside the feature that needs it.&lt;/p&gt;
+&lt;p&gt;The editorial workflow is also safer. A new post command creates consistent
+front matter, uses the correct date and URL shape, requires a valid category,
+defaults to a draft, and refuses to overwrite or collide with an existing
+route.&lt;/p&gt;
+&lt;p&gt;Most importantly, I can make changes with evidence. If I touch search, routes,
+metadata, a feed, or the article layout, the repository has a focused way to
+prove whether I broke it.&lt;/p&gt;
+&lt;h2&gt;What Astro Did Not Magically Fix&lt;/h2&gt;
+&lt;p&gt;Astro did not make historical content clean. We had to model the exceptions.
+It did not make third-party integrations reliable. We had to build fallbacks.
+It did not guarantee accessibility or speed. We had to test both. It did not
+make deployment safe. We had to capture the old state and design a rollback.&lt;/p&gt;
+&lt;p&gt;It also moved the toolchain from one Hugo binary to Node, npm, a lockfile, Astro,
+TypeScript, Vitest, Playwright, Lighthouse, and supporting packages. That is a
+real dependency cost. The new stack is easier for me to extend, but it is not
+smaller in every possible sense.&lt;/p&gt;
+&lt;p&gt;If your Hugo site is fast, easy to maintain, and does everything you need, keep
+it. Rewrites are expensive. A framework switch without a concrete maintenance
+problem is just a new way to own the same website.&lt;/p&gt;
+&lt;h2&gt;Was It Worth It?&lt;/h2&gt;
+&lt;p&gt;For this site, yes.&lt;/p&gt;
+&lt;p&gt;Not because Astro defeated Hugo. Hugo did its job for years, and it gave us the
+stable static foundation that made a careful migration possible.&lt;/p&gt;
+&lt;p&gt;The move was worth it because the website now matches how I build software:
+plain-text content, static output, small client-side code, explicit contracts,
+repeatable tests, independent review, and a rollback when reality ignores the
+plan.&lt;/p&gt;
+&lt;p&gt;The final lesson is not &quot;use Astro.&quot; It is this:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Never start a website rewrite by asking how to rebuild the homepage. Start by
+asking what the old website is already promising.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Capture those promises. Turn them into tests. Then change the engine.&lt;/p&gt;
+&lt;p&gt;That is how I replaced Hugo without replacing the website.&lt;/p&gt;
+</description><pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Four years ago, I built this website with Hugo. In August 2026, I deleted the
+Hugo build, replaced it with Astro, and moved the entire production site without
+changing the URLs people already use.&lt;/p&gt;
+&lt;p&gt;Hugo was not broken. That is what made this migration interesting. The site had
+simply grown from a blog into a publication, video archive, search engine,
+download hub, newsletter funnel, and a pile of old links that absolutely could
+not disappear. Rebuilding the easy 80 percent would have taken an afternoon.
+Preserving the last 20 percent was the real project.&lt;/p&gt;
+
+&lt;p&gt;So, was moving from Hugo to Astro worth it? Yes, but not for the reason most
+framework comparisons give you.&lt;/p&gt;
+&lt;h2&gt;Why Replace Something That Already Worked?&lt;/h2&gt;
+&lt;p&gt;My &lt;a href=&quot;/how-i-setup-my-website/&quot;&gt;original website setup&lt;/a&gt; was intentionally simple:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;Markdown -&amp;gt; Hugo -&amp;gt; GitHub -&amp;gt; Cloudflare Pages
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;That workflow served me well for years. Hugo is fast, dependable, and still one
+of the best static site generators available. If you have a documentation site
+or a straightforward blog, I am not going to tell you to rewrite it because a
+JavaScript framework has a shinier home page.&lt;/p&gt;
+&lt;p&gt;But christitus.com stopped being a straightforward blog.&lt;/p&gt;
+&lt;p&gt;It now has hundreds of articles, category and tag archives, livestreams with
+synchronized chat replays, local search, downloads, newsletter signup, feeds,
+comments, ads, analytics, old redirects, and years of Markdown written against
+Hugo behavior. The Hugo version worked, but every custom feature added another
+template, partial, shortcode, SCSS rule, or vendor script to a stack that was
+getting harder to reason about as one system.&lt;/p&gt;
+&lt;p&gt;I wanted three things:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;A frontend I could understand from the page down to the browser behavior.&lt;/li&gt;
+&lt;li&gt;Tests that proved the old links and content still worked.&lt;/li&gt;
+&lt;li&gt;A foundation that was easier to change without dragging a client framework
+into every page.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Astro fit that job. It gives me components and TypeScript at build time, ships
+static HTML by default, and lets browser JavaScript stay small and local. There
+is no React application hiding underneath this site. It is still a static
+website deployed by Cloudflare Pages.&lt;/p&gt;
+&lt;p&gt;The new publishing path is almost boring:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;Markdown -&amp;gt; Astro -&amp;gt; GitHub -&amp;gt; Cloudflare Pages
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The generator changed. The static-site philosophy did not.&lt;/p&gt;
+&lt;h2&gt;The Website Was the Contract&lt;/h2&gt;
+&lt;p&gt;The biggest mistake in any rebuild is treating the source code as the product.
+It is not. The product is everything people and machines can already reach.&lt;/p&gt;
+&lt;p&gt;Before changing the build, I captured Hugo&apos;s production output as a baseline.
+That clean build contained:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2,156 generated files&lt;/li&gt;
+&lt;li&gt;813 Hugo pages&lt;/li&gt;
+&lt;li&gt;125 paginator pages&lt;/li&gt;
+&lt;li&gt;244 aliases&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That included much more than article HTML. It included case-sensitive URLs,
+category pages, tag pages, RSS feeds, sitemap entries, social metadata, search
+records, redirects, images, downloads, and weird historical edge cases nobody
+remembers until Google lands on one.&lt;/p&gt;
+&lt;p&gt;One tracked image even had to remain byte-for-byte identical at its old public
+path. Some old posts had empty categories. Others used historical capitalization
+that new articles are no longer allowed to use. The archive contained Hugo
+shortcodes, raw HTML, date-only front matter, timestamps with offsets, and posts
+where an omitted &lt;code&gt;draft&lt;/code&gt; field meant published.&lt;/p&gt;
+&lt;p&gt;That mess is not bad data. It is a public compatibility contract accumulated
+over years.&lt;/p&gt;
+&lt;p&gt;Instead of cleaning up the archive and hoping for the best, the migration taught
+Astro how to read it. New content gets stricter rules. Old published content
+keeps working.&lt;/p&gt;
+&lt;h2&gt;Rebuilding Hugo Behavior Without Hugo&lt;/h2&gt;
+&lt;p&gt;Astro content collections now load the existing Markdown with typed metadata.
+The production build excludes drafts and future posts, but a separate local
+preview command lets me see them while writing. A repository-owned post
+scaffolder replaced Hugo archetypes and catches URL collisions before it writes
+a file.&lt;/p&gt;
+&lt;p&gt;The compatibility renderer handles the Hugo shortcodes that are actually in the
+archive, including YouTube, notices, tables, X posts, and Shopify embeds. An
+unknown active shortcode fails the build instead of quietly publishing broken
+template syntax. Literal shortcode examples inside code blocks remain article
+content.&lt;/p&gt;
+&lt;p&gt;This is the unglamorous part of a successful migration. I did not run a giant
+search-and-replace across old articles. I built a boundary around the history.&lt;/p&gt;
+&lt;p&gt;Routes received the same treatment. The Astro build generates and checks the
+homepage, posts, pagination, taxonomies, search index, feeds, sitemap,
+livestreams, player pages, legal pages, and redirects. The validator rejects
+collisions between content, static assets, redirects, feeds, and generated
+routes.&lt;/p&gt;
+&lt;p&gt;By the end, the new production artifact had a deterministic 1,183-route
+compatibility contract and 312 searchable entries. That matters more to me than
+whether one generator won a synthetic build-speed contest.&lt;/p&gt;
+&lt;h2&gt;I Used the Migration to Delete Frontend Baggage&lt;/h2&gt;
+&lt;p&gt;The Hugo site had grown a traditional frontend layer over time: Bootstrap,
+Font Awesome bundles, Fuse, Mark.js, Shuffle, theme scripts, Shopify code, SCSS
+partials, and many custom layout files.&lt;/p&gt;
+&lt;p&gt;The Astro conversion removed that layer and replaced it with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;reusable Astro components&lt;/li&gt;
+&lt;li&gt;one custom CSS token system&lt;/li&gt;
+&lt;li&gt;vanilla TypeScript for interactive behavior&lt;/li&gt;
+&lt;li&gt;self-hosted fonts&lt;/li&gt;
+&lt;li&gt;static pages with progressive enhancement&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The result supports dark and light themes, keyboard navigation, local search,
+livestream browsing, synchronized chat, lazy comments, lazy ads, and an
+intent-driven store integration. The important part is that a visitor does not
+download a full client UI framework just to read an article.&lt;/p&gt;
+&lt;p&gt;Third-party code also stopped being a requirement for the page to function.
+Search uses a generated local index. The download page retains a direct store
+link if Shopify is blocked. The livestream player works without chat. Ads,
+comments, video APIs, and newsletter extras load only when they are needed.&lt;/p&gt;
+&lt;p&gt;That is the web I want: the content works first, and the integrations enhance it
+afterward.&lt;/p&gt;
+&lt;h2&gt;Performance Was a Gate, Not a Vibe&lt;/h2&gt;
+&lt;p&gt;Framework marketing loves a perfect Lighthouse screenshot. Real performance
+work is less glamorous.&lt;/p&gt;
+&lt;p&gt;The migration added a pinned mobile Lighthouse profile that runs three times on
+the homepage, an article, a category page, and the livestream archive. During
+the final review, those pages scored between 99 and 100 for performance, 100 for
+accessibility, 100 for SEO, and 96 for best practices in the local fallback
+environment. Median Largest Contentful Paint ranged from 1.58 to 1.95 seconds,
+with zero layout shift on those runs.&lt;/p&gt;
+&lt;p&gt;Those results did not appear automatically because the project used Astro. The
+commit history shows the real work:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;stabilize Lighthouse performance&lt;/li&gt;
+&lt;li&gt;stabilize mobile listing performance&lt;/li&gt;
+&lt;li&gt;reduce webfont render delay&lt;/li&gt;
+&lt;li&gt;inline the site stylesheet&lt;/li&gt;
+&lt;li&gt;fix the remaining migration review findings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And after launch, I still changed the layout spacing, added missing support
+paths to search and downloads, adjusted the Lighthouse threshold to account for
+real run-to-run variance, and fixed the article table of contents so it actually
+stays pinned while scrolling.&lt;/p&gt;
+&lt;p&gt;That last part is important. A green migration does not mean the design is done.
+It means the new foundation is safe enough to improve.&lt;/p&gt;
+&lt;h2&gt;The Test Suite Became the Real Feature&lt;/h2&gt;
+&lt;p&gt;The final Astro build is checked by much more than &lt;code&gt;npm run build&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The repository validates formatting, Markdown, dependency policy, Astro types,
+unit tests, deterministic output, the route contract, and the production build.
+Playwright then exercises the site in Chromium, Firefox, mobile Chromium, and
+WebKit. Browser tests cover the homepage, articles, taxonomy pages, search,
+downloads, newsletter signup, livestreams, chat and no-chat player states,
+redirects, the theme switcher, mobile navigation, keyboard access, and the 404
+page.&lt;/p&gt;
+&lt;p&gt;Accessibility checks found a real contrast failure during development. It was
+fixed before the final run. That is exactly what I want from automation: not a
+badge, but a specific problem found before users have to report it.&lt;/p&gt;
+&lt;p&gt;The full clean validation produced a deterministic 1,285-page Astro build, ran
+61 unit and workflow tests, exercised 66 applicable browser tests, and completed
+12 Lighthouse runs. WebKit ran in its supported Playwright container because
+the fallback binary did not match my Fedora host libraries.&lt;/p&gt;
+&lt;p&gt;This is more ceremony than a personal blog needs. It is not more ceremony than
+a production publication with years of inbound links needs.&lt;/p&gt;
+&lt;h2&gt;The Hidden Migration Was GitHub Automation&lt;/h2&gt;
+&lt;p&gt;The visible redesign was only half the job.&lt;/p&gt;
+&lt;p&gt;Livestream and chat data had been updated by separate scheduled workflows that
+pushed generated data. The migration consolidated that pipeline and added
+guards around the exact commit being tested. Candidate automation changes are
+limited to the generated data paths, checks attach to the exact validated SHA,
+and interruption handling can reconcile the branch and pull request instead of
+blindly starting over.&lt;/p&gt;
+&lt;p&gt;Nobody watching the video will look at the homepage and say, &quot;Nice immutable
+commit validation.&quot; That is fine. Infrastructure is successful when it makes
+the boring failures boring to recover from.&lt;/p&gt;
+&lt;p&gt;The same rule applied to deployment. The old Hugo output, Cloudflare settings,
+redirect behavior, and repository state were captured before cutover. A rewrite
+without a rollback plan is not confidence. It is gambling with extra steps.&lt;/p&gt;
+&lt;h2&gt;What the Commit History Actually Shows&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&quot;https://github.com/ChrisTitusTech/website/pull/273&quot;&gt;main pull request&lt;/a&gt;
+contained 23 commits before it was merged. The sequence is more useful than the
+final screenshot:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;write the specification and roadmap
+  -&amp;gt; close planning and cutover gaps
+  -&amp;gt; capture the Hugo baseline
+  -&amp;gt; build the Astro content foundation
+  -&amp;gt; build the editorial experience
+  -&amp;gt; finish infrastructure and automation
+  -&amp;gt; review, fix, measure, and repeat
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The merged change touched 175 files, added 49,426 lines, and removed 7,408. A
+large part of those additions is recorded baseline and lockfile data, not
+49,000 lines of shiny new application code. The deletions are more revealing:
+Hugo configuration, templates, archetypes, old pipeline assets, vendor scripts,
+and SCSS all left the production path.&lt;/p&gt;
+&lt;p&gt;The project did not begin with &lt;code&gt;npm install astro&lt;/code&gt;. It began with nine planning
+and review commits that defined what could not break. Only then did the history
+move through baseline capture, content, design, infrastructure, performance,
+and final review.&lt;/p&gt;
+&lt;p&gt;That order is why this worked.&lt;/p&gt;
+&lt;h2&gt;What Got Better&lt;/h2&gt;
+&lt;p&gt;The obvious improvement is maintainability. A page is now composed from Astro
+components instead of behavior being spread across Hugo templates, partials,
+shortcodes, and global vendor scripts. TypeScript catches mistakes earlier, and
+the browser code lives beside the feature that needs it.&lt;/p&gt;
+&lt;p&gt;The editorial workflow is also safer. A new post command creates consistent
+front matter, uses the correct date and URL shape, requires a valid category,
+defaults to a draft, and refuses to overwrite or collide with an existing
+route.&lt;/p&gt;
+&lt;p&gt;Most importantly, I can make changes with evidence. If I touch search, routes,
+metadata, a feed, or the article layout, the repository has a focused way to
+prove whether I broke it.&lt;/p&gt;
+&lt;h2&gt;What Astro Did Not Magically Fix&lt;/h2&gt;
+&lt;p&gt;Astro did not make historical content clean. We had to model the exceptions.
+It did not make third-party integrations reliable. We had to build fallbacks.
+It did not guarantee accessibility or speed. We had to test both. It did not
+make deployment safe. We had to capture the old state and design a rollback.&lt;/p&gt;
+&lt;p&gt;It also moved the toolchain from one Hugo binary to Node, npm, a lockfile, Astro,
+TypeScript, Vitest, Playwright, Lighthouse, and supporting packages. That is a
+real dependency cost. The new stack is easier for me to extend, but it is not
+smaller in every possible sense.&lt;/p&gt;
+&lt;p&gt;If your Hugo site is fast, easy to maintain, and does everything you need, keep
+it. Rewrites are expensive. A framework switch without a concrete maintenance
+problem is just a new way to own the same website.&lt;/p&gt;
+&lt;h2&gt;Was It Worth It?&lt;/h2&gt;
+&lt;p&gt;For this site, yes.&lt;/p&gt;
+&lt;p&gt;Not because Astro defeated Hugo. Hugo did its job for years, and it gave us the
+stable static foundation that made a careful migration possible.&lt;/p&gt;
+&lt;p&gt;The move was worth it because the website now matches how I build software:
+plain-text content, static output, small client-side code, explicit contracts,
+repeatable tests, independent review, and a rollback when reality ignores the
+plan.&lt;/p&gt;
+&lt;p&gt;The final lesson is not &quot;use Astro.&quot; It is this:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Never start a website rewrite by asking how to rebuild the homepage. Start by
+asking what the old website is already promising.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Capture those promises. Turn them into tests. Then change the engine.&lt;/p&gt;
+&lt;p&gt;That is how I replaced Hugo without replacing the website.&lt;/p&gt;
+</content:encoded></item><item><title>My AI Coding Workflow That Actually Works</title><link>https://christitus.com/my-ai-workflow/</link><guid isPermaLink="true">https://christitus.com/my-ai-workflow/</guid><description>&lt;p&gt;My AI development workflow is not perfect, and it will keep changing. What matters is the structure: define the project, build the guardrails, work in small phases, and stop at manual gates.&lt;/p&gt;
 &lt;p&gt;This is for larger, more complex software. You still need to understand Git, testing, and the basics of software development. One giant prompt that loops until an agent declares victory may produce a demo, but it is not how I build software I plan to maintain.&lt;/p&gt;
 
 &lt;p&gt;The short version looks like this:&lt;/p&gt;

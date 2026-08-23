@@ -13,11 +13,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/titus-ai](https://github.com/ChrisTitusTech/titus-ai) - Codex and AI skills
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
 - [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
-- [ChrisTitusTech/chrome-home](https://github.com/ChrisTitusTech/chrome-home) - Independent, self-hosted daily task board for Chromium new tabs
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
+- [ChrisTitusTech/plazmic-legends](https://github.com/ChrisTitusTech/plazmic-legends) - External Map/Player Window for EQ Legends Running in Linux
+- [ChrisTitusTech/titus-ai](https://github.com/ChrisTitusTech/titus-ai) - Codex and AI skills
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/chrome-home](https://github.com/ChrisTitusTech/chrome-home) - Independent, self-hosted daily task board for Chromium new tabs
@@ -27,18 +27,18 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/agent-proxy](https://github.com/ChrisTitusTech/agent-proxy) - Linux API gateway for Claude Code, Codex, Google Antigravity, and Grok CLI tools
 ### 🔨 My recent Pull Requests
 
-- [Add Phase 2 display and input settings](https://github.com/ChrisTitusTech/dwm-titus/pull/149) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [Harden X11 screenshots and Quickshell notifications](https://github.com/ChrisTitusTech/dwm-titus/pull/148) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [chore: Update Sponsors README](https://github.com/ChrisTitusTech/winutil/pull/4985) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Make site layout more compact](https://github.com/ChrisTitusTech/website/pull/281) on [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website)
-- [Fix livestream monitor repository context](https://github.com/ChrisTitusTech/website/pull/279) on [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website)
+- [feat(settings): begin Phase 5 appearance provider](https://github.com/ChrisTitusTech/dwm-titus/pull/170) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [fix: close Phase 4 and address late review findings](https://github.com/ChrisTitusTech/dwm-titus/pull/169) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [Add shared Phase 4 power workflows](https://github.com/ChrisTitusTech/dwm-titus/pull/168) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [Close Phase 3 and activate Phase 4](https://github.com/ChrisTitusTech/dwm-titus/pull/167) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [Complete Phase 3 audio workflows](https://github.com/ChrisTitusTech/dwm-titus/pull/166) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 ### ⭐ Recent Stars
 
+- [christianmeurer/whoop-reader](https://github.com/christianmeurer/whoop-reader) - Open source BLE data reader for the Whoop 4.0 fitness band
+- [riftaway7-code/hackmate](https://github.com/riftaway7-code/hackmate) - automates the entire process of creating a bootable OpenCore hackintosh USB. No manual config.plist editing, no hunting down kexts, no macrecovery commands.
 - [github/app](https://github.com/github/app) - The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub repositories.
 - [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) - Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.6 Series, Grok 4.5, Claude model through API
 - [danny-avila/LibreChat](https://github.com/danny-avila/LibreChat) - Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active
-- [starhunt/star-cliproxy](https://github.com/starhunt/star-cliproxy) - OpenAI- &amp; Anthropic-compatible API proxy for AI coding CLIs — expose Claude Code, OpenAI Codex, Google Antigravity, and xAI Grok CLI as local, drop-in API endpoints with no API key and zero usage fees
-- [gd03gd031/Windows-GDID-Changer](https://github.com/gd03gd031/Windows-GDID-Changer) - A script that requests the generation of a new GDID from Microsoft servers and assigns it to the Windows installation.
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
