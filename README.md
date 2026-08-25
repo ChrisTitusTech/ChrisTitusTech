@@ -14,8 +14,8 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 ### 👷 Check out what I'm currently working on
 
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
-- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My HUGO Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
+- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My Astro Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/plazmic-legends](https://github.com/ChrisTitusTech/plazmic-legends) - External Map/Player Window for EQ Legends Running in Linux
 - [ChrisTitusTech/titus-ai](https://github.com/ChrisTitusTech/titus-ai) - Codex and AI skills
 ### 🌱 My latest projects
@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/agent-proxy](https://github.com/ChrisTitusTech/agent-proxy) - Linux API gateway for Claude Code, Codex, Google Antigravity, and Grok CLI tools
 ### 🔨 My recent Pull Requests
 
-- [feat(settings): begin Phase 5 appearance provider](https://github.com/ChrisTitusTech/dwm-titus/pull/170) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [fix: close Phase 4 and address late review findings](https://github.com/ChrisTitusTech/dwm-titus/pull/169) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [Add shared Phase 4 power workflows](https://github.com/ChrisTitusTech/dwm-titus/pull/168) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [Close Phase 3 and activate Phase 4](https://github.com/ChrisTitusTech/dwm-titus/pull/167) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [Complete Phase 3 audio workflows](https://github.com/ChrisTitusTech/dwm-titus/pull/166) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [feat(settings): add appearance asset inventory](https://github.com/ChrisTitusTech/dwm-titus/pull/176) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [fix(settings): detect shipped Alacritty theme import](https://github.com/ChrisTitusTech/dwm-titus/pull/175) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [chore: Update Sponsors README](https://github.com/ChrisTitusTech/winutil/pull/5032) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [feat(settings): add shared appearance pane](https://github.com/ChrisTitusTech/dwm-titus/pull/173) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [Retry transient livestream API failures](https://github.com/ChrisTitusTech/website/pull/292) on [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website)
 ### ⭐ Recent Stars
 
 - [christianmeurer/whoop-reader](https://github.com/christianmeurer/whoop-reader) - Open source BLE data reader for the Whoop 4.0 fitness band
