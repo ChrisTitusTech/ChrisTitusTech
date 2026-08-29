@@ -14,10 +14,10 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 ### 👷 Check out what I'm currently working on
 
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My Astro Website that I use for Videos, Blogs, and Redirects
-- [ChrisTitusTech/plazmic-legends](https://github.com/ChrisTitusTech/plazmic-legends) - External Map/Player Window for EQ Legends Running in Linux
 - [ChrisTitusTech/titus-ai](https://github.com/ChrisTitusTech/titus-ai) - Codex and AI skills
+- [ChrisTitusTech/streamdeck-dashboard](https://github.com/ChrisTitusTech/streamdeck-dashboard) - OpenDeck plugin that shows local Codex task status on a Stream Deck key
+- [ChrisTitusTech/plazmic-legends](https://github.com/ChrisTitusTech/plazmic-legends) - External Map/Player Window for EQ Legends Running in Linux
+- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My Astro Website that I use for Videos, Blogs, and Redirects
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/chrome-home](https://github.com/ChrisTitusTech/chrome-home) - Independent, self-hosted daily task board for Chromium new tabs
@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/agent-proxy](https://github.com/ChrisTitusTech/agent-proxy) - Linux API gateway for Claude Code, Codex, Google Antigravity, and Grok CLI tools
 ### 🔨 My recent Pull Requests
 
-- [feat(settings): add appearance asset inventory](https://github.com/ChrisTitusTech/dwm-titus/pull/176) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [fix(settings): detect shipped Alacritty theme import](https://github.com/ChrisTitusTech/dwm-titus/pull/175) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [chore: Update Sponsors README](https://github.com/ChrisTitusTech/winutil/pull/5032) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [feat(settings): add shared appearance pane](https://github.com/ChrisTitusTech/dwm-titus/pull/173) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [Retry transient livestream API failures](https://github.com/ChrisTitusTech/website/pull/292) on [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website)
+- [feat(settings): add desktop appearance controls](https://github.com/ChrisTitusTech/dwm-titus/pull/184) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [fix(settings): bound preview status retries](https://github.com/ChrisTitusTech/dwm-titus/pull/183) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [feat(settings): add personalization mutation backend](https://github.com/ChrisTitusTech/dwm-titus/pull/182) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [feat(settings): add managed font controls](https://github.com/ChrisTitusTech/dwm-titus/pull/181) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [fix(settings): keep wallpaper status observable](https://github.com/ChrisTitusTech/dwm-titus/pull/180) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 ### ⭐ Recent Stars
 
 - [christianmeurer/whoop-reader](https://github.com/christianmeurer/whoop-reader) - Open source BLE data reader for the Whoop 4.0 fitness band
