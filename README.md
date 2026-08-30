@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/agent-proxy](https://github.com/ChrisTitusTech/agent-proxy) - Linux API gateway for Claude Code, Codex, Google Antigravity, and Grok CLI tools
 ### 🔨 My recent Pull Requests
 
+- [feat(settings): persist panel widgets and compact Settings](https://github.com/ChrisTitusTech/dwm-titus/pull/186) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 - [feat(settings): add desktop appearance controls](https://github.com/ChrisTitusTech/dwm-titus/pull/184) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 - [fix(settings): bound preview status retries](https://github.com/ChrisTitusTech/dwm-titus/pull/183) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 - [feat(settings): add personalization mutation backend](https://github.com/ChrisTitusTech/dwm-titus/pull/182) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 - [feat(settings): add managed font controls](https://github.com/ChrisTitusTech/dwm-titus/pull/181) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [fix(settings): keep wallpaper status observable](https://github.com/ChrisTitusTech/dwm-titus/pull/180) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 ### ⭐ Recent Stars
 
 - [christianmeurer/whoop-reader](https://github.com/christianmeurer/whoop-reader) - Open source BLE data reader for the Whoop 4.0 fitness band
