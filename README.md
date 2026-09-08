@@ -14,31 +14,31 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 ### 👷 Check out what I'm currently working on
 
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My Linux Desktop - Fedora/X11 Desktop Environment
+- [ChrisTitusTech/gettysburg](https://github.com/ChrisTitusTech/gettysburg) - Web turn-based boardgame over battle of gettysburg
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My Astro Website that I use for Videos, Blogs, and Redirects
 - [ChrisTitusTech/plazmic-legends](https://github.com/ChrisTitusTech/plazmic-legends) - External Map/Player Window for EQ Legends Running in Linux
-- [ChrisTitusTech/plazmic-ui](https://github.com/ChrisTitusTech/plazmic-ui) - Public toolkit and browser Studio for building, editing, validating, and loading EverQuest Legends UI files.
+- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My Astro Website that I use for Videos, Blogs, and Redirects
 ### 🌱 My latest projects
 
+- [ChrisTitusTech/gettysburg](https://github.com/ChrisTitusTech/gettysburg) - Web turn-based boardgame over battle of gettysburg
 - [ChrisTitusTech/chrome-home](https://github.com/ChrisTitusTech/chrome-home) - Independent, self-hosted daily task board for Chromium new tabs
 - [ChrisTitusTech/plazmic-ui](https://github.com/ChrisTitusTech/plazmic-ui) - Public toolkit and browser Studio for building, editing, validating, and loading EverQuest Legends UI files.
 - [ChrisTitusTech/plazmic-legends](https://github.com/ChrisTitusTech/plazmic-legends) - External Map/Player Window for EQ Legends Running in Linux
 - [ChrisTitusTech/fedora-copilot](https://github.com/ChrisTitusTech/fedora-copilot) - Fedora installer for the GitHub Copilot app
-- [ChrisTitusTech/agent-proxy](https://github.com/ChrisTitusTech/agent-proxy) - Linux API gateway for Claude Code, Codex, Google Antigravity, and Grok CLI tools
 ### 🔨 My recent Pull Requests
 
-- [Settings: clarify display apply workflow](https://github.com/ChrisTitusTech/dwm-titus/pull/200) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [Stabilize Settings preview countdown validation](https://github.com/ChrisTitusTech/dwm-titus/pull/199) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [Settings: add display resolution dropdown](https://github.com/ChrisTitusTech/dwm-titus/pull/198) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [Prefer desktop ChatGPT for legacy web hotkeys](https://github.com/ChrisTitusTech/dwm-titus/pull/197) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [Fix floating windows falling behind tiled clients](https://github.com/ChrisTitusTech/dwm-titus/pull/196) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [feat(settings): expose confirmed regional controls](https://github.com/ChrisTitusTech/dwm-titus/pull/269) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [feat(system): coordinate regional preparation and confirmation](https://github.com/ChrisTitusTech/dwm-titus/pull/268) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [feat(settings): expose confirmed delegated administration controls](https://github.com/ChrisTitusTech/dwm-titus/pull/267) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [fix: recover room admissions with retained game data](https://github.com/ChrisTitusTech/gettysburg/pull/56) on [ChrisTitusTech/gettysburg](https://github.com/ChrisTitusTech/gettysburg)
+- [feat(system): guard delegated action confirmations](https://github.com/ChrisTitusTech/dwm-titus/pull/266) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 ### ⭐ Recent Stars
 
+- [Abs313a/dwmterm](https://github.com/Abs313a/dwmterm) - Ultra-minimal, sub-millisecond latency CPU-framebuffer Terminal
+- [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) - Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs
 - [christianmeurer/whoop-reader](https://github.com/christianmeurer/whoop-reader) - Open source BLE data reader for the Whoop 4.0 fitness band
 - [riftaway7-code/hackmate](https://github.com/riftaway7-code/hackmate) - automates the entire process of creating a bootable OpenCore hackintosh USB. No manual config.plist editing, no hunting down kexts, no macrecovery commands.
 - [github/app](https://github.com/github/app) - The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub repositories.
-- [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) - Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.6 Series, Grok 4.5, Claude model through API
-- [danny-avila/LibreChat](https://github.com/danny-avila/LibreChat) - Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
