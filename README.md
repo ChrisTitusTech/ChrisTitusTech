@@ -14,10 +14,10 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 ### 👷 Check out what I'm currently working on
 
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My Linux Desktop - Fedora/X11 Desktop Environment
+- [ChrisTitusTech/titus-ai](https://github.com/ChrisTitusTech/titus-ai) - Codex and AI skills
 - [ChrisTitusTech/gettysburg](https://github.com/ChrisTitusTech/gettysburg) - Web turn-based boardgame over battle of gettysburg
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [ChrisTitusTech/plazmic-legends](https://github.com/ChrisTitusTech/plazmic-legends) - External Map/Player Window for EQ Legends Running in Linux
-- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My Astro Website that I use for Videos, Blogs, and Redirects
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/gettysburg](https://github.com/ChrisTitusTech/gettysburg) - Web turn-based boardgame over battle of gettysburg
@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/fedora-copilot](https://github.com/ChrisTitusTech/fedora-copilot) - Fedora installer for the GitHub Copilot app
 ### 🔨 My recent Pull Requests
 
-- [feat(settings): expose confirmed regional controls](https://github.com/ChrisTitusTech/dwm-titus/pull/269) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [feat(system): coordinate regional preparation and confirmation](https://github.com/ChrisTitusTech/dwm-titus/pull/268) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [feat(settings): expose confirmed delegated administration controls](https://github.com/ChrisTitusTech/dwm-titus/pull/267) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [fix: recover room admissions with retained game data](https://github.com/ChrisTitusTech/gettysburg/pull/56) on [ChrisTitusTech/gettysburg](https://github.com/ChrisTitusTech/gettysburg)
-- [feat(system): guard delegated action confirmations](https://github.com/ChrisTitusTech/dwm-titus/pull/266) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [feat(settings): show system information and recovery guidance](https://github.com/ChrisTitusTech/dwm-titus/pull/287) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [feat(system): activate bounded information snapshot lifecycle](https://github.com/ChrisTitusTech/dwm-titus/pull/286) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [feat(system): assemble bounded information provider records](https://github.com/ChrisTitusTech/dwm-titus/pull/285) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [feat(system): add bounded mount change monitor](https://github.com/ChrisTitusTech/dwm-titus/pull/284) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [fix(install): avoid false runtime and package validation failures](https://github.com/ChrisTitusTech/dwm-titus/pull/283) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 ### ⭐ Recent Stars
 
 - [Abs313a/dwmterm](https://github.com/Abs313a/dwmterm) - Ultra-minimal, sub-millisecond latency CPU-framebuffer Terminal
