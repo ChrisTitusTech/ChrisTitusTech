@@ -14,31 +14,31 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 ### 👷 Check out what I'm currently working on
 
 - [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My Linux Desktop - Fedora/X11 Desktop Environment
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
+- [ChrisTitusTech/warframe-linux](https://github.com/ChrisTitusTech/warframe-linux) - Planning a Linux-first Warframe companion: inventory, market prices, relic rewards, and crafting without Overwolf.
 - [ChrisTitusTech/titus-ai](https://github.com/ChrisTitusTech/titus-ai) - Codex and AI skills
 - [ChrisTitusTech/gettysburg](https://github.com/ChrisTitusTech/gettysburg) - Web turn-based boardgame over battle of gettysburg
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [ChrisTitusTech/plazmic-legends](https://github.com/ChrisTitusTech/plazmic-legends) - External Map/Player Window for EQ Legends Running in Linux
 ### 🌱 My latest projects
 
+- [ChrisTitusTech/warframe-linux](https://github.com/ChrisTitusTech/warframe-linux) - Planning a Linux-first Warframe companion: inventory, market prices, relic rewards, and crafting without Overwolf.
 - [ChrisTitusTech/gettysburg](https://github.com/ChrisTitusTech/gettysburg) - Web turn-based boardgame over battle of gettysburg
 - [ChrisTitusTech/chrome-home](https://github.com/ChrisTitusTech/chrome-home) - Independent, self-hosted daily task board for Chromium new tabs
 - [ChrisTitusTech/plazmic-ui](https://github.com/ChrisTitusTech/plazmic-ui) - Public toolkit and browser Studio for building, editing, validating, and loading EverQuest Legends UI files.
 - [ChrisTitusTech/plazmic-legends](https://github.com/ChrisTitusTech/plazmic-legends) - External Map/Player Window for EQ Legends Running in Linux
-- [ChrisTitusTech/fedora-copilot](https://github.com/ChrisTitusTech/fedora-copilot) - Fedora installer for the GitHub Copilot app
 ### 🔨 My recent Pull Requests
 
-- [feat(settings): show system information and recovery guidance](https://github.com/ChrisTitusTech/dwm-titus/pull/287) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [feat(system): activate bounded information snapshot lifecycle](https://github.com/ChrisTitusTech/dwm-titus/pull/286) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [feat(system): assemble bounded information provider records](https://github.com/ChrisTitusTech/dwm-titus/pull/285) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [feat(system): add bounded mount change monitor](https://github.com/ChrisTitusTech/dwm-titus/pull/284) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [fix(install): avoid false runtime and package validation failures](https://github.com/ChrisTitusTech/dwm-titus/pull/283) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [F01b: Add pinned desktop build and validation CI](https://github.com/ChrisTitusTech/warframe-linux/pull/16) on [ChrisTitusTech/warframe-linux](https://github.com/ChrisTitusTech/warframe-linux)
+- [F01a: Add pinned Go/Wails mock desktop scaffold](https://github.com/ChrisTitusTech/warframe-linux/pull/14) on [ChrisTitusTech/warframe-linux](https://github.com/ChrisTitusTech/warframe-linux)
+- [Fix Settings persistence test race and record Phase 7 readiness](https://github.com/ChrisTitusTech/dwm-titus/pull/295) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [Reduce Settings startup work and tighten local review loops](https://github.com/ChrisTitusTech/dwm-titus/pull/294) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [chore: Update Sponsors README](https://github.com/ChrisTitusTech/winutil/pull/5076) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
+- [WFHelper/WFHelper](https://github.com/WFHelper/WFHelper) - Desktop Warframe companion: inventory, relic reward scanner, warframe.market prices, mastery, foundry and world state
+- [gjrud/warframe-helper](https://github.com/gjrud/warframe-helper) - Warframe terminal utility for inventory fetch, price checks, and relic reward OCR.
 - [Abs313a/dwmterm](https://github.com/Abs313a/dwmterm) - Ultra-minimal, sub-millisecond latency CPU-framebuffer Terminal
 - [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) - Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs
 - [christianmeurer/whoop-reader](https://github.com/christianmeurer/whoop-reader) - Open source BLE data reader for the Whoop 4.0 fitness band
-- [riftaway7-code/hackmate](https://github.com/riftaway7-code/hackmate) - automates the entire process of creating a bootable OpenCore hackintosh USB. No manual config.plist editing, no hunting down kexts, no macrecovery commands.
-- [github/app](https://github.com/github/app) - The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub repositories.
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
