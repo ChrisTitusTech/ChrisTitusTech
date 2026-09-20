@@ -13,11 +13,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
-- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My Linux Desktop - Fedora/X11 Desktop Environment
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
+- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My Linux Desktop - Fedora/X11 Desktop Environment
+- [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website) - My Astro Website that I use for Videos, Blogs, and Redirects
+- [ChrisTitusTech/nord-background](https://github.com/ChrisTitusTech/nord-background) - Collection of Nord Backgrounds
 - [ChrisTitusTech/warframe-linux](https://github.com/ChrisTitusTech/warframe-linux) - Planning a Linux-first Warframe companion: inventory, market prices, relic rewards, and crafting without Overwolf.
-- [ChrisTitusTech/titus-ai](https://github.com/ChrisTitusTech/titus-ai) - Codex and AI skills
-- [ChrisTitusTech/gettysburg](https://github.com/ChrisTitusTech/gettysburg) - Web turn-based boardgame over battle of gettysburg
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/warframe-linux](https://github.com/ChrisTitusTech/warframe-linux) - Planning a Linux-first Warframe companion: inventory, market prices, relic rewards, and crafting without Overwolf.
@@ -27,18 +27,18 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/plazmic-legends](https://github.com/ChrisTitusTech/plazmic-legends) - External Map/Player Window for EQ Legends Running in Linux
 ### 🔨 My recent Pull Requests
 
-- [F01b: Add pinned desktop build and validation CI](https://github.com/ChrisTitusTech/warframe-linux/pull/16) on [ChrisTitusTech/warframe-linux](https://github.com/ChrisTitusTech/warframe-linux)
-- [F01a: Add pinned Go/Wails mock desktop scaffold](https://github.com/ChrisTitusTech/warframe-linux/pull/14) on [ChrisTitusTech/warframe-linux](https://github.com/ChrisTitusTech/warframe-linux)
-- [Fix Settings persistence test race and record Phase 7 readiness](https://github.com/ChrisTitusTech/dwm-titus/pull/295) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [Reduce Settings startup work and tighten local review loops](https://github.com/ChrisTitusTech/dwm-titus/pull/294) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [chore: Update Sponsors README](https://github.com/ChrisTitusTech/winutil/pull/5076) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [Update remaining README and docs ISO links](https://github.com/ChrisTitusTech/dwm-titus/pull/339) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [Finalize 0.7.1 changelog](https://github.com/ChrisTitusTech/dwm-titus/pull/338) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [Use stable Cloudflare ISO download links](https://github.com/ChrisTitusTech/dwm-titus/pull/337) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [Default Fedora installers to a shared root and home filesystem](https://github.com/ChrisTitusTech/dwm-titus/pull/336) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [Stabilize Settings layout during initial loading](https://github.com/ChrisTitusTech/dwm-titus/pull/335) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 ### ⭐ Recent Stars
 
+- [ForrestKnight/omarchy-key-promoter](https://github.com/ForrestKnight/omarchy-key-promoter) - Key Promoter X for your Omarchy desktop: themed toasts that show the keybinding for what you just did the slow way
 - [WFHelper/WFHelper](https://github.com/WFHelper/WFHelper) - Desktop Warframe companion: inventory, relic reward scanner, warframe.market prices, mastery, foundry and world state
 - [gjrud/warframe-helper](https://github.com/gjrud/warframe-helper) - Warframe terminal utility for inventory fetch, price checks, and relic reward OCR.
 - [Abs313a/dwmterm](https://github.com/Abs313a/dwmterm) - Ultra-minimal, sub-millisecond latency CPU-framebuffer Terminal
 - [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) - Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs
-- [christianmeurer/whoop-reader](https://github.com/christianmeurer/whoop-reader) - Open source BLE data reader for the Whoop 4.0 fitness band
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
