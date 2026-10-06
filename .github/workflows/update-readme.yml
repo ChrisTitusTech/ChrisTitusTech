@@ -12,15 +12,14 @@ jobs:
     permissions:
       contents: write
     concurrency:
-      group: metrics-update
-      cancel-in-progress: true
+      group: profile-update-${{ github.ref }}
+      cancel-in-progress: false
     steps:
-      - name: Cache dependencies
-        uses: actions/cache@v4
+      - name: Checkout repository
+        uses: actions/checkout@v7.0.1
         with:
-          path: ~/.cache
-          key: ${{ runner.os }}-cache-${{ hashFiles('**/lockfiles') }}
-      - uses: lowlighter/metrics@latest
+          ref: ${{ github.ref_name }}
+      - uses: lowlighter/metrics@v3.34
         with:
           # Your GitHub token
           # The following scopes are required:
@@ -34,9 +33,12 @@ jobs:
           #  - read:packages (for some packages related data)
           #  - repo          (optional, if you want to include private repositories)
           token: ${{ secrets.GH_PAT }}
+          # Save through git below; the API save path can lose the existing file SHA.
+          output_action: none
 
           # Options
           user: ChrisTitusTech
+          repositories_batch: 25
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: America/Chicago
@@ -48,9 +50,21 @@ jobs:
           plugin_habits_from: 200
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+          # Traffic requires GH_PAT to have the repo scope.
           plugin_traffic: yes
           plugin_wakatime: yes
           plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors-graphs, os-graphs
           plugin_wakatime_languages_ignored: markdown, plaintext, text, xml, yaml, JSON
           plugin_wakatime_days: 365
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
+
+      - name: Copy rendered metrics
+        run: |
+          test -s /metrics_renders/github-metrics.svg
+          cp /metrics_renders/github-metrics.svg github-metrics.svg
+
+      - name: Commit metrics
+        uses: stefanzweifel/git-auto-commit-action@v7.2.0
+        with:
+          commit_message: 'Update github-metrics.svg - [Skip GitHub Action]'
+          file_pattern: github-metrics.svg

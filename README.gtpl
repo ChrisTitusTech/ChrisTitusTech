@@ -12,21 +12,13 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 <p align="left"><img src="https://raw.githubusercontent.com/ChrisTitusTech/ChrisTitusTech/main/github-metrics.svg" /></p>
 
 ### 👷 Check out what I'm currently working on
-{{ range recentContributions 5 }}
-- [{{ .Repo.Name }}]({{ .Repo.URL }}) - {{ .Repo.Description }}
-{{- end }}
+{{ /* RECENT_CONTRIBUTIONS */ }}
 ### 🌱 My latest projects
-{{ range recentRepos 5 }}
-- [{{ .Name }}]({{ .URL }}) - {{ .Description }}
-{{- end }}
+{{ /* RECENT_REPOS */ }}
 ### 🔨 My recent Pull Requests
-{{ range recentPullRequests 5 }}
-- [{{ .Title }}]({{ .URL }}) on [{{ .Repo.Name }}]({{ .Repo.URL }})
-{{- end }}
+{{ /* RECENT_PULL_REQUESTS */ }}
 ### ⭐ Recent Stars
-{{ range recentStars 5 }}
-- [{{ .Repo.Name }}]({{ .Repo.URL }}) - {{ .Repo.Description }}
-{{- end }}
+{{ /* RECENT_STARS */ }}
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
