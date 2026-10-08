@@ -27,18 +27,18 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/plazmic-legends](https://github.com/ChrisTitusTech/plazmic-legends) - External Map/Player Window for EQ Legends Running in Linux
 ### 🔨 My recent Pull Requests
 
-- [fix: keep WFHelper rewards above fullscreen games](https://github.com/ChrisTitusTech/dwm-titus/pull/369) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [fix: require GNOME Keyring PAM and repair missing dependencies](https://github.com/ChrisTitusTech/dwm-titus/pull/365) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [chore: Update Sponsors README](https://github.com/ChrisTitusTech/winutil/pull/5129) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [chore: Update generated dev docs and JSON links](https://github.com/ChrisTitusTech/winutil/pull/5125) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [chore: Update Sponsors README](https://github.com/ChrisTitusTech/winutil/pull/5116) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [Add manual Firecrawl updater and audit all 330 posts](https://github.com/ChrisTitusTech/website/pull/352) on [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website)
+- [Record whole-point movement rollout and acceptance evidence](https://github.com/ChrisTitusTech/gettysburg/pull/78) on [ChrisTitusTech/gettysburg](https://github.com/ChrisTitusTech/gettysburg)
+- [Replace half-point movement with versioned whole-point rules](https://github.com/ChrisTitusTech/gettysburg/pull/77) on [ChrisTitusTech/gettysburg](https://github.com/ChrisTitusTech/gettysburg)
+- [Close creation admission retry and queue review findings](https://github.com/ChrisTitusTech/gettysburg/pull/76) on [ChrisTitusTech/gettysburg](https://github.com/ChrisTitusTech/gettysburg)
+- [Replace fixed creation quotas with host capacity admission](https://github.com/ChrisTitusTech/gettysburg/pull/75) on [ChrisTitusTech/gettysburg](https://github.com/ChrisTitusTech/gettysburg)
 ### ⭐ Recent Stars
 
+- [storytold/photocraft](https://github.com/storytold/photocraft) - An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust
 - [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) - Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥
 - [pear-devs/pear-desktop](https://github.com/pear-devs/pear-desktop) - Pear 🍐 is extension for music player
 - [technicks89/Lyona](https://github.com/technicks89/Lyona) - An Arch based version of DWM-Titus
 - [ForrestKnight/omarchy-key-promoter](https://github.com/ForrestKnight/omarchy-key-promoter) - Key Promoter X for your Omarchy desktop: themed toasts that show the keybinding for what you just did the slow way
-- [WFHelper/WFHelper](https://github.com/WFHelper/WFHelper) - Desktop Warframe companion: inventory, relic reward scanner, warframe.market prices, mastery, foundry and world state
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
