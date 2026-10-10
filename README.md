@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/plazmic-legends](https://github.com/ChrisTitusTech/plazmic-legends) - External Map/Player Window for EQ Legends Running in Linux
 ### 🔨 My recent Pull Requests
 
+- [Add fullscreen and size-hint window rules](https://github.com/ChrisTitusTech/dwm-titus/pull/376) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 - [Simplify movement costs and realign shortest drag paths](https://github.com/ChrisTitusTech/gettysburg/pull/80) on [ChrisTitusTech/gettysburg](https://github.com/ChrisTitusTech/gettysburg)
 - [Consolidate game management into a compact top bar](https://github.com/ChrisTitusTech/gettysburg/pull/79) on [ChrisTitusTech/gettysburg](https://github.com/ChrisTitusTech/gettysburg)
 - [Refresh archive content and add practical Firecrawl guide](https://github.com/ChrisTitusTech/website/pull/352) on [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website)
 - [Record whole-point movement rollout and acceptance evidence](https://github.com/ChrisTitusTech/gettysburg/pull/78) on [ChrisTitusTech/gettysburg](https://github.com/ChrisTitusTech/gettysburg)
-- [Replace half-point movement with versioned whole-point rules](https://github.com/ChrisTitusTech/gettysburg/pull/77) on [ChrisTitusTech/gettysburg](https://github.com/ChrisTitusTech/gettysburg)
 ### ⭐ Recent Stars
 
 - [storytold/photocraft](https://github.com/storytold/photocraft) - An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust
