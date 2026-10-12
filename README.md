@@ -34,7 +34,7 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [Record whole-point movement rollout and acceptance evidence](https://github.com/ChrisTitusTech/gettysburg/pull/78) on [ChrisTitusTech/gettysburg](https://github.com/ChrisTitusTech/gettysburg)
 ### ⭐ Recent Stars
 
-- [storytold/photocraft](https://github.com/storytold/photocraft) - An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust
+- [storytold/photocraft](https://github.com/storytold/photocraft) - PhotoCraft: An open-source, photo editor written by scratch in pure Rust
 - [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) - Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥
 - [pear-devs/pear-desktop](https://github.com/pear-devs/pear-desktop) - Pear 🍐 is extension for music player
 - [technicks89/Lyona](https://github.com/technicks89/Lyona) - An Arch based version of DWM-Titus
