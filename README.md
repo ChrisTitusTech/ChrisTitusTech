@@ -34,11 +34,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [Record whole-point movement rollout and acceptance evidence](https://github.com/ChrisTitusTech/gettysburg/pull/78) on [ChrisTitusTech/gettysburg](https://github.com/ChrisTitusTech/gettysburg)
 ### ⭐ Recent Stars
 
+- [morluto/rea](https://github.com/morluto/rea) - Reverse engineer anything with agents, from app behavior down to native binaries.
+- [storytold/wordcraft](https://github.com/storytold/wordcraft) - An open-source, clean-room reimplementation of Microsoft Word in pure Rust
 - [storytold/photocraft](https://github.com/storytold/photocraft) - PhotoCraft: An open-source, photo editor written by scratch in pure Rust
 - [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) - Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥
 - [pear-devs/pear-desktop](https://github.com/pear-devs/pear-desktop) - Pear 🍐 is extension for music player
-- [technicks89/Lyona](https://github.com/technicks89/Lyona) - An Arch based version of DWM-Titus
-- [ForrestKnight/omarchy-key-promoter](https://github.com/ForrestKnight/omarchy-key-promoter) - Key Promoter X for your Omarchy desktop: themed toasts that show the keybinding for what you just did the slow way
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
