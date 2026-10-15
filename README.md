@@ -13,25 +13,25 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay) - 
 - [ChrisTitusTech/warframe-linux](https://github.com/ChrisTitusTech/warframe-linux) - Planning a Linux-first Warframe companion: inventory, market prices, relic rewards, and crafting without Overwolf.
 - [ChrisTitusTech/gettysburg](https://github.com/ChrisTitusTech/gettysburg) - Web turn-based boardgame over battle of gettysburg
 - [ChrisTitusTech/chrome-home](https://github.com/ChrisTitusTech/chrome-home) - Independent, self-hosted daily task board for Chromium new tabs
 - [ChrisTitusTech/plazmic-ui](https://github.com/ChrisTitusTech/plazmic-ui) - Public toolkit and browser Studio for building, editing, validating, and loading EverQuest Legends UI files.
-- [ChrisTitusTech/plazmic-legends](https://github.com/ChrisTitusTech/plazmic-legends) - External Map/Player Window for EQ Legends Running in Linux
 ### 🌱 My latest projects
 
+- [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay) - 
 - [ChrisTitusTech/warframe-linux](https://github.com/ChrisTitusTech/warframe-linux) - Planning a Linux-first Warframe companion: inventory, market prices, relic rewards, and crafting without Overwolf.
 - [ChrisTitusTech/gettysburg](https://github.com/ChrisTitusTech/gettysburg) - Web turn-based boardgame over battle of gettysburg
 - [ChrisTitusTech/chrome-home](https://github.com/ChrisTitusTech/chrome-home) - Independent, self-hosted daily task board for Chromium new tabs
 - [ChrisTitusTech/plazmic-ui](https://github.com/ChrisTitusTech/plazmic-ui) - Public toolkit and browser Studio for building, editing, validating, and loading EverQuest Legends UI files.
-- [ChrisTitusTech/plazmic-legends](https://github.com/ChrisTitusTech/plazmic-legends) - External Map/Player Window for EQ Legends Running in Linux
 ### 🔨 My recent Pull Requests
 
+- [Load installed instance maps automatically as areas change](https://github.com/ChrisTitusTech/dcuo-overlay/pull/4) on [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay)
+- [Harden companion recovery, map imports and local installation](https://github.com/ChrisTitusTech/dcuo-overlay/pull/3) on [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay)
+- [Add experimental live maps and managed companion application](https://github.com/ChrisTitusTech/dcuo-overlay/pull/2) on [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay)
+- [Add managed character verification application and read-only probes](https://github.com/ChrisTitusTech/dcuo-overlay/pull/1) on [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay)
 - [Add fullscreen and size-hint window rules](https://github.com/ChrisTitusTech/dwm-titus/pull/376) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [Simplify movement costs and realign shortest drag paths](https://github.com/ChrisTitusTech/gettysburg/pull/80) on [ChrisTitusTech/gettysburg](https://github.com/ChrisTitusTech/gettysburg)
-- [Consolidate game management into a compact top bar](https://github.com/ChrisTitusTech/gettysburg/pull/79) on [ChrisTitusTech/gettysburg](https://github.com/ChrisTitusTech/gettysburg)
-- [Refresh archive content and add practical Firecrawl guide](https://github.com/ChrisTitusTech/website/pull/352) on [ChrisTitusTech/website](https://github.com/ChrisTitusTech/website)
-- [Record whole-point movement rollout and acceptance evidence](https://github.com/ChrisTitusTech/gettysburg/pull/78) on [ChrisTitusTech/gettysburg](https://github.com/ChrisTitusTech/gettysburg)
 ### ⭐ Recent Stars
 
 - [morluto/rea](https://github.com/morluto/rea) - Reverse engineer anything with agents, from app behavior down to native binaries.
