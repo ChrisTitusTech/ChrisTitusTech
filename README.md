@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/plazmic-ui](https://github.com/ChrisTitusTech/plazmic-ui) - Public toolkit and browser Studio for building, editing, validating, and loading EverQuest Legends UI files.
 ### 🔨 My recent Pull Requests
 
-- [Load installed instance maps automatically as areas change](https://github.com/ChrisTitusTech/dcuo-overlay/pull/4) on [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay)
-- [Harden companion recovery, map imports and local installation](https://github.com/ChrisTitusTech/dcuo-overlay/pull/3) on [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay)
-- [Add experimental live maps and managed companion application](https://github.com/ChrisTitusTech/dcuo-overlay/pull/2) on [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay)
-- [Add managed character verification application and read-only probes](https://github.com/ChrisTitusTech/dcuo-overlay/pull/1) on [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay)
-- [Add fullscreen and size-hint window rules](https://github.com/ChrisTitusTech/dwm-titus/pull/376) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [Give the map most of the window and toggle technical details](https://github.com/ChrisTitusTech/dcuo-overlay/pull/10) on [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay)
+- [Keep spawn locations cached through scanning gaps](https://github.com/ChrisTitusTech/dcuo-overlay/pull/9) on [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay)
+- [Show detected exobyte spawns on the map](https://github.com/ChrisTitusTech/dcuo-overlay/pull/8) on [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay)
+- [Add toggle for exposed ground spawn markers](https://github.com/ChrisTitusTech/dcuo-overlay/pull/7) on [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay)
+- [Show the nearby blue collectible as a live map marker](https://github.com/ChrisTitusTech/dcuo-overlay/pull/6) on [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay)
 ### ⭐ Recent Stars
 
 - [morluto/rea](https://github.com/morluto/rea) - Reverse engineer anything with agents, from app behavior down to native binaries.

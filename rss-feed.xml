@@ -23589,10 +23589,12 @@ included because the configuration they referenced no longer exists.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;This article helps you fix the Libfaudio0 error that you run into when installing Wine on an older Linux debian-based distribution like Linux Mint 19 or Ubuntu 18.&lt;/p&gt;
 
+&lt;h2&gt;Download the dependency packages&lt;/h2&gt;
 &lt;p&gt;Fix the dependancy error by downloading the following packages&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;wget https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/xUbuntu_18.04/amd64/libfaudio0_19.07-0~bionic_amd64.deb
 wget https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/xUbuntu_18.04/i386/libfaudio0_19.07-0~bionic_i386.deb
 &lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Install the packages&lt;/h2&gt;
 &lt;p&gt;Once these are downloaded you need to installed them with&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;sudo dpkg -i libfaudio0_19.07-0~bionic_amd64.deb libfaudio0_19.07-0~bionic_i386.deb
 &lt;/code&gt;&lt;/pre&gt;
@@ -23602,10 +23604,12 @@ wget https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/xUbuntu_
 &lt;/blockquote&gt;
 &lt;p&gt;This article helps you fix the Libfaudio0 error that you run into when installing Wine on an older Linux debian-based distribution like Linux Mint 19 or Ubuntu 18.&lt;/p&gt;
 
+&lt;h2&gt;Download the dependency packages&lt;/h2&gt;
 &lt;p&gt;Fix the dependancy error by downloading the following packages&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;wget https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/xUbuntu_18.04/amd64/libfaudio0_19.07-0~bionic_amd64.deb
 wget https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/xUbuntu_18.04/i386/libfaudio0_19.07-0~bionic_i386.deb
 &lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Install the packages&lt;/h2&gt;
 &lt;p&gt;Once these are downloaded you need to installed them with&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;sudo dpkg -i libfaudio0_19.07-0~bionic_amd64.deb libfaudio0_19.07-0~bionic_i386.deb
 &lt;/code&gt;&lt;/pre&gt;
@@ -25295,6 +25299,7 @@ sudo systemctl start fail2ban
 &lt;p&gt;You will now have completed the basics of a secure web server!&lt;/p&gt;
 &lt;h2&gt;Video Walkthrough&lt;/h2&gt;
 &lt;div class=&quot;media-embed&quot;&gt;&lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/7pJKBL9x6bY&quot; title=&quot;YouTube video player&quot; loading=&quot;lazy&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;</content:encoded></item><item><title>How to Learn Linux</title><link>https://christitus.com/learn-linux/</link><guid isPermaLink="true">https://christitus.com/learn-linux/</guid><description>&lt;p&gt;This article gives you the resources on how to learn Linux. If I am missing a resource, be sure and comment so I can add it.&lt;/p&gt;
+&lt;h2&gt;Documentation and community help&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -25329,6 +25334,7 @@ sudo systemctl start fail2ban
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;h2&gt;Tutorials and websites&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -25351,8 +25357,9 @@ sudo systemctl start fail2ban
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Video Overview of Learning Resources&lt;/p&gt;
+&lt;h2&gt;Video Overview of Learning Resources&lt;/h2&gt;
 &lt;div class=&quot;media-embed&quot;&gt;&lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/a2qblT7o4mE&quot; title=&quot;YouTube video player&quot; loading=&quot;lazy&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;</description><pubDate>Thu, 10 Oct 2019 01:42:05 GMT</pubDate><content:encoded>&lt;p&gt;This article gives you the resources on how to learn Linux. If I am missing a resource, be sure and comment so I can add it.&lt;/p&gt;
+&lt;h2&gt;Documentation and community help&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -25387,6 +25394,7 @@ sudo systemctl start fail2ban
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;h2&gt;Tutorials and websites&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -25409,7 +25417,7 @@ sudo systemctl start fail2ban
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Video Overview of Learning Resources&lt;/p&gt;
+&lt;h2&gt;Video Overview of Learning Resources&lt;/h2&gt;
 &lt;div class=&quot;media-embed&quot;&gt;&lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/a2qblT7o4mE&quot; title=&quot;YouTube video player&quot; loading=&quot;lazy&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;</content:encoded></item><item><title>Custom Kernel in Linux</title><link>https://christitus.com/custom-kernel/</link><guid isPermaLink="true">https://christitus.com/custom-kernel/</guid><description>&lt;p&gt;This Guide walks your through how to install a custom kernel on Linux. I will go over performing this in a Debian-based system and an Arch-based system. Please note that the arch based system requires you to build the kernel yourself and will take much longer. &lt;/p&gt;
 &lt;p&gt;Custom kernels in Linux are based on the Zen project and have some workstation/desktop optimizations. They are &lt;strong&gt;NOT&lt;/strong&gt; meant for server installations. These are meant for those using Linux Desktop and utilizing it for Gaming, Production, etc. and overall I don’t recommend using these. However, if you like to tinker and squeeze every bit of performance out of your kernel than you can proceed.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/images/2019/09/debian.svg&quot; alt=&quot;debian&quot; /&gt;&lt;/p&gt;
@@ -25739,21 +25747,25 @@ Remote PC Syntax: &lt;code&gt;username@serverip:/path/to/file&lt;/code&gt;&lt;/p
 &lt;a href=&quot;https://winscp.net/eng/index.php&quot;&gt;https://winscp.net/eng/index.php&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;pscp.exe for command line. &lt;a href=&quot;https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html&quot;&gt;https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html&lt;/a&gt;&lt;/p&gt;
 </content:encoded></item><item><title>Update to the Latest Version of GIMP</title><link>https://christitus.com/latest-version-of-gimp/</link><guid isPermaLink="true">https://christitus.com/latest-version-of-gimp/</guid><description>&lt;p&gt;Here are instructions on how to Update to the latest version of GIMP. This is vital to make sure you get the newest and best features for GIMP. The old versions of gimp that come bundled with Ubuntu 18 and prior aren’t nearly as good as Gimp 2.10+. &lt;/p&gt;
+&lt;h2&gt;Install and update GIMP&lt;/h2&gt;
 &lt;p&gt;Start by launching terminal and adding the GIMP repository&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;sudo add-apt-repository ppa:otto-kesselgulasch/gimp&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Verify the apt updates and if it doesn’t run the following command&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;sudo apt-get update&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Now simply install GIMP and it will automatically update to the latest version of GIMP from now on&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;sudo apt-get install gimp&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;Video walkthrough&lt;/h2&gt;
 &lt;p&gt;Here is a video walkthrough of install special GIMP scripts as well if you want to unlock the complete capabilities of GIMP.&lt;br /&gt;
 &lt;em&gt;Video update 2026-10-07: The original video is unavailable on YouTube. The written article is retained as a reference.&lt;/em&gt;&lt;/p&gt;
 </description><pubDate>Mon, 16 Sep 2019 00:55:12 GMT</pubDate><content:encoded>&lt;p&gt;Here are instructions on how to Update to the latest version of GIMP. This is vital to make sure you get the newest and best features for GIMP. The old versions of gimp that come bundled with Ubuntu 18 and prior aren’t nearly as good as Gimp 2.10+. &lt;/p&gt;
+&lt;h2&gt;Install and update GIMP&lt;/h2&gt;
 &lt;p&gt;Start by launching terminal and adding the GIMP repository&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;sudo add-apt-repository ppa:otto-kesselgulasch/gimp&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Verify the apt updates and if it doesn’t run the following command&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;sudo apt-get update&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Now simply install GIMP and it will automatically update to the latest version of GIMP from now on&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;sudo apt-get install gimp&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;Video walkthrough&lt;/h2&gt;
 &lt;p&gt;Here is a video walkthrough of install special GIMP scripts as well if you want to unlock the complete capabilities of GIMP.&lt;br /&gt;
 &lt;em&gt;Video update 2026-10-07: The original video is unavailable on YouTube. The written article is retained as a reference.&lt;/em&gt;&lt;/p&gt;
 </content:encoded></item><item><title>Grub Rescue | Repairing your Bootloader</title><link>https://christitus.com/grub-rescue/</link><guid isPermaLink="true">https://christitus.com/grub-rescue/</guid><description>&lt;p&gt;Lets go over Grub Rescue and repairing your bootloader. This is a very misunderstood topic and by learn basic syntax you will be able to repair your GRUB very easily. Here are 4 methods of doing a GRUB Rescue. &lt;/p&gt;
@@ -28231,7 +28243,9 @@ reboot
 Debug as necessary: tail -f /var/log/syslog|grep ovpn`&lt;/p&gt;
 &lt;p&gt;In closing, make sure you always use a VPN when you are concerned about your privacy. I’ve also set these up on Linux boxes between offices and it makes for a great inexpensive site-to-site VPN. Therefore, you don’t have to spend tons of money on proprietary gateways that go out of date in a couple years.&lt;/p&gt;
 </content:encoded></item><item><title>XCP-ng / XenServer – Your First Virtual Machine Installation</title><link>https://christitus.com/xenserver-xcp-ng-first-vm-install/</link><guid isPermaLink="true">https://christitus.com/xenserver-xcp-ng-first-vm-install/</guid><description>&lt;p&gt;This video goes through setting up a Virtual Machine in XenServer / XCP-ng in a lab environment. If you want to experiment with in detail with XenServer, I highly recommend you download XCP-ng from their &lt;a href=&quot;https://xcp-ng.org&quot;&gt;official website&lt;/a&gt;. This is a community-powered version of XenServer with ALL FEATURES ENABLED. XenServer from Citrix has recently started going away from its open-source roots and as a result, has begun locking features behind a paywall.&lt;/p&gt;
+&lt;h2&gt;First virtual machine walkthrough&lt;/h2&gt;
 &lt;div class=&quot;media-embed&quot;&gt;&lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/n-0CWPhxgP0&quot; title=&quot;YouTube video player&quot; loading=&quot;lazy&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;</description><pubDate>Sun, 09 Sep 2018 18:54:21 GMT</pubDate><content:encoded>&lt;p&gt;This video goes through setting up a Virtual Machine in XenServer / XCP-ng in a lab environment. If you want to experiment with in detail with XenServer, I highly recommend you download XCP-ng from their &lt;a href=&quot;https://xcp-ng.org&quot;&gt;official website&lt;/a&gt;. This is a community-powered version of XenServer with ALL FEATURES ENABLED. XenServer from Citrix has recently started going away from its open-source roots and as a result, has begun locking features behind a paywall.&lt;/p&gt;
+&lt;h2&gt;First virtual machine walkthrough&lt;/h2&gt;
 &lt;div class=&quot;media-embed&quot;&gt;&lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/n-0CWPhxgP0&quot; title=&quot;YouTube video player&quot; loading=&quot;lazy&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;</content:encoded></item><item><title>Debloat Windows 10</title><link>https://christitus.com/debloat-windows-10/</link><guid isPermaLink="true">https://christitus.com/debloat-windows-10/</guid><description>&lt;p&gt;Trying to Debloat Windows 10 is getting ridiculous and as a system admin it is soul crushing to see all that performance go to waste on the botched attempt by Microsoft to do an Appstore and its apps (I’m looking at you Candy Crush). Luckily some admins have worked tirelessly to give us a solution that works considerably well. Lets Start! &lt;/p&gt;
 &lt;h2&gt;October 2020 Update&lt;/h2&gt;
 &lt;p&gt;If you are coming here from the YouTube video I have taken all the scripts below and a system admin script I used a lot in the past to make a streamlined debloat script. This script will optimize Windows and can be run multiple times if you have an update ruin all the optimizations. I have also made it very easy to launch. Here is the source files: &lt;a href=&quot;https://github.com/ChrisTitusTech/win10script&quot;&gt;https://github.com/ChrisTitusTech/win10script&lt;/a&gt;&lt;/p&gt;
@@ -28299,9 +28313,11 @@ Debug as necessary: tail -f /var/log/syslog|grep ovpn`&lt;/p&gt;
 &lt;p&gt;[&lt;img src=&quot;/images/2018/09/debloatwin10cmd.webp&quot; alt=&quot;debloatwin10cmd&quot; /&gt;&lt;/p&gt;
 &lt;h2&gt;Video Walkthrough&lt;/h2&gt;
 &lt;div class=&quot;media-embed&quot;&gt;&lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/q4ziE5Am0pM&quot; title=&quot;YouTube video player&quot; loading=&quot;lazy&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;</content:encoded></item><item><title>Virtualization Introduction</title><link>https://christitus.com/virtualization-introduction/</link><guid isPermaLink="true">https://christitus.com/virtualization-introduction/</guid><description>&lt;p&gt;This is a virtualization introduction and when you should be using it. In the follow-up videos, I will go into using the hypervisor, creating VMs and maintenance.&lt;/p&gt;
+&lt;h2&gt;Video walkthrough&lt;/h2&gt;
 &lt;div class=&quot;media-embed&quot;&gt;&lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/T0nywDkf1IE&quot; title=&quot;YouTube video player&quot; loading=&quot;lazy&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;  
 &lt;p&gt;Now that you understand what it is and if you want to start getting your feet wet, check out my other videos about installing a hypervisor and launching your first virtual machine. I highly recommend starting out with VMware as it used the most. It also has the most material online if looking for virtualization introduction videos and how to guides.&lt;/p&gt;
 </description><pubDate>Fri, 07 Sep 2018 21:33:35 GMT</pubDate><content:encoded>&lt;p&gt;This is a virtualization introduction and when you should be using it. In the follow-up videos, I will go into using the hypervisor, creating VMs and maintenance.&lt;/p&gt;
+&lt;h2&gt;Video walkthrough&lt;/h2&gt;
 &lt;div class=&quot;media-embed&quot;&gt;&lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/T0nywDkf1IE&quot; title=&quot;YouTube video player&quot; loading=&quot;lazy&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;  
 &lt;p&gt;Now that you understand what it is and if you want to start getting your feet wet, check out my other videos about installing a hypervisor and launching your first virtual machine. I highly recommend starting out with VMware as it used the most. It also has the most material online if looking for virtualization introduction videos and how to guides.&lt;/p&gt;
 </content:encoded></item><item><title>Remove Asterisk from Linux server (ubuntu/centos/debian/rhel)</title><link>https://christitus.com/remove-asterisk/</link><guid isPermaLink="true">https://christitus.com/remove-asterisk/</guid><description>&lt;blockquote&gt;
@@ -28909,13 +28925,17 @@ esac`
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;You will need to modify this as the nvidia-smi tool will be updated in the future and the grep command will have to be reconfigured if due to any output changes.&lt;/p&gt;
 </content:encoded></item><item><title>Troubleshooting Nagios 4 Core Installation</title><link>https://christitus.com/troubleshooting-nagios/</link><guid isPermaLink="true">https://christitus.com/troubleshooting-nagios/</guid><description>&lt;p&gt;Use the following command to verify you have all your config and command files correct when troubleshooting Nagios core installation. This will give you a readout of any configuration errors, thus giving you the ability to fix it on the fly.&lt;/p&gt;
+&lt;h2&gt;Verify the Nagios configuration&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;/usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;Add a testnag alias&lt;/h2&gt;
 &lt;p&gt;I’d recommend making an alias in your .bashrc so you can just type:&lt;code&gt;testnag&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Here is an example of the alias I use&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;alias testnag=&apos;/usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg&apos;&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;By using these tips it will cut down on your install and configuration times considerably. You can also make changes and test them before restarting the service, therefore avoiding any potential downtime in your monitoring.&lt;/p&gt;
 </description><pubDate>Wed, 21 Jun 2017 17:13:44 GMT</pubDate><content:encoded>&lt;p&gt;Use the following command to verify you have all your config and command files correct when troubleshooting Nagios core installation. This will give you a readout of any configuration errors, thus giving you the ability to fix it on the fly.&lt;/p&gt;
+&lt;h2&gt;Verify the Nagios configuration&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;/usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;Add a testnag alias&lt;/h2&gt;
 &lt;p&gt;I’d recommend making an alias in your .bashrc so you can just type:&lt;code&gt;testnag&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Here is an example of the alias I use&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;alias testnag=&apos;/usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg&apos;&lt;/code&gt;&lt;/p&gt;
@@ -28944,6 +28964,7 @@ net start spooler
 &lt;p&gt;Now check task manager again and verify the Spooler subsystem app is now at 0% usage. Alternatively, you can disable the spooler service in services (Start -&amp;gt; Run -&amp;gt; Type: services.msc) and this will make sure it doesn’t run, however, it also means you can’t print.&lt;/p&gt;
 </content:encoded></item><item><title>Launching a startup program to run as administrator</title><link>https://christitus.com/run-as-administrator/</link><guid isPermaLink="true">https://christitus.com/run-as-administrator/</guid><description>&lt;p&gt;The following script shows you how to launch a startup program to run as administrator in Windows 10. This fixes many programs that require elevation and you don’t want to launch manually every time.&lt;/p&gt;
 &lt;p&gt;Almost every online tutorial I came across said to run it as a scheduled task. This is very cumbersome and I hate it, however using the following method is easier and saves you time.&lt;/p&gt;
+&lt;h2&gt;Create the startup script&lt;/h2&gt;
 &lt;p&gt;Create a Text file in shell:startup and put the following in it.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;Set WshShell = CreateObject(&quot;WScript.Shell&quot; ) 
 WshShell.Run chr(34) &amp;amp; &quot;C:\Program Files (x86)\File\Program.exe&quot; &amp;amp; Chr(34), 0 
@@ -28953,6 +28974,7 @@ Set WshShell = Nothing
 &lt;p&gt;You are done! Reboot and see that program launch.&lt;/p&gt;
 </description><pubDate>Mon, 27 Mar 2017 02:26:36 GMT</pubDate><content:encoded>&lt;p&gt;The following script shows you how to launch a startup program to run as administrator in Windows 10. This fixes many programs that require elevation and you don’t want to launch manually every time.&lt;/p&gt;
 &lt;p&gt;Almost every online tutorial I came across said to run it as a scheduled task. This is very cumbersome and I hate it, however using the following method is easier and saves you time.&lt;/p&gt;
+&lt;h2&gt;Create the startup script&lt;/h2&gt;
 &lt;p&gt;Create a Text file in shell:startup and put the following in it.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;Set WshShell = CreateObject(&quot;WScript.Shell&quot; ) 
 WshShell.Run chr(34) &amp;amp; &quot;C:\Program Files (x86)\File\Program.exe&quot; &amp;amp; Chr(34), 0 
@@ -29077,11 +29099,13 @@ Import-PSSession $Session
 &lt;h3&gt;Conclusion&lt;/h3&gt;
 &lt;p&gt;Afterward, Verify in Exchange Admin Console. You always want to prevent your shared mailboxes from getting spammed in a distribution group. Consequently, I’d highly recommend setting a requirement to send to-these dynamic mailboxes. This will prevent every employee from sending emails to everyone, which will be a bad thing.&lt;/p&gt;
 </content:encoded></item><item><title>Force active directory sync to Office 365 with Azure ADSync</title><link>https://christitus.com/force-active-directory-sync/</link><guid isPermaLink="true">https://christitus.com/force-active-directory-sync/</guid><description>&lt;p&gt;Use the following from an Elevated Powershell Prompt to force active directory sync to your O365 admin portal. You will be performing this on the server where Azure AD Sync is installed, however, when running this command you will need to wait 5 minutes before checking your portal to verify it is working. In larger environments, this can take a longer time.&lt;/p&gt;
+&lt;h2&gt;Run a delta sync&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;Import-Module “C:\Program Files\Microsoft Azure AD Sync\Bin\ADSync\ADSync.psd1”
 Start-ADSyncSyncCycle -PolicyType Delta
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;This is great for forcing a sync of time-sensitive distribution list updates or user updates. If you find yourself doing this frequently make a PowerShell script for ease of access.&lt;/p&gt;
 </description><pubDate>Fri, 07 Oct 2016 14:01:26 GMT</pubDate><content:encoded>&lt;p&gt;Use the following from an Elevated Powershell Prompt to force active directory sync to your O365 admin portal. You will be performing this on the server where Azure AD Sync is installed, however, when running this command you will need to wait 5 minutes before checking your portal to verify it is working. In larger environments, this can take a longer time.&lt;/p&gt;
+&lt;h2&gt;Run a delta sync&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;Import-Module “C:\Program Files\Microsoft Azure AD Sync\Bin\ADSync\ADSync.psd1”
 Start-ADSyncSyncCycle -PolicyType Delta
 &lt;/code&gt;&lt;/pre&gt;
@@ -29110,17 +29134,17 @@ Start-ADSyncSyncCycle -PolicyType Delta
 &lt;p&gt;&lt;a href=&quot;https://www.iis.net/downloads/microsoft/url-rewrite&quot;&gt;IIS URL Rewrite Module&lt;/a&gt;&lt;/p&gt;
 </content:encoded></item><item><title>Cleanup Server WinSxS Free Space on Server 2008 and Server 2012</title><link>https://christitus.com/winsxs-free-space-server/</link><guid isPermaLink="true">https://christitus.com/winsxs-free-space-server/</guid><description>&lt;p&gt;Run the following commands if you are running low on C: drive space. Generally, this is caused by windows updates and you need to clear WinSxS free space. Do this in your PowerShell prompt and you will free up a substantial amount of space.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Please Note: You have to run updates on Windows Server 2008 if you are far behind and these commands don’t exist!&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;MASTER CLEANUP: (Run this First)&lt;/p&gt;
+&lt;h2&gt;MASTER CLEANUP: (Run this First)&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;Dism.exe /online /Cleanup-Image /SPSuperseded&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;FOLLOWUP:&lt;/p&gt;
+&lt;h2&gt;FOLLOWUP:&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;Windows 2008 Use: Dism.exe /online /Cleanup-Image /StartComponentCleanup
 Windows 2012 Use: Dism.exe /online /Cleanup-Image /StartComponentCleanup /ResetBase
 &lt;/code&gt;&lt;/pre&gt;
 </description><pubDate>Wed, 03 Aug 2016 23:19:49 GMT</pubDate><content:encoded>&lt;p&gt;Run the following commands if you are running low on C: drive space. Generally, this is caused by windows updates and you need to clear WinSxS free space. Do this in your PowerShell prompt and you will free up a substantial amount of space.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Please Note: You have to run updates on Windows Server 2008 if you are far behind and these commands don’t exist!&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;MASTER CLEANUP: (Run this First)&lt;/p&gt;
+&lt;h2&gt;MASTER CLEANUP: (Run this First)&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;Dism.exe /online /Cleanup-Image /SPSuperseded&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;FOLLOWUP:&lt;/p&gt;
+&lt;h2&gt;FOLLOWUP:&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;Windows 2008 Use: Dism.exe /online /Cleanup-Image /StartComponentCleanup
 Windows 2012 Use: Dism.exe /online /Cleanup-Image /StartComponentCleanup /ResetBase
 &lt;/code&gt;&lt;/pre&gt;
@@ -29243,12 +29267,16 @@ name-description ( RO): Default install of XenServer
 &lt;p&gt;In the end, you now have reattach LVM to the XenServer host and be visible in XenCenter.&lt;/p&gt;
 &lt;p&gt;Source: Original Article from Citrix &lt;a href=&quot;http://support.citrix.com/article/CTX121896&quot;&gt;http://support.citrix.com/article/CTX121896&lt;/a&gt;&lt;/p&gt;
 </content:encoded></item><item><title>XenServer tapdisk experienced an error</title><link>https://christitus.com/xenserver-tapdisk-error/</link><guid isPermaLink="true">https://christitus.com/xenserver-tapdisk-error/</guid><description>&lt;p&gt;When re-attaching a SR on a fresh VM, I ran into this XenServer tapdisk error. I ran the following from XenServer console to eject all CD drives on that host. I was then able to start the VM with the old image.&lt;/p&gt;
+&lt;h2&gt;Eject attached CDs&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;xe vm-cd-eject --multiple&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;Restart the toolstack&lt;/h2&gt;
 &lt;p&gt;If your XenCenter hangs or becomes unresponsive, you can also reset the toolstack from console from a PuTTy session or if XenCenter console is working running the following command:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;xe-toolstack-restart&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;It’s important to note what caused the XenServer tapdisk error. I experienced this on an old version of XenServer 6 when switching out the ISOs from the VMs.&lt;/p&gt;
 </description><pubDate>Wed, 03 Aug 2016 16:12:57 GMT</pubDate><content:encoded>&lt;p&gt;When re-attaching a SR on a fresh VM, I ran into this XenServer tapdisk error. I ran the following from XenServer console to eject all CD drives on that host. I was then able to start the VM with the old image.&lt;/p&gt;
+&lt;h2&gt;Eject attached CDs&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;xe vm-cd-eject --multiple&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;Restart the toolstack&lt;/h2&gt;
 &lt;p&gt;If your XenCenter hangs or becomes unresponsive, you can also reset the toolstack from console from a PuTTy session or if XenCenter console is working running the following command:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;xe-toolstack-restart&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;It’s important to note what caused the XenServer tapdisk error. I experienced this on an old version of XenServer 6 when switching out the ISOs from the VMs.&lt;/p&gt;
@@ -29399,7 +29427,7 @@ Notex.0 in the above registry path corresponds to the Outlook version (16.0 = Ou
 &lt;p&gt;&lt;code&gt;Get-PublicFolder –Identity &quot;\Root Folder Name&quot; -Recurse | Add-PublicFolderAdministrativePermission -User &quot;ctitus&quot; -AccessRights AllExtendedRights&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;This will recurse the root folder and grant all rights to the user you specify.&lt;/p&gt;
 </content:encoded></item><item><title>Encore Bandit II/III Connection Instructions</title><link>https://christitus.com/encore-bandit-connection/</link><guid isPermaLink="true">https://christitus.com/encore-bandit-connection/</guid><description>&lt;p&gt;These steps will show you how to connect to the encore bandit devices. I recently configured both a bandit II and a bandit III device for using a VPN over satellite. The devices are configured through a 9-pin serial port they call the “Supervisory Port”. I use a basic serial to USB adapter and putty to connect. All the white papers for this device are good, but the setup and login are not as clear as you would think, that said, below are the following steps I used to connect. Refer to Encore&apos;s &lt;a href=&quot;https://www.encorenetworks.com/wp-content/uploads/2021/04/cfg-main-1.pdf&quot;&gt;BANDIT II/III Expanded Configuration Guide&lt;/a&gt; for the complete device documentation.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Steps for connection&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Steps for connection&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Hook Serial Adapter to your PC &lt;em&gt;Please Note the COM port&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;Run Putty and select Serial for Connection&lt;/li&gt;
@@ -29407,7 +29435,7 @@ Notex.0 in the above registry path corresponds to the Outlook version (16.0 = Ou
 &lt;li&gt;Configure Device according to Quick Setup&lt;/li&gt;
 &lt;/ul&gt;
 </description><pubDate>Thu, 17 Mar 2016 14:52:31 GMT</pubDate><content:encoded>&lt;p&gt;These steps will show you how to connect to the encore bandit devices. I recently configured both a bandit II and a bandit III device for using a VPN over satellite. The devices are configured through a 9-pin serial port they call the “Supervisory Port”. I use a basic serial to USB adapter and putty to connect. All the white papers for this device are good, but the setup and login are not as clear as you would think, that said, below are the following steps I used to connect. Refer to Encore&apos;s &lt;a href=&quot;https://www.encorenetworks.com/wp-content/uploads/2021/04/cfg-main-1.pdf&quot;&gt;BANDIT II/III Expanded Configuration Guide&lt;/a&gt; for the complete device documentation.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Steps for connection&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Steps for connection&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Hook Serial Adapter to your PC &lt;em&gt;Please Note the COM port&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;Run Putty and select Serial for Connection&lt;/li&gt;
@@ -29465,6 +29493,7 @@ Notex.0 in the above registry path corresponds to the Outlook version (16.0 = Ou
 </content:encoded></item><item><title>SFC scannow error and Windows 10 corruption</title><link>https://christitus.com/sfc-scannow-error/</link><guid isPermaLink="true">https://christitus.com/sfc-scannow-error/</guid><description>&lt;p&gt;If you run into SFC scannow error which cannot be repaired chances are you have some corrupt system components. The fastest way to fix this is by following these steps to repair your system.&lt;/p&gt;
 &lt;p&gt;Here is an example of the error you are seeing:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/images/2015/07/SFC-scannow-error.webp&quot; alt=&quot;SFC Scannow Error&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;Repair Windows system files&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Download Windows 10 ISO from &lt;a href=&quot;https://www.microsoft.com/en-us/software-download/windows10&quot;&gt;https://www.microsoft.com/en-us/software-download/windows10&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Mount the ISO file by double-clicking on it.&lt;/li&gt;
@@ -29491,6 +29520,7 @@ Notex.0 in the above registry path corresponds to the Outlook version (16.0 = Ou
 </description><pubDate>Sun, 26 Jul 2015 02:39:10 GMT</pubDate><content:encoded>&lt;p&gt;If you run into SFC scannow error which cannot be repaired chances are you have some corrupt system components. The fastest way to fix this is by following these steps to repair your system.&lt;/p&gt;
 &lt;p&gt;Here is an example of the error you are seeing:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/images/2015/07/SFC-scannow-error.webp&quot; alt=&quot;SFC Scannow Error&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;Repair Windows system files&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Download Windows 10 ISO from &lt;a href=&quot;https://www.microsoft.com/en-us/software-download/windows10&quot;&gt;https://www.microsoft.com/en-us/software-download/windows10&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Mount the ISO file by double-clicking on it.&lt;/li&gt;
@@ -29516,18 +29546,18 @@ Notex.0 in the above registry path corresponds to the Outlook version (16.0 = Ou
 &lt;p&gt;Once this is complete, you will see you now have a functional windows environment again. One other tip that I would suggest is to re-run windows updates because your windows components were damaged and the updates have not been happening.&lt;/p&gt;
 </content:encoded></item><item><title>iDrac Dell Server (Off-Band Remote Access)</title><link>https://christitus.com/idrac-dell-server/</link><guid isPermaLink="true">https://christitus.com/idrac-dell-server/</guid><description>&lt;p&gt;I recently had a server freeze up when I wasn’t on-site and needed to power cycle it. I had configured iDrac before but it was not responsive. Here are some useful commands that can configure, reboot, and reset the iDrac function on Dell Servers. The commands below are run from a command prompt on the server (unless otherwise stated) in the (C:\Program Files\Dell\SysMgt\idrac) path.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/images/2015/03/idrac.webp&quot; alt=&quot;iDrac&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Remote Commands (Workstation or another server)&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Remote Commands (Workstation or another server)&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;racadm -r -u -p&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Example: &lt;code&gt;racadm -r 10.1.1.1 -u root -p calvin getsysinfo&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;DEFAULT USER: root&lt;/p&gt;
 &lt;p&gt;DEFAULT PASS: calvin&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;iDrac Information&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;iDrac Information&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;racadm getsysinfo&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Reset and Factory Defaults&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Reset and Factory Defaults&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;racadm racreset&lt;/code&gt; (soft Reset)&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;racadm racresetcfg&lt;/code&gt; (Hard Reset – Resets IP/Account settings back to factory default)&lt;/p&gt;
 &lt;p&gt;NOTE: Resets Default IP &amp;gt; 192.168.0.120&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Network Setup&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Network Setup&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;racadm config -g cfgLanNetworking -o cfgNicEnable 1
 racadm config -g cfgLanNetworking -o cfgNicIpAddress 192.168.0.120
 racadm config -g cfgLanNetworking -o cfgNicNetmask 255.255.255.0
@@ -29537,7 +29567,7 @@ racadm config -g cfgLanNetworking -o cfgDNSServersFromDHCP 0
 racadm config -g cfgLanNetworking -o cfgDNSServer1 192.168.0.5
 racadm config -g cfgLanNetworking -o cfgDNSServer2 192.168.0.6
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;User Setup&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;User Setup&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;racadm config -g cfgUserAdmin -o cfgUserAdminUserName -i 2 john
 racadm config -g cfgUserAdmin -o cfgUserAdminPassword -i 2 123456
 racadm config -g cfgUserAdmin -o cfgUserAdminEnable -i 2 1
@@ -29549,18 +29579,18 @@ racadm getconfig –g cfgUserAdmin –i 2
 &lt;p&gt;From here you will use your web browser to enter the iDrac configuration GUI and finish setting up SMTP servers, alerts and other things. I only recommend the above from command line since it gives direct access when the web browser isn’t functions due to bad IP address or invalid username.&lt;/p&gt;
 </description><pubDate>Tue, 24 Mar 2015 18:43:46 GMT</pubDate><content:encoded>&lt;p&gt;I recently had a server freeze up when I wasn’t on-site and needed to power cycle it. I had configured iDrac before but it was not responsive. Here are some useful commands that can configure, reboot, and reset the iDrac function on Dell Servers. The commands below are run from a command prompt on the server (unless otherwise stated) in the (C:\Program Files\Dell\SysMgt\idrac) path.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/images/2015/03/idrac.webp&quot; alt=&quot;iDrac&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Remote Commands (Workstation or another server)&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Remote Commands (Workstation or another server)&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;racadm -r -u -p&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Example: &lt;code&gt;racadm -r 10.1.1.1 -u root -p calvin getsysinfo&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;DEFAULT USER: root&lt;/p&gt;
 &lt;p&gt;DEFAULT PASS: calvin&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;iDrac Information&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;iDrac Information&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;racadm getsysinfo&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Reset and Factory Defaults&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Reset and Factory Defaults&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;racadm racreset&lt;/code&gt; (soft Reset)&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;racadm racresetcfg&lt;/code&gt; (Hard Reset – Resets IP/Account settings back to factory default)&lt;/p&gt;
 &lt;p&gt;NOTE: Resets Default IP &amp;gt; 192.168.0.120&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Network Setup&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Network Setup&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;racadm config -g cfgLanNetworking -o cfgNicEnable 1
 racadm config -g cfgLanNetworking -o cfgNicIpAddress 192.168.0.120
 racadm config -g cfgLanNetworking -o cfgNicNetmask 255.255.255.0
@@ -29570,7 +29600,7 @@ racadm config -g cfgLanNetworking -o cfgDNSServersFromDHCP 0
 racadm config -g cfgLanNetworking -o cfgDNSServer1 192.168.0.5
 racadm config -g cfgLanNetworking -o cfgDNSServer2 192.168.0.6
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;User Setup&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;User Setup&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;racadm config -g cfgUserAdmin -o cfgUserAdminUserName -i 2 john
 racadm config -g cfgUserAdmin -o cfgUserAdminPassword -i 2 123456
 racadm config -g cfgUserAdmin -o cfgUserAdminEnable -i 2 1
@@ -29581,6 +29611,7 @@ racadm getconfig –g cfgUserAdmin –i 2
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;From here you will use your web browser to enter the iDrac configuration GUI and finish setting up SMTP servers, alerts and other things. I only recommend the above from command line since it gives direct access when the web browser isn’t functions due to bad IP address or invalid username.&lt;/p&gt;
 </content:encoded></item><item><title>GFI Archiver resource usage</title><link>https://christitus.com/gfi-archiver-resource-usage/</link><guid isPermaLink="true">https://christitus.com/gfi-archiver-resource-usage/</guid><description>&lt;p&gt;Does your GFI Archiver resource usage SQL process ballon over 8GB? If so, the following procedure will reduce usage by about half and fix many performance issues.&lt;/p&gt;
+&lt;h2&gt;Reduce the SQL connection pool size&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Stop all MailArchiver and SQL services&lt;/p&gt;
@@ -29598,6 +29629,7 @@ racadm getconfig –g cfgUserAdmin –i 2
 &lt;p&gt;*Note GFI has built-in scripts made to stop all NON-SQL services. Run the Stop script then stop SQL Server Instance, When starting start SQL Server Service before running a start script. The scripts default location are: ..MailArchiver\Tools\Scripts&lt;/p&gt;
 &lt;p&gt;After performing this procedure the SQL Server Process is now under 4GB or cut in half from their previous usage. In closing, this type of tweak is vital especially if you are running out of resources on the source server or you are running into performance problems within GFI Archiver.&lt;/p&gt;
 </description><pubDate>Fri, 06 Mar 2015 23:56:01 GMT</pubDate><content:encoded>&lt;p&gt;Does your GFI Archiver resource usage SQL process ballon over 8GB? If so, the following procedure will reduce usage by about half and fix many performance issues.&lt;/p&gt;
+&lt;h2&gt;Reduce the SQL connection pool size&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Stop all MailArchiver and SQL services&lt;/p&gt;
@@ -29671,7 +29703,7 @@ racadm getconfig –g cfgUserAdmin –i 2
 &lt;p&gt;I have no clue why the articles on TechNet and Microsoft’s Knowledge-base are so long when this is all you have to do.  Other than its Microsoft 😉&lt;/p&gt;
 &lt;p&gt;Note: I’ve also heard of folks dropping there *.bas macro files directly into XLStart and having the same result, but I personally have not used that method.&lt;/p&gt;
 </content:encoded></item><item><title>Remove or Hide System Reserved Partition</title><link>https://christitus.com/hide-system-reserved-partition/</link><guid isPermaLink="true">https://christitus.com/hide-system-reserved-partition/</guid><description>&lt;p&gt;Does your system reserve partition have a drive letter? With these steps, you will Hide System Reserved Partition and no longer see it when browsing your computer.&lt;/p&gt;
-&lt;p&gt;Here is the fix using Diskpart:&lt;/p&gt;
+&lt;h2&gt;Hide the partition using Diskpart&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Load Command Prompt (cmd)&lt;/li&gt;
 &lt;li&gt;Load Diskpart (diskpart)&lt;/li&gt;
@@ -29685,7 +29717,7 @@ racadm getconfig –g cfgUserAdmin –i 2
 &lt;/ol&gt;
 &lt;p&gt;With this, you should no longer see it, and you will Hide System Reserved Partition for good.&lt;/p&gt;
 </description><pubDate>Thu, 26 Jun 2014 17:55:42 GMT</pubDate><content:encoded>&lt;p&gt;Does your system reserve partition have a drive letter? With these steps, you will Hide System Reserved Partition and no longer see it when browsing your computer.&lt;/p&gt;
-&lt;p&gt;Here is the fix using Diskpart:&lt;/p&gt;
+&lt;h2&gt;Hide the partition using Diskpart&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Load Command Prompt (cmd)&lt;/li&gt;
 &lt;li&gt;Load Diskpart (diskpart)&lt;/li&gt;
@@ -29699,20 +29731,25 @@ racadm getconfig –g cfgUserAdmin –i 2
 &lt;/ol&gt;
 &lt;p&gt;With this, you should no longer see it, and you will Hide System Reserved Partition for good.&lt;/p&gt;
 </content:encoded></item><item><title>Using the find command Linux Terminal</title><link>https://christitus.com/find-command-linux-terminal/</link><guid isPermaLink="true">https://christitus.com/find-command-linux-terminal/</guid><description>&lt;p&gt;Here is the syntax for using the find command Linux terminal. The following commands are great to have in your back pocket when looking for specific files or directories.&lt;/p&gt;
+&lt;h2&gt;Find a file&lt;/h2&gt;
 &lt;p&gt;How to find a file from the root directory and check the entire system:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;find / -name filename.ext&lt;/code&gt;&lt;br /&gt;
-See directory structure without files (requires &lt;code&gt;tree&lt;/code&gt; use yum or apt-get to install)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;find / -name filename.ext&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;View the directory structure&lt;/h2&gt;
+&lt;p&gt;See directory structure without files (requires &lt;code&gt;tree&lt;/code&gt; use yum or apt-get to install)&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;tree -d /var/www/&lt;/code&gt;
 &lt;em&gt;Note: if you don’t include the -d it will list ALL files and folders&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;The two commands I use almost daily as they are fantastic for finding files or just seeing how a programs directories are structured.&lt;/p&gt;
 </description><pubDate>Fri, 21 Feb 2014 20:56:09 GMT</pubDate><content:encoded>&lt;p&gt;Here is the syntax for using the find command Linux terminal. The following commands are great to have in your back pocket when looking for specific files or directories.&lt;/p&gt;
+&lt;h2&gt;Find a file&lt;/h2&gt;
 &lt;p&gt;How to find a file from the root directory and check the entire system:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;find / -name filename.ext&lt;/code&gt;&lt;br /&gt;
-See directory structure without files (requires &lt;code&gt;tree&lt;/code&gt; use yum or apt-get to install)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;find / -name filename.ext&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;View the directory structure&lt;/h2&gt;
+&lt;p&gt;See directory structure without files (requires &lt;code&gt;tree&lt;/code&gt; use yum or apt-get to install)&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;tree -d /var/www/&lt;/code&gt;
 &lt;em&gt;Note: if you don’t include the -d it will list ALL files and folders&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;The two commands I use almost daily as they are fantastic for finding files or just seeing how a programs directories are structured.&lt;/p&gt;
 </content:encoded></item><item><title>Take ownership of an entire drive in Windows</title><link>https://christitus.com/take-ownership-windows/</link><guid isPermaLink="true">https://christitus.com/take-ownership-windows/</guid><description>&lt;p&gt;The commands below will show you how to take ownership of an entire drive. Here is a simple script to accomplish just that.&lt;/p&gt;
+&lt;h2&gt;Run the ownership commands&lt;/h2&gt;
 &lt;p&gt;Option 1: Create a cmd file takeowner.cmd in notepad&lt;/p&gt;
 &lt;p&gt;Option 2: Type the following or past this in a command line prompt one line at a time&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;takeown /f %1 /r /d y
@@ -29722,6 +29759,7 @@ icacls %1 /grant administrators:F /t
 &lt;p&gt;In closing, this will work in almost any situation, however, if you do have issues check out my PowerShell post on taking ownership of entire network drives.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://christitus.com/changing-file-permissions/&quot;&gt;File Permissions in PowerShell&lt;/a&gt;&lt;/p&gt;
 </description><pubDate>Mon, 13 Jan 2014 16:37:53 GMT</pubDate><content:encoded>&lt;p&gt;The commands below will show you how to take ownership of an entire drive. Here is a simple script to accomplish just that.&lt;/p&gt;
+&lt;h2&gt;Run the ownership commands&lt;/h2&gt;
 &lt;p&gt;Option 1: Create a cmd file takeowner.cmd in notepad&lt;/p&gt;
 &lt;p&gt;Option 2: Type the following or past this in a command line prompt one line at a time&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;takeown /f %1 /r /d y
@@ -29899,27 +29937,27 @@ User Configuration\Administrative Templates\System\Scripts\Run logon scripts syn
 User Configuration\Administrative Templates\System\Scripts\Run logon scripts synchronously
 &lt;/code&gt;&lt;/pre&gt;
 </content:encoded></item><item><title>Full Screen RDP and various Remote Desktop Session hotkeys</title><link>https://christitus.com/full-screen-rdp/</link><guid isPermaLink="true">https://christitus.com/full-screen-rdp/</guid><description>&lt;p&gt;Here are all the hotkeys I use regularly when doing Full Screen RDP.&lt;/p&gt;
-&lt;p&gt;Full Screen RDP Hotkey:&lt;/p&gt;
+&lt;h2&gt;Full Screen RDP Hotkey:&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;Ctrl + Alt + Pause/Break Key&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Activate Connection Bar:&lt;/p&gt;
+&lt;h2&gt;Activate Connection Bar:&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;Ctrl + Alt + Home&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Send Ctrl+Alt+Del on Remote Computer&lt;/p&gt;
+&lt;h2&gt;Send Ctrl+Alt+Del on Remote Computer&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;Ctrl + Alt + End&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Simulate Alt+Tab on Remote Computer&lt;/p&gt;
+&lt;h2&gt;Simulate Alt+Tab on Remote Computer&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;Alt + Page Up/Page Down&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Windows Key Press on Remote Computer&lt;/p&gt;
+&lt;h2&gt;Windows Key Press on Remote Computer&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;Alt + Home&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;I often find myself using these hotkeys to move around, but these are needed especially when you have a locked up program in an RDP session.&lt;/p&gt;
 </description><pubDate>Tue, 09 Apr 2013 21:40:02 GMT</pubDate><content:encoded>&lt;p&gt;Here are all the hotkeys I use regularly when doing Full Screen RDP.&lt;/p&gt;
-&lt;p&gt;Full Screen RDP Hotkey:&lt;/p&gt;
+&lt;h2&gt;Full Screen RDP Hotkey:&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;Ctrl + Alt + Pause/Break Key&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Activate Connection Bar:&lt;/p&gt;
+&lt;h2&gt;Activate Connection Bar:&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;Ctrl + Alt + Home&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Send Ctrl+Alt+Del on Remote Computer&lt;/p&gt;
+&lt;h2&gt;Send Ctrl+Alt+Del on Remote Computer&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;Ctrl + Alt + End&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Simulate Alt+Tab on Remote Computer&lt;/p&gt;
+&lt;h2&gt;Simulate Alt+Tab on Remote Computer&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;Alt + Page Up/Page Down&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Windows Key Press on Remote Computer&lt;/p&gt;
+&lt;h2&gt;Windows Key Press on Remote Computer&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;Alt + Home&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;I often find myself using these hotkeys to move around, but these are needed especially when you have a locked up program in an RDP session.&lt;/p&gt;
 </content:encoded></item><item><title>GFI MailArchiver MAIS Queue Folder has tons of emails stuck</title><link>https://christitus.com/mais-queue-folder/</link><guid isPermaLink="true">https://christitus.com/mais-queue-folder/</guid><description>&lt;p&gt;The Import service can get stuck and this will stop all the mail in the MAIS Queue Folder. These are the emails that have not been processed and added to GFI Archiver yet, so do not delete them. Below is the fix on how I restored the import service and processed all the stuck email.&lt;/p&gt;
@@ -30044,6 +30082,7 @@ HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\ControlSession Manager\PendingFileRe
 &lt;p&gt;&lt;a href=&quot;http://technet.microsoft.com/en-us/library/cc164360(v=exchg.80).aspx&quot;&gt;http://technet.microsoft.com/en-us/library/cc164360(v=exchg.80).aspx&lt;/a&gt;&lt;/p&gt;
 </content:encoded></item><item><title>Ideas</title><link>https://christitus.com/ideas/</link><guid isPermaLink="true">https://christitus.com/ideas/</guid><description>&lt;p&gt;Current Ideas for Videos and Articles&lt;/p&gt;
 
+&lt;h2&gt;Video and article ideas&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;[ ] ZFS, couple that with Sanoid and Syncoid&lt;/li&gt;
 &lt;li&gt;[ ] Tiling Window Manager for Windows - &lt;a href=&quot;https://github.com/LGUG2Z/komorebi&quot;&gt;https://github.com/LGUG2Z/komorebi&lt;/a&gt;&lt;/li&gt;
@@ -30107,6 +30146,7 @@ HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\ControlSession Manager\PendingFileRe
 &lt;/ul&gt;
 </description><pubDate>Wed, 14 Nov 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Current Ideas for Videos and Articles&lt;/p&gt;
 
+&lt;h2&gt;Video and article ideas&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;[ ] ZFS, couple that with Sanoid and Syncoid&lt;/li&gt;
 &lt;li&gt;[ ] Tiling Window Manager for Windows - &lt;a href=&quot;https://github.com/LGUG2Z/komorebi&quot;&gt;https://github.com/LGUG2Z/komorebi&lt;/a&gt;&lt;/li&gt;
@@ -30215,6 +30255,7 @@ Event Name: WindowsUpdateFailure2&lt;/p&gt;
 &lt;p&gt;To Learn more about Windows Refresh PC and Restoring custom images go to &lt;a href=&quot;http://blogs.msdn.com/b/b8/archive/2012/01/04/refresh-and-reset-your-pc.aspx&quot;&gt;http://blogs.msdn.com/b/b8/archive/2012/01/04/refresh-and-reset-your-pc.aspx&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This details creating a custom refresh image which would include 3rd party applications. This could be a godsend for IT Professionals in business, since the image would be local and easily a one-click fix all button, so to speak.&lt;/p&gt;
 </content:encoded></item><item><title>Exchange on Primary Domain Controller Slow Reboot and Startup</title><link>https://christitus.com/exchange-primary-domain-controller/</link><guid isPermaLink="true">https://christitus.com/exchange-primary-domain-controller/</guid><description>&lt;p&gt;If you had the misfortune of installing Exchange on Primary Domain Controller you will experience some pain when doing a reboot. Typically it will take 10-15 minutes before it restarts and up to 30 minutes to start the Microsoft Exchange Information Store. Consequently, what is really happening in the background is the IS service is being terminated incorrectly on shutdown and the store is left in a “DIRTY” shutdown state. This is very bad on several levels and can cause the Store to corrupt and not start at all, which can be catastrophic.&lt;/p&gt;
+&lt;h2&gt;Stop Exchange services before restarting&lt;/h2&gt;
 &lt;p&gt;Luckily, it’s a simple fix and all you have to do is shut down the services before restarting. Below is a script that does it automatically. So, just plug it into a .cmd or .bat file and run.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;@ECHO OFF
 ECHO ARE YOU SURE YOU WANT TO RESTART SERVER??
@@ -30229,6 +30270,7 @@ pause
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;I hope this helps you and keeps your server running until you are able to install it on another server. That said, try to avoid installing exchange on primary domain controller at all costs. You will avoid so many headaches by doing this.&lt;/p&gt;
 </description><pubDate>Thu, 26 Jul 2012 20:31:21 GMT</pubDate><content:encoded>&lt;p&gt;If you had the misfortune of installing Exchange on Primary Domain Controller you will experience some pain when doing a reboot. Typically it will take 10-15 minutes before it restarts and up to 30 minutes to start the Microsoft Exchange Information Store. Consequently, what is really happening in the background is the IS service is being terminated incorrectly on shutdown and the store is left in a “DIRTY” shutdown state. This is very bad on several levels and can cause the Store to corrupt and not start at all, which can be catastrophic.&lt;/p&gt;
+&lt;h2&gt;Stop Exchange services before restarting&lt;/h2&gt;
 &lt;p&gt;Luckily, it’s a simple fix and all you have to do is shut down the services before restarting. Below is a script that does it automatically. So, just plug it into a .cmd or .bat file and run.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;@ECHO OFF
 ECHO ARE YOU SURE YOU WANT TO RESTART SERVER??
@@ -30390,15 +30432,20 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\User Shell
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;7.Close Registry Editor.&lt;/p&gt;
 &lt;p&gt;Re-run your setup program and you shouldn’t see “not a valid short file name” error. Also, I’d recommend running the registry cleaning portion of CCleaner and checking your Environmental Variables (Under System Properties, Advanced, then Environmental Variables.)&lt;/p&gt;
-</content:encoded></item><item><title>Release and Renew IP in OS X</title><link>https://christitus.com/release-and-renew-ip-in-os-x/</link><guid isPermaLink="true">https://christitus.com/release-and-renew-ip-in-os-x/</guid><description>&lt;p&gt;I recently had some issues where a bridged virtual machine in osx would disconnect my osx side network connection. A simple release and renew would fix this. Simply open up Terminal in OSX and type:&lt;/p&gt;
+</content:encoded></item><item><title>Release and Renew IP in OS X</title><link>https://christitus.com/release-and-renew-ip-in-os-x/</link><guid isPermaLink="true">https://christitus.com/release-and-renew-ip-in-os-x/</guid><description>&lt;p&gt;I recently had some issues where a bridged virtual machine in osx would disconnect my osx side network connection. A simple release and renew would fix this. &lt;/p&gt;
+&lt;h2&gt;Restart the network interface&lt;/h2&gt;
+&lt;p&gt;Simply open up Terminal in OSX and type:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;sudo ifconfig en0 down&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;sudo ifconfig en0 up&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Obviously if you are renewing another interface other than your Ethernet port, en0 would need to be changed to the corresponding short name of the interface.&lt;/p&gt;
-</description><pubDate>Thu, 29 Sep 2011 18:46:43 GMT</pubDate><content:encoded>&lt;p&gt;I recently had some issues where a bridged virtual machine in osx would disconnect my osx side network connection. A simple release and renew would fix this. Simply open up Terminal in OSX and type:&lt;/p&gt;
+</description><pubDate>Thu, 29 Sep 2011 18:46:43 GMT</pubDate><content:encoded>&lt;p&gt;I recently had some issues where a bridged virtual machine in osx would disconnect my osx side network connection. A simple release and renew would fix this. &lt;/p&gt;
+&lt;h2&gt;Restart the network interface&lt;/h2&gt;
+&lt;p&gt;Simply open up Terminal in OSX and type:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;sudo ifconfig en0 down&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;sudo ifconfig en0 up&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Obviously if you are renewing another interface other than your Ethernet port, en0 would need to be changed to the corresponding short name of the interface.&lt;/p&gt;
 </content:encoded></item><item><title>Keep Windows 7 from installing device drivers from Windows Update</title><link>https://christitus.com/keep-windows-7-from-installing-device-drivers-from-windows-update/</link><guid isPermaLink="true">https://christitus.com/keep-windows-7-from-installing-device-drivers-from-windows-update/</guid><description>&lt;p&gt;I find a very annoying feature of Windows 7 is every device you install by default searches windows update. This makes installing devices a lot longer than it needs to be. Follow these steps to make windows search your computer first and then Windows Update if needed.&lt;/p&gt;
+&lt;h2&gt;Change device installation settings&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Right Click My Computer from Start Menu and select “Properties”&lt;/p&gt;
@@ -30416,6 +30463,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\User Shell
 &lt;p&gt;4a. Also, “Install driver software from Windows Update if it is not found on my computer”&lt;/p&gt;
 &lt;p&gt;Save Changes and you are done. You now install devices at lightning speed!&lt;/p&gt;
 </description><pubDate>Thu, 15 Sep 2011 15:57:09 GMT</pubDate><content:encoded>&lt;p&gt;I find a very annoying feature of Windows 7 is every device you install by default searches windows update. This makes installing devices a lot longer than it needs to be. Follow these steps to make windows search your computer first and then Windows Update if needed.&lt;/p&gt;
+&lt;h2&gt;Change device installation settings&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Right Click My Computer from Start Menu and select “Properties”&lt;/p&gt;
@@ -30433,6 +30481,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\User Shell
 &lt;p&gt;4a. Also, “Install driver software from Windows Update if it is not found on my computer”&lt;/p&gt;
 &lt;p&gt;Save Changes and you are done. You now install devices at lightning speed!&lt;/p&gt;
 </content:encoded></item><item><title>Disable Outlook Anywhere in Group Policy Object (GPO)</title><link>https://christitus.com/disable-outlook-anywhere-in-group-policy-object-gpo/</link><guid isPermaLink="true">https://christitus.com/disable-outlook-anywhere-in-group-policy-object-gpo/</guid><description>&lt;p&gt;By default the standard outlk12.adm templates do not come with a configuration of Outlook Anywhere. You can configure the “&lt;strong&gt;Configure Outlook Anywhere user interface options&lt;/strong&gt;” options to disable or grey out the settings. However, this DOES NOT disable Outlook anywhere, just user interaction with it.&lt;/p&gt;
+&lt;h2&gt;Add the administrative template&lt;/h2&gt;
 &lt;p&gt;You will need the Article-961112 administrative template that Microsoft released
 for this configuration. Microsoft has retired the original KB article and
 download, so this walkthrough is retained for historical reference.&lt;/p&gt;
@@ -30449,6 +30498,7 @@ and unzip it to reveal the &lt;code&gt;article-961112.adm&lt;/code&gt; file.&lt;
 &lt;p&gt;In the Add/Remove Templates dialog box click Add.&lt;/p&gt;
 &lt;p&gt;In the Policy Templates dialog box locate and select the Article-961112.adm file. Click Open.&lt;/p&gt;
 &lt;p&gt;Click Close in the Add/Remove Templates dialog box.&lt;/p&gt;
+&lt;h2&gt;Configure Outlook Anywhere policies&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Under User Configuration in Administrative Templates expand the policy node labeled Article 961112 Policy Settings. (Note: You may see this under Classic Administrative Templates in a sub-menu)&lt;/p&gt;
@@ -30467,6 +30517,7 @@ Proxy authentication Setting -&amp;gt; Do not change&lt;/p&gt;
 &lt;li&gt;Double-click each policy to configure the appropriate RPC/HTTP setting for your Outlook clients.&lt;/li&gt;
 &lt;/ol&gt;
 </description><pubDate>Wed, 23 Mar 2011 15:35:23 GMT</pubDate><content:encoded>&lt;p&gt;By default the standard outlk12.adm templates do not come with a configuration of Outlook Anywhere. You can configure the “&lt;strong&gt;Configure Outlook Anywhere user interface options&lt;/strong&gt;” options to disable or grey out the settings. However, this DOES NOT disable Outlook anywhere, just user interaction with it.&lt;/p&gt;
+&lt;h2&gt;Add the administrative template&lt;/h2&gt;
 &lt;p&gt;You will need the Article-961112 administrative template that Microsoft released
 for this configuration. Microsoft has retired the original KB article and
 download, so this walkthrough is retained for historical reference.&lt;/p&gt;
@@ -30483,6 +30534,7 @@ and unzip it to reveal the &lt;code&gt;article-961112.adm&lt;/code&gt; file.&lt;
 &lt;p&gt;In the Add/Remove Templates dialog box click Add.&lt;/p&gt;
 &lt;p&gt;In the Policy Templates dialog box locate and select the Article-961112.adm file. Click Open.&lt;/p&gt;
 &lt;p&gt;Click Close in the Add/Remove Templates dialog box.&lt;/p&gt;
+&lt;h2&gt;Configure Outlook Anywhere policies&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Under User Configuration in Administrative Templates expand the policy node labeled Article 961112 Policy Settings. (Note: You may see this under Classic Administrative Templates in a sub-menu)&lt;/p&gt;
@@ -30501,14 +30553,14 @@ Proxy authentication Setting -&amp;gt; Do not change&lt;/p&gt;
 &lt;li&gt;Double-click each policy to configure the appropriate RPC/HTTP setting for your Outlook clients.&lt;/li&gt;
 &lt;/ol&gt;
 </content:encoded></item><item><title>Target Specific People or Computers with Item-Level Targeting in GPOs</title><link>https://christitus.com/target-specific-people-or-computers-with-item-level-targeting-in-gpos/</link><guid isPermaLink="true">https://christitus.com/target-specific-people-or-computers-with-item-level-targeting-in-gpos/</guid><description>&lt;p&gt;Using Group Policy Objects can be a huge time saver, but if used improperly can be a big headache. Once you’ve messed around with GPO settings enough, you quickly figure out that you need to create new GPOs for specific programs, events, etc… that are not all in one GPO. This gives you a lot more flexibility and makes it very easy to track down troublesome GPO related issues when done properly. Now lets say you create a Power Savings GPO that you want to apply only to computers that meet certain conditions. WMI, Security, and Site Filtering are all too broad for this task, and you want to use Item-Level Targeting. After you create your Group Policy Object you will need to add this setting to the GPO.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;In Group Policy Management Settings&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;In Group Policy Management Settings&lt;/h2&gt;
 &lt;p&gt;-User Configuration -&amp;gt; Preferences -&amp;gt; Control Panel -&amp;gt; Regional Options&lt;/p&gt;
 &lt;p&gt;-Right-Click and Select New&lt;/p&gt;
 &lt;p&gt;-Navigate to Common Tab&lt;/p&gt;
 &lt;p&gt;-Check Item-Level Targeting and Press Targeting…&lt;/p&gt;
 &lt;p&gt;From here you will be able to select tons of critaria that you want to meet for your GPO. This can be system requirements to install a program, or only select certain Operating Systems. You can also add is not tags that will rule out any computer that meet that criteria. The options are limitless and its very easy to incorporate in your GPO. Personally, I never use the often complicated and time consuming WMI Filters anymore.&lt;/p&gt;
 </description><pubDate>Tue, 22 Mar 2011 21:59:02 GMT</pubDate><content:encoded>&lt;p&gt;Using Group Policy Objects can be a huge time saver, but if used improperly can be a big headache. Once you’ve messed around with GPO settings enough, you quickly figure out that you need to create new GPOs for specific programs, events, etc… that are not all in one GPO. This gives you a lot more flexibility and makes it very easy to track down troublesome GPO related issues when done properly. Now lets say you create a Power Savings GPO that you want to apply only to computers that meet certain conditions. WMI, Security, and Site Filtering are all too broad for this task, and you want to use Item-Level Targeting. After you create your Group Policy Object you will need to add this setting to the GPO.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;In Group Policy Management Settings&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;In Group Policy Management Settings&lt;/h2&gt;
 &lt;p&gt;-User Configuration -&amp;gt; Preferences -&amp;gt; Control Panel -&amp;gt; Regional Options&lt;/p&gt;
 &lt;p&gt;-Right-Click and Select New&lt;/p&gt;
 &lt;p&gt;-Navigate to Common Tab&lt;/p&gt;
