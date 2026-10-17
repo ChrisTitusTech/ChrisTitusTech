@@ -13,25 +13,25 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/gallant-dashboard](https://github.com/ChrisTitusTech/gallant-dashboard) - Private WHOOP history dashboard for strain, sleep, and recovery, with historical comparisons, exports, and optional sharing.
 - [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay) - 
 - [ChrisTitusTech/warframe-linux](https://github.com/ChrisTitusTech/warframe-linux) - Planning a Linux-first Warframe companion: inventory, market prices, relic rewards, and crafting without Overwolf.
 - [ChrisTitusTech/gettysburg](https://github.com/ChrisTitusTech/gettysburg) - Web turn-based boardgame over battle of gettysburg
 - [ChrisTitusTech/chrome-home](https://github.com/ChrisTitusTech/chrome-home) - Independent, self-hosted daily task board for Chromium new tabs
-- [ChrisTitusTech/plazmic-ui](https://github.com/ChrisTitusTech/plazmic-ui) - Public toolkit and browser Studio for building, editing, validating, and loading EverQuest Legends UI files.
 ### 🌱 My latest projects
 
+- [ChrisTitusTech/gallant-dashboard](https://github.com/ChrisTitusTech/gallant-dashboard) - Private WHOOP history dashboard for strain, sleep, and recovery, with historical comparisons, exports, and optional sharing.
 - [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay) - 
 - [ChrisTitusTech/warframe-linux](https://github.com/ChrisTitusTech/warframe-linux) - Planning a Linux-first Warframe companion: inventory, market prices, relic rewards, and crafting without Overwolf.
 - [ChrisTitusTech/gettysburg](https://github.com/ChrisTitusTech/gettysburg) - Web turn-based boardgame over battle of gettysburg
 - [ChrisTitusTech/chrome-home](https://github.com/ChrisTitusTech/chrome-home) - Independent, self-hosted daily task board for Chromium new tabs
-- [ChrisTitusTech/plazmic-ui](https://github.com/ChrisTitusTech/plazmic-ui) - Public toolkit and browser Studio for building, editing, validating, and loading EverQuest Legends UI files.
 ### 🔨 My recent Pull Requests
 
-- [Give the map most of the window and toggle technical details](https://github.com/ChrisTitusTech/dcuo-overlay/pull/10) on [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay)
-- [Keep spawn locations cached through scanning gaps](https://github.com/ChrisTitusTech/dcuo-overlay/pull/9) on [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay)
-- [Show detected exobyte spawns on the map](https://github.com/ChrisTitusTech/dcuo-overlay/pull/8) on [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay)
-- [Add toggle for exposed ground spawn markers](https://github.com/ChrisTitusTech/dcuo-overlay/pull/7) on [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay)
-- [Show the nearby blue collectible as a live map marker](https://github.com/ChrisTitusTech/dcuo-overlay/pull/6) on [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay)
+- [Add Broker tab for observed listings and price comparisons](https://github.com/ChrisTitusTech/dcuo-overlay/pull/21) on [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay)
+- [Persist Character faction filtering across launcher sessions](https://github.com/ChrisTitusTech/dcuo-overlay/pull/20) on [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay)
+- [Resolve remaining applicable feat completion unknowns](https://github.com/ChrisTitusTech/dcuo-overlay/pull/19) on [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay)
+- [Keep Character checklist stable during refreshes](https://github.com/ChrisTitusTech/dcuo-overlay/pull/18) on [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay)
+- [Read live character feat completion from the game client](https://github.com/ChrisTitusTech/dcuo-overlay/pull/17) on [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay)
 ### ⭐ Recent Stars
 
 - [morluto/rea](https://github.com/morluto/rea) - Reverse engineer anything with agents, from app behavior down to native binaries.
