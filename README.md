@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/chrome-home](https://github.com/ChrisTitusTech/chrome-home) - Independent, self-hosted daily task board for Chromium new tabs
 ### 🔨 My recent Pull Requests
 
+- [chore: Update Sponsors README](https://github.com/ChrisTitusTech/winutil/pull/5186) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Add Broker tab for observed listings and price comparisons](https://github.com/ChrisTitusTech/dcuo-overlay/pull/21) on [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay)
 - [Persist Character faction filtering across launcher sessions](https://github.com/ChrisTitusTech/dcuo-overlay/pull/20) on [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay)
 - [Resolve remaining applicable feat completion unknowns](https://github.com/ChrisTitusTech/dcuo-overlay/pull/19) on [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay)
 - [Keep Character checklist stable during refreshes](https://github.com/ChrisTitusTech/dcuo-overlay/pull/18) on [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay)
-- [Read live character feat completion from the game client](https://github.com/ChrisTitusTech/dcuo-overlay/pull/17) on [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay)
 ### ⭐ Recent Stars
 
 - [morluto/rea](https://github.com/morluto/rea) - Reverse engineer anything with agents, from app behavior down to native binaries.
