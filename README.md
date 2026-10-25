@@ -16,15 +16,15 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/dcuo-wiki](https://github.com/ChrisTitusTech/dcuo-wiki) - 
 - [ChrisTitusTech/gallant-dashboard](https://github.com/ChrisTitusTech/gallant-dashboard) - Private WHOOP history dashboard for strain, sleep, and recovery, with historical comparisons, exports, and optional sharing.
 - [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay) - 
-- [ChrisTitusTech/warframe-linux](https://github.com/ChrisTitusTech/warframe-linux) - Planning a Linux-first Warframe companion: inventory, market prices, relic rewards, and crafting without Overwolf.
+- [Ali-Murtadlo16/warframe-linux](https://github.com/Ali-Murtadlo16/warframe-linux) - Planning a Linux-first Warframe companion: inventory, market prices, relic rewards, and crafting without Overwolf.
 - [ChrisTitusTech/gettysburg](https://github.com/ChrisTitusTech/gettysburg) - Web turn-based boardgame over battle of gettysburg
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/dcuo-wiki](https://github.com/ChrisTitusTech/dcuo-wiki) - 
 - [ChrisTitusTech/gallant-dashboard](https://github.com/ChrisTitusTech/gallant-dashboard) - Private WHOOP history dashboard for strain, sleep, and recovery, with historical comparisons, exports, and optional sharing.
 - [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay) - 
-- [ChrisTitusTech/warframe-linux](https://github.com/ChrisTitusTech/warframe-linux) - Planning a Linux-first Warframe companion: inventory, market prices, relic rewards, and crafting without Overwolf.
 - [ChrisTitusTech/gettysburg](https://github.com/ChrisTitusTech/gettysburg) - Web turn-based boardgame over battle of gettysburg
+- [ChrisTitusTech/chrome-home](https://github.com/ChrisTitusTech/chrome-home) - Independent, self-hosted daily task board for Chromium new tabs
 ### 🔨 My recent Pull Requests
 
 - [chore: Update Sponsors README](https://github.com/ChrisTitusTech/winutil/pull/5186) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
