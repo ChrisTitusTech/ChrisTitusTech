@@ -27,18 +27,18 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/chrome-home](https://github.com/ChrisTitusTech/chrome-home) - Independent, self-hosted daily task board for Chromium new tabs
 ### 🔨 My recent Pull Requests
 
+- [fix(docs): escape generated metadata before site builds](https://github.com/ChrisTitusTech/winutil/pull/5220) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [chore: Update generated dev docs and JSON links](https://github.com/ChrisTitusTech/winutil/pull/5219) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [fix(security): safely import remote configs and quote workflow refs](https://github.com/ChrisTitusTech/winutil/pull/5218) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [chore: Update Sponsors README](https://github.com/ChrisTitusTech/winutil/pull/5186) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Add Broker tab for observed listings and price comparisons](https://github.com/ChrisTitusTech/dcuo-overlay/pull/21) on [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay)
-- [Persist Character faction filtering across launcher sessions](https://github.com/ChrisTitusTech/dcuo-overlay/pull/20) on [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay)
-- [Resolve remaining applicable feat completion unknowns](https://github.com/ChrisTitusTech/dcuo-overlay/pull/19) on [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay)
-- [Keep Character checklist stable during refreshes](https://github.com/ChrisTitusTech/dcuo-overlay/pull/18) on [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay)
 ### ⭐ Recent Stars
 
+- [t3dotgg/tstack](https://github.com/t3dotgg/tstack) - The agent skills I use every day. Works with Claude Code and Codex.
 - [morluto/rea](https://github.com/morluto/rea) - Reverse engineer anything with agents, from app behavior down to native binaries.
 - [storytold/wordcraft](https://github.com/storytold/wordcraft) - An open-source, clean-room reimplementation of Microsoft Word in pure Rust
 - [storytold/photocraft](https://github.com/storytold/photocraft) - PhotoCraft: An open-source, photo editor written by scratch in pure Rust
 - [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) - Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥
-- [pear-devs/pear-desktop](https://github.com/pear-devs/pear-desktop) - Pear 🍐 is extension for music player
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
