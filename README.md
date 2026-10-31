@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/chrome-home](https://github.com/ChrisTitusTech/chrome-home) - Independent, self-hosted daily task board for Chromium new tabs
 ### 🔨 My recent Pull Requests
 
+- [Fix Steam popup menus losing focus under dwm](https://github.com/ChrisTitusTech/dwm-titus/pull/409) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 - [fix(docs): escape generated metadata before site builds](https://github.com/ChrisTitusTech/winutil/pull/5220) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [chore: Update generated dev docs and JSON links](https://github.com/ChrisTitusTech/winutil/pull/5219) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [fix(security): safely import remote configs and quote workflow refs](https://github.com/ChrisTitusTech/winutil/pull/5218) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [chore: Update Sponsors README](https://github.com/ChrisTitusTech/winutil/pull/5186) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Add Broker tab for observed listings and price comparisons](https://github.com/ChrisTitusTech/dcuo-overlay/pull/21) on [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay)
 ### ⭐ Recent Stars
 
 - [t3dotgg/tstack](https://github.com/t3dotgg/tstack) - The agent skills I use every day. Works with Claude Code and Codex.
