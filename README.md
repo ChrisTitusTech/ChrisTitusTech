@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/chrome-home](https://github.com/ChrisTitusTech/chrome-home) - Independent, self-hosted daily task board for Chromium new tabs
 ### 🔨 My recent Pull Requests
 
-- [Fix Steam popup menus losing focus under dwm](https://github.com/ChrisTitusTech/dwm-titus/pull/409) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [fix(docs): escape generated metadata before site builds](https://github.com/ChrisTitusTech/winutil/pull/5220) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [chore: Update generated dev docs and JSON links](https://github.com/ChrisTitusTech/winutil/pull/5219) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [fix(security): safely import remote configs and quote workflow refs](https://github.com/ChrisTitusTech/winutil/pull/5218) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [chore: Update Sponsors README](https://github.com/ChrisTitusTech/winutil/pull/5186) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [feat(installer): provision automatic Fedora time synchronization](https://github.com/ChrisTitusTech/dwm-titus/pull/418) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [fix(installer): patch the UEFI USB boot image Kickstart arguments](https://github.com/ChrisTitusTech/dwm-titus/pull/417) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [fix(settings): hide laptop display profiles on desktops](https://github.com/ChrisTitusTech/dwm-titus/pull/416) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [fix(release): version installer ISO asset filenames](https://github.com/ChrisTitusTech/dwm-titus/pull/415) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [fix(defaults): include symlinked Flatpak desktop entries](https://github.com/ChrisTitusTech/dwm-titus/pull/414) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 ### ⭐ Recent Stars
 
 - [t3dotgg/tstack](https://github.com/t3dotgg/tstack) - The agent skills I use every day. Works with Claude Code and Codex.
