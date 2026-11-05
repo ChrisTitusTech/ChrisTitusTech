@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/chrome-home](https://github.com/ChrisTitusTech/chrome-home) - Independent, self-hosted daily task board for Chromium new tabs
 ### 🔨 My recent Pull Requests
 
-- [fix(tests): keep private portal runtimes off the live desktop](https://github.com/ChrisTitusTech/dwm-titus/pull/420) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [Add packaged AI skills, crash and hang diagnosis, and assistant Settings](https://github.com/ChrisTitusTech/dwm-titus/pull/419) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [feat(installer): provision automatic Fedora time synchronization](https://github.com/ChrisTitusTech/dwm-titus/pull/418) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [fix(installer): patch the UEFI USB boot image Kickstart arguments](https://github.com/ChrisTitusTech/dwm-titus/pull/417) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [fix(settings): hide laptop display profiles on desktops](https://github.com/ChrisTitusTech/dwm-titus/pull/416) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [feat: add an overview of windows across all tags](https://github.com/ChrisTitusTech/dwm-titus/pull/425) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [feat: add visual layout controls and per-tag tile gaps](https://github.com/ChrisTitusTech/dwm-titus/pull/424) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [feat: add optional floating-window titlebars and close controls](https://github.com/ChrisTitusTech/dwm-titus/pull/423) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [feat: add optional calendar and weather panel widgets](https://github.com/ChrisTitusTech/dwm-titus/pull/422) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [Allow desktop updates independently of local source state](https://github.com/ChrisTitusTech/dwm-titus/pull/421) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 ### ⭐ Recent Stars
 
 - [t3dotgg/tstack](https://github.com/t3dotgg/tstack) - The agent skills I use every day. Works with Claude Code and Codex.
