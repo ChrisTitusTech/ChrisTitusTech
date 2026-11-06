@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/chrome-home](https://github.com/ChrisTitusTech/chrome-home) - Independent, self-hosted daily task board for Chromium new tabs
 ### 🔨 My recent Pull Requests
 
+- [Prevent desktop smoke tests from launching the real screen locker](https://github.com/ChrisTitusTech/dwm-titus/pull/429) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [docs: publish Fedora 45 0.8 download guidance](https://github.com/ChrisTitusTech/dwm-titus/pull/428) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
+- [Prepare 0.8: Fedora 45 images, complete Wi-Fi and Thunar defaults](https://github.com/ChrisTitusTech/dwm-titus/pull/427) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 - [feat: add an overview of windows across all tags](https://github.com/ChrisTitusTech/dwm-titus/pull/425) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 - [feat: add visual layout controls and per-tag tile gaps](https://github.com/ChrisTitusTech/dwm-titus/pull/424) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [feat: add optional floating-window titlebars and close controls](https://github.com/ChrisTitusTech/dwm-titus/pull/423) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [feat: add optional calendar and weather panel widgets](https://github.com/ChrisTitusTech/dwm-titus/pull/422) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [Allow desktop updates independently of local source state](https://github.com/ChrisTitusTech/dwm-titus/pull/421) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 ### ⭐ Recent Stars
 
 - [t3dotgg/tstack](https://github.com/t3dotgg/tstack) - The agent skills I use every day. Works with Claude Code and Codex.
