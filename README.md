@@ -27,18 +27,18 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/chrome-home](https://github.com/ChrisTitusTech/chrome-home) - Independent, self-hosted daily task board for Chromium new tabs
 ### 🔨 My recent Pull Requests
 
+- [chore: Update generated dev docs and JSON links](https://github.com/ChrisTitusTech/winutil/pull/5248) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Prevent desktop smoke tests from launching the real screen locker](https://github.com/ChrisTitusTech/dwm-titus/pull/429) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 - [docs: publish Fedora 45 0.8 download guidance](https://github.com/ChrisTitusTech/dwm-titus/pull/428) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 - [Prepare 0.8: Fedora 45 images, complete Wi-Fi and Thunar defaults](https://github.com/ChrisTitusTech/dwm-titus/pull/427) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 - [feat: add an overview of windows across all tags](https://github.com/ChrisTitusTech/dwm-titus/pull/425) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
-- [feat: add visual layout controls and per-tag tile gaps](https://github.com/ChrisTitusTech/dwm-titus/pull/424) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 ### ⭐ Recent Stars
 
+- [pingdotgg/t3code](https://github.com/pingdotgg/t3code) - The best way to control Claude Code, Codex and more from any computer or phone
 - [ryanrhughes/t3code-wow](https://github.com/ryanrhughes/t3code-wow) - Watch and run your T3 Code agent threads inside World of Warcraft: Forever. Early, experimental release.
 - [free-explorers/veshell](https://github.com/free-explorers/veshell) - Veshell is an innovative not-desktop environment for Linux made with modern technologies like Flutter and Rust.
 - [nikopueringer/CorridorKey2.0](https://github.com/nikopueringer/CorridorKey2.0) - Corridor Key 2.0 for all your green and blue screen needs
 - [t3dotgg/tstack](https://github.com/t3dotgg/tstack) - The agent skills I use every day. Works with Claude Code and Codex.
-- [morluto/rea](https://github.com/morluto/rea) - Reverse engineer anything with agents, from app behavior down to native binaries.
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
