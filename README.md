@@ -27,11 +27,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/chrome-home](https://github.com/ChrisTitusTech/chrome-home) - Independent, self-hosted daily task board for Chromium new tabs
 ### 🔨 My recent Pull Requests
 
+- [Integrate WHOOP, offline fitness logs, and account-scoped appearance](https://github.com/ChrisTitusTech/3plates/pull/44) on [ChrisTitusTech/3plates](https://github.com/ChrisTitusTech/3plates)
 - [Fix X11 bridge capture causing gameplay stutter](https://github.com/ryanrhughes/t3code-wow/pull/31) on [ryanrhughes/t3code-wow](https://github.com/ryanrhughes/t3code-wow)
 - [Patch Zod vulnerability with supported schema integration](https://github.com/ChrisTitusTech/3plates/pull/43) on [ChrisTitusTech/3plates](https://github.com/ChrisTitusTech/3plates)
 - [Modernize Expo and backend with security fixes and native CI](https://github.com/ChrisTitusTech/3plates/pull/40) on [ChrisTitusTech/3plates](https://github.com/ChrisTitusTech/3plates)
 - [chore: Update generated dev docs and JSON links](https://github.com/ChrisTitusTech/winutil/pull/5248) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-- [Prevent desktop smoke tests from launching the real screen locker](https://github.com/ChrisTitusTech/dwm-titus/pull/429) on [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus)
 ### ⭐ Recent Stars
 
 - [pingdotgg/t3code](https://github.com/pingdotgg/t3code) - The best way to control Claude Code, Codex and more from any computer or phone
