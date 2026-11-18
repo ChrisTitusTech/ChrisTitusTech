@@ -13,25 +13,25 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/lg-debloat](https://github.com/ChrisTitusTech/lg-debloat) - Debloat LG WebOS 2+ TVs
 - [ChrisTitusTech/wow-twitch](https://github.com/ChrisTitusTech/wow-twitch) - Live Twitch stats, mini icon bar, and follow/sub/Bits alerts in WoW Forever via a Linux companion and Streamer.bot.
 - [ChrisTitusTech/dcuo-wiki](https://github.com/ChrisTitusTech/dcuo-wiki) - 
 - [ChrisTitusTech/gallant-dashboard](https://github.com/ChrisTitusTech/gallant-dashboard) - Private WHOOP history dashboard for strain, sleep, and recovery, with historical comparisons, exports, and optional sharing.
 - [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay) - 
-- [Ali-Murtadlo16/warframe-linux](https://github.com/Ali-Murtadlo16/warframe-linux) - Planning a Linux-first Warframe companion: inventory, market prices, relic rewards, and crafting without Overwolf.
 ### 🌱 My latest projects
 
+- [ChrisTitusTech/lg-debloat](https://github.com/ChrisTitusTech/lg-debloat) - Debloat LG WebOS 2+ TVs
 - [ChrisTitusTech/wow-twitch](https://github.com/ChrisTitusTech/wow-twitch) - Live Twitch stats, mini icon bar, and follow/sub/Bits alerts in WoW Forever via a Linux companion and Streamer.bot.
 - [ChrisTitusTech/dcuo-wiki](https://github.com/ChrisTitusTech/dcuo-wiki) - 
 - [ChrisTitusTech/gallant-dashboard](https://github.com/ChrisTitusTech/gallant-dashboard) - Private WHOOP history dashboard for strain, sleep, and recovery, with historical comparisons, exports, and optional sharing.
 - [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay) - 
-- [ChrisTitusTech/gettysburg](https://github.com/ChrisTitusTech/gettysburg) - Web turn-based boardgame over battle of gettysburg
 ### 🔨 My recent Pull Requests
 
+- [Bind app auth exchanges to client proof and pending login](https://github.com/ChrisTitusTech/3plates/pull/46) on [ChrisTitusTech/3plates](https://github.com/ChrisTitusTech/3plates)
+- [chore: Update Sponsors README](https://github.com/ChrisTitusTech/winutil/pull/5262) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 - [Integrate WHOOP, offline fitness logs, and account-scoped appearance](https://github.com/ChrisTitusTech/3plates/pull/44) on [ChrisTitusTech/3plates](https://github.com/ChrisTitusTech/3plates)
 - [Fix X11 bridge capture causing gameplay stutter](https://github.com/ryanrhughes/t3code-wow/pull/31) on [ryanrhughes/t3code-wow](https://github.com/ryanrhughes/t3code-wow)
 - [Patch Zod vulnerability with supported schema integration](https://github.com/ChrisTitusTech/3plates/pull/43) on [ChrisTitusTech/3plates](https://github.com/ChrisTitusTech/3plates)
-- [Modernize Expo and backend with security fixes and native CI](https://github.com/ChrisTitusTech/3plates/pull/40) on [ChrisTitusTech/3plates](https://github.com/ChrisTitusTech/3plates)
-- [chore: Update generated dev docs and JSON links](https://github.com/ChrisTitusTech/winutil/pull/5248) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 ### ⭐ Recent Stars
 
 - [plausible/analytics](https://github.com/plausible/analytics) - Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud.
