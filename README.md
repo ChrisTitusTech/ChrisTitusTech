@@ -15,9 +15,9 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 - [ChrisTitusTech/lg-debloat](https://github.com/ChrisTitusTech/lg-debloat) - Debloat LG WebOS 2+ TVs
 - [ChrisTitusTech/wow-twitch](https://github.com/ChrisTitusTech/wow-twitch) - Live Twitch stats, mini icon bar, and follow/sub/Bits alerts in WoW Forever via a Linux companion and Streamer.bot.
+- [ryanrhughes/t3code-wow](https://github.com/ryanrhughes/t3code-wow) - Watch and run your T3 Code agent threads inside World of Warcraft: Forever. Early, experimental release.
 - [ChrisTitusTech/dcuo-wiki](https://github.com/ChrisTitusTech/dcuo-wiki) - 
 - [ChrisTitusTech/gallant-dashboard](https://github.com/ChrisTitusTech/gallant-dashboard) - Private WHOOP history dashboard for strain, sleep, and recovery, with historical comparisons, exports, and optional sharing.
-- [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay) - 
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/lg-debloat](https://github.com/ChrisTitusTech/lg-debloat) - Debloat LG WebOS 2+ TVs
@@ -34,11 +34,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [Patch Zod vulnerability with supported schema integration](https://github.com/ChrisTitusTech/3plates/pull/43) on [ChrisTitusTech/3plates](https://github.com/ChrisTitusTech/3plates)
 ### ⭐ Recent Stars
 
+- [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) - Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.
 - [plausible/analytics](https://github.com/plausible/analytics) - Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud.
 - [pingdotgg/t3code](https://github.com/pingdotgg/t3code) - The best way to control Claude Code, Codex and more from any computer or phone
 - [ryanrhughes/t3code-wow](https://github.com/ryanrhughes/t3code-wow) - Watch and run your T3 Code agent threads inside World of Warcraft: Forever. Early, experimental release.
 - [free-explorers/veshell](https://github.com/free-explorers/veshell) - Veshell is an innovative not-desktop environment for Linux made with modern technologies like Flutter and Rust.
-- [nikopueringer/CorridorKey2.0](https://github.com/nikopueringer/CorridorKey2.0) - Corridor Key 2.0 for all your green and blue screen needs
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
