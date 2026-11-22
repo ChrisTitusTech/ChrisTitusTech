@@ -20,11 +20,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [ChrisTitusTech/gallant-dashboard](https://github.com/ChrisTitusTech/gallant-dashboard) - Private WHOOP history dashboard for strain, sleep, and recovery, with historical comparisons, exports, and optional sharing.
 ### 🌱 My latest projects
 
+- [ChrisTitusTech/dungeon-crawler](https://github.com/ChrisTitusTech/dungeon-crawler) - 
 - [ChrisTitusTech/lg-debloat](https://github.com/ChrisTitusTech/lg-debloat) - Debloat LG WebOS 2+ TVs
 - [ChrisTitusTech/wow-twitch](https://github.com/ChrisTitusTech/wow-twitch) - Live Twitch stats, mini icon bar, and follow/sub/Bits alerts in WoW Forever via a Linux companion and Streamer.bot.
 - [ChrisTitusTech/dcuo-wiki](https://github.com/ChrisTitusTech/dcuo-wiki) - 
 - [ChrisTitusTech/gallant-dashboard](https://github.com/ChrisTitusTech/gallant-dashboard) - Private WHOOP history dashboard for strain, sleep, and recovery, with historical comparisons, exports, and optional sharing.
-- [ChrisTitusTech/dcuo-overlay](https://github.com/ChrisTitusTech/dcuo-overlay) - 
 ### 🔨 My recent Pull Requests
 
 - [Bind app auth exchanges to client proof and pending login](https://github.com/ChrisTitusTech/3plates/pull/46) on [ChrisTitusTech/3plates](https://github.com/ChrisTitusTech/3plates)
