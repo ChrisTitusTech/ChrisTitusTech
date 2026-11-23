@@ -13,11 +13,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/dungeon-crawler](https://github.com/ChrisTitusTech/dungeon-crawler) - 
 - [ChrisTitusTech/lg-debloat](https://github.com/ChrisTitusTech/lg-debloat) - Debloat LG WebOS 2+ TVs
 - [ChrisTitusTech/wow-twitch](https://github.com/ChrisTitusTech/wow-twitch) - Live Twitch stats, mini icon bar, and follow/sub/Bits alerts in WoW Forever via a Linux companion and Streamer.bot.
 - [ryanrhughes/t3code-wow](https://github.com/ryanrhughes/t3code-wow) - Watch and run your T3 Code agent threads inside World of Warcraft: Forever. Early, experimental release.
 - [ChrisTitusTech/dcuo-wiki](https://github.com/ChrisTitusTech/dcuo-wiki) - 
-- [ChrisTitusTech/gallant-dashboard](https://github.com/ChrisTitusTech/gallant-dashboard) - Private WHOOP history dashboard for strain, sleep, and recovery, with historical comparisons, exports, and optional sharing.
 ### 🌱 My latest projects
 
 - [ChrisTitusTech/dungeon-crawler](https://github.com/ChrisTitusTech/dungeon-crawler) - 
