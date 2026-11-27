@@ -13,18 +13,18 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 
 ### 👷 Check out what I'm currently working on
 
+- [ChrisTitusTech/noobs-blue-infinity](https://github.com/ChrisTitusTech/noobs-blue-infinity) - 
 - [ChrisTitusTech/dungeon-crawler](https://github.com/ChrisTitusTech/dungeon-crawler) - 
 - [ChrisTitusTech/lg-debloat](https://github.com/ChrisTitusTech/lg-debloat) - Debloat LG WebOS 2+ TVs
 - [ChrisTitusTech/wow-twitch](https://github.com/ChrisTitusTech/wow-twitch) - Live Twitch stats, mini icon bar, and follow/sub/Bits alerts in WoW Forever via a Linux companion and Streamer.bot.
 - [ryanrhughes/t3code-wow](https://github.com/ryanrhughes/t3code-wow) - Watch and run your T3 Code agent threads inside World of Warcraft: Forever. Early, experimental release.
-- [ChrisTitusTech/dcuo-wiki](https://github.com/ChrisTitusTech/dcuo-wiki) - 
 ### 🌱 My latest projects
 
+- [ChrisTitusTech/noobs-blue-infinity](https://github.com/ChrisTitusTech/noobs-blue-infinity) - 
 - [ChrisTitusTech/dungeon-crawler](https://github.com/ChrisTitusTech/dungeon-crawler) - 
 - [ChrisTitusTech/lg-debloat](https://github.com/ChrisTitusTech/lg-debloat) - Debloat LG WebOS 2+ TVs
 - [ChrisTitusTech/wow-twitch](https://github.com/ChrisTitusTech/wow-twitch) - Live Twitch stats, mini icon bar, and follow/sub/Bits alerts in WoW Forever via a Linux companion and Streamer.bot.
 - [ChrisTitusTech/dcuo-wiki](https://github.com/ChrisTitusTech/dcuo-wiki) - 
-- [ChrisTitusTech/gallant-dashboard](https://github.com/ChrisTitusTech/gallant-dashboard) - Private WHOOP history dashboard for strain, sleep, and recovery, with historical comparisons, exports, and optional sharing.
 ### 🔨 My recent Pull Requests
 
 - [Bind app auth exchanges to client proof and pending login](https://github.com/ChrisTitusTech/3plates/pull/46) on [ChrisTitusTech/3plates](https://github.com/ChrisTitusTech/3plates)
@@ -34,11 +34,11 @@ src="https://img.shields.io/twitch/status/christitustech?logo=twitchsx&style=for
 - [Patch Zod vulnerability with supported schema integration](https://github.com/ChrisTitusTech/3plates/pull/43) on [ChrisTitusTech/3plates](https://github.com/ChrisTitusTech/3plates)
 ### ⭐ Recent Stars
 
+- [DerpleDude/rgmercs](https://github.com/DerpleDude/rgmercs) - Lua version of RGMercs Script
 - [RedGuides/openvanilla](https://github.com/RedGuides/openvanilla) - Open Vanilla is a flavor of MacroQuest with features and automation for EverQuest multiboxers
 - [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) - Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.
 - [plausible/analytics](https://github.com/plausible/analytics) - Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud.
 - [pingdotgg/t3code](https://github.com/pingdotgg/t3code) - The best way to control Claude Code, Codex and more from any computer or phone
-- [ryanrhughes/t3code-wow](https://github.com/ryanrhughes/t3code-wow) - Watch and run your T3 Code agent threads inside World of Warcraft: Forever. Early, experimental release.
 ### 📫 How to reach me:
   - Youtube   : <https://youtube.com/c/ChrisTitusTech>
   - Twitch    : <https://twitch.tv/christitustech>
